@@ -1636,6 +1636,109 @@
         "message_format"
       ],
       "status": "screened_in"
+    },
+    {
+      "id": "SRC-C3-008",
+      "title": "The Compensatory Consumer Behavior Model: How self-discrepancies drive consumer behavior",
+      "authors": [
+        "Naomi Mandel",
+        "Derek D. Rucker",
+        "Jonathan Levav",
+        "Adam D. Galinsky"
+      ],
+      "year": 2017,
+      "evidence_class": "review",
+      "domain": [
+        "C3",
+        "C2",
+        "MARKET_VALUE"
+      ],
+      "doi": "10.1016/j.jcps.2016.05.003",
+      "url": "https://doi.org/10.1016/j.jcps.2016.05.003",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "self_discrepancy",
+        "aspirational_identity",
+        "consumer_identity"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-014",
+      "title": "Probability and Risk: Foundations and Economic Implications of Probability-Dependent Risk Preferences",
+      "authors": [],
+      "year": 2012,
+      "evidence_class": "review",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1146/annurev-economics-080511-110950",
+      "url": "https://doi.org/10.1146/annurev-economics-080511-110950",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "probability_weighting",
+        "risk_preferences"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-015",
+      "title": "Mental Accounting and decision making: a systematic literature review",
+      "authors": [],
+      "year": 2024,
+      "evidence_class": "systematic_review",
+      "domain": [
+        "C4"
+      ],
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214804323001180",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "mental_accounting",
+        "consumer_choice"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-012",
+      "title": "Scalar Implicatures and Their Interface with Grammar",
+      "authors": [
+        "Gennaro Chierchia"
+      ],
+      "year": 2017,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1146/annurev-linguistics-011516-033846",
+      "url": "https://doi.org/10.1146/annurev-linguistics-011516-033846",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "scalar_implicature",
+        "pragmatics"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-013",
+      "title": "Minimizing Syntactic Dependency Lengths: Typological/Cognitive Universal?",
+      "authors": [
+        "David Temperley",
+        "Daniel Gildea"
+      ],
+      "year": 2018,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1146/annurev-linguistics-011817-045617",
+      "url": "https://doi.org/10.1146/annurev-linguistics-011817-045617",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "dependency_length",
+        "sentence_processing"
+      ],
+      "status": "screened_in"
     }
   ]
 }

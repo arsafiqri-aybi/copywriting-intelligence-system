@@ -223,6 +223,58 @@
       "reducibility": "retrieval",
       "resolution_requirement": "Add analogy-specific cognitive/argumentation evidence before acceptance.",
       "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C7-001",
+      "channel": "construct",
+      "target_ids": [
+        "C1-N01-05"
+      ],
+      "level": "medium",
+      "reason": "Distractor-capture susceptibility may reflect task-specific interactions rather than a stable trait-like construct.",
+      "reducibility": "measurement",
+      "resolution_requirement": "Require task-specific operationalization; avoid global audience labels.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C7-002",
+      "channel": "construct",
+      "target_ids": [
+        "C3-N04-05"
+      ],
+      "level": "medium",
+      "reason": "Identity signaling overlaps status signaling, impression management, self-expression and social transmission motives.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Decompose by communicative function during later identity/signaling pass.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C7-003",
+      "channel": "construct",
+      "target_ids": [
+        "C4-N05-03"
+      ],
+      "level": "medium",
+      "reason": "Delay aversion overlaps present bias, time preference, effort/opportunity cost and impatience.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Focused intertemporal construct-discrimination before acceptance.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C7-004",
+      "channel": "construct",
+      "target_ids": [
+        "C7-N01-05",
+        "C7-N02-01",
+        "C7-N02-03",
+        "C7-N04-02",
+        "C7-N05-04"
+      ],
+      "level": "medium",
+      "reason": "These are rhetorical/message-design constructs whose effectiveness is mediated by other psychological nodes and varies heavily by audience/context.",
+      "reducibility": "experiment",
+      "resolution_requirement": "Preserve as design nodes; calibrate effects only in channel/goal-specific experiments.",
+      "blocks_gate": false
     }
   ]
 }

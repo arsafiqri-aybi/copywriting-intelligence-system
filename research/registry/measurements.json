@@ -906,6 +906,139 @@
       "ambiguity": "Coherence is represented through multiple discourse/inference mechanisms; no single metric is exhaustive.",
       "calibration_state": "partially_validated",
       "status": "accepted"
+    },
+    {
+      "id": "MEAS-C1-010",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "orienting/selection latency to novel versus repeated/context-expected stimuli",
+      "target_ids": [
+        "C1-N01-04",
+        "C1-N06-05"
+      ],
+      "alternative_explanations": [
+        "physical salience",
+        "surprise",
+        "task relevance"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C7-001",
+        "CLM-S3C7-006"
+      ],
+      "reliability": null,
+      "population_scope": "attention/orienting paradigms",
+      "channel_scope": null,
+      "ambiguity": "Novelty, onset, salience and habituation need controlled comparison.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C2-008",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "prospective reward/benefit anticipation before outcome exposure",
+      "target_ids": [
+        "C2-N03-04"
+      ],
+      "alternative_explanations": [
+        "subjective value",
+        "incentive salience",
+        "anticipated affect"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C7-008"
+      ],
+      "reliability": null,
+      "population_scope": "motivation/reward research",
+      "channel_scope": null,
+      "ambiguity": "Expected reward is not experienced reward or motivational salience.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C3-005",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "self-discrepancy/current-versus-desired-self assessment tied to a domain",
+      "target_ids": [
+        "C3-N01-05"
+      ],
+      "alternative_explanations": [
+        "status motivation",
+        "general dissatisfaction"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C7-014"
+      ],
+      "reliability": null,
+      "population_scope": "self/consumer identity research",
+      "channel_scope": null,
+      "ambiguity": "Desired-self discrepancy is domain-specific and does not prove a particular coping strategy.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C4-006",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "choice/risk preference across explicitly varied probabilities",
+      "target_ids": [
+        "C4-N03-02"
+      ],
+      "alternative_explanations": [
+        "outcome utility",
+        "reference points",
+        "ambiguity"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C7-022"
+      ],
+      "reliability": null,
+      "population_scope": "risky-choice studies",
+      "channel_scope": null,
+      "ambiguity": "Probability weighting must be distinguished from outcome-value curvature and ambiguity.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C5-008",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "behavioral intention rating for a specific target action and time/context",
+      "target_ids": [
+        "C5-N08-01"
+      ],
+      "alternative_explanations": [
+        "social desirability",
+        "attitude",
+        "perceived control"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C7-030"
+      ],
+      "reliability": null,
+      "population_scope": "persuasion/behavior studies",
+      "channel_scope": null,
+      "ambiguity": "Intention is not behavior and may overpredict action.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C6-006",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "interpretation/reading-time response to scalar expressions under contexts supporting or blocking strengthened inference",
+      "target_ids": [
+        "C6-N04-02"
+      ],
+      "alternative_explanations": [
+        "lexical semantics",
+        "task strategy",
+        "working-memory demand"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C7-034"
+      ],
+      "reliability": null,
+      "population_scope": "experimental pragmatics",
+      "channel_scope": null,
+      "ambiguity": "Scalar implicature rates vary across expressions, tasks, populations and contexts.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
     }
   ]
 }

@@ -3479,6 +3479,1046 @@
         "Requires deeper construct/measurement validation before strong runtime use."
       ],
       "version": "0.3.0"
+    },
+    {
+      "id": "C1-N01-03",
+      "label": "Abrupt-Onset Attentional Priority",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M01",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Priority advantage that can occur when a new stimulus appears abruptly within an ongoing perceptual context.",
+      "mechanism_summary": "Abrupt onset can attract selection under some task conditions, but onset is not a universal guarantee of capture.",
+      "claim_ids": [
+        "CLM-S3C7-001"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Abrupt-Onset Attentional Priority from a single outcome metric.",
+        "Do not apply Abrupt-Onset Attentional Priority as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N01-05",
+      "label": "Distractor-Capture Susceptibility",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C1",
+      "parent_id": "C1-M01",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Tendency for task-irrelevant but salient or otherwise prioritized stimuli to interfere with target-directed selection.",
+      "mechanism_summary": "Observed distraction reflects interaction among salience, goals, selection history and control; a stable susceptibility trait should not be assumed without appropriate measurement.",
+      "claim_ids": [
+        "CLM-S3C7-002"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C7-001"
+      ],
+      "failure_modes": [
+        "Do not infer Distractor-Capture Susceptibility from a single outcome metric.",
+        "Do not apply Distractor-Capture Susceptibility as a universal copywriting rule without context."
+      ],
+      "open_questions": [
+        "Requires narrower evidence or transport validation before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C1-N02-04",
+      "label": "Spatial Attentional Selection",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M02",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Selective allocation of attentional priority to a location or spatial region.",
+      "mechanism_summary": "Spatial selection is one component of attention and should not be conflated with feature- or object-based selection.",
+      "claim_ids": [
+        "CLM-S3C7-003"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Spatial Attentional Selection from a single outcome metric.",
+        "Do not apply Spatial Attentional Selection as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N04-04",
+      "label": "Processing Disfluency",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M04",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Experienced difficulty or reduced ease in processing a stimulus relative to a fluent baseline.",
+      "mechanism_summary": "Disfluency can alter judgment and processing strategy, but difficult-to-process information is not automatically more memorable, truthful, or deeply processed.",
+      "claim_ids": [
+        "CLM-S3C7-004"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Processing Disfluency from a single outcome metric.",
+        "Do not apply Processing Disfluency as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N05-02",
+      "label": "Retrieval-Cue Effectiveness",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M05",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Degree to which available cues support access to previously encoded information.",
+      "mechanism_summary": "Retrieval success depends on cue-memory relation and context; failure to recall does not prove absence of encoding.",
+      "claim_ids": [
+        "CLM-S3C7-005"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Retrieval-Cue Effectiveness from a single outcome metric.",
+        "Do not apply Retrieval-Cue Effectiveness as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N06-05",
+      "label": "Habituation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M06",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Reduction in orienting or response to repeated or continuously presented stimulation when it becomes less informative or novel.",
+      "mechanism_summary": "Repeated exposure can reduce orienting, but habituation is not equivalent to boredom, dislike, or memory loss.",
+      "claim_ids": [
+        "CLM-S3C7-006"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Habituation from a single outcome metric.",
+        "Do not apply Habituation as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N01-01",
+      "label": "Need Activation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M01",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Increase in motivational relevance of a need or concern such that related goals and outcomes become more behaviorally significant.",
+      "mechanism_summary": "Activated needs can organize valuation and goal pursuit, but need labels should not be inferred directly from a copy response.",
+      "claim_ids": [
+        "CLM-S3C7-007"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Need Activation from a single outcome metric.",
+        "Do not apply Need Activation as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N03-04",
+      "label": "Reward Anticipation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M03",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Prospective representation of expected rewarding outcomes before they are experienced.",
+      "mechanism_summary": "Anticipated reward contributes to motivation and value but is distinct from experienced reward and from incentive salience.",
+      "claim_ids": [
+        "CLM-S3C7-008"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Reward Anticipation from a single outcome metric.",
+        "Do not apply Reward Anticipation as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N03-05",
+      "label": "Perceived Motivational Cost",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M03",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Subjective effort, time, emotional, opportunity, or other cost expected from pursuing a task or goal.",
+      "mechanism_summary": "Costs can reduce motivation even when value and expectancy are high, and effort can sometimes itself acquire value.",
+      "claim_ids": [
+        "CLM-S3C7-009"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Perceived Motivational Cost from a single outcome metric.",
+        "Do not apply Perceived Motivational Cost as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N04-02",
+      "label": "Valence Appraisal",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M04",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Appraisal of whether an event or outcome is favorable versus unfavorable relative to goals or well-being.",
+      "mechanism_summary": "Valence appraisal contributes to emotion but cannot identify a specific discrete emotion on its own.",
+      "claim_ids": [
+        "CLM-S3C7-010"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Valence Appraisal from a single outcome metric.",
+        "Do not apply Valence Appraisal as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N04-05",
+      "label": "Emotion Differentiation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M04",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Differentiation of affective experience into distinct emotional states based on appraisal patterns and other components.",
+      "mechanism_summary": "Different emotions with similar valence can produce different action tendencies and judgments.",
+      "claim_ids": [
+        "CLM-S3C7-011"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Emotion Differentiation from a single outcome metric.",
+        "Do not apply Emotion Differentiation as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N05-02",
+      "label": "Action Readiness",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M05",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "State of preparedness to act in response to an appraised event, goal, or opportunity.",
+      "mechanism_summary": "Action readiness is broader than any one approach/avoidance direction and does not guarantee observed action.",
+      "claim_ids": [
+        "CLM-S3C7-012"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Action Readiness from a single outcome metric.",
+        "Do not apply Action Readiness as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N01-02",
+      "label": "Self-Schema Activation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M01",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Activation of organized self-relevant knowledge that guides interpretation of information in relation to the self.",
+      "mechanism_summary": "Self-schema activation can change what feels personally diagnostic or relevant, but not all self-reference implies a stable schema.",
+      "claim_ids": [
+        "CLM-S3C7-013"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Self-Schema Activation from a single outcome metric.",
+        "Do not apply Self-Schema Activation as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N01-05",
+      "label": "Aspirational Identity / Desired Self",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M01",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Representation of a desired, possible, or idealized self-state that can create discrepancy with the current self and motivate symbolic or direct regulation.",
+      "mechanism_summary": "Products and messages may acquire psychological value when linked to self-discrepancy reduction, but aspirational identity is not automatically status motivation.",
+      "claim_ids": [
+        "CLM-S3C7-014"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Aspirational Identity / Desired Self from a single outcome metric.",
+        "Do not apply Aspirational Identity / Desired Self as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N03-03",
+      "label": "Conformity Pressure",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M03",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Social pressure to align judgments or behavior with group expectations, norms, or perceived consensus.",
+      "mechanism_summary": "Conformity can reflect normative or informational influence and should not be reduced to popularity alone.",
+      "claim_ids": [
+        "CLM-S3C7-015"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Conformity Pressure from a single outcome metric.",
+        "Do not apply Conformity Pressure as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N03-04",
+      "label": "Norm Internalization",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M03",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Process by which a social norm becomes personally endorsed or integrated rather than followed only because of external pressure.",
+      "mechanism_summary": "Internalized norms differ from surface compliance and can persist without immediate monitoring.",
+      "claim_ids": [
+        "CLM-S3C7-016"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Norm Internalization from a single outcome metric.",
+        "Do not apply Norm Internalization as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N04-05",
+      "label": "Identity Signaling",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C3",
+      "parent_id": "C3-M04",
+      "role_tags": [
+        "receiver/social_behavior_mechanism"
+      ],
+      "definition": "Use of choices, expressions, or behaviors to communicate identity-relevant information to others or to reinforce self-concept.",
+      "mechanism_summary": "Identity signaling overlaps impression management, status signaling, and self-expression; exact boundaries remain context-dependent.",
+      "claim_ids": [
+        "CLM-S3C7-017"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C7-002"
+      ],
+      "failure_modes": [
+        "Do not infer Identity Signaling from a single outcome metric.",
+        "Do not apply Identity Signaling as a universal copywriting rule without context."
+      ],
+      "open_questions": [
+        "Requires narrower evidence or transport validation before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C3-N06-04",
+      "label": "Homophily Cue",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M06",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Cue suggesting similarity or shared characteristics between a source and recipient that can influence affiliation or source evaluation.",
+      "mechanism_summary": "Homophily effects vary by similarity dimension and context; similarity does not guarantee trust or persuasion.",
+      "claim_ids": [
+        "CLM-S3C7-018"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Homophily Cue from a single outcome metric.",
+        "Do not apply Homophily Cue as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N01-04",
+      "label": "Affect Heuristic",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M01",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Use of immediate affective response as information or a simplifying cue in judgment.",
+      "mechanism_summary": "Affect can simplify judgment but its diagnosticity depends on whether the feeling is relevant to the target decision.",
+      "claim_ids": [
+        "CLM-S3C7-019"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Affect Heuristic from a single outcome metric.",
+        "Do not apply Affect Heuristic as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N02-01",
+      "label": "Gain–Loss Framing",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M02",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Change in evaluation or choice produced by describing substantively related outcomes in gain versus loss terms relative to a reference representation.",
+      "mechanism_summary": "Framing effects depend on reference point, domain, and task; wording alone does not imply a prospect-theory mechanism.",
+      "claim_ids": [
+        "CLM-S3C7-020"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Gain–Loss Framing from a single outcome metric.",
+        "Do not apply Gain–Loss Framing as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N02-05",
+      "label": "Mental Accounting",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M02",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Cognitive categorization and evaluation of economic outcomes within partially segregated mental accounts rather than treating all resources as fully fungible.",
+      "mechanism_summary": "Mental accounting can shape spending and choice, but account boundaries are context-dependent rather than objectively fixed.",
+      "claim_ids": [
+        "CLM-S3C7-021"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Mental Accounting from a single outcome metric.",
+        "Do not apply Mental Accounting as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N03-02",
+      "label": "Probability Weighting",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M03",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Nonlinear transformation or weighting of objective/subjective probabilities in risky choice.",
+      "mechanism_summary": "Probability-dependent preferences can differ from linear expected-value treatment and appear in both laboratory and real-world risk behavior.",
+      "claim_ids": [
+        "CLM-S3C7-022"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Probability Weighting from a single outcome metric.",
+        "Do not apply Probability Weighting as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N03-05",
+      "label": "Probability Calibration",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M03",
+      "role_tags": [
+        "measurement/judgment_construct"
+      ],
+      "definition": "Degree of correspondence between expressed confidence/probability judgments and observed frequencies or outcomes across an appropriate set of predictions.",
+      "mechanism_summary": "Calibration is a property of judgments over cases and is distinct from confidence magnitude in a single decision.",
+      "claim_ids": [
+        "CLM-S3C7-023"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Probability Calibration from a single outcome metric.",
+        "Do not apply Probability Calibration as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N05-03",
+      "label": "Delay Aversion",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C4",
+      "parent_id": "C4-M05",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Negative valuation or motivational cost specifically associated with waiting or delayed receipt beyond general temporal discounting.",
+      "mechanism_summary": "Delay aversion may contribute to intertemporal choice but requires distinction from present bias, opportunity cost, and general impatience.",
+      "claim_ids": [
+        "CLM-S3C7-024"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C7-003"
+      ],
+      "failure_modes": [
+        "Do not infer Delay Aversion from a single outcome metric.",
+        "Do not apply Delay Aversion as a universal copywriting rule without context."
+      ],
+      "open_questions": [
+        "Requires narrower evidence or transport validation before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C5-N02-01",
+      "label": "Elaboration Likelihood",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M02",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Likelihood or degree that a recipient engages in effortful issue-relevant thinking about a persuasive communication.",
+      "mechanism_summary": "Elaboration depends on motivation and ability; it is a continuum of processing rather than a fixed audience type.",
+      "claim_ids": [
+        "CLM-S3C7-025"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Elaboration Likelihood from a single outcome metric.",
+        "Do not apply Elaboration Likelihood as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N02-03",
+      "label": "Systematic / Central Processing",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M02",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Relatively effortful evaluation of message content, arguments, implications, and evidence.",
+      "mechanism_summary": "More systematic processing increases sensitivity to argument quality but does not guarantee agreement.",
+      "claim_ids": [
+        "CLM-S3C7-026"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Systematic / Central Processing from a single outcome metric.",
+        "Do not apply Systematic / Central Processing as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N02-04",
+      "label": "Heuristic / Peripheral Processing",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M02",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Use of simpler cues, learned rules, or low-effort information when forming or changing judgments under limited elaboration.",
+      "mechanism_summary": "Heuristic cues can also bias more systematic processing; the processes are not strictly mutually exclusive.",
+      "claim_ids": [
+        "CLM-S3C7-027"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Heuristic / Peripheral Processing from a single outcome metric.",
+        "Do not apply Heuristic / Peripheral Processing as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N04-03",
+      "label": "Evidence Diagnosticity",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M04",
+      "role_tags": [
+        "receiver_mechanism"
+      ],
+      "definition": "Perceived degree to which a piece of evidence discriminates among competing hypotheses or claims and therefore bears on the decision at hand.",
+      "mechanism_summary": "Evidence can be credible yet weakly diagnostic for the specific claim; diagnosticity is claim-relative.",
+      "claim_ids": [
+        "CLM-S3C7-028"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Evidence Diagnosticity from a single outcome metric.",
+        "Do not apply Evidence Diagnosticity as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N06-03",
+      "label": "Self-Validation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M06",
+      "role_tags": [
+        "receiver_metacognition"
+      ],
+      "definition": "Process by which confidence or other metacognitive cues change how much a person relies on their own thoughts when forming an attitude.",
+      "mechanism_summary": "Self-validation magnifies the influence of whichever thoughts dominate, rather than simply increasing persuasion.",
+      "claim_ids": [
+        "CLM-S3C7-029"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Self-Validation from a single outcome metric.",
+        "Do not apply Self-Validation as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N08-01",
+      "label": "Behavioral Intention",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M08",
+      "role_tags": [
+        "receiver_outcome"
+      ],
+      "definition": "Self-reported or inferred readiness/plan to perform a specified future behavior.",
+      "mechanism_summary": "Intention is a proximal psychological outcome and must remain distinct from observed behavior.",
+      "claim_ids": [
+        "CLM-S3C7-030"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Behavioral Intention from a single outcome metric.",
+        "Do not apply Behavioral Intention as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N02-02",
+      "label": "Syntactic Ambiguity",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M02",
+      "role_tags": [
+        "language_construct"
+      ],
+      "definition": "Presence of more than one plausible syntactic parse or structural interpretation for an expression.",
+      "mechanism_summary": "Ambiguity can increase processing/revision demands and is resolved using structural, lexical, semantic, and discourse information.",
+      "claim_ids": [
+        "CLM-S3C7-031"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Syntactic Ambiguity from a single outcome metric.",
+        "Do not apply Syntactic Ambiguity as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N02-03",
+      "label": "Dependency Length",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M02",
+      "role_tags": [
+        "language_processing_construct"
+      ],
+      "definition": "Linear distance between syntactically dependent words or constituents.",
+      "mechanism_summary": "Longer dependencies generally increase memory/processing pressure and languages show strong pressures toward dependency-length minimization.",
+      "claim_ids": [
+        "CLM-S3C7-032"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Dependency Length from a single outcome metric.",
+        "Do not apply Dependency Length as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N03-04",
+      "label": "Deictic / Reference Interpretation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M03",
+      "role_tags": [
+        "language_pragmatic_construct"
+      ],
+      "definition": "Resolution of expressions whose referent depends on discourse, speaker, location, time, or shared context.",
+      "mechanism_summary": "Reference interpretation relies on context and common ground rather than lexical content alone.",
+      "claim_ids": [
+        "CLM-S3C7-033"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Deictic / Reference Interpretation from a single outcome metric.",
+        "Do not apply Deictic / Reference Interpretation as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N04-02",
+      "label": "Scalar Implicature",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M04",
+      "role_tags": [
+        "language_pragmatic_construct"
+      ],
+      "definition": "Inference in which use of a weaker scalar expression can imply that a stronger alternative does not hold, such as interpreting 'some' as 'some but not all'.",
+      "mechanism_summary": "Scalar inference depends on alternatives, grammar/pragmatics, context, and processing conditions rather than arising as an invariant automatic rule.",
+      "claim_ids": [
+        "CLM-S3C7-034"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Scalar Implicature from a single outcome metric.",
+        "Do not apply Scalar Implicature as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N05-04",
+      "label": "Ambiguity Resolution",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M05",
+      "role_tags": [
+        "language_processing_construct"
+      ],
+      "definition": "Process of selecting or revising among competing lexical, syntactic, or referential interpretations using contextual and linguistic evidence.",
+      "mechanism_summary": "Resolution is incremental and can require reanalysis when early interpretations prove inconsistent.",
+      "claim_ids": [
+        "CLM-S3C7-035"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Ambiguity Resolution from a single outcome metric.",
+        "Do not apply Ambiguity Resolution as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N06-02",
+      "label": "Global Discourse Coherence",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M06",
+      "role_tags": [
+        "discourse_construct"
+      ],
+      "definition": "Degree to which discourse as a whole supports a connected, interpretable representation across larger spans and overarching goals/topics.",
+      "mechanism_summary": "Global coherence is distinct from local adjacency relations and can depend on inferred goals, themes, and world knowledge.",
+      "claim_ids": [
+        "CLM-S3C7-036"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Global Discourse Coherence from a single outcome metric.",
+        "Do not apply Global Discourse Coherence as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N01-05",
+      "label": "Argument Completeness",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M01",
+      "role_tags": [
+        "message_design_construct"
+      ],
+      "definition": "Degree to which a message provides the components and support needed for its central argumentative move without leaving critical inferential gaps.",
+      "mechanism_summary": "Completeness is audience- and claim-dependent and does not guarantee truth or persuasion.",
+      "claim_ids": [
+        "CLM-S3C7-037"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C7-004"
+      ],
+      "failure_modes": [
+        "Do not infer Argument Completeness from a single outcome metric.",
+        "Do not apply Argument Completeness as a universal copywriting rule without context."
+      ],
+      "open_questions": [
+        "Requires narrower evidence or transport validation before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C7-N02-01",
+      "label": "Ethos Appeal",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M02",
+      "role_tags": [
+        "message_design_construct"
+      ],
+      "definition": "Rhetorical strategy that foregrounds the character, credibility, authority, values, or persona of a speaker/source.",
+      "mechanism_summary": "Ethos is a rhetorical design category; receiver-side credibility judgments belong in C5 and must not be collapsed with the appeal itself.",
+      "claim_ids": [
+        "CLM-S3C7-038"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C7-004"
+      ],
+      "failure_modes": [
+        "Do not infer Ethos Appeal from a single outcome metric.",
+        "Do not apply Ethos Appeal as a universal copywriting rule without context."
+      ],
+      "open_questions": [
+        "Requires narrower evidence or transport validation before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C7-N02-03",
+      "label": "Logos Appeal",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M02",
+      "role_tags": [
+        "message_design_construct"
+      ],
+      "definition": "Rhetorical strategy that foregrounds reasons, evidence, logical relations, causal explanation, or argument structure.",
+      "mechanism_summary": "Logos is a rhetorical category rather than a single cognitive mechanism; effects depend on argument quality and elaboration.",
+      "claim_ids": [
+        "CLM-S3C7-039"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C7-004"
+      ],
+      "failure_modes": [
+        "Do not infer Logos Appeal from a single outcome metric.",
+        "Do not apply Logos Appeal as a universal copywriting rule without context."
+      ],
+      "open_questions": [
+        "Requires narrower evidence or transport validation before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C7-N03-04",
+      "label": "Causal Narrative Structure",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M03",
+      "role_tags": [
+        "message_design_construct"
+      ],
+      "definition": "Narrative organization in which events are connected through causal relations, goals, consequences, and temporal progression.",
+      "mechanism_summary": "Causal structure contributes to narrative coherence and situation-model construction, but it is not sufficient by itself for transportation.",
+      "claim_ids": [
+        "CLM-S3C7-040"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Causal Narrative Structure from a single outcome metric.",
+        "Do not apply Causal Narrative Structure as a universal copywriting rule without context."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N04-02",
+      "label": "Recency Ordering",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M04",
+      "role_tags": [
+        "message_design_construct"
+      ],
+      "definition": "Message ordering in which later-presented information exerts greater downstream influence than earlier information under specified conditions.",
+      "mechanism_summary": "Recency competes with primacy and other order effects; no universal last-position rule is accepted.",
+      "claim_ids": [
+        "CLM-S3C7-041"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C7-004"
+      ],
+      "failure_modes": [
+        "Do not infer Recency Ordering from a single outcome metric.",
+        "Do not apply Recency Ordering as a universal copywriting rule without context."
+      ],
+      "open_questions": [
+        "Requires narrower evidence or transport validation before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C7-N05-04",
+      "label": "Before–After Structure",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M05",
+      "role_tags": [
+        "message_design_construct"
+      ],
+      "definition": "Comparative rhetorical structure that contrasts a prior/current state with a later/desired state to foreground change or transformation.",
+      "mechanism_summary": "This is a useful copy-design pattern, but its psychological effect depends on the underlying contrast, evidence, goals, and narrative mechanisms rather than the label itself.",
+      "claim_ids": [
+        "CLM-S3C7-042"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C7-004"
+      ],
+      "failure_modes": [
+        "Do not infer Before–After Structure from a single outcome metric.",
+        "Do not apply Before–After Structure as a universal copywriting rule without context."
+      ],
+      "open_questions": [
+        "Requires narrower evidence or transport validation before strong runtime use."
+      ],
+      "version": "0.3.0"
     }
   ]
 }
