@@ -1,0 +1,126 @@
+{
+  "version": "1.0.0",
+  "name": "MARKET_VALUE_TO_MECHANISM_RESOLVER",
+  "objective": "Convert grounded commercial facts into bounded mechanism hypotheses without treating marketing labels or observed outcomes as latent states.",
+  "inputs": [
+    "market-context.schema.json",
+    "commercial facts/signals",
+    "mapping-rules.json",
+    "live node registry",
+    "live scientific edge registry"
+  ],
+  "algorithm": [
+    {
+      "step": 1,
+      "name": "normalize_context",
+      "actions": [
+        "separate fact from interpretation",
+        "attach provenance",
+        "scope population/channel/time",
+        "mark observed/reported/derived/assumed"
+      ]
+    },
+    {
+      "step": 2,
+      "name": "construct_commercial_objects",
+      "actions": [
+        "build alternative set",
+        "build value hypotheses",
+        "build objection records",
+        "build proof inventory",
+        "build friction map",
+        "retain customer language verbatim"
+      ]
+    },
+    {
+      "step": 3,
+      "name": "retrieve_mapping_rules",
+      "actions": [
+        "match dimension and fact_type",
+        "apply qualifiers",
+        "collect target nodes",
+        "collect non-implications and alternatives"
+      ]
+    },
+    {
+      "step": 4,
+      "name": "validate_targets",
+      "actions": [
+        "target node must exist",
+        "provisional node remains provisional",
+        "scientific edge/claim refs must exist",
+        "no commercial object becomes a node"
+      ]
+    },
+    {
+      "step": 5,
+      "name": "aggregate_hypotheses",
+      "actions": [
+        "combine independent evidence for same node",
+        "preserve contradictory signals",
+        "separate mechanism evidence from strategic convenience"
+      ]
+    },
+    {
+      "step": 6,
+      "name": "assign_activation_status",
+      "actions": [
+        "strong_candidate only when direct/repeated audience evidence matches accepted construct semantics",
+        "candidate when mapping is plausible with adequate but incomplete evidence",
+        "weak_candidate for heuristic/provisional mappings or single ambiguous signals",
+        "do_not_activate when rule is constraint_only/no_direct_mapping"
+      ]
+    },
+    {
+      "step": 7,
+      "name": "propagate_boundaries",
+      "actions": [
+        "inherit mapping non-implications",
+        "inherit node provisional status",
+        "inherit relevant edge uncertainty",
+        "list alternative explanations"
+      ]
+    },
+    {
+      "step": 8,
+      "name": "identify_missing_information",
+      "actions": [
+        "turn decision-critical uncertainty into open questions",
+        "prefer asking/research/testing over guessing"
+      ]
+    },
+    {
+      "step": 9,
+      "name": "produce_diagnosis",
+      "actions": [
+        "value structure",
+        "dominant mechanism candidates",
+        "belief/trust gaps",
+        "decision friction",
+        "proof requirements",
+        "language implications",
+        "explicit non-inferences"
+      ]
+    },
+    {
+      "step": 10,
+      "name": "handoff",
+      "actions": [
+        "pass bounded mechanism hypotheses to S6 reasoning engine",
+        "do not generate scientific registry updates from commercial data"
+      ]
+    }
+  ],
+  "activation_semantics": {
+    "strong_candidate": "Runtime diagnostic confidence only; not an empirical effect size.",
+    "candidate": "Plausible mechanism hypothesis supported by contextual evidence.",
+    "weak_candidate": "Exploratory hypothesis; should not drive a high-stakes strategy without verification.",
+    "do_not_activate": "Explicitly blocked from mechanism inference."
+  },
+  "conflict_rules": [
+    "Do not average contradictory customer evidence into a false middle.",
+    "Represent segment/context heterogeneity explicitly.",
+    "If one signal maps to multiple plausible mechanisms, keep a hypothesis set until discriminating evidence exists.",
+    "If a mechanism hypothesis conflicts with an observed behavior, record the mismatch rather than rewriting the scientific node."
+  ]
+}

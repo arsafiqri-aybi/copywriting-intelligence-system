@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "objects": [
+    {
+      "name": "ValueHypothesis",
+      "question": "What outcome becomes better for whom, compared with what, at what sacrifice, and with what evidence?",
+      "required_fields": [
+        "beneficiary",
+        "desired_outcome",
+        "value_type",
+        "current_alternative",
+        "required_beliefs",
+        "required_evidence",
+        "sacrifices",
+        "status"
+      ]
+    },
+    {
+      "name": "Objection",
+      "question": "What specifically is rejected or doubted?",
+      "required_fields": [
+        "target",
+        "type",
+        "statement",
+        "epistemic_status",
+        "candidate_node_ids",
+        "alternative_explanations"
+      ]
+    },
+    {
+      "name": "ProofItem",
+      "question": "What claim can this evidence actually support?",
+      "required_fields": [
+        "proof_type",
+        "supports_claims",
+        "provenance_status",
+        "independence",
+        "limitations",
+        "diagnosticity_status"
+      ]
+    },
+    {
+      "name": "Friction",
+      "question": "Where does the action path become harder, and is copy capable of reducing it?",
+      "required_fields": [
+        "step",
+        "friction_type",
+        "description",
+        "evidence_status",
+        "candidate_node_ids",
+        "alternative_explanations",
+        "removable_by_copy"
+      ]
+    },
+    {
+      "name": "Alternative",
+      "question": "What will the audience choose instead if they do not choose us?",
+      "required_fields": [
+        "label",
+        "type",
+        "decision_relevance",
+        "audience_evidence"
+      ]
+    },
+    {
+      "name": "CustomerLanguageEvidence",
+      "question": "What exact words did the audience use, in what context, and what can those words legitimately support?",
+      "required_fields": [
+        "verbatim",
+        "speaker/context",
+        "provenance",
+        "non_inference"
+      ]
+    }
+  ],
+  "important_separations": [
+    [
+      "feature",
+      "capability of product"
+    ],
+    [
+      "benefit",
+      "claimed desirable consequence"
+    ],
+    [
+      "value hypothesis",
+      "relative audience benefit after alternatives/sacrifices"
+    ],
+    [
+      "proof item",
+      "evidence supporting a claim"
+    ],
+    [
+      "claim",
+      "proposition asserted by copy"
+    ],
+    [
+      "objection",
+      "recipient-side resistance/doubt signal"
+    ],
+    [
+      "friction",
+      "barrier in decision/action path"
+    ],
+    [
+      "mechanism hypothesis",
+      "candidate psychological process explaining response"
+    ]
+  ]
+}

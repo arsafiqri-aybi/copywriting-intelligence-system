@@ -39,7 +39,7 @@
     "S2_RESEARCH_FOUNDATION": "PASS",
     "S3_SEVEN_CORE_KNOWLEDGE_BUILD": "PASS_WITH_BOUNDED_PROVISIONALS",
     "S4_CONNECTION_BUILD": "PASS_WITH_BOUNDED_PROVISIONAL_EDGES",
-    "S5_MARKET_VALUE_INTEGRATION": "IN_PROGRESS_CYCLE01_FOUNDATION",
+    "S5_MARKET_VALUE_INTEGRATION": "IN_PROGRESS_CYCLE02_RESOLVER",
     "S6_REASONING_ENGINE": "NOT_STARTED",
     "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "NOT_STARTED",
     "S8_EVALUATION": "NOT_STARTED",
@@ -76,7 +76,7 @@
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "S5 cycle02: build resolver/diagnosis artifacts and automated mapping validation; then run representative commercial-context cases before S5 closure.",
+  "next_action": "S5 cycle03: run mapping cases against resolver semantics, build diagnosis output contract and S5 closure audit.",
   "integrity_repairs": [
     {
       "id": "REPAIR-2026-10-05-01",

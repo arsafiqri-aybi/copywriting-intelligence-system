@@ -1,0 +1,258 @@
+{
+  "version": "1.0.0",
+  "cases": [
+    {
+      "id": "MVC-01",
+      "name": "SaaS migration friction",
+      "signals": [
+        {
+          "dimension": "goal_job",
+          "fact_type": "explicit_current_goal",
+          "value": "Move team reporting off spreadsheets",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "friction",
+          "fact_type": "switching_work",
+          "value": "Import setup takes hours",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "risk_objection",
+          "fact_type": "source_competence_doubt",
+          "value": "Will support handle our data migration?",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "include": [
+          "C2-N01-02",
+          "C4-N08-02",
+          "C4-N08-04",
+          "C5-N03-01"
+        ],
+        "exclude": [
+          "C4-N02-03"
+        ],
+        "notes": "No loss-aversion inference from migration cost alone."
+      }
+    },
+    {
+      "id": "MVC-02",
+      "name": "Price reference without automatic loss aversion",
+      "signals": [
+        {
+          "dimension": "offer",
+          "fact_type": "price",
+          "value": "Rp 300k",
+          "epistemic_status": "observed"
+        },
+        {
+          "dimension": "offer",
+          "fact_type": "list_price",
+          "value": "Rp 500k",
+          "epistemic_status": "observed"
+        }
+      ],
+      "expected": {
+        "include": [
+          "C4-N07-01",
+          "C4-N07-02"
+        ],
+        "exclude": [
+          "C4-N02-03"
+        ],
+        "notes": "Visible price comparison may activate anchor/reference-price hypotheses; not automatically loss aversion."
+      }
+    },
+    {
+      "id": "MVC-03",
+      "name": "Identity-led beauty purchase",
+      "signals": [
+        {
+          "dimension": "value",
+          "fact_type": "desired_self",
+          "value": "I want to look polished without looking overdone",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "audience",
+          "fact_type": "self_relevant_identity",
+          "value": "professional appearance",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "include": [
+          "C3-N01-05",
+          "C3-N01-01",
+          "C3-N02-03"
+        ],
+        "exclude": [
+          "C3-N04-01"
+        ],
+        "notes": "Desired self is not automatically status motivation."
+      }
+    },
+    {
+      "id": "MVC-04",
+      "name": "Controlling norm may backfire",
+      "signals": [
+        {
+          "dimension": "market_category",
+          "fact_type": "reported_what_others_approve",
+          "value": "People like us should already be using this",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "risk_objection",
+          "fact_type": "freedom_pressure",
+          "value": "Don't tell me what I should do",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "include": [
+          "C3-N03-02",
+          "C5-N05-02"
+        ],
+        "exclude": [],
+        "notes": "Injunctive norm may coexist with reactance; do not assume norm always increases compliance."
+      }
+    },
+    {
+      "id": "MVC-05",
+      "name": "Proof gap",
+      "signals": [
+        {
+          "dimension": "risk_objection",
+          "fact_type": "sounds_too_good",
+          "value": "Can it really cut processing time by 60%?",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "proof_evidence",
+          "fact_type": "customer_requests_proof",
+          "value": "Needs method/data",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "include": [
+          "C5-N04-04",
+          "C5-N04-03"
+        ],
+        "exclude": [
+          "C5-N03-01"
+        ],
+        "notes": "Believability/proof gap is not automatically source expertise doubt."
+      }
+    },
+    {
+      "id": "MVC-06",
+      "name": "Customer language is context, not latent state",
+      "signals": [
+        {
+          "dimension": "customer_language",
+          "fact_type": "verbatim_phrase",
+          "value": "I just want something that works without babysitting it",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "include": [
+          "C6-N03-01",
+          "C6-N03-02"
+        ],
+        "exclude": [
+          "C2-N03-02"
+        ],
+        "notes": "Quote contextualizes language first; value/motivation requires additional interpretation evidence."
+      }
+    },
+    {
+      "id": "MVC-07",
+      "name": "Real deadline no fake scarcity inference",
+      "signals": [
+        {
+          "dimension": "offer",
+          "fact_type": "deadline",
+          "value": "Enrollment closes Friday due to cohort start",
+          "epistemic_status": "observed"
+        }
+      ],
+      "expected": {
+        "include": [],
+        "exclude": [
+          "C4-N02-03",
+          "C2-N04-01"
+        ],
+        "notes": "Deadline stays a commercial constraint unless separate evidence supports scarcity/loss/emotion mechanisms."
+      }
+    },
+    {
+      "id": "MVC-08",
+      "name": "Too many options with moderator requirement",
+      "signals": [
+        {
+          "dimension": "risk_objection",
+          "fact_type": "too_many_choices",
+          "value": "I can't tell which of 18 plans fits me",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "risk_objection",
+          "fact_type": "decision_confusion",
+          "value": "Differences are unclear",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "include": [
+          "C4-N04-02"
+        ],
+        "exclude": [],
+        "notes": "Choice overload remains provisional and requires complexity/preference-uncertainty context."
+      }
+    },
+    {
+      "id": "MVC-09",
+      "name": "Guarantee does not equal trust",
+      "signals": [
+        {
+          "dimension": "offer",
+          "fact_type": "guarantee",
+          "value": "30-day money-back guarantee",
+          "epistemic_status": "observed"
+        }
+      ],
+      "expected": {
+        "include": [
+          "C4-N03-01",
+          "C5-N03-02"
+        ],
+        "exclude": [],
+        "notes": "Targets are hypotheses/contextualization only; guarantee cannot be treated as proof of trust or quality."
+      }
+    },
+    {
+      "id": "MVC-10",
+      "name": "Feature is not value",
+      "signals": [
+        {
+          "dimension": "product_capability",
+          "fact_type": "feature",
+          "value": "Exports CSV automatically",
+          "epistemic_status": "observed"
+        }
+      ],
+      "expected": {
+        "include": [],
+        "exclude": [
+          "C2-N03-02"
+        ],
+        "notes": "Feature needs an audience goal/barrier link before value mechanism activation."
+      }
+    }
+  ]
+}

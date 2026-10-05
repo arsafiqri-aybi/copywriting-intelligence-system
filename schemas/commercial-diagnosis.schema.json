@@ -1,0 +1,430 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commercial-diagnosis.schema.json",
+  "title": "Commercial Diagnosis",
+  "type": "object",
+  "required": [
+    "diagnosis_id",
+    "value_hypotheses",
+    "objections",
+    "proof_inventory",
+    "frictions",
+    "alternative_set",
+    "mechanism_hypotheses",
+    "open_questions"
+  ],
+  "properties": {
+    "diagnosis_id": {
+      "type": "string"
+    },
+    "value_hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "beneficiary",
+          "desired_outcome",
+          "value_type",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "beneficiary": {
+            "type": "string"
+          },
+          "desired_outcome": {
+            "type": "string"
+          },
+          "current_alternative": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "value_type": {
+            "enum": [
+              "functional_outcome",
+              "economic",
+              "time_convenience",
+              "effort_reduction",
+              "risk_reduction",
+              "uncertainty_reduction",
+              "emotional",
+              "identity_social",
+              "autonomy_control",
+              "option_flexibility"
+            ]
+          },
+          "enabling_capabilities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "required_beliefs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "required_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sacrifices": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "enum": [
+              "supported",
+              "partially_supported",
+              "hypothesis",
+              "contradicted"
+            ]
+          }
+        }
+      }
+    },
+    "objections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "target",
+          "type",
+          "statement",
+          "epistemic_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "target": {
+            "enum": [
+              "product",
+              "claim",
+              "source",
+              "offer",
+              "price",
+              "action",
+              "fit",
+              "alternative"
+            ]
+          },
+          "type": {
+            "enum": [
+              "trust",
+              "expertise",
+              "plausibility",
+              "evidence",
+              "risk",
+              "ambiguity",
+              "value",
+              "price",
+              "fit",
+              "effort",
+              "switching",
+              "autonomy",
+              "social",
+              "timing",
+              "other"
+            ]
+          },
+          "statement": {
+            "type": "string"
+          },
+          "verbatim": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "epistemic_status": {
+            "enum": [
+              "observed",
+              "reported",
+              "derived",
+              "assumed",
+              "hypothesis"
+            ]
+          },
+          "candidate_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "alternative_explanations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "resolution_requirements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "proof_inventory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "proof_type",
+          "supports_claims",
+          "provenance_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "proof_type": {
+            "enum": [
+              "direct_demo",
+              "experiment",
+              "observational_data",
+              "case_study",
+              "testimonial",
+              "review",
+              "certification",
+              "mechanism_explanation",
+              "expert_source",
+              "product_document",
+              "other"
+            ]
+          },
+          "supports_claims": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "provenance_status": {
+            "enum": [
+              "traceable",
+              "partially_traceable",
+              "unverified"
+            ]
+          },
+          "independence": {
+            "enum": [
+              "independent",
+              "partially_independent",
+              "not_independent",
+              "unknown"
+            ]
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "diagnosticity_status": {
+            "enum": [
+              "high_for_claim",
+              "medium_for_claim",
+              "low_for_claim",
+              "unknown"
+            ]
+          }
+        }
+      }
+    },
+    "frictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "step",
+          "friction_type",
+          "evidence_status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "step": {
+            "type": "string"
+          },
+          "friction_type": {
+            "enum": [
+              "cognitive",
+              "procedural",
+              "time",
+              "financial",
+              "switching",
+              "technical",
+              "social",
+              "uncertainty",
+              "eligibility"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "evidence_status": {
+            "enum": [
+              "observed",
+              "reported",
+              "inferred",
+              "assumed"
+            ]
+          },
+          "candidate_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "alternative_explanations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "removable_by_copy": {
+            "enum": [
+              "yes",
+              "partly",
+              "no",
+              "unknown"
+            ]
+          }
+        }
+      }
+    },
+    "alternative_set": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "type",
+          "decision_relevance"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "status_quo",
+              "direct_competitor",
+              "indirect_substitute",
+              "DIY",
+              "delay",
+              "do_nothing",
+              "other"
+            ]
+          },
+          "decision_relevance": {
+            "enum": [
+              "high",
+              "medium",
+              "low",
+              "unknown"
+            ]
+          },
+          "audience_evidence": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "mechanism_hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "node_id",
+          "activation_status",
+          "basis"
+        ],
+        "properties": {
+          "node_id": {
+            "type": "string"
+          },
+          "activation_status": {
+            "enum": [
+              "strong_candidate",
+              "candidate",
+              "weak_candidate",
+              "do_not_activate"
+            ]
+          },
+          "basis": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "mapping_rule_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "scientific_edge_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "uncertainty": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "alternative_explanations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "non_inferences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
