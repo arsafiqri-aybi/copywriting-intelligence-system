@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "scientific_boundary": "Campaign/user data may create a scientific-claim candidate but never directly promote scientific nodes/edges.",
+  "update_scopes": {
+    "audience_hypothesis": "Update segment-specific beliefs, objections, language or mechanism hypotheses.",
+    "market_estimate": "Update prevalence/price/alternative/context estimates with sampling caveats.",
+    "channel_prior": "Update channel-specific expectations such as baseline outcome ranges or format constraints.",
+    "message_hypothesis": "Update whether a specific message/strategy appears promising in a defined context.",
+    "runtime_heuristic": "Update operational recommendation priority for a bounded context.",
+    "calibration_parameter": "Update explicitly labeled runtime calibration values; never relabel as published effect sizes.",
+    "scientific_claim_candidate": "Create a research candidate requiring scientific promotion lifecycle."
+  },
+  "causal_rules": [
+    "Random assignment can support a causal claim about the randomized intervention in the tested context if implementation and analysis are valid.",
+    "A randomized multi-component copy variant estimates the bundle effect, not the causal contribution of each psychological mechanism.",
+    "Mechanism causality requires manipulation/measurement capable of discriminating that mechanism, not just outcome lift.",
+    "Observational campaign metrics do not support causal interpretation by default.",
+    "Pre/post change is not causal without adequate control for time and concurrent changes.",
+    "Qualitative feedback can refine hypotheses and language but does not estimate population effect sizes without appropriate sampling/design.",
+    "A null result is retained; it may bound or contradict a message hypothesis and must not be discarded because it is inconvenient."
+  ],
+  "update_precedence": [
+    "validated randomized result in matched context",
+    "well-designed quasi-experimental result",
+    "repeated direct behavior across stable contexts",
+    "structured user research",
+    "single campaign observation",
+    "expert review",
+    "model inference"
+  ],
+  "invalid_updates": [
+    "CTR increased, therefore attention mechanism is proven.",
+    "Conversion increased, therefore persuasion theory is validated.",
+    "Unsubscribe increased, therefore reactance caused it.",
+    "Dwell time increased, therefore sustained attention increased.",
+    "A winning variant permanently rewrites a scientific edge.",
+    "A statistically noisy winner becomes a universal best practice."
+  ]
+}

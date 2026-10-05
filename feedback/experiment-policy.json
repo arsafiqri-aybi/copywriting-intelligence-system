@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "required_fields": [
+    "decision question",
+    "hypothesis",
+    "unit of randomization",
+    "intervention",
+    "comparison",
+    "primary outcome",
+    "secondary/guardrail outcomes",
+    "sample/stopping rule",
+    "context",
+    "mechanism target if any",
+    "alternative explanations",
+    "analysis rule",
+    "invalidating conditions"
+  ],
+  "principles": [
+    "Test a decision, not a vague desire to improve copy.",
+    "Change as few material components as feasible when mechanism interpretation matters.",
+    "If testing a bundle, label the estimand as bundle effect.",
+    "Choose a primary outcome before looking at results.",
+    "Record exposure assignment and implementation failures.",
+    "Use guardrail outcomes for trust, complaints, unsubscribes, refunds or downstream quality where relevant.",
+    "Do not stop only when significance/winner appears unless the design explicitly supports sequential testing.",
+    "Preserve null, adverse and heterogeneous results.",
+    "Predefine which runtime object may update if the result passes the decision rule."
+  ],
+  "mechanism_identification_levels": [
+    {
+      "level": "L0",
+      "name": "Outcome-only",
+      "meaning": "Experiment estimates copy/variant effect but does not identify mechanism."
+    },
+    {
+      "level": "L1",
+      "name": "Mechanism-consistent",
+      "meaning": "Intervention is designed around a mechanism and outcomes are consistent, but alternative mechanisms remain."
+    },
+    {
+      "level": "L2",
+      "name": "Mechanism-supported",
+      "meaning": "Includes manipulation/measurement that discriminates the target mechanism with adequate validity."
+    },
+    {
+      "level": "L3",
+      "name": "Scientific-candidate",
+      "meaning": "Design/evidence may justify entering scientific claim lifecycle, still not automatic promotion."
+    }
+  ]
+}

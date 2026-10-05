@@ -2,7 +2,7 @@
   "project": "COPYWRITING_INTELLIGENCE_SYSTEM",
   "architecture_version": "1.1.0-s1-taxonomy",
   "stage": "S7_MEASUREMENT_EXPERIMENT_FEEDBACK",
-  "status": "READY_TO_START",
+  "status": "IN_PROGRESS",
   "repository": "arsafiqri-aybi/copywriting-intelligence-system",
   "protected_constraints": {
     "top_level_core_count": 7,
@@ -41,7 +41,7 @@
     "S4_CONNECTION_BUILD": "PASS_WITH_BOUNDED_PROVISIONAL_EDGES",
     "S5_MARKET_VALUE_INTEGRATION": "PASS",
     "S6_REASONING_ENGINE": "PASS",
-    "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "READY_TO_START",
+    "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "IN_PROGRESS_CYCLE01_FOUNDATION",
     "S8_EVALUATION": "NOT_STARTED",
     "S9_SKILL_RUNTIME": "NOT_STARTED",
     "S10_RELEASE_CONTINUOUS_RESEARCH": "NOT_STARTED"
@@ -68,15 +68,15 @@
     "G4_CAUSAL_DISCIPLINE": "PARTIAL_PASS_S3",
     "G5_CONNECTION_VALIDITY": "PASS_FOR_S4_SCOPE",
     "G6_CONTRADICTION_INTEGRITY": "PARTIAL_PASS_S3",
-    "G7_MEASUREMENT_VALIDITY": "PARTIAL_PASS_S5_OUTER_SIGNALS_BOUNDED",
+    "G7_MEASUREMENT_VALIDITY": "IN_PROGRESS_S7",
     "G8_REASONING": "PASS_FOR_S6_SCOPE",
     "G9_COPY_QUALITY": "NOT_RUN",
     "G10_GENERALIZATION": "NOT_RUN",
-    "G11_FEEDBACK_LEARNING": "FOUNDATION_READY",
+    "G11_FEEDBACK_LEARNING": "IN_PROGRESS_S7",
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "S7_MEASUREMENT_EXPERIMENT_FEEDBACK: implement observable-signal mappings, experiment design, feedback/calibration updates, alternative explanations, and scientific-vs-runtime update boundaries.",
+  "next_action": "S7 cycle02: implement bounded feedback decision engine and validate with simulated randomized, observational, qualitative, null and contradictory cases.",
   "integrity_repairs": [
     {
       "id": "REPAIR-2026-10-05-01",

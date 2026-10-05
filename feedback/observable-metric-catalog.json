@@ -1,0 +1,372 @@
+{
+  "version": "1.0.0",
+  "metrics": [
+    {
+      "id": "MET-001",
+      "name": "Impressions / Delivered Exposures",
+      "measurement_kind": "exposure",
+      "observed_behavior": "Content/ad was served or counted as an impression according to platform rules.",
+      "directly_observed": true,
+      "latent_state_status": "not_a_latent_measure",
+      "candidate_relevance_node_ids": [],
+      "never_direct_measure_of": [
+        "attention",
+        "awareness",
+        "memory",
+        "persuasion"
+      ],
+      "alternative_explanations": [
+        "viewability differences",
+        "duplicate exposure",
+        "platform counting rules"
+      ],
+      "channel_scope": "platform-specific",
+      "notes": "Exposure opportunity only."
+    },
+    {
+      "id": "MET-002",
+      "name": "View / Hold Duration",
+      "measurement_kind": "platform_proxy",
+      "observed_behavior": "Time the content remained playing/visible according to platform instrumentation.",
+      "directly_observed": true,
+      "latent_state_status": "possible_proxy_unvalidated",
+      "candidate_relevance_node_ids": [
+        "C1-N07-01"
+      ],
+      "never_direct_measure_of": [
+        "sustained attention",
+        "interest",
+        "comprehension"
+      ],
+      "alternative_explanations": [
+        "autoplay",
+        "device idle",
+        "multitasking",
+        "content length",
+        "looping"
+      ],
+      "channel_scope": "video/web",
+      "notes": "Do not equate retention curve with validated vigilance."
+    },
+    {
+      "id": "MET-003",
+      "name": "Scroll Depth",
+      "measurement_kind": "interaction",
+      "observed_behavior": "Page/document reached a measured vertical depth.",
+      "directly_observed": true,
+      "latent_state_status": "possible_proxy_unvalidated",
+      "candidate_relevance_node_ids": [],
+      "never_direct_measure_of": [
+        "attention",
+        "comprehension",
+        "persuasion"
+      ],
+      "alternative_explanations": [
+        "fast scrolling",
+        "navigation",
+        "layout",
+        "accidental gesture"
+      ],
+      "channel_scope": "web/document",
+      "notes": null
+    },
+    {
+      "id": "MET-004",
+      "name": "Click-Through Rate",
+      "measurement_kind": "direct_behavior",
+      "observed_behavior": "Proportion of eligible exposures producing the defined click action.",
+      "directly_observed": true,
+      "latent_state_status": "not_a_latent_measure",
+      "candidate_relevance_node_ids": [
+        "C5-N08-01"
+      ],
+      "never_direct_measure_of": [
+        "attention",
+        "trust",
+        "desire",
+        "persuasion mechanism",
+        "behavioral intention"
+      ],
+      "alternative_explanations": [
+        "placement",
+        "targeting",
+        "UI affordance",
+        "accidental click",
+        "offer",
+        "creative",
+        "friction",
+        "tracking"
+      ],
+      "channel_scope": "digital",
+      "notes": "Click is behavior; the mechanism causing it is not directly observed."
+    },
+    {
+      "id": "MET-005",
+      "name": "Landing Conversion Rate",
+      "measurement_kind": "commercial_outcome",
+      "observed_behavior": "Proportion completing a predefined target action on a landing flow.",
+      "directly_observed": true,
+      "latent_state_status": "not_a_latent_measure",
+      "candidate_relevance_node_ids": [
+        "C5-N08-05",
+        "C4-N08-04"
+      ],
+      "never_direct_measure_of": [
+        "persuasion",
+        "trust",
+        "value perception",
+        "reactance"
+      ],
+      "alternative_explanations": [
+        "traffic quality",
+        "price",
+        "offer",
+        "technical errors",
+        "eligibility",
+        "payment failure",
+        "friction",
+        "seasonality"
+      ],
+      "channel_scope": "web/commerce",
+      "notes": null
+    },
+    {
+      "id": "MET-006",
+      "name": "Checkout Abandonment",
+      "measurement_kind": "direct_behavior",
+      "observed_behavior": "Started checkout/session without completing the defined transaction.",
+      "directly_observed": true,
+      "latent_state_status": "possible_proxy_unvalidated",
+      "candidate_relevance_node_ids": [
+        "C4-N08-04",
+        "C5-N08-05"
+      ],
+      "never_direct_measure_of": [
+        "decision friction",
+        "low intent",
+        "price objection"
+      ],
+      "alternative_explanations": [
+        "payment failure",
+        "shipping cost",
+        "comparison shopping",
+        "interruption",
+        "eligibility",
+        "technical error"
+      ],
+      "channel_scope": "commerce",
+      "notes": "Useful for friction hypotheses, not direct diagnosis."
+    },
+    {
+      "id": "MET-007",
+      "name": "Purchase / Completed Transaction",
+      "measurement_kind": "commercial_outcome",
+      "observed_behavior": "Completed purchase according to transaction records.",
+      "directly_observed": true,
+      "latent_state_status": "not_a_latent_measure",
+      "candidate_relevance_node_ids": [],
+      "never_direct_measure_of": [
+        "persuasion mechanism",
+        "satisfaction",
+        "trust"
+      ],
+      "alternative_explanations": [
+        "price promotion",
+        "repeat customer",
+        "availability",
+        "sales intervention",
+        "seasonality"
+      ],
+      "channel_scope": "commerce",
+      "notes": "High-value outcome, weak mechanism specificity."
+    },
+    {
+      "id": "MET-008",
+      "name": "Lead Form Submission",
+      "measurement_kind": "direct_behavior",
+      "observed_behavior": "Completed lead form or contact request.",
+      "directly_observed": true,
+      "latent_state_status": "not_a_latent_measure",
+      "candidate_relevance_node_ids": [],
+      "never_direct_measure_of": [
+        "purchase intent",
+        "trust",
+        "qualification"
+      ],
+      "alternative_explanations": [
+        "incentive",
+        "spam",
+        "low-friction curiosity",
+        "sales intent",
+        "form design"
+      ],
+      "channel_scope": "web/leadgen",
+      "notes": null
+    },
+    {
+      "id": "MET-009",
+      "name": "Save / Bookmark",
+      "measurement_kind": "interaction",
+      "observed_behavior": "Used platform save/bookmark action.",
+      "directly_observed": true,
+      "latent_state_status": "possible_proxy_unvalidated",
+      "candidate_relevance_node_ids": [],
+      "never_direct_measure_of": [
+        "memory encoding",
+        "high value",
+        "purchase intent"
+      ],
+      "alternative_explanations": [
+        "reference utility",
+        "later reading",
+        "collection habit",
+        "aesthetic preference"
+      ],
+      "channel_scope": "social/content",
+      "notes": null
+    },
+    {
+      "id": "MET-010",
+      "name": "Share / Repost",
+      "measurement_kind": "interaction",
+      "observed_behavior": "Used share/repost behavior.",
+      "directly_observed": true,
+      "latent_state_status": "possible_proxy_unvalidated",
+      "candidate_relevance_node_ids": [],
+      "never_direct_measure_of": [
+        "arousal",
+        "identity signaling",
+        "approval"
+      ],
+      "alternative_explanations": [
+        "utility",
+        "identity",
+        "social connection",
+        "humor",
+        "outrage",
+        "incentive"
+      ],
+      "channel_scope": "social/content",
+      "notes": null
+    },
+    {
+      "id": "MET-011",
+      "name": "Comment / Reply",
+      "measurement_kind": "qualitative_signal",
+      "observed_behavior": "Audience produced a textual response.",
+      "directly_observed": true,
+      "latent_state_status": "possible_proxy_unvalidated",
+      "candidate_relevance_node_ids": [],
+      "never_direct_measure_of": [
+        "engagement quality",
+        "agreement",
+        "reactance"
+      ],
+      "alternative_explanations": [
+        "question",
+        "criticism",
+        "social interaction",
+        "spam",
+        "support need"
+      ],
+      "channel_scope": "social/email",
+      "notes": "Text can be analyzed as evidence if context/provenance retained."
+    },
+    {
+      "id": "MET-012",
+      "name": "Email Open",
+      "measurement_kind": "platform_proxy",
+      "observed_behavior": "Email system registered an open event.",
+      "directly_observed": true,
+      "latent_state_status": "not_a_latent_measure",
+      "candidate_relevance_node_ids": [],
+      "never_direct_measure_of": [
+        "attention",
+        "reading",
+        "interest"
+      ],
+      "alternative_explanations": [
+        "privacy proxying",
+        "image loading",
+        "preview panes",
+        "deliverability"
+      ],
+      "channel_scope": "email",
+      "notes": "Especially affected by tracking technology."
+    },
+    {
+      "id": "MET-013",
+      "name": "Unsubscribe",
+      "measurement_kind": "direct_behavior",
+      "observed_behavior": "Recipient opted out of future communication.",
+      "directly_observed": true,
+      "latent_state_status": "possible_proxy_unvalidated",
+      "candidate_relevance_node_ids": [
+        "C5-N05-02"
+      ],
+      "never_direct_measure_of": [
+        "reactance",
+        "dislike",
+        "low relevance"
+      ],
+      "alternative_explanations": [
+        "frequency",
+        "privacy",
+        "lifecycle change",
+        "inbox management",
+        "content mismatch"
+      ],
+      "channel_scope": "email/messaging",
+      "notes": null
+    },
+    {
+      "id": "MET-014",
+      "name": "Search Query / Site Search",
+      "measurement_kind": "qualitative_signal",
+      "observed_behavior": "User entered a query into search.",
+      "directly_observed": true,
+      "latent_state_status": "possible_proxy_unvalidated",
+      "candidate_relevance_node_ids": [
+        "C6-N03-01",
+        "C2-N01-02"
+      ],
+      "never_direct_measure_of": [
+        "active goal",
+        "intent strength"
+      ],
+      "alternative_explanations": [
+        "navigation",
+        "research",
+        "comparison",
+        "support"
+      ],
+      "channel_scope": "search/site",
+      "notes": "Query wording is valuable language evidence with context."
+    },
+    {
+      "id": "MET-015",
+      "name": "Sales Objection Frequency",
+      "measurement_kind": "qualitative_signal",
+      "observed_behavior": "Coded frequency of objection categories in sales/support interactions.",
+      "directly_observed": false,
+      "latent_state_status": "possible_proxy_unvalidated",
+      "candidate_relevance_node_ids": [
+        "C5-N04-04",
+        "C5-N03-02",
+        "C4-N03-01"
+      ],
+      "never_direct_measure_of": [
+        "population prevalence without sampling design",
+        "causal barrier strength"
+      ],
+      "alternative_explanations": [
+        "sales script",
+        "sampling",
+        "stage",
+        "rep coding"
+      ],
+      "channel_scope": "sales/support",
+      "notes": "Requires coding reliability and denominator."
+    }
+  ]
+}

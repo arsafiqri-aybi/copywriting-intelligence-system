@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "observable-metric.schema.json",
+  "title": "Observable Performance Metric",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "measurement_kind",
+    "observed_behavior",
+    "directly_observed",
+    "latent_state_status",
+    "alternative_explanations"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "measurement_kind": {
+      "enum": [
+        "exposure",
+        "interaction",
+        "direct_behavior",
+        "platform_proxy",
+        "qualitative_signal",
+        "commercial_outcome"
+      ]
+    },
+    "observed_behavior": {
+      "type": "string"
+    },
+    "directly_observed": {
+      "type": "boolean"
+    },
+    "latent_state_status": {
+      "enum": [
+        "not_a_latent_measure",
+        "possible_proxy_unvalidated",
+        "validated_for_specific_construct_scope"
+      ]
+    },
+    "candidate_relevance_node_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "never_direct_measure_of": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alternative_explanations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "channel_scope": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

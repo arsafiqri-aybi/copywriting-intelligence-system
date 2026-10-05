@@ -1,0 +1,142 @@
+{
+  "version": "1.0.0",
+  "templates": [
+    {
+      "id": "EXP-T01",
+      "name": "Claim + diagnostic proof",
+      "decision_question": "Does adding claim-specific diagnostic proof improve the target behavior relative to the same claim without proof?",
+      "design": "randomized_ab",
+      "unit": "eligible visitor",
+      "intervention": {
+        "changes": [
+          "diagnostic proof block"
+        ],
+        "held_constant": [
+          "claim",
+          "offer",
+          "CTA",
+          "layout as feasible"
+        ]
+      },
+      "comparison": {
+        "description": "same message without diagnostic proof block"
+      },
+      "primary_outcome": "target behavior/conversion",
+      "secondary_outcomes": [
+        "time on proof area as descriptive only",
+        "support questions",
+        "refund/complaint if relevant"
+      ],
+      "mechanism_target_ids": [
+        "C5-N04-03"
+      ],
+      "identification_level_target": "L1-L2",
+      "alternative_explanations": [
+        "proof may alter source trust",
+        "layout salience"
+      ],
+      "update_scope": "message_hypothesis"
+    },
+    {
+      "id": "EXP-T02",
+      "name": "Autonomy-supportive CTA",
+      "decision_question": "When reactance risk is evidenced, does autonomy-supportive CTA framing improve action without harming downstream quality?",
+      "design": "randomized_ab",
+      "unit": "eligible recipient",
+      "intervention": {
+        "changes": [
+          "request framing"
+        ],
+        "held_constant": [
+          "value",
+          "offer",
+          "proof"
+        ]
+      },
+      "comparison": {
+        "description": "more controlling/directive framing"
+      },
+      "primary_outcome": "target action",
+      "secondary_outcomes": [
+        "unsubscribe/complaint",
+        "downstream qualified outcome"
+      ],
+      "mechanism_target_ids": [
+        "C5-N05-02",
+        "C7-N08-05"
+      ],
+      "identification_level_target": "L1",
+      "alternative_explanations": [
+        "politeness",
+        "tone preference"
+      ],
+      "update_scope": "runtime_heuristic"
+    },
+    {
+      "id": "EXP-T03",
+      "name": "Next-step clarity / friction",
+      "decision_question": "Does clarifying the immediate next step reduce action-path abandonment?",
+      "design": "randomized_ab",
+      "unit": "eligible user/session",
+      "intervention": {
+        "changes": [
+          "next-step wording/instructions"
+        ],
+        "held_constant": [
+          "offer",
+          "price",
+          "main value claim"
+        ]
+      },
+      "comparison": {
+        "description": "existing action instructions"
+      },
+      "primary_outcome": "step completion",
+      "secondary_outcomes": [
+        "error rate",
+        "support contacts",
+        "final completion"
+      ],
+      "mechanism_target_ids": [
+        "C4-N08-04",
+        "C7-N08-03"
+      ],
+      "identification_level_target": "L1-L2",
+      "alternative_explanations": [
+        "visual hierarchy",
+        "technical latency"
+      ],
+      "update_scope": "calibration_parameter"
+    },
+    {
+      "id": "EXP-T04",
+      "name": "Choice guidance",
+      "decision_question": "For a complex assortment with preference uncertainty, does guided choice reduce deferral or improve qualified selection?",
+      "design": "randomized_ab",
+      "unit": "eligible shopper",
+      "intervention": {
+        "changes": [
+          "decision aid/grouping/recommendation criteria"
+        ]
+      },
+      "comparison": {
+        "description": "full undifferentiated choice set"
+      },
+      "primary_outcome": "qualified selection/completion",
+      "secondary_outcomes": [
+        "returns",
+        "switches",
+        "satisfaction"
+      ],
+      "mechanism_target_ids": [
+        "C4-N04-02"
+      ],
+      "identification_level_target": "L1",
+      "alternative_explanations": [
+        "reduced visual complexity",
+        "default/recommendation endorsement"
+      ],
+      "update_scope": "runtime_heuristic"
+    }
+  ]
+}

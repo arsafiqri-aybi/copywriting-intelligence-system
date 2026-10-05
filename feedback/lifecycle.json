@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "pipeline": [
+    "RAW_OBSERVATION",
+    "QUALITY_CHECK",
+    "CONTEXT_LOCK",
+    "ALTERNATIVE_EXPLANATIONS",
+    "CAUSALITY_CLASSIFICATION",
+    "UPDATE_SCOPE_SELECTION",
+    "BOUNDED_UPDATE",
+    "REGRESSION_CHECK",
+    "VERSIONED_RECORD",
+    "OPTIONAL_SCIENTIFIC_CANDIDATE"
+  ],
+  "rules": [
+    "Every observation retains raw values and context.",
+    "Every bounded update links back to the observation or experiment.",
+    "Runtime updates are reversible and scoped by audience/channel/offer/version.",
+    "A contradictory observation lowers runtime confidence or creates heterogeneity; it is not deleted.",
+    "Scientific registries are changed only through research promotion policy."
+  ]
+}
