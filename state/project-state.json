@@ -47,8 +47,8 @@
     "S10_RELEASE_CONTINUOUS_RESEARCH": "NOT_STARTED"
   },
   "knowledge_counts": {
-    "screened_sources": 79,
-    "extracted_taxonomy_claims": 132,
+    "screened_sources": 72,
+    "extracted_taxonomy_claims": 124,
     "uncertainty_records": 15,
     "candidate_neurons": 280,
     "accepted_neurons": 92,
@@ -73,5 +73,20 @@
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "S3 cycle06: balanced depth expansion toward 250–450 evidence-reviewed primary neurons; prioritize unresolved candidate families, provisional nodes, measurement gaps, and null/contradictory evidence."
+  "next_action": "S3 cycle06: balanced depth expansion toward 250–450 evidence-reviewed primary neurons; prioritize unresolved candidate families, provisional nodes, measurement gaps, and null/contradictory evidence.",
+  "integrity_repairs": [
+    {
+      "id": "REPAIR-2026-10-05-01",
+      "action": "deduplicate_identical_registry_records_by_id",
+      "affected": [
+        "research/registry/sources.json",
+        "research/registry/claims.json"
+      ],
+      "removed": {
+        "sources": 7,
+        "claims": 8
+      },
+      "note": "Cycle02 append logic duplicated identical records. References remain stable because IDs and payloads were identical."
+    }
+  ]
 }
