@@ -1,0 +1,333 @@
+{
+  "version": "1.0.0",
+  "edges": [
+    {
+      "id": "EDGE-S4-023",
+      "source": "C6-N02-02",
+      "target": "C1-N03-05",
+      "relation": "causes_increase",
+      "polarity": "positive",
+      "directionality": "directed",
+      "causal_status": "mechanistic_theory",
+      "mechanism": "Syntactic ambiguity increases competition/reanalysis demands and can therefore increase active processing load.",
+      "claim_ids": [
+        "CLM-S4-023"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Context can resolve ambiguity early.",
+        "Prior knowledge and language proficiency matter."
+      ],
+      "transport_limits": [
+        "Sentence-level processing relation; not a direct persuasion effect."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C1-C6"
+    },
+    {
+      "id": "EDGE-S4-024",
+      "source": "C6-N02-03",
+      "target": "C1-N03-05",
+      "relation": "causes_increase",
+      "polarity": "positive",
+      "directionality": "directed",
+      "causal_status": "mechanistic_theory",
+      "mechanism": "Longer dependencies increase maintenance/integration demands and thereby processing load.",
+      "claim_ids": [
+        "CLM-S4-024"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Language structure and predictability matter."
+      ],
+      "transport_limits": [
+        "Do not convert dependency length directly into readability score."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C1-C6"
+    },
+    {
+      "id": "EDGE-S4-025",
+      "source": "C6-N05-05",
+      "target": "C1-N04-03",
+      "relation": "biases",
+      "polarity": "negative",
+      "directionality": "directed",
+      "causal_status": "mechanistic_theory",
+      "mechanism": "Higher linguistic surprisal tends to increase processing difficulty, reducing fluency relative to more predictable continuations.",
+      "claim_ids": [
+        "CLM-S4-025"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Unexpected information can be useful or informative despite lower fluency.",
+        "Frequency and semantic fit also matter."
+      ],
+      "transport_limits": [
+        "Fluency effect is not equivalent to persuasion or attention."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C1-C6"
+    },
+    {
+      "id": "EDGE-S4-026",
+      "source": "C2-N01-04",
+      "target": "C5-N02-02",
+      "relation": "supports",
+      "polarity": "positive",
+      "directionality": "directed",
+      "causal_status": "mechanistic_theory",
+      "mechanism": "Greater goal/issue importance increases personal involvement and motivation to process a persuasive message.",
+      "claim_ids": [
+        "CLM-S4-026"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Importance may also increase defensive processing when prior attitudes are strong."
+      ],
+      "transport_limits": [
+        "Do not equate involvement with agreement."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C2-C5"
+    },
+    {
+      "id": "EDGE-S4-027",
+      "source": "C3-N03-02",
+      "target": "C5-N05-02",
+      "relation": "causes_increase",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "mixed",
+      "mechanism": "Controlling or identity-threatening injunctive norms can evoke reactance and resistance.",
+      "claim_ids": [
+        "CLM-S4-027"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Norm legitimacy, autonomy relevance, audience stance and wording matter."
+      ],
+      "transport_limits": [
+        "Injunctive norms can also be internalized and effective."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [
+        "UNC-S4C3-001"
+      ],
+      "status": "accepted",
+      "core_pair": "C3-C5"
+    },
+    {
+      "id": "EDGE-S4-028",
+      "source": "C3-N03-02",
+      "target": "C2-N08-01",
+      "relation": "inhibits",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "mixed",
+      "mechanism": "When injunctive norm pressure is experienced as controlling, it can undermine intrinsic motivation.",
+      "claim_ids": [
+        "CLM-S4-028"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Internalized/valued norms need not undermine motivation.",
+        "Autonomy support changes the effect."
+      ],
+      "transport_limits": [
+        "No universal anti-norm effect."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [
+        "UNC-S4C3-001"
+      ],
+      "status": "provisional",
+      "core_pair": "C2-C3"
+    },
+    {
+      "id": "EDGE-S4-029",
+      "source": "C7-N01-01",
+      "target": "C5-N04-01",
+      "relation": "enables",
+      "polarity": "positive",
+      "directionality": "directed",
+      "causal_status": "system_mechanical",
+      "mechanism": "A claim-support structure supplies reasons/evidence that can be evaluated for receiver-side argument strength and quality.",
+      "claim_ids": [
+        "CLM-S4-029"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Well-formed structure can still support a false or weak claim.",
+        "Argument quality depends on content and audience standards."
+      ],
+      "transport_limits": [
+        "Structure is not persuasion by itself."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C5-C7"
+    },
+    {
+      "id": "EDGE-S4-030",
+      "source": "C7-N06-04",
+      "target": "C5-N03-02",
+      "relation": "biases",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "mixed",
+      "mechanism": "A relevant concession can alter perceived honesty/trustworthiness by acknowledging limitations, but may also expose weaknesses.",
+      "claim_ids": [
+        "CLM-S4-030"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Magnitude and placement of negative information matter.",
+        "Refutation changes effects."
+      ],
+      "transport_limits": [
+        "No universal credibility boost from admitting a flaw."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C5-C7"
+    },
+    {
+      "id": "EDGE-S4-031",
+      "source": "C7-N08-03",
+      "target": "C4-N08-04",
+      "relation": "causes_decrease",
+      "polarity": "negative",
+      "directionality": "directed",
+      "causal_status": "system_mechanical",
+      "mechanism": "Clear next-step specification can reduce ambiguity-related implementation burden in an action path.",
+      "claim_ids": [
+        "CLM-S4-031"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Cannot remove external barriers, low motivation, or low value."
+      ],
+      "transport_limits": [
+        "Design relation is plausible but direct generalizable causal effect remains under-calibrated."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [
+        "UNC-S4C3-002"
+      ],
+      "status": "provisional",
+      "core_pair": "C4-C7"
+    },
+    {
+      "id": "EDGE-S4-032",
+      "source": "C7-N08-05",
+      "target": "C3-N05-02",
+      "relation": "biases",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "experimental_causal",
+      "mechanism": "How a request is framed can alter compliance probability through social/normative and motivational interpretations.",
+      "claim_ids": [
+        "CLM-S4-032"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Prior behavior, norm cues, reciprocity, authority and wording matter."
+      ],
+      "transport_limits": [
+        "Specific request contexts; no universal wording formula."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "provisional",
+      "core_pair": "C3-C7"
+    },
+    {
+      "id": "EDGE-S4-033",
+      "source": "C7-N08-01",
+      "target": "C3-N05-02",
+      "relation": "enables",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "mechanistic_theory",
+      "mechanism": "Explicitly naming an action can reduce uncertainty about what compliance would entail, while excessive pressure can trigger resistance.",
+      "claim_ids": [
+        "CLM-S4-033"
+      ],
+      "moderator_ids": [
+        "C5-N05-02"
+      ],
+      "boundary_conditions": [
+        "Action clarity and persuasion pressure are distinct."
+      ],
+      "transport_limits": [
+        "CTA explicitness is provisional and channel dependent."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [
+        "UNC-S4C3-002"
+      ],
+      "status": "provisional",
+      "core_pair": "C3-C7"
+    },
+    {
+      "id": "EDGE-S4-034",
+      "source": "C7-N02-02",
+      "target": "C5-N01-02",
+      "relation": "biases",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "mixed",
+      "mechanism": "Emotional appeals can shift evaluative attitudes through affective/appraisal pathways.",
+      "claim_ids": [
+        "CLM-S4-034"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Emotion type, intensity, relevance and audience state matter."
+      ],
+      "transport_limits": [
+        "No generic emotional-vs-rational superiority."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C5-C7"
+    },
+    {
+      "id": "EDGE-S4-035",
+      "source": "C7-N03-02",
+      "target": "C5-N01-02",
+      "relation": "predicts",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "mixed",
+      "mechanism": "Stronger character identification can contribute to narrative-related evaluative change.",
+      "claim_ids": [
+        "CLM-S4-035"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Identification is distinct from transportation and liking.",
+        "Narrative and character attributes matter."
+      ],
+      "transport_limits": [
+        "Narrative persuasion contexts."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C5-C7"
+    }
+  ]
+}

@@ -496,6 +496,32 @@
       "reducibility": "experiment",
       "resolution_requirement": "Keep edge provisional and separate load, fluency, comprehension and elaboration explanations.",
       "blocks_gate": false
+    },
+    {
+      "id": "UNC-S4C3-001",
+      "channel": "transport_context",
+      "target_ids": [
+        "EDGE-S4-027",
+        "EDGE-S4-028"
+      ],
+      "level": "medium",
+      "reason": "Norm messages can induce compliance, internalization, reactance, or motivation undermining depending on autonomy, values, trust and referent context.",
+      "reducibility": "context_information",
+      "resolution_requirement": "Runtime must inspect norm type, audience stance, identity/autonomy relevance and delivery context.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S4C3-002",
+      "channel": "construct",
+      "target_ids": [
+        "EDGE-S4-031",
+        "EDGE-S4-033"
+      ],
+      "level": "medium",
+      "reason": "CTA clarity/explicitness are provisional design properties and their behavioral effects are not isolated from request framing and implementation friction.",
+      "reducibility": "experiment",
+      "resolution_requirement": "Keep edges provisional pending controlled message-action experiments.",
+      "blocks_gate": false
     }
   ]
 }
