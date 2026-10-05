@@ -1,0 +1,478 @@
+{
+  "version": "1.0.0",
+  "claims": [
+    {
+      "id": "CLM-S3C6-001",
+      "statement": "Novelty can alter attentional priority, but novelty is not identical to salience, surprise, curiosity, or sustained attention.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N01-04"
+      ],
+      "source_ids": [
+        "SRC-C1-001",
+        "SRC-C1-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-002",
+      "statement": "Current goals bias selection among competing inputs, interacting with stimulus-driven and history-based influences.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N02-02"
+      ],
+      "source_ids": [
+        "SRC-C1-001",
+        "SRC-C1-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-003",
+      "statement": "Feature-based selection is one form of goal-directed attention and should not be inferred from post hoc engagement.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N02-03"
+      ],
+      "source_ids": [
+        "SRC-C1-001",
+        "SRC-C1-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-004",
+      "statement": "Maintenance is a working-memory function distinct from capacity, updating, and long-term storage.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C1-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-005",
+      "statement": "Interference can reduce effective working-memory performance without being identical to low capacity.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N03-04"
+      ],
+      "source_ids": [
+        "SRC-C1-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-006",
+      "statement": "Discrepancy can energize goal pursuit when the goal matters and action seems viable, but large gaps may also discourage or redirect behavior.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N01-03"
+      ],
+      "source_ids": [
+        "SRC-C2-001",
+        "SRC-C2-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-007",
+      "statement": "Goal importance increases motivational relevance but does not guarantee commitment, persistence, or perceived attainability.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N01-04"
+      ],
+      "source_ids": [
+        "SRC-C2-001",
+        "SRC-C2-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-008",
+      "statement": "Approach motivation organizes direction of action and can occur with both positive and some negative emotions.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N02-01"
+      ],
+      "source_ids": [
+        "SRC-C2-003",
+        "SRC-C2-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-009",
+      "statement": "Avoidance motivation is not equivalent to negative affect and can support active protective action.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N02-02"
+      ],
+      "source_ids": [
+        "SRC-C2-003",
+        "SRC-C2-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-010",
+      "statement": "Disengagement can be adaptive rather than simply motivational failure.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N07-05"
+      ],
+      "source_ids": [
+        "SRC-C2-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-011",
+      "statement": "Self-verification may compete with self-enhancement and is partly rooted in social-relational functioning.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N01-03"
+      ],
+      "source_ids": [
+        "SRC-X-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-012",
+      "statement": "Self-enhancement is distinct from self-verification and should not be assumed to dominate every identity-relevant judgment.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N01-04"
+      ],
+      "source_ids": [
+        "SRC-X-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-013",
+      "statement": "Membership alone does not establish salience; context determines which identity becomes influential.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N02-03"
+      ],
+      "source_ids": [
+        "SRC-C3-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-014",
+      "statement": "Authority effects depend on legitimacy and context; authority is not equivalent to expertise or truth.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N05-01"
+      ],
+      "source_ids": [
+        "SRC-C3-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-015",
+      "statement": "Exclusion cues can threaten relational needs and change subsequent social behavior, but not every negative social cue is exclusion.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N08-05"
+      ],
+      "source_ids": [
+        "SRC-C3-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-016",
+      "statement": "Representativeness can be useful or misleading depending on base rates, environment, and task structure.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N01-03"
+      ],
+      "source_ids": [
+        "SRC-C4-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-017",
+      "statement": "Ambiguity aversion is distinct from risk aversion because the probability information itself differs in precision or availability.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N03-03"
+      ],
+      "source_ids": [
+        "SRC-C4-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-018",
+      "statement": "Making opportunity costs salient can alter willingness to choose or buy, but consideration of opportunity cost can also increase discomfort or regret.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N06-01"
+      ],
+      "source_ids": [
+        "SRC-C4-013",
+        "SRC-C4-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-019",
+      "statement": "Weights can change with context, goals, framing, and trade-off structure rather than functioning as fixed universal preferences.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N06-03"
+      ],
+      "source_ids": [
+        "SRC-C4-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-020",
+      "statement": "Conflict depends on trade-off structure and may produce delay, compromise, or other resolution strategies.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N06-04"
+      ],
+      "source_ids": [
+        "SRC-C4-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-021",
+      "statement": "Belief strength is distinct from attitude valence, confidence in one's thoughts, and objective truth.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N01-01"
+      ],
+      "source_ids": [
+        "SRC-C5-001",
+        "SRC-C5-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-022",
+      "statement": "Valence alone does not capture certainty, accessibility, ambivalence, or behavioral consistency.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N01-02"
+      ],
+      "source_ids": [
+        "SRC-C5-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-023",
+      "statement": "Accessibility is an attitude-strength property and should not be inferred solely from extremity or repeated exposure.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N01-03"
+      ],
+      "source_ids": [
+        "SRC-C5-001",
+        "SRC-C5-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-024",
+      "statement": "Evidence quality is multidimensional; runtime must distinguish source credibility, diagnosticity, methodological quality, and logical relevance.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N04-02"
+      ],
+      "source_ids": [
+        "SRC-C5-002",
+        "SRC-C5-009"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C6-025",
+      "statement": "Thought confidence validates whichever thoughts dominate: confidence in positive thoughts can increase persuasion, while confidence in negative thoughts can decrease it.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N06-02"
+      ],
+      "source_ids": [
+        "SRC-C5-013"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-026",
+      "statement": "Denotation does not exhaust pragmatic, connotative, affective, or discourse meaning.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N01-01"
+      ],
+      "source_ids": [
+        "SRC-C6-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-027",
+      "statement": "Connotation is context- and community-sensitive and should not be assumed universal across audiences.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N01-02"
+      ],
+      "source_ids": [
+        "SRC-C6-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-028",
+      "statement": "Syntactic complexity is one contributor to processing demand and cannot be reduced to sentence length.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N02-01"
+      ],
+      "source_ids": [
+        "SRC-C6-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-029",
+      "statement": "Implicatures are defeasible and depend on context, common ground, communicative assumptions, and alternatives.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N04-01"
+      ],
+      "source_ids": [
+        "SRC-C6-001",
+        "SRC-C6-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-030",
+      "statement": "Local coherence supports comprehension but is distinct from global discourse organization and factual consistency.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N06-01"
+      ],
+      "source_ids": [
+        "SRC-C6-003",
+        "SRC-C6-011"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-031",
+      "statement": "Premise support is an argument-design property; receiver-side acceptance and argument quality remain separate C5 processes.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N01-02"
+      ],
+      "source_ids": [
+        "SRC-C7-005",
+        "SRC-C5-009"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C6-032",
+      "statement": "A strong-looking evidence block does not support a claim if the inferential linkage is weak or mismatched.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N01-03"
+      ],
+      "source_ids": [
+        "SRC-C7-005",
+        "SRC-C5-009"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C6-033",
+      "statement": "Warrants can be implicit; this node is retained as a rhetoric/argumentation design construct pending deeper argumentation-science evidence.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N01-04"
+      ],
+      "source_ids": [
+        "SRC-C7-004",
+        "SRC-C7-005"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C6-034",
+      "statement": "Narrative coherence supports narrative processing but is not equivalent to transportation or identification.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C7-N03-03"
+      ],
+      "source_ids": [
+        "SRC-C7-001",
+        "SRC-C6-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C6-035",
+      "statement": "Metaphor evidence suggests small context-dependent persuasive advantages, but analogy is broader than metaphor and remains provisional as a separate copywriting design node.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N05-02"
+      ],
+      "source_ids": [
+        "SRC-C6-004",
+        "SRC-C7-013"
+      ],
+      "status": "verified_for_provisional"
+    }
+  ]
+}

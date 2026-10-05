@@ -185,6 +185,44 @@
       "reducibility": "experiment",
       "resolution_requirement": "Keep provisional until channel-specific evidence/experiments justify narrower rules.",
       "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C6-001",
+      "channel": "construct",
+      "target_ids": [
+        "C5-N04-02"
+      ],
+      "level": "medium",
+      "reason": "Evidence quality spans logical relevance, methodological quality, diagnosticity and receiver perception; one latent scalar would collapse distinct dimensions.",
+      "reducibility": "structural_replan",
+      "resolution_requirement": "Decompose evidence quality into scientific/proof subnodes during later C5/C7 depth pass.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C6-002",
+      "channel": "construct",
+      "target_ids": [
+        "C7-N01-02",
+        "C7-N01-03",
+        "C7-N01-04"
+      ],
+      "level": "medium",
+      "reason": "These are message-design/argumentation constructs, not receiver-side psychological latent variables.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Maintain explicit role_tags and validate with argumentation scholarship before final S3 closure.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C6-003",
+      "channel": "construct",
+      "target_ids": [
+        "C7-N05-02"
+      ],
+      "level": "medium",
+      "reason": "Analogy is broader than metaphor; metaphor meta-analyses cannot validate all analogy mechanisms or persuasive uses.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Add analogy-specific cognitive/argumentation evidence before acceptance.",
+      "blocks_gate": false
     }
   ]
 }

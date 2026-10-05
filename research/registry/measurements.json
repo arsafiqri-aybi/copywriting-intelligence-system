@@ -774,6 +774,138 @@
       "ambiguity": "Order effects are conditional and may show primacy, recency, or null patterns.",
       "calibration_state": "heuristic",
       "status": "provisional"
+    },
+    {
+      "id": "MEAS-C2-007",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "goal commitment rating tied to a specified goal",
+      "target_ids": [
+        "C2-N01-05",
+        "C2-N01-04"
+      ],
+      "alternative_explanations": [
+        "goal importance",
+        "expectancy",
+        "social desirability"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-005"
+      ],
+      "reliability": null,
+      "population_scope": "goal/self-regulation studies",
+      "channel_scope": null,
+      "ambiguity": "Importance and commitment are related but distinct.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C3-004",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "identity salience/self-categorization measure tied to a specified group or identity",
+      "target_ids": [
+        "C3-N02-03",
+        "C3-N02-01"
+      ],
+      "alternative_explanations": [
+        "mere membership",
+        "identity centrality"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C6-013"
+      ],
+      "reliability": null,
+      "population_scope": "social identity studies",
+      "channel_scope": null,
+      "ambiguity": "Salience is context-dependent; membership alone is insufficient.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C4-005",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "choice change when opportunity cost is made explicit versus implicit",
+      "target_ids": [
+        "C4-N06-01"
+      ],
+      "alternative_explanations": [
+        "budget salience",
+        "loss framing",
+        "choice conflict"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C6-018"
+      ],
+      "reliability": null,
+      "population_scope": "consumer choice experiments",
+      "channel_scope": null,
+      "ambiguity": "Salience manipulation identifies opportunity-cost consideration, not a universal welfare improvement.",
+      "calibration_state": "validated_for_scope",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C5-007",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "self-reported or manipulated confidence in message-relevant thoughts combined with thought valence",
+      "target_ids": [
+        "C5-N06-02"
+      ],
+      "alternative_explanations": [
+        "attitude certainty",
+        "source confidence"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C6-025"
+      ],
+      "reliability": null,
+      "population_scope": "persuasion experiments",
+      "channel_scope": null,
+      "ambiguity": "Thought confidence affects use of thoughts; its direction depends on whether thoughts are favorable or unfavorable.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C6-004",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "comprehension/inference response to context supporting versus canceling an implicature",
+      "target_ids": [
+        "C6-N04-01"
+      ],
+      "alternative_explanations": [
+        "literal semantic interpretation",
+        "presupposition",
+        "task demand"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C6-029"
+      ],
+      "reliability": null,
+      "population_scope": "experimental pragmatics",
+      "channel_scope": null,
+      "ambiguity": "Implicature is defeasible and task/context sensitive.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C6-005",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "local coherence judgments, reading-time/inference effects, or comprehension under manipulated discourse relation",
+      "target_ids": [
+        "C6-N06-01"
+      ],
+      "alternative_explanations": [
+        "world knowledge",
+        "global coherence",
+        "syntactic difficulty"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C6-030"
+      ],
+      "reliability": null,
+      "population_scope": "discourse comprehension studies",
+      "channel_scope": null,
+      "ambiguity": "Coherence is represented through multiple discourse/inference mechanisms; no single metric is exhaustive.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
     }
   ]
 }

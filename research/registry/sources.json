@@ -1548,6 +1548,94 @@
         "primacy_recency"
       ],
       "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-013",
+      "title": "Opportunity cost neglect: a meta-analysis",
+      "authors": [
+        "Allegra Maguire",
+        "Emil Persson",
+        "Gustav Tinghög"
+      ],
+      "year": 2023,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1007/s40881-023-00134-6",
+      "url": "https://doi.org/10.1007/s40881-023-00134-6",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "opportunity_cost",
+        "salience",
+        "choice"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-013",
+      "title": "Thought confidence as a determinant of persuasion: the self-validation hypothesis",
+      "authors": [
+        "Richard E. Petty",
+        "Pablo Briñol",
+        "Zakary L. Tormala"
+      ],
+      "year": 2002,
+      "evidence_class": "randomized_experiment",
+      "domain": [
+        "C5"
+      ],
+      "doi": "10.1037/0022-3514.82.5.722",
+      "url": "https://doi.org/10.1037/0022-3514.82.5.722",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "thought_confidence",
+        "self_validation"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-011",
+      "title": "Coherence Establishment as a Source of Explanation in Linguistic Theory",
+      "authors": [
+        "Andrew Kehler"
+      ],
+      "year": 2022,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1146/annurev-linguistics-011619-030357",
+      "url": "https://doi.org/10.1146/annurev-linguistics-011619-030357",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "discourse_coherence",
+        "inference"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-013",
+      "title": "Meta-Analysis of the Persuasive Effects of Metaphorical vs. Literal Messages",
+      "authors": [
+        "Stephanie K. Van Stee"
+      ],
+      "year": 2018,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C7",
+        "C6",
+        "C5"
+      ],
+      "doi": "10.1080/10510974.2018.1457553",
+      "url": "https://doi.org/10.1080/10510974.2018.1457553",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "metaphor",
+        "persuasion",
+        "message_format"
+      ],
+      "status": "screened_in"
     }
   ]
 }

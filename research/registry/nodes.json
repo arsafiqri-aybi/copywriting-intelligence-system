@@ -2619,6 +2619,866 @@
         "Hiding material limitations where disclosure is required"
       ],
       "version": "1.0.0"
+    },
+    {
+      "id": "C1-N01-04",
+      "label": "Novelty Orienting",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M01",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Orienting of attention toward novel or expectancy-violating stimulation relative to the current context.",
+      "mechanism_summary": "Novelty can alter attentional priority, but novelty is not identical to salience, surprise, curiosity, or sustained attention.",
+      "claim_ids": [
+        "CLM-S3C6-001"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Novelty Orienting directly from a single platform metric or copy outcome.",
+        "Do not treat Novelty Orienting as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N02-02",
+      "label": "Top-Down Attentional Selection",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M02",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Goal- or task-dependent prioritization of information for selection and processing.",
+      "mechanism_summary": "Current goals bias selection among competing inputs, interacting with stimulus-driven and history-based influences.",
+      "claim_ids": [
+        "CLM-S3C6-002"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Top-Down Attentional Selection directly from a single platform metric or copy outcome.",
+        "Do not treat Top-Down Attentional Selection as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N02-03",
+      "label": "Feature-Based Attention",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M02",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Selective prioritization based on currently relevant stimulus features such as color, shape, category-linked cues, or other task-defined attributes.",
+      "mechanism_summary": "Feature-based selection is one form of goal-directed attention and should not be inferred from post hoc engagement.",
+      "claim_ids": [
+        "CLM-S3C6-003"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Feature-Based Attention directly from a single platform metric or copy outcome.",
+        "Do not treat Feature-Based Attention as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N03-02",
+      "label": "Active Maintenance",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M03",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Temporary maintenance of task-relevant information in an accessible state for ongoing cognition.",
+      "mechanism_summary": "Maintenance is a working-memory function distinct from capacity, updating, and long-term storage.",
+      "claim_ids": [
+        "CLM-S3C6-004"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Active Maintenance directly from a single platform metric or copy outcome.",
+        "Do not treat Active Maintenance as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N03-04",
+      "label": "Interference Susceptibility",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M03",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Degree to which competing information disrupts maintenance, selection, or use of task-relevant representations.",
+      "mechanism_summary": "Interference can reduce effective working-memory performance without being identical to low capacity.",
+      "claim_ids": [
+        "CLM-S3C6-005"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Interference Susceptibility directly from a single platform metric or copy outcome.",
+        "Do not treat Interference Susceptibility as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N01-03",
+      "label": "Goal Discrepancy",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M01",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Perceived gap between a current state and a desired or goal state.",
+      "mechanism_summary": "Discrepancy can energize goal pursuit when the goal matters and action seems viable, but large gaps may also discourage or redirect behavior.",
+      "claim_ids": [
+        "CLM-S3C6-006"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Goal Discrepancy directly from a single platform metric or copy outcome.",
+        "Do not treat Goal Discrepancy as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N01-04",
+      "label": "Goal Importance",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M01",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Perceived significance or priority of attaining a goal relative to other concerns.",
+      "mechanism_summary": "Goal importance increases motivational relevance but does not guarantee commitment, persistence, or perceived attainability.",
+      "claim_ids": [
+        "CLM-S3C6-007"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Goal Importance directly from a single platform metric or copy outcome.",
+        "Do not treat Goal Importance as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N02-01",
+      "label": "Approach Motivation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M02",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Motivational orientation toward moving toward, obtaining, engaging with, or attaining desired outcomes.",
+      "mechanism_summary": "Approach motivation organizes direction of action and can occur with both positive and some negative emotions.",
+      "claim_ids": [
+        "CLM-S3C6-008"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Approach Motivation directly from a single platform metric or copy outcome.",
+        "Do not treat Approach Motivation as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N02-02",
+      "label": "Avoidance Motivation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M02",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Motivational orientation toward preventing, escaping, distancing from, or reducing undesired outcomes.",
+      "mechanism_summary": "Avoidance motivation is not equivalent to negative affect and can support active protective action.",
+      "claim_ids": [
+        "CLM-S3C6-009"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Avoidance Motivation directly from a single platform metric or copy outcome.",
+        "Do not treat Avoidance Motivation as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N07-05",
+      "label": "Goal Disengagement",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M07",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Reduction or withdrawal of commitment and effort from a goal that is abandoned, reprioritized, or judged unattainable/inappropriate.",
+      "mechanism_summary": "Disengagement can be adaptive rather than simply motivational failure.",
+      "claim_ids": [
+        "CLM-S3C6-010"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Goal Disengagement directly from a single platform metric or copy outcome.",
+        "Do not treat Goal Disengagement as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N01-03",
+      "label": "Self-Verification",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M01",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Motivation to obtain or preserve feedback and interactions that are consistent with existing self-views.",
+      "mechanism_summary": "Self-verification may compete with self-enhancement and is partly rooted in social-relational functioning.",
+      "claim_ids": [
+        "CLM-S3C6-011"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Self-Verification directly from a single platform metric or copy outcome.",
+        "Do not treat Self-Verification as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N01-04",
+      "label": "Self-Enhancement",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M01",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Motivation to maintain or increase favorable views of the self.",
+      "mechanism_summary": "Self-enhancement is distinct from self-verification and should not be assumed to dominate every identity-relevant judgment.",
+      "claim_ids": [
+        "CLM-S3C6-012"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Self-Enhancement directly from a single platform metric or copy outcome.",
+        "Do not treat Self-Enhancement as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N02-03",
+      "label": "Identity Salience",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M02",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Degree to which a particular identity or group membership is cognitively active and relevant in the current context.",
+      "mechanism_summary": "Membership alone does not establish salience; context determines which identity becomes influential.",
+      "claim_ids": [
+        "CLM-S3C6-013"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Identity Salience directly from a single platform metric or copy outcome.",
+        "Do not treat Identity Salience as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N05-01",
+      "label": "Perceived Authority Legitimacy",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M05",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Perceived legitimacy of a person's or institution's right to issue directives, requests, standards, or judgments in a relevant domain.",
+      "mechanism_summary": "Authority effects depend on legitimacy and context; authority is not equivalent to expertise or truth.",
+      "claim_ids": [
+        "CLM-S3C6-014"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Perceived Authority Legitimacy directly from a single platform metric or copy outcome.",
+        "Do not treat Perceived Authority Legitimacy as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N08-05",
+      "label": "Social Exclusion Sensitivity",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M08",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Sensitivity to cues of rejection, ostracism, exclusion, or threatened belonging.",
+      "mechanism_summary": "Exclusion cues can threaten relational needs and change subsequent social behavior, but not every negative social cue is exclusion.",
+      "claim_ids": [
+        "CLM-S3C6-015"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Social Exclusion Sensitivity directly from a single platform metric or copy outcome.",
+        "Do not treat Social Exclusion Sensitivity as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N01-03",
+      "label": "Representativeness Heuristic",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M01",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Use of similarity to a prototype, category, or generating process as a cue in judgment.",
+      "mechanism_summary": "Representativeness can be useful or misleading depending on base rates, environment, and task structure.",
+      "claim_ids": [
+        "CLM-S3C6-016"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Representativeness Heuristic directly from a single platform metric or copy outcome.",
+        "Do not treat Representativeness Heuristic as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N03-03",
+      "label": "Ambiguity Aversion",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M03",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Preference to avoid options with poorly specified or unknown probabilities relative to options with better-specified probabilities, conditional on context.",
+      "mechanism_summary": "Ambiguity aversion is distinct from risk aversion because the probability information itself differs in precision or availability.",
+      "claim_ids": [
+        "CLM-S3C6-017"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Ambiguity Aversion directly from a single platform metric or copy outcome.",
+        "Do not treat Ambiguity Aversion as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N06-01",
+      "label": "Opportunity-Cost Salience",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M06",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Accessibility of the value of forgone alternatives during evaluation of a focal choice.",
+      "mechanism_summary": "Making opportunity costs salient can alter willingness to choose or buy, but consideration of opportunity cost can also increase discomfort or regret.",
+      "claim_ids": [
+        "CLM-S3C6-018"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Opportunity-Cost Salience directly from a single platform metric or copy outcome.",
+        "Do not treat Opportunity-Cost Salience as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N06-03",
+      "label": "Attribute Weighting",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M06",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Assignment of relative importance or decision weight to attributes when comparing options.",
+      "mechanism_summary": "Weights can change with context, goals, framing, and trade-off structure rather than functioning as fixed universal preferences.",
+      "claim_ids": [
+        "CLM-S3C6-019"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Attribute Weighting directly from a single platform metric or copy outcome.",
+        "Do not treat Attribute Weighting as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N06-04",
+      "label": "Choice Conflict",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M06",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Experienced difficulty or tension when attractive or important considerations favor competing options or goals.",
+      "mechanism_summary": "Conflict depends on trade-off structure and may produce delay, compromise, or other resolution strategies.",
+      "claim_ids": [
+        "CLM-S3C6-020"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Choice Conflict directly from a single platform metric or copy outcome.",
+        "Do not treat Choice Conflict as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N01-01",
+      "label": "Belief Strength",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M01",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Degree of conviction or endorsement attached to a proposition or belief.",
+      "mechanism_summary": "Belief strength is distinct from attitude valence, confidence in one's thoughts, and objective truth.",
+      "claim_ids": [
+        "CLM-S3C6-021"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Belief Strength directly from a single platform metric or copy outcome.",
+        "Do not treat Belief Strength as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N01-02",
+      "label": "Attitude Valence",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M01",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Direction and degree of positive versus negative evaluation of an attitude object.",
+      "mechanism_summary": "Valence alone does not capture certainty, accessibility, ambivalence, or behavioral consistency.",
+      "claim_ids": [
+        "CLM-S3C6-022"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Attitude Valence directly from a single platform metric or copy outcome.",
+        "Do not treat Attitude Valence as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N01-03",
+      "label": "Attitude Accessibility",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M01",
+      "role_tags": [
+        "Receiver mechanism"
+      ],
+      "definition": "Ease or speed with which an attitude is activated from memory when the attitude object is encountered.",
+      "mechanism_summary": "Accessibility is an attitude-strength property and should not be inferred solely from extremity or repeated exposure.",
+      "claim_ids": [
+        "CLM-S3C6-023"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Attitude Accessibility directly from a single platform metric or copy outcome.",
+        "Do not treat Attitude Accessibility as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N04-02",
+      "label": "Evidence Quality",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C5",
+      "parent_id": "C5-M04",
+      "role_tags": [
+        "Receiver/evaluation mechanism"
+      ],
+      "definition": "Perceived and/or normatively assessed quality of evidence offered in support of a claim.",
+      "mechanism_summary": "Evidence quality is multidimensional; runtime must distinguish source credibility, diagnosticity, methodological quality, and logical relevance.",
+      "claim_ids": [
+        "CLM-S3C6-024"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C6-001"
+      ],
+      "failure_modes": [
+        "Do not infer Evidence Quality directly from a single platform metric or copy outcome.",
+        "Do not treat Evidence Quality as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [
+        "Requires deeper construct/measurement validation before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C5-N06-02",
+      "label": "Thought Confidence",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M06",
+      "role_tags": [
+        "Receiver metacognitive mechanism"
+      ],
+      "definition": "Confidence a person has in the validity or correctness of their own message-relevant thoughts.",
+      "mechanism_summary": "Thought confidence validates whichever thoughts dominate: confidence in positive thoughts can increase persuasion, while confidence in negative thoughts can decrease it.",
+      "claim_ids": [
+        "CLM-S3C6-025"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Thought Confidence directly from a single platform metric or copy outcome.",
+        "Do not treat Thought Confidence as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N01-01",
+      "label": "Denotative Meaning",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M01",
+      "role_tags": [
+        "Language construct"
+      ],
+      "definition": "Core conventional referential or conceptual content associated with a lexical expression in context.",
+      "mechanism_summary": "Denotation does not exhaust pragmatic, connotative, affective, or discourse meaning.",
+      "claim_ids": [
+        "CLM-S3C6-026"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Denotative Meaning directly from a single platform metric or copy outcome.",
+        "Do not treat Denotative Meaning as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N01-02",
+      "label": "Connotative Meaning",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M01",
+      "role_tags": [
+        "Language construct"
+      ],
+      "definition": "Associated evaluative, affective, social, or culturally learned meanings carried beyond narrow denotative content.",
+      "mechanism_summary": "Connotation is context- and community-sensitive and should not be assumed universal across audiences.",
+      "claim_ids": [
+        "CLM-S3C6-027"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Connotative Meaning directly from a single platform metric or copy outcome.",
+        "Do not treat Connotative Meaning as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N02-01",
+      "label": "Syntactic Complexity",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M02",
+      "role_tags": [
+        "Language-processing construct"
+      ],
+      "definition": "Structural complexity of sentence syntax that can alter parsing and integration demands.",
+      "mechanism_summary": "Syntactic complexity is one contributor to processing demand and cannot be reduced to sentence length.",
+      "claim_ids": [
+        "CLM-S3C6-028"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Syntactic Complexity directly from a single platform metric or copy outcome.",
+        "Do not treat Syntactic Complexity as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N04-01",
+      "label": "Conversational Implicature",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M04",
+      "role_tags": [
+        "Pragmatic construct"
+      ],
+      "definition": "Context-dependent inferred meaning conveyed beyond what is explicitly encoded in the literal sentence.",
+      "mechanism_summary": "Implicatures are defeasible and depend on context, common ground, communicative assumptions, and alternatives.",
+      "claim_ids": [
+        "CLM-S3C6-029"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Conversational Implicature directly from a single platform metric or copy outcome.",
+        "Do not treat Conversational Implicature as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N06-01",
+      "label": "Local Discourse Coherence",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M06",
+      "role_tags": [
+        "Discourse construct"
+      ],
+      "definition": "Degree to which adjacent or nearby discourse units form interpretable semantic/pragmatic relations that support a connected representation.",
+      "mechanism_summary": "Local coherence supports comprehension but is distinct from global discourse organization and factual consistency.",
+      "claim_ids": [
+        "CLM-S3C6-030"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Local Discourse Coherence directly from a single platform metric or copy outcome.",
+        "Do not treat Local Discourse Coherence as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N01-02",
+      "label": "Premise Support",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M01",
+      "role_tags": [
+        "Message-design construct"
+      ],
+      "definition": "Degree to which reasons or premises offered in a message provide relevant support for the advocated claim.",
+      "mechanism_summary": "Premise support is an argument-design property; receiver-side acceptance and argument quality remain separate C5 processes.",
+      "claim_ids": [
+        "CLM-S3C6-031"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C6-002"
+      ],
+      "failure_modes": [
+        "Do not infer Premise Support directly from a single platform metric or copy outcome.",
+        "Do not treat Premise Support as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [
+        "Requires deeper construct/measurement validation before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C7-N01-03",
+      "label": "Evidence–Claim Linkage",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M01",
+      "role_tags": [
+        "Message-design construct"
+      ],
+      "definition": "Explicitness and defensibility of the inferential link between presented evidence and the claim it is intended to support.",
+      "mechanism_summary": "A strong-looking evidence block does not support a claim if the inferential linkage is weak or mismatched.",
+      "claim_ids": [
+        "CLM-S3C6-032"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C6-002"
+      ],
+      "failure_modes": [
+        "Do not infer Evidence–Claim Linkage directly from a single platform metric or copy outcome.",
+        "Do not treat Evidence–Claim Linkage as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [
+        "Requires deeper construct/measurement validation before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C7-N01-04",
+      "label": "Argument Warrant",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M01",
+      "role_tags": [
+        "Message-design construct"
+      ],
+      "definition": "Rule, assumption, or inferential bridge that licenses movement from premises/evidence to a conclusion.",
+      "mechanism_summary": "Warrants can be implicit; this node is retained as a rhetoric/argumentation design construct pending deeper argumentation-science evidence.",
+      "claim_ids": [
+        "CLM-S3C6-033"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C6-002"
+      ],
+      "failure_modes": [
+        "Do not infer Argument Warrant directly from a single platform metric or copy outcome.",
+        "Do not treat Argument Warrant as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [
+        "Requires deeper construct/measurement validation before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C7-N03-03",
+      "label": "Narrative Coherence",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M03",
+      "role_tags": [
+        "Message/narrative construct"
+      ],
+      "definition": "Degree to which narrative events, goals, causal relations, and character actions form an intelligible and connected story representation.",
+      "mechanism_summary": "Narrative coherence supports narrative processing but is not equivalent to transportation or identification.",
+      "claim_ids": [
+        "CLM-S3C6-034"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Narrative Coherence directly from a single platform metric or copy outcome.",
+        "Do not treat Narrative Coherence as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N05-02",
+      "label": "Analogy / Cross-Domain Mapping",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M05",
+      "role_tags": [
+        "Message-design construct"
+      ],
+      "definition": "Deliberate mapping of relational structure from a source domain to a target concept to aid explanation, organization, or persuasion.",
+      "mechanism_summary": "Metaphor evidence suggests small context-dependent persuasive advantages, but analogy is broader than metaphor and remains provisional as a separate copywriting design node.",
+      "claim_ids": [
+        "CLM-S3C6-035"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C6-003"
+      ],
+      "failure_modes": [
+        "Do not infer Analogy / Cross-Domain Mapping directly from a single platform metric or copy outcome.",
+        "Do not treat Analogy / Cross-Domain Mapping as a universal effect independent of context and boundary conditions."
+      ],
+      "open_questions": [
+        "Requires deeper construct/measurement validation before strong runtime use."
+      ],
+      "version": "0.3.0"
     }
   ]
 }
