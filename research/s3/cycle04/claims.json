@@ -1,0 +1,415 @@
+{
+  "version": "1.0.0",
+  "claims": [
+    {
+      "id": "CLM-S3C4-001",
+      "statement": "Attention during encoding materially shapes later memory, so message encoding should be separated from later retrieval and recognition processes.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N05-01"
+      ],
+      "source_ids": [
+        "SRC-C1-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-002",
+      "statement": "Active goals and beliefs about goals are central organizing constructs in motivation and self-regulation research.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N01-02"
+      ],
+      "source_ids": [
+        "SRC-C2-001",
+        "SRC-C2-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-003",
+      "statement": "Regulatory focus distinguishes promotion concerns with advancement and growth from prevention concerns with safety and security.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N02-03"
+      ],
+      "source_ids": [
+        "SRC-C2-007"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-004",
+      "statement": "Affective forecasting is the prediction of how a future decision or outcome will make a person feel, and is distinct from current affect and affective attitude.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N06-02"
+      ],
+      "source_ids": [
+        "SRC-C2-008"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-005",
+      "statement": "Goal persistence is a core component of self-regulation, but effective regulation may also require timely disengagement when a goal becomes inappropriate or unattainable.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C2-N07-02"
+      ],
+      "source_ids": [
+        "SRC-C2-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-006",
+      "statement": "Impression management comprises deliberate or strategic efforts to influence how one is perceived by others and includes distinguishable tactics such as self-promotion and ingratiation.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N04-03"
+      ],
+      "source_ids": [
+        "SRC-C3-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-007",
+      "statement": "Compliance is social influence in which behavior changes in response to a direct or indirect request, and is distinct from conformity to group norms.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N05-02"
+      ],
+      "source_ids": [
+        "SRC-C3-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-008",
+      "statement": "Reciprocity is a recognized social-influence principle, but its effect depends on interaction context and should not be represented as an automatic obligation.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C3-N06-01"
+      ],
+      "source_ids": [
+        "SRC-C3-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-009",
+      "statement": "Consensus or popularity information can function as a social cue, but applied 'social proof' overlaps descriptive-norm information and requires construct-specific interpretation.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C3-N07-01"
+      ],
+      "source_ids": [
+        "SRC-C3-002",
+        "SRC-REUSE-TR-001"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C4-010",
+      "statement": "Threats to belonging produced by ostracism or exclusion can motivate attempts to restore relational needs, showing that belonging is a fundamental social-motivational construct rather than a mere preference.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N08-01"
+      ],
+      "source_ids": [
+        "SRC-C3-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-011",
+      "statement": "The recognition heuristic is an example of an information-simplifying heuristic whose usefulness depends on the structure of the environment rather than being intrinsically irrational.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N01-01"
+      ],
+      "source_ids": [
+        "SRC-C4-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-012",
+      "statement": "Making one option the default systematically affects choice on average, while effect magnitude varies substantially with context and underlying channels.",
+      "claim_type": "causal",
+      "stance": "bounds",
+      "target_ids": [
+        "C4-N04-01"
+      ],
+      "source_ids": [
+        "SRC-C4-005"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C4-013",
+      "statement": "Temporal discounting represents reduced valuation of outcomes as delay increases, while intertemporal choice also exhibits context-dependent biases such as present bias.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N05-01"
+      ],
+      "source_ids": [
+        "SRC-C4-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-014",
+      "statement": "Numeric anchoring is a robust judgment effect in which exposure to a comparison value shifts subsequent numerical judgment, but effect size varies strongly by anchor type, incentives and debiasing conditions.",
+      "claim_type": "causal",
+      "stance": "bounds",
+      "target_ids": [
+        "C4-N07-01"
+      ],
+      "source_ids": [
+        "SRC-C4-007"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C4-015",
+      "statement": "Effort often functions as a subjective decision cost, but effort can also add value in some contexts; effort should therefore not be modeled as uniformly negative.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C4-N08-01"
+      ],
+      "source_ids": [
+        "SRC-C4-008"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-016",
+      "statement": "Message elaboration refers to thoughtful processing of persuasive content and moderates the relative impact of argument strength and simpler source/context cues.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N02-05"
+      ],
+      "source_ids": [
+        "SRC-C5-002",
+        "SRC-C5-009"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C4-017",
+      "statement": "Argument strength or quality has greater persuasive impact under more elaborative processing, although operational definitions of argument quality require care.",
+      "claim_type": "moderation",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N04-01"
+      ],
+      "source_ids": [
+        "SRC-C5-009",
+        "SRC-C7-005"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C4-018",
+      "statement": "Psychological reactance is a response to perceived freedom threat and can be represented through intertwined anger and negative/counterarguing cognitions.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N05-02"
+      ],
+      "source_ids": [
+        "SRC-C5-008"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C4-019",
+      "statement": "Attitude certainty is an attitude-strength dimension distinct from simple attitude valence and can affect resistance and attitude-behavior relations.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N06-01"
+      ],
+      "source_ids": [
+        "SRC-C5-001",
+        "SRC-C5-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-020",
+      "statement": "Claim verifiability is operationally useful for copy evaluation, but current project evidence does not yet justify treating it as one unitary psychological construct or assigning it a universal persuasion effect.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N07-02"
+      ],
+      "source_ids": [
+        "SRC-C5-004",
+        "SRC-C5-005"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C4-021",
+      "statement": "Lexical ambiguity/polysemy is resolved through language-processing mechanisms that integrate lexical information with sentence and discourse context.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N01-03"
+      ],
+      "source_ids": [
+        "SRC-C6-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-022",
+      "statement": "Sentence comprehension requires incremental construction and revision of syntactic structure under memory and contextual constraints.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N02-05"
+      ],
+      "source_ids": [
+        "SRC-C6-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-023",
+      "statement": "Presuppositions interact with discourse context and intra-sentential linguistic structure and have a distinct experimental pragmatics literature.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N04-03"
+      ],
+      "source_ids": [
+        "SRC-C6-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-024",
+      "statement": "Linguistic predictability can influence processing difficulty, while surprisal is one formal account whose predictions and limits require empirical evaluation.",
+      "claim_type": "mechanistic",
+      "stance": "bounds",
+      "target_ids": [
+        "C6-N05-05"
+      ],
+      "source_ids": [
+        "SRC-C6-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-025",
+      "statement": "Information structure and focus are interpreted relative to the evolving discourse question/context, linking utterance form to what information is treated as at issue.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N08-01"
+      ],
+      "source_ids": [
+        "SRC-C6-007"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-026",
+      "statement": "Argument structure can be analyzed in terms of how claims are supported by reasons/evidence, but project evidence remains insufficient to reduce all argument quality to one structural feature.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N01-01"
+      ],
+      "source_ids": [
+        "SRC-C7-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-027",
+      "statement": "Emotional appeals form a distinct message-design family with heterogeneous effects across appeal types and contexts rather than one universally superior rhetorical strategy.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N02-02"
+      ],
+      "source_ids": [
+        "SRC-C7-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C4-028",
+      "statement": "Message-order effects can depend on the temporal relation between argument content and source/discounting cues; current evidence does not justify a universal primacy or recency rule for copywriting.",
+      "claim_type": "moderation",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N04-05"
+      ],
+      "source_ids": [
+        "SRC-C7-008"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C4-029",
+      "statement": "Comparative message structures differ systematically from noncomparative advertising and can affect attention, processing, attitudes and behavior, while also producing credibility trade-offs.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N05-03"
+      ],
+      "source_ids": [
+        "SRC-C7-007"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C4-030",
+      "statement": "Suspense is a narrative anticipation/tension construct linked to uncertainty and enjoyment, but evidence is not yet sufficient to generalize suspense effects to nonnarrative commercial copy.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N07-02"
+      ],
+      "source_ids": [
+        "SRC-C7-009"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C4-031",
+      "statement": "Action-request wording can alter compliance in some contexts, but a universal CTA wording rule is not justified by the current evidence.",
+      "claim_type": "causal",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N08-02"
+      ],
+      "source_ids": [
+        "SRC-C7-010",
+        "SRC-C3-002"
+      ],
+      "status": "verified_for_provisional"
+    }
+  ]
+}

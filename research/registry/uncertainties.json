@@ -125,6 +125,42 @@
       "reducibility": "retrieval",
       "resolution_requirement": "Focused source-reliability literature review before acceptance.",
       "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C4-001",
+      "channel": "construct",
+      "target_ids": [
+        "C5-N07-02"
+      ],
+      "level": "high",
+      "reason": "Claim verifiability is an applied property spanning evidence evaluation, credibility and observability rather than an established unitary latent construct.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Review evidence/claim verification and product-demonstration research; split if multiple mechanisms emerge.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C4-002",
+      "channel": "transport_context",
+      "target_ids": [
+        "C7-N07-02"
+      ],
+      "level": "high",
+      "reason": "Suspense evidence is primarily narrative/entertainment-oriented; transport to short-form commercial copy is uncertain.",
+      "reducibility": "experiment",
+      "resolution_requirement": "Require copy/message experiments before strong runtime recommendation.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C4-003",
+      "channel": "transport_context",
+      "target_ids": [
+        "C7-N08-02"
+      ],
+      "level": "medium",
+      "reason": "Direct request wording effects are context-dependent and interact with compliance, norms, authority and friction.",
+      "reducibility": "experiment",
+      "resolution_requirement": "Calibrate by channel/action type rather than universal CTA rule.",
+      "blocks_gate": false
     }
   ]
 }

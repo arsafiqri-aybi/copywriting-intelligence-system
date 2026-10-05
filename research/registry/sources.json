@@ -974,6 +974,474 @@
       ],
       "status": "screened_in",
       "reuse_provenance": "arsafiqri-aybi/social-media-growth research/evidence_registry.json EV-TRUST-001 and R2 node audit"
+    },
+    {
+      "id": "SRC-C2-006",
+      "title": "Persistence and Disengagement in Personal Goal Pursuit",
+      "authors": [
+        "Veronika Brandstätter",
+        "Katharina Bernecker"
+      ],
+      "year": 2022,
+      "evidence_class": "review",
+      "domain": [
+        "C2"
+      ],
+      "doi": "10.1146/annurev-psych-020821-110710",
+      "url": "https://doi.org/10.1146/annurev-psych-020821-110710",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "goal_persistence",
+        "self_regulation"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C2-007",
+      "title": "Regulatory Focus and Fit Effects in Organizations",
+      "authors": [
+        "E. Tory Higgins",
+        "Federica Pinelli"
+      ],
+      "year": 2020,
+      "evidence_class": "review",
+      "domain": [
+        "C2"
+      ],
+      "doi": "10.1146/annurev-orgpsych-012119-045404",
+      "url": "https://doi.org/10.1146/annurev-orgpsych-012119-045404",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "promotion_prevention",
+        "regulatory_focus"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C2-008",
+      "title": "Interventions to Engage Affective Forecasting in Health-Related Decision Making: A Meta-Analysis",
+      "authors": [
+        "Erin M. Ellis",
+        "Glyn Elwyn",
+        "Wendy L. Nelson",
+        "Peter Scalia",
+        "Sarah C. Kobrin",
+        "Rebecca A. Ferrer"
+      ],
+      "year": 2018,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C2",
+        "C4"
+      ],
+      "doi": "10.1093/abm/kax024",
+      "url": "https://doi.org/10.1093/abm/kax024",
+      "retrieval_depth": "full_text_partial",
+      "role": [
+        "affective_forecasting",
+        "anticipated_affect",
+        "anticipated_regret"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C3-005",
+      "title": "Impression Management in Organizations: Critical Questions, Answers, and Areas for Future Research",
+      "authors": [
+        "Mark Bolino",
+        "David Long",
+        "William Turnley"
+      ],
+      "year": 2016,
+      "evidence_class": "review",
+      "domain": [
+        "C3"
+      ],
+      "doi": "10.1146/annurev-orgpsych-041015-062337",
+      "url": "https://doi.org/10.1146/annurev-orgpsych-041015-062337",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "impression_management",
+        "self_presentation"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C3-006",
+      "title": "Ostracism",
+      "authors": [
+        "Kipling D. Williams"
+      ],
+      "year": 2007,
+      "evidence_class": "review",
+      "domain": [
+        "C3"
+      ],
+      "doi": "10.1146/annurev.psych.58.110405.085641",
+      "url": "https://doi.org/10.1146/annurev.psych.58.110405.085641",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "belonging",
+        "social_exclusion"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C3-007",
+      "title": "Status Dynamics",
+      "authors": [
+        "Corinne Bendersky",
+        "Jieun Pai"
+      ],
+      "year": 2018,
+      "evidence_class": "review",
+      "domain": [
+        "C3"
+      ],
+      "doi": "10.1146/annurev-orgpsych-032117-104602",
+      "url": "https://doi.org/10.1146/annurev-orgpsych-032117-104602",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "status",
+        "reputation"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-005",
+      "title": "When and why defaults influence decisions: a meta-analysis of default effects",
+      "authors": [
+        "Jon M. Jachimowicz",
+        "Shannon Duncan",
+        "Elke U. Weber",
+        "Eric J. Johnson"
+      ],
+      "year": 2019,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1017/bpp.2018.43",
+      "url": "https://doi.org/10.1017/bpp.2018.43",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "default_effect",
+        "choice_architecture",
+        "heterogeneity"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-006",
+      "title": "Time's Influence: A Systematic Review of Biases in Intertemporal Decision-Making",
+      "authors": [
+        "Pelin Gülüm Taş",
+        "Yousef Maknoon",
+        "Jafar Rezaei"
+      ],
+      "year": 2026,
+      "evidence_class": "systematic_review",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1146/annurev-psych-091924-040158",
+      "url": "https://doi.org/10.1146/annurev-psych-091924-040158",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "intertemporal_choice",
+        "present_bias",
+        "temporal_discounting"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-007",
+      "title": "Fifty Years of Anchoring Effects: A Theoretical Reintegration and Meta-Analysis",
+      "authors": [
+        "Dan R. Schley",
+        "Evan Weingarten"
+      ],
+      "year": 2026,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1287/mnsc.2023.03238",
+      "url": "https://doi.org/10.1287/mnsc.2023.03238",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "anchoring",
+        "heterogeneity"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-008",
+      "title": "The Effort Paradox: Effort Is Both Costly and Valued",
+      "authors": [
+        "Michael Inzlicht",
+        "Amitai Shenhav",
+        "Christopher Y. Olivola"
+      ],
+      "year": 2018,
+      "evidence_class": "review",
+      "domain": [
+        "C2",
+        "C4"
+      ],
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6172040/",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "effort_cost",
+        "effort_value"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-008",
+      "title": "The Nature of Psychological Reactance Revisited: A Meta-Analytic Review",
+      "authors": [
+        "Stephen A. Rains"
+      ],
+      "year": 2013,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C5"
+      ],
+      "doi": "10.1111/j.1468-2958.2012.01443.x",
+      "url": "https://doi.org/10.1111/j.1468-2958.2012.01443.x",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "reactance",
+        "counterarguing",
+        "anger"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-009",
+      "title": "A Meta-Analysis of the ELM's Argument Quality × Processing Type Predictions",
+      "authors": [
+        "Christopher J. Carpenter"
+      ],
+      "year": 2015,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C5",
+        "C7"
+      ],
+      "doi": "10.1111/hcre.12054",
+      "url": "https://doi.org/10.1111/hcre.12054",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "argument_quality",
+        "elaboration"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-005",
+      "title": "Experimental Work in Presupposition and Presupposition Projection",
+      "authors": [
+        "Florian Schwarz"
+      ],
+      "year": 2016,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1146/annurev-linguistics-011415-040809",
+      "url": "https://doi.org/10.1146/annurev-linguistics-011415-040809",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "presupposition",
+        "experimental_pragmatics"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-006",
+      "title": "Predictability in Language Comprehension: Prospects and Problems for Surprisal",
+      "authors": [
+        "Adrian Staub"
+      ],
+      "year": 2025,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1146/annurev-linguistics-011724-121517",
+      "url": "https://doi.org/10.1146/annurev-linguistics-011724-121517",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "predictability",
+        "surprisal",
+        "processing"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-007",
+      "title": "Questions Under Discussion: Where Information Structure Meets Projective Content",
+      "authors": [
+        "David I. Beaver",
+        "Craige Roberts",
+        "Mandy Simons",
+        "Judith Tonhauser"
+      ],
+      "year": 2017,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1146/annurev-linguistics-011516-033952",
+      "url": "https://doi.org/10.1146/annurev-linguistics-011516-033952",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "information_structure",
+        "focus",
+        "presupposition"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-005",
+      "title": "The Effects of Structural and Grammatical Variables on Persuasion: An Elaboration Likelihood Model Perspective",
+      "authors": [
+        "Charles S. Areni"
+      ],
+      "year": 2003,
+      "evidence_class": "review",
+      "domain": [
+        "C5",
+        "C7"
+      ],
+      "doi": "10.1002/mar.10077",
+      "url": "https://doi.org/10.1002/mar.10077",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "argument_structure",
+        "argument_quality"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-006",
+      "title": "Quantitative Evaluation of Persuasive Appeals Using Comparative Meta-Analysis",
+      "authors": [
+        "Jacob Hornik",
+        "Chezy Ofir",
+        "Matti Rachamim"
+      ],
+      "year": 2016,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C7",
+        "C2",
+        "C5"
+      ],
+      "doi": "10.1080/10714421.2016.1195204",
+      "url": "https://doi.org/10.1080/10714421.2016.1195204",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "message_appeals",
+        "moderation"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-007",
+      "title": "Comparative versus Noncomparative Advertising: A Meta-Analysis",
+      "authors": [
+        "Dhruv Grewal",
+        "Sukumar Kavanoor",
+        "Edward F. Fern",
+        "Carolyn Costley",
+        "James Barnes"
+      ],
+      "year": 1997,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C7",
+        "C5"
+      ],
+      "doi": "10.1177/002224299706100401",
+      "url": "https://doi.org/10.1177/002224299706100401",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "comparative_message",
+        "advertising"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-008",
+      "title": "The Sleeper Effect in Persuasion: A Meta-Analytic Review",
+      "authors": [
+        "G. Tarcan Kumkale",
+        "Dolores Albarracín"
+      ],
+      "year": 2004,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C5",
+        "C7"
+      ],
+      "doi": "10.1037/0033-2909.130.1.143",
+      "url": "https://doi.org/10.1037/0033-2909.130.1.143",
+      "retrieval_depth": "full_text_partial",
+      "role": [
+        "message_order",
+        "source_cue_order",
+        "persuasion_over_time"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-009",
+      "title": "Confronting a Paradox: A New Perspective of the Impact of Uncertainty in Suspense",
+      "authors": [
+        "Pablo Delatorre",
+        "Carlos León",
+        "Alberto Salguero",
+        "Manuel Palomo-Duarte",
+        "Pablo Gervás"
+      ],
+      "year": 2018,
+      "evidence_class": "review",
+      "domain": [
+        "C7",
+        "C2"
+      ],
+      "doi": "10.3389/fpsyg.2018.01392",
+      "url": "https://doi.org/10.3389/fpsyg.2018.01392",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "suspense",
+        "uncertainty",
+        "narrative_tension"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-010",
+      "title": "Prior behavior and wording of norm nudge requests shape compliance and reciprocity",
+      "authors": [],
+      "year": 2023,
+      "evidence_class": "field_experiment",
+      "domain": [
+        "C7",
+        "C3"
+      ],
+      "doi": "10.1002/bdm.2327",
+      "url": "https://doi.org/10.1002/bdm.2327",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "request_wording",
+        "compliance"
+      ],
+      "status": "screened_in"
     }
   ]
 }

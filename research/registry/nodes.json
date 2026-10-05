@@ -1392,6 +1392,645 @@
         "Best construct placement versus evidence-traceability module"
       ],
       "version": "0.2.0"
+    },
+    {
+      "id": "C1-N05-01",
+      "label": "Attentional Encoding",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M05",
+      "definition": "Encoding of information into memory under selective attentional allocation.",
+      "mechanism_summary": "Attention at encoding changes which information is available for later memory; later recall/recognition additionally depends on retrieval processes.",
+      "claim_ids": [
+        "CLM-S3C4-001"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating exposure as encoding",
+        "Treating recall failure as proof of no attention"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N01-02",
+      "label": "Active Goal Representation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M01",
+      "definition": "A currently relevant desired state or outcome represented as an organizing target for cognition and action.",
+      "mechanism_summary": "Active goals organize attention, valuation, effort and self-regulation.",
+      "claim_ids": [
+        "CLM-S3C4-002"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Inferring active goals solely from demographics"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N02-03",
+      "label": "Promotion Focus",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M02",
+      "definition": "Regulatory orientation centered on advancement, growth and accomplishment.",
+      "mechanism_summary": "Promotion-focused concerns change sensitivity to advancement/gain-relevant means and can interact with message framing/fit.",
+      "claim_ids": [
+        "CLM-S3C4-003"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating promotion focus with positive mood",
+        "Assuming regulatory fit always improves objective decision quality"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N06-02",
+      "label": "Affective Forecasting",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M06",
+      "definition": "Prediction of one's future emotional response to a prospective event, decision, or outcome.",
+      "mechanism_summary": "Predicted future feelings can guide decisions, but forecasts can be biased and are distinct from current affect.",
+      "claim_ids": [
+        "CLM-S3C4-004"
+      ],
+      "measurement_ids": [
+        "MEAS-C2-005"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating anticipated affect with current affect",
+        "Assuming forecasts are accurate"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N07-02",
+      "label": "Goal Persistence",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M07",
+      "definition": "Continued allocation of effort and action toward a goal across time or obstacles.",
+      "mechanism_summary": "Persistence is a central self-regulatory process, but adaptive regulation can also require disengagement.",
+      "claim_ids": [
+        "CLM-S3C4-005"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating persistence as universally adaptive"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N04-03",
+      "label": "Impression Management",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M04",
+      "definition": "Attempts to influence the impressions that others form about the self or actor.",
+      "mechanism_summary": "Self-presentation tactics can shape social evaluation but vary by tactic, audience and context.",
+      "claim_ids": [
+        "CLM-S3C4-006"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating all self-presentation with deception"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N05-02",
+      "label": "Compliance",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M05",
+      "definition": "Behavioral change or action in response to a request or social influence attempt.",
+      "mechanism_summary": "Compliance is request-linked social influence and differs from conformity to group behavior or norms.",
+      "claim_ids": [
+        "CLM-S3C4-007"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Confusing compliance with agreement or attitude change"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N06-01",
+      "label": "Reciprocity Norm",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M06",
+      "definition": "Social expectation that benefits, concessions, or favorable treatment may call for an appropriate return.",
+      "mechanism_summary": "Reciprocity can shape compliance and exchange but is conditional on context and perceived intent.",
+      "claim_ids": [
+        "CLM-S3C4-008"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating gifts as automatic obligations",
+        "Ignoring manipulation recognition"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N07-01",
+      "label": "Descriptive Consensus / Social-Proof Cue",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C3",
+      "parent_id": "C3-M07",
+      "definition": "Applied social cue conveying that many relevant others endorse, choose, or attend to an option.",
+      "mechanism_summary": "Consensus cues can inform social inference, but overlap with descriptive norms and source-credibility cues.",
+      "claim_ids": [
+        "CLM-S3C4-009"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S1-004"
+      ],
+      "failure_modes": [
+        "Equating popularity with truth",
+        "Duplicating descriptive norm as a new construct"
+      ],
+      "version": "0.2.0"
+    },
+    {
+      "id": "C3-N08-01",
+      "label": "Need to Belong",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M08",
+      "definition": "Motivational need to establish and maintain meaningful social bonds and avoid exclusion.",
+      "mechanism_summary": "Threats to belonging can produce compensatory relational or control-oriented responses.",
+      "claim_ids": [
+        "CLM-S3C4-010"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming every social action is belonging-driven"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N01-01",
+      "label": "Recognition Heuristic",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M01",
+      "definition": "A heuristic that can use recognition of one alternative and nonrecognition of another as a cue for inference under suitable environmental structures.",
+      "mechanism_summary": "Simple heuristics can be adaptive when their cue structure matches the environment.",
+      "claim_ids": [
+        "CLM-S3C4-011"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating recognition as always valid",
+        "Generalizing beyond environments where recognition correlates with criterion"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N04-01",
+      "label": "Default Effect",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M04",
+      "definition": "Change in choice probability produced by preselecting or designating one option as the default.",
+      "mechanism_summary": "Defaults influence choice through multiple possible channels and exhibit substantial contextual heterogeneity.",
+      "claim_ids": [
+        "CLM-S3C4-012"
+      ],
+      "measurement_ids": [
+        "MEAS-C4-001"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming defaults always increase uptake",
+        "Treating default effect size as universal"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N05-01",
+      "label": "Temporal Discounting",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M05",
+      "definition": "Reduction in the subjective value of outcomes as their delay increases.",
+      "mechanism_summary": "Intertemporal valuation depends on delay and can display present bias and other time-related distortions.",
+      "claim_ids": [
+        "CLM-S3C4-013"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating temporal discounting with impatience as a stable trait"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N07-01",
+      "label": "Numeric Anchoring Effect",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M07",
+      "definition": "Shift in a numerical judgment toward a previously encountered comparison value or anchor.",
+      "mechanism_summary": "Anchors can strongly affect judgment but effects vary by relevance, dimension, incentives and debiasing.",
+      "claim_ids": [
+        "CLM-S3C4-014"
+      ],
+      "measurement_ids": [
+        "MEAS-C4-002"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating any first number as an effective anchor",
+        "Using meta-analytic average as a universal marketing coefficient"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N08-01",
+      "label": "Effort Cost",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M08",
+      "definition": "Subjective cost assigned to the effort required to obtain an outcome or complete an action.",
+      "mechanism_summary": "Effort commonly discounts value but may also increase value under some conditions.",
+      "claim_ids": [
+        "CLM-S3C4-015"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming lower effort is always preferred"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N02-05",
+      "label": "Message Elaboration Depth",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M02",
+      "definition": "Degree of thoughtful cognitive processing devoted to the merits, implications, and arguments of a persuasive message.",
+      "mechanism_summary": "Higher elaboration increases sensitivity to argument strength and changes the role of simpler cues.",
+      "claim_ids": [
+        "CLM-S3C4-016"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Inferring elaboration solely from time spent",
+        "Treating central/peripheral as mutually exclusive fixed routes"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N04-01",
+      "label": "Argument Strength / Quality",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M04",
+      "definition": "Degree to which message arguments generate favorable versus unfavorable issue-relevant cognitive responses under a specified evaluative standard.",
+      "mechanism_summary": "Strong-versus-weak argument effects are amplified under greater elaboration, but operationalization must be constructually explicit.",
+      "claim_ids": [
+        "CLM-S3C4-017"
+      ],
+      "measurement_ids": [
+        "MEAS-C5-003"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Labeling an argument strong because it won a pretest without analyzing why",
+        "Treating argument quality as context-free"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N05-02",
+      "label": "Psychological Reactance",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M05",
+      "definition": "Motivational-affective-cognitive response to a perceived threat to behavioral freedom.",
+      "mechanism_summary": "Freedom-threatening messages can evoke anger and counterarguing that undermine persuasion.",
+      "claim_ids": [
+        "CLM-S3C4-018"
+      ],
+      "measurement_ids": [
+        "MEAS-C5-004"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Calling any disagreement reactance",
+        "Ignoring baseline freedom relevance"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N06-01",
+      "label": "Attitude Certainty",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M06",
+      "definition": "Subjective confidence in the correctness, clarity, or validity of one's attitude.",
+      "mechanism_summary": "Certainty is an attitude-strength property that can affect persistence, resistance and behavior relations.",
+      "claim_ids": [
+        "CLM-S3C4-019"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S1-005"
+      ],
+      "failure_modes": [
+        "Equating certainty with extremity",
+        "Equating source confidence with attitude certainty"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N07-02",
+      "label": "Claim Verifiability",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C5",
+      "parent_id": "C5-M07",
+      "definition": "Degree to which a communicated claim can be checked against observable, traceable, or independently assessable evidence.",
+      "mechanism_summary": "Verifiability is operationally useful for proof architecture, but its psychological effects must be represented through evidence evaluation, trust and learning mechanisms rather than assumed directly.",
+      "claim_ids": [
+        "CLM-S3C4-020"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S1-006",
+        "UNC-S3C4-001"
+      ],
+      "failure_modes": [
+        "Treating verifiability as truth",
+        "Assuming verifiable claims automatically persuade"
+      ],
+      "version": "0.2.0"
+    },
+    {
+      "id": "C6-N01-03",
+      "label": "Lexical Ambiguity / Polysemy",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M01",
+      "definition": "Presence of multiple possible lexical senses or meanings requiring contextual resolution.",
+      "mechanism_summary": "Lexical interpretation integrates word-level information with syntactic, semantic and discourse context.",
+      "claim_ids": [
+        "CLM-S3C4-021"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating all ambiguity as stylistic creativity",
+        "Ignoring intended-audience lexical knowledge"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N02-05",
+      "label": "Sentence Parsing Load",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M02",
+      "definition": "Processing demand associated with constructing and revising syntactic structure during sentence comprehension.",
+      "mechanism_summary": "Parsing depends on structural and lexical/contextual information under memory constraints.",
+      "claim_ids": [
+        "CLM-S3C4-022"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating sentence length with parsing load"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N04-03",
+      "label": "Presupposition",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M04",
+      "definition": "Backgrounded proposition or content conventionally/pragmatically treated as already in the discourse context under particular linguistic triggers.",
+      "mechanism_summary": "Presupposition interpretation interacts with discourse context, embedding and projection.",
+      "claim_ids": [
+        "CLM-S3C4-023"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming all readers accept a presupposition",
+        "Using presupposition to hide unsupported factual claims"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N05-05",
+      "label": "Linguistic Predictability / Surprisal",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M05",
+      "definition": "Degree to which upcoming linguistic material is expected given preceding context, with surprisal formalizing information associated with unexpected continuations.",
+      "mechanism_summary": "Predictability can alter online processing difficulty, while formal surprisal models have empirical limits and should not be equated with curiosity.",
+      "claim_ids": [
+        "CLM-S3C4-024"
+      ],
+      "measurement_ids": [
+        "MEAS-C6-001"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating surprisal as attention or interest",
+        "Assuming unpredictability always improves copy"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N08-01",
+      "label": "Information Structure / Focus",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M08",
+      "definition": "Organization of utterance content according to what is at issue, foregrounded, given, new, focused, or backgrounded in discourse.",
+      "mechanism_summary": "Interpretation of focus and projective content depends on discourse structure such as the current question under discussion.",
+      "claim_ids": [
+        "CLM-S3C4-025"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S1-007"
+      ],
+      "failure_modes": [
+        "Equating visual emphasis with linguistic focus"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N01-01",
+      "label": "Claim–Support Argument Structure",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M01",
+      "definition": "Rhetorical organization in which a claim is supported by reasons, evidence, or warrants that make the inferential relation inspectable.",
+      "mechanism_summary": "Argument structure determines how support is organized, while receiver-side argument evaluation belongs primarily to C5.",
+      "claim_ids": [
+        "CLM-S3C4-026"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating structure alone as sufficient for truth or persuasion"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N02-02",
+      "label": "Emotional Appeal",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M02",
+      "definition": "Deliberate message design intended to evoke or leverage emotion as part of persuasion.",
+      "mechanism_summary": "Emotional appeals are heterogeneous by emotion and context; they feed C2 affect and C5 persuasion rather than constituting an emotion themselves.",
+      "claim_ids": [
+        "CLM-S3C4-027"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating 'emotional' as one mechanism",
+        "Assuming emotional appeals universally outperform rational appeals"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N04-05",
+      "label": "Information Sequence",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M04",
+      "definition": "Deliberate ordering of claims, evidence, cues, disclosures, or other message elements over the course of communication.",
+      "mechanism_summary": "Order can alter processing and later judgment in bounded settings, but no universal primacy/recency rule is accepted.",
+      "claim_ids": [
+        "CLM-S3C4-028"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S1-008"
+      ],
+      "failure_modes": [
+        "Applying primacy/recency as universal copy formulas"
+      ],
+      "version": "0.2.0"
+    },
+    {
+      "id": "C7-N05-03",
+      "label": "Comparative Message Structure",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M05",
+      "definition": "Message architecture that explicitly or implicitly contrasts the advocated option with one or more alternatives.",
+      "mechanism_summary": "Comparative structure can alter attention, processing and evaluation while creating possible source-believability trade-offs.",
+      "claim_ids": [
+        "CLM-S3C4-029"
+      ],
+      "measurement_ids": [
+        "MEAS-C7-001"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming comparison always improves persuasion",
+        "Ignoring credibility/legal/factual constraints"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N07-02",
+      "label": "Narrative Suspense",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M07",
+      "definition": "Narrative tension characterized by anticipation about uncertain consequential outcomes.",
+      "mechanism_summary": "Suspense can shape anticipation and immersion in narrative contexts; transport to nonnarrative copy remains uncertain.",
+      "claim_ids": [
+        "CLM-S3C4-030"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C4-002"
+      ],
+      "failure_modes": [
+        "Calling any unanswered question suspense",
+        "Assuming suspense improves conversion"
+      ],
+      "version": "0.2.0"
+    },
+    {
+      "id": "C7-N08-02",
+      "label": "Direct Action Request",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M08",
+      "definition": "Explicit linguistic request for the recipient to perform a specified action.",
+      "mechanism_summary": "Request presence and wording can influence compliance under some conditions, but CTA effectiveness depends on social, motivational and friction mechanisms.",
+      "claim_ids": [
+        "CLM-S3C4-031"
+      ],
+      "measurement_ids": [
+        "MEAS-C7-002"
+      ],
+      "uncertainty_ids": [
+        "UNC-S3C4-003"
+      ],
+      "failure_modes": [
+        "Treating a CTA phrase as a universal conversion mechanism"
+      ],
+      "version": "0.2.0"
     }
   ]
 }

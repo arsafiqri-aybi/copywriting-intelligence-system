@@ -1,0 +1,184 @@
+{
+  "version": "1.0.0",
+  "records": [
+    {
+      "id": "MEAS-C2-005",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "anticipated affect/regret rating tied to a specified future outcome or behavior",
+      "target_ids": [
+        "C2-N06-02"
+      ],
+      "alternative_explanations": [
+        "current affect",
+        "affective attitude",
+        "demand effects"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C4-004"
+      ],
+      "reliability": null,
+      "population_scope": "decision/health studies",
+      "channel_scope": null,
+      "ambiguity": "Forecasted emotion is not experienced future emotion and can be systematically inaccurate.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C4-001",
+      "measurement_kind": "direct_behavior",
+      "observed_variable": "choice share under randomized default versus nondefault assignment",
+      "target_ids": [
+        "C4-N04-01"
+      ],
+      "alternative_explanations": [
+        "endorsement inference",
+        "status quo/endowment",
+        "effort/friction"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C4-012"
+      ],
+      "reliability": null,
+      "population_scope": "choice experiments/field studies",
+      "channel_scope": null,
+      "ambiguity": "Observed default effect identifies a choice-architecture effect but not a unique psychological channel.",
+      "calibration_state": "validated_for_scope",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C4-002",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "numeric judgment difference under randomized high versus low anchor",
+      "target_ids": [
+        "C4-N07-01"
+      ],
+      "alternative_explanations": [
+        "informational relevance",
+        "demand inference",
+        "scale effects"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C4-014"
+      ],
+      "reliability": null,
+      "population_scope": "numeric judgment tasks",
+      "channel_scope": null,
+      "ambiguity": "Effect magnitude depends strongly on anchor source/type and task conditions.",
+      "calibration_state": "validated_for_scope",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C5-003",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "attitude/judgment response to pretested strong versus weak arguments under controlled elaboration conditions",
+      "target_ids": [
+        "C5-N04-01",
+        "C5-N02-05"
+      ],
+      "alternative_explanations": [
+        "topic knowledge",
+        "source cues",
+        "argument operationalization"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C4-016",
+        "CLM-S3C4-017"
+      ],
+      "reliability": null,
+      "population_scope": "persuasion experiments",
+      "channel_scope": null,
+      "ambiguity": "Strong/weak labels require defensible operationalization; outcome difference does not alone define logical quality.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C5-004",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "anger plus negative/counterarguing cognitions after freedom-threat manipulation",
+      "target_ids": [
+        "C5-N05-02"
+      ],
+      "alternative_explanations": [
+        "general negative affect",
+        "message disagreement"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C4-018"
+      ],
+      "reliability": null,
+      "population_scope": "persuasive-message reactance studies",
+      "channel_scope": null,
+      "ambiguity": "Reactance requires freedom-threat interpretation; disagreement alone is insufficient.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C6-001",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "reading-time and/or N400 response as a function of contextual word predictability/surprisal",
+      "target_ids": [
+        "C6-N05-05"
+      ],
+      "alternative_explanations": [
+        "word frequency",
+        "semantic integration difficulty",
+        "syntactic complexity"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C4-024"
+      ],
+      "reliability": null,
+      "population_scope": "language comprehension studies",
+      "channel_scope": null,
+      "ambiguity": "Surprisal/predictability effects are processing measures, not direct measures of curiosity, persuasion, or attention.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C7-001",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "randomized comparative versus noncomparative message outcomes such as attention, processing, attitude, intention or behavior",
+      "target_ids": [
+        "C7-N05-03"
+      ],
+      "alternative_explanations": [
+        "claim content",
+        "brand familiarity",
+        "source credibility"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C4-029"
+      ],
+      "reliability": null,
+      "population_scope": "advertising studies",
+      "channel_scope": "advertising",
+      "ambiguity": "Comparative format effects vary by outcome and may include credibility costs.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C7-002",
+      "measurement_kind": "direct_behavior",
+      "observed_variable": "behavioral compliance under randomized request/no-request or request-wording conditions",
+      "target_ids": [
+        "C7-N08-02",
+        "C3-N05-02"
+      ],
+      "alternative_explanations": [
+        "norm salience",
+        "reciprocity",
+        "authority",
+        "friction"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C4-031"
+      ],
+      "reliability": null,
+      "population_scope": "request/compliance experiments",
+      "channel_scope": null,
+      "ambiguity": "A wording effect does not identify a universal CTA mechanism and may depend on social context.",
+      "calibration_state": "partially_validated",
+      "status": "provisional"
+    }
+  ]
+}
