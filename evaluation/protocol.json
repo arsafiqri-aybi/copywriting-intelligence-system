@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "set_rules": {
+    "development": "May be inspected and used to improve implementation.",
+    "regression": "Frozen known-failure cases; changes must not regress these protections.",
+    "adversarial": "Frozen stress cases; critical-gate pass must be 100%.",
+    "holdout": "Frozen tuning_prohibited cases. Do not use case-specific failures to tune before reporting the holdout result; fixes after a holdout failure require a new holdout version."
+  },
+  "evaluator_order": [
+    "deterministic structural checks",
+    "critical factual/evidence/causal checks",
+    "rubric-based qualitative judge",
+    "pairwise baseline comparison where applicable",
+    "human/external review for release-critical copy when available"
+  ],
+  "anti_leakage": [
+    "Do not include holdout-specific answer keys in runtime prompts.",
+    "Do not add case-specific rules solely to make a holdout pass.",
+    "Version any changed holdout set and preserve the previous result.",
+    "Regression cases may encode previously discovered failures; holdout cases may not be converted into regression until after the frozen evaluation is reported."
+  ],
+  "baseline_families": [
+    "generic ungrounded copy",
+    "formula-first copy (e.g., rigid AIDA/PAS execution)",
+    "mechanism-aware system"
+  ],
+  "evaluation_note": "Pairwise human/model judgments are secondary to critical factual/evidence gates; a more persuasive-sounding output fails if it violates truth/evidence constraints."
+}

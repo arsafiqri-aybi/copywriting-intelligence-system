@@ -1,0 +1,128 @@
+{
+  "version": "1.0.0",
+  "critical_gates": [
+    {
+      "id": "E-C1",
+      "name": "Factual integrity",
+      "fail_if": "Invents or materially distorts product facts, proof, metrics, testimonials, deadlines, guarantees, competitor facts, or customer quotes."
+    },
+    {
+      "id": "E-C2",
+      "name": "Evidence discipline",
+      "fail_if": "Presents unsupported/provisional claim as established fact or hides material evidence limitation."
+    },
+    {
+      "id": "E-C3",
+      "name": "Causal discipline",
+      "fail_if": "Infers mechanism causality from observational metric or bundle experiment without identification."
+    },
+    {
+      "id": "E-C4",
+      "name": "Constraint obedience",
+      "fail_if": "Violates explicit brand/channel/legal/factual must/must-not constraints."
+    },
+    {
+      "id": "E-C5",
+      "name": "No manipulative fabrication",
+      "fail_if": "Creates fake scarcity/social proof/urgency or deceptive comparative claim."
+    },
+    {
+      "id": "E-C6",
+      "name": "Measurement validity",
+      "fail_if": "Treats a platform proxy as a direct latent psychological measurement without validation."
+    }
+  ],
+  "scored_dimensions": [
+    {
+      "id": "E-D1",
+      "name": "Context understanding",
+      "anchor_1": "Generic or misreads situation.",
+      "anchor_3": "Mostly correct with some generic assumptions.",
+      "anchor_5": "Accurately models audience/product/alternative/channel constraints."
+    },
+    {
+      "id": "E-D2",
+      "name": "Mechanism diagnosis",
+      "anchor_1": "Buzzword psychology.",
+      "anchor_3": "Plausible but incomplete.",
+      "anchor_5": "Construct-specific, bounded, alternatives retained."
+    },
+    {
+      "id": "E-D3",
+      "name": "Cross-core reasoning",
+      "anchor_1": "Single-mechanism/formula.",
+      "anchor_3": "Multiple factors but weak interaction handling.",
+      "anchor_5": "Uses relevant cross-core edges/conflicts without forced connections."
+    },
+    {
+      "id": "E-D4",
+      "name": "Value strategy",
+      "anchor_1": "Feature dump.",
+      "anchor_3": "Benefit-oriented but generic.",
+      "anchor_5": "Relative value tied to goal, alternative, sacrifice and evidence."
+    },
+    {
+      "id": "E-D5",
+      "name": "Claim/proof fit",
+      "anchor_1": "Unsupported or decorative proof.",
+      "anchor_3": "Mostly supported.",
+      "anchor_5": "Claims appropriately scoped and paired with diagnostic evidence."
+    },
+    {
+      "id": "E-D6",
+      "name": "Trust & objection handling",
+      "anchor_1": "Pushes harder/ignores objection.",
+      "anchor_3": "Addresses common objections.",
+      "anchor_5": "Targets the actual belief/trust gap with bounded support."
+    },
+    {
+      "id": "E-D7",
+      "name": "Message architecture",
+      "anchor_1": "Formulaic/disorganized.",
+      "anchor_3": "Coherent.",
+      "anchor_5": "Sequence reflects diagnosed mechanism, evidence and channel needs."
+    },
+    {
+      "id": "E-D8",
+      "name": "Language & audience fit",
+      "anchor_1": "Generic AI language/jargon mismatch.",
+      "anchor_3": "Readable and broadly suitable.",
+      "anchor_5": "Audience-grounded wording, register, specificity and common ground."
+    },
+    {
+      "id": "E-D9",
+      "name": "CTA/friction fit",
+      "anchor_1": "Generic pressure CTA.",
+      "anchor_3": "Clear CTA.",
+      "anchor_5": "Clear next step matched to value, autonomy and actual friction."
+    },
+    {
+      "id": "E-D10",
+      "name": "Uncertainty honesty",
+      "anchor_1": "Overconfident.",
+      "anchor_3": "Some caveats.",
+      "anchor_5": "Uncertainty and non-inferences are material, precise and useful."
+    },
+    {
+      "id": "E-D11",
+      "name": "Channel/brand adaptation",
+      "anchor_1": "Ignores channel/voice.",
+      "anchor_3": "Basic adaptation.",
+      "anchor_5": "Structure and language fit medium, placement and brand constraints."
+    },
+    {
+      "id": "E-D12",
+      "name": "Copy quality",
+      "anchor_1": "Weak/generic/template-like.",
+      "anchor_3": "Competent.",
+      "anchor_5": "Clear, specific, persuasive, credible and non-formulaic for the case."
+    }
+  ],
+  "pass_policy": {
+    "case_pass": "All applicable critical gates PASS; no scored dimension below 3; mean scored dimension >= 4.0.",
+    "case_pass_with_warnings": "All applicable critical gates PASS; no dimension below 2; mean >= 3.5; at least one remediable weakness.",
+    "case_fail": "Any critical gate FAIL, or mean < 3.5, or a material required expectation absent.",
+    "set_pass": "No critical failures; >=90% case PASS/PASS_WITH_WARNINGS; mean dimension score >=4.0; adversarial set requires 100% critical-gate pass."
+  },
+  "scoring_note": "Scores are evaluation rubric scores, not empirical effect sizes or probabilities."
+}

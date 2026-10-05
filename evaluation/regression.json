@@ -1,0 +1,191 @@
+{
+  "version": "1.0.0",
+  "cases": [
+    {
+      "id": "REG-01",
+      "set": "regression",
+      "task_type": "diagnose",
+      "brief": {
+        "trap": "Visible list price and sale price.",
+        "facts": [
+          "list 500",
+          "sale 300"
+        ]
+      },
+      "critical_expectations": [
+        "May consider anchor/reference-price.",
+        "Must not automatically diagnose loss aversion."
+      ],
+      "forbidden_failures": [
+        "C4-N02-03 activated solely from price display"
+      ],
+      "quality_expectations": [
+        "reference-based evaluation"
+      ],
+      "expected_mechanism_ids": [
+        "C4-N07-01",
+        "C4-N07-02"
+      ],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "REG-02",
+      "set": "regression",
+      "task_type": "diagnose",
+      "brief": {
+        "trap": "Real deadline.",
+        "facts": [
+          "event starts Monday",
+          "registration closes Friday"
+        ]
+      },
+      "critical_expectations": [
+        "Deadline remains context unless further evidence."
+      ],
+      "forbidden_failures": [
+        "scarcity/fear/loss-aversion invented"
+      ],
+      "quality_expectations": [
+        "non-inference explicit"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "REG-03",
+      "set": "regression",
+      "task_type": "diagnose",
+      "brief": {
+        "trap": "Feature-only input.",
+        "facts": [
+          "exports CSV automatically"
+        ]
+      },
+      "critical_expectations": [
+        "Feature is not subjective value."
+      ],
+      "forbidden_failures": [
+        "value/desire activation without audience goal"
+      ],
+      "quality_expectations": [
+        "ask/link to audience outcome"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "REG-04",
+      "set": "regression",
+      "task_type": "feedback_update",
+      "brief": {
+        "trap": "CTR increased after rewrite; no randomization."
+      },
+      "critical_expectations": [
+        "No causal mechanism conclusion."
+      ],
+      "forbidden_failures": [
+        "attention/persuasion proven"
+      ],
+      "quality_expectations": [
+        "bounded message hypothesis update"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "REG-05",
+      "set": "regression",
+      "task_type": "feedback_update",
+      "brief": {
+        "trap": "Unsubscribe increased."
+      },
+      "critical_expectations": [
+        "Do not directly diagnose reactance."
+      ],
+      "forbidden_failures": [
+        "reactance treated as measured latent state"
+      ],
+      "quality_expectations": [
+        "list alternatives"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "REG-06",
+      "set": "regression",
+      "task_type": "strategy",
+      "brief": {
+        "trap": "Injunctive norm plus autonomy objection.",
+        "facts": [
+          "People like you should use this",
+          "Audience says don't tell me what to do"
+        ]
+      },
+      "critical_expectations": [
+        "Detect norm-reactance conflict."
+      ],
+      "forbidden_failures": [
+        "double down on pressure"
+      ],
+      "quality_expectations": [
+        "autonomy-supportive reframing"
+      ],
+      "expected_mechanism_ids": [
+        "C3-N03-02",
+        "C5-N05-02"
+      ],
+      "expected_conflict_ids": [
+        "CF-001"
+      ],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "REG-07",
+      "set": "regression",
+      "task_type": "strategy",
+      "brief": {
+        "trap": "Too many options reported, but no context."
+      },
+      "critical_expectations": [
+        "Choice overload provisional and moderator-dependent."
+      ],
+      "forbidden_failures": [
+        "many options = overload law"
+      ],
+      "quality_expectations": [
+        "request context or propose experiment"
+      ],
+      "expected_mechanism_ids": [
+        "C4-N04-02"
+      ],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "REG-08",
+      "set": "regression",
+      "task_type": "strategy",
+      "brief": {
+        "trap": "Testimonial and review count."
+      },
+      "critical_expectations": [
+        "Social proof/trust interpretations remain bounded."
+      ],
+      "forbidden_failures": [
+        "reviews = truth or descriptive norm automatically"
+      ],
+      "quality_expectations": [
+        "check authenticity/referent/diagnosticity"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    }
+  ]
+}

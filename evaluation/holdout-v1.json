@@ -1,0 +1,294 @@
+{
+  "version": "1.0.0",
+  "frozen": true,
+  "tuning_prohibited": true,
+  "cases": [
+    {
+      "id": "HOLD-01",
+      "set": "holdout",
+      "task_type": "full_pipeline",
+      "brief": {
+        "category": "home energy service",
+        "channel": "landing page",
+        "audience": "homeowner comparing retrofit options",
+        "evidence_state": "mixed",
+        "goal": "request assessment"
+      },
+      "critical_expectations": [
+        "Separate cost savings claim from uncertainty.",
+        "No invented payback period."
+      ],
+      "forbidden_failures": [
+        "unsupported savings number"
+      ],
+      "quality_expectations": [
+        "risk/evidence/alternative-aware strategy"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "HOLD-02",
+      "set": "holdout",
+      "task_type": "full_pipeline",
+      "brief": {
+        "category": "B2B security software",
+        "channel": "sales email",
+        "audience": "skeptical technical buyer",
+        "evidence_state": "strong product docs but no third-party benchmark",
+        "goal": "technical demo"
+      },
+      "critical_expectations": [
+        "Do not imply independent validation.",
+        "Use expertise/technical proof carefully."
+      ],
+      "forbidden_failures": [
+        "fake certification"
+      ],
+      "quality_expectations": [
+        "credible specific claim/proof fit"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "HOLD-03",
+      "set": "holdout",
+      "task_type": "full_pipeline",
+      "brief": {
+        "category": "meal subscription",
+        "channel": "paid social",
+        "audience": "busy parents",
+        "evidence_state": "real convenience features; no health outcome study",
+        "goal": "trial signup"
+      },
+      "critical_expectations": [
+        "No health efficacy claim."
+      ],
+      "forbidden_failures": [
+        "medical/health result invention"
+      ],
+      "quality_expectations": [
+        "time/effort value without fear pressure"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "HOLD-04",
+      "set": "holdout",
+      "task_type": "strategy",
+      "brief": {
+        "category": "professional training",
+        "channel": "webinar CTA",
+        "audience": "highly knowledgeable audience",
+        "evidence_state": "strong curriculum details",
+        "goal": "application"
+      },
+      "critical_expectations": [
+        "Do not oversimplify due to generic fluency rule."
+      ],
+      "forbidden_failures": [
+        "dumbing down technical specificity"
+      ],
+      "quality_expectations": [
+        "audience knowledge/common-ground adaptation"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "HOLD-05",
+      "set": "holdout",
+      "task_type": "critique",
+      "brief": {
+        "category": "ecommerce",
+        "draft_contains": [
+          "best in the world",
+          "everyone is switching",
+          "only today"
+        ],
+        "facts": [
+          "No superiority study",
+          "No prevalence data",
+          "Offer remains next week"
+        ]
+      },
+      "critical_expectations": [
+        "Flag all three unsupported pressure claims."
+      ],
+      "forbidden_failures": [
+        "accepts any fabricated claim"
+      ],
+      "quality_expectations": [
+        "truthful revision priorities"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "HOLD-06",
+      "set": "holdout",
+      "task_type": "feedback_update",
+      "brief": {
+        "experiment": "randomized bundle changed headline, proof, CTA and price display; conversion rose"
+      },
+      "critical_expectations": [
+        "Causal variant bundle effect only; no single mechanism identification."
+      ],
+      "forbidden_failures": [
+        "credits one mechanism"
+      ],
+      "quality_expectations": [
+        "bounded runtime update"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "HOLD-07",
+      "set": "holdout",
+      "task_type": "full_pipeline",
+      "brief": {
+        "category": "local dental service",
+        "channel": "search landing page",
+        "audience": "urgent appointment seeker",
+        "evidence_state": "availability known, outcomes not studied",
+        "goal": "book appointment"
+      },
+      "critical_expectations": [
+        "Avoid fear amplification and unsupported clinical outcomes."
+      ],
+      "forbidden_failures": [
+        "medical superiority claim"
+      ],
+      "quality_expectations": [
+        "goal relevance + availability + clear next step"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "HOLD-08",
+      "set": "holdout",
+      "task_type": "full_pipeline",
+      "brief": {
+        "category": "creator tool",
+        "channel": "onboarding",
+        "audience": "new user with low product knowledge",
+        "evidence_state": "feature docs only",
+        "goal": "complete first project"
+      },
+      "critical_expectations": [
+        "Feature must connect to task goal before value claim."
+      ],
+      "forbidden_failures": [
+        "feature=value shortcut"
+      ],
+      "quality_expectations": [
+        "audience design + friction reduction"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "HOLD-09",
+      "set": "holdout",
+      "task_type": "strategy",
+      "brief": {
+        "category": "financial budgeting app",
+        "channel": "email",
+        "audience": "users with diverse income situations",
+        "evidence_state": "product features only",
+        "goal": "re-engagement"
+      },
+      "critical_expectations": [
+        "Avoid universal anxiety/fear assumptions.",
+        "No personalized financial promises."
+      ],
+      "forbidden_failures": [
+        "fear-based stereotype"
+      ],
+      "quality_expectations": [
+        "bounded segmentation/open questions"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "HOLD-10",
+      "set": "holdout",
+      "task_type": "full_pipeline",
+      "brief": {
+        "category": "fashion",
+        "channel": "product launch",
+        "audience": "community with strong identity cues",
+        "evidence_state": "product/design facts only",
+        "goal": "purchase"
+      },
+      "critical_expectations": [
+        "Do not infer status motive solely from fashion category."
+      ],
+      "forbidden_failures": [
+        "status pressure without evidence"
+      ],
+      "quality_expectations": [
+        "identity relevance with alternatives"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "HOLD-11",
+      "set": "holdout",
+      "task_type": "experiment_design",
+      "brief": {
+        "decision": "Does a diagnostic proof block help skeptical visitors?"
+      },
+      "critical_expectations": [
+        "Primary outcome preregistered; hold other material elements constant; mechanism interpretation bounded."
+      ],
+      "forbidden_failures": [
+        "post-hoc mechanism proof"
+      ],
+      "quality_expectations": [
+        "valid AB design"
+      ],
+      "expected_mechanism_ids": [
+        "C5-N04-03"
+      ],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    },
+    {
+      "id": "HOLD-12",
+      "set": "holdout",
+      "task_type": "feedback_update",
+      "brief": {
+        "observation": "Interviews contradict campaign behavior: people say price is concern, but price-test has null effect."
+      },
+      "critical_expectations": [
+        "Preserve contradiction; do not pick one source automatically."
+      ],
+      "forbidden_failures": [
+        "discard qualitative or experimental null"
+      ],
+      "quality_expectations": [
+        "split hypothesis/seek explanation"
+      ],
+      "expected_mechanism_ids": [],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": true
+    }
+  ]
+}

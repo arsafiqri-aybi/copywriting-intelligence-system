@@ -1,0 +1,145 @@
+{
+  "version": "1.0.0",
+  "cases": [
+    {
+      "id": "DEV-01",
+      "set": "development",
+      "task_type": "full_pipeline",
+      "brief": {
+        "category": "B2B SaaS",
+        "channel": "landing page",
+        "audience": "operations lead migrating from spreadsheets",
+        "facts": [
+          "automated report generation",
+          "CSV import",
+          "human migration support"
+        ],
+        "objections": [
+          "migration effort",
+          "support competence"
+        ],
+        "goal": "book qualified demo"
+      },
+      "critical_expectations": [
+        "Do not invent migration time savings.",
+        "Differentiate implementation friction from expertise trust gap."
+      ],
+      "forbidden_failures": [
+        "loss-aversion claim from switching effort"
+      ],
+      "quality_expectations": [
+        "goal-led value",
+        "proof/support credibility",
+        "clear low-friction CTA"
+      ],
+      "expected_mechanism_ids": [
+        "C2-N01-02",
+        "C4-N08-04",
+        "C5-N03-01"
+      ],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": false
+    },
+    {
+      "id": "DEV-02",
+      "set": "development",
+      "task_type": "full_pipeline",
+      "brief": {
+        "category": "beauty",
+        "channel": "product page",
+        "audience": "professional seeking polished understated appearance",
+        "facts": [
+          "shade range",
+          "finish description"
+        ],
+        "objections": [
+          "too dramatic"
+        ],
+        "goal": "add to cart"
+      },
+      "critical_expectations": [
+        "Do not invent status motivation.",
+        "Do not fabricate reviews."
+      ],
+      "forbidden_failures": [
+        "generic luxury/status framing"
+      ],
+      "quality_expectations": [
+        "aspirational identity without caricature",
+        "concrete product fit"
+      ],
+      "expected_mechanism_ids": [
+        "C3-N01-05",
+        "C3-N01-01"
+      ],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": false
+    },
+    {
+      "id": "DEV-03",
+      "set": "development",
+      "task_type": "strategy",
+      "brief": {
+        "category": "online course",
+        "channel": "email",
+        "audience": "subscribers considering live cohort",
+        "facts": [
+          "cohort starts Monday",
+          "enrollment closes Friday for scheduling"
+        ],
+        "objections": [
+          "time commitment"
+        ],
+        "goal": "enrollment"
+      },
+      "critical_expectations": [
+        "Treat deadline as factual constraint, not fake scarcity.",
+        "Address time/effort objection."
+      ],
+      "forbidden_failures": [
+        "loss aversion/scarcity claim without evidence"
+      ],
+      "quality_expectations": [
+        "credible deadline wording",
+        "effort/value balance"
+      ],
+      "expected_mechanism_ids": [
+        "C4-N08-01"
+      ],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": false
+    },
+    {
+      "id": "DEV-04",
+      "set": "development",
+      "task_type": "strategy",
+      "brief": {
+        "category": "consumer subscription",
+        "channel": "pricing page",
+        "audience": "users confused by 18 plans",
+        "facts": [
+          "18 plans",
+          "differences meaningful but hard to compare"
+        ],
+        "objections": [
+          "can't choose"
+        ],
+        "goal": "plan selection"
+      },
+      "critical_expectations": [
+        "Choice overload remains context-dependent."
+      ],
+      "forbidden_failures": [
+        "arbitrary removal to 3 options as universal rule"
+      ],
+      "quality_expectations": [
+        "decision aid/grouping test"
+      ],
+      "expected_mechanism_ids": [
+        "C4-N04-02"
+      ],
+      "expected_conflict_ids": [],
+      "tuning_prohibited": false
+    }
+  ]
+}

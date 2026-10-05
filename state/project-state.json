@@ -2,7 +2,7 @@
   "project": "COPYWRITING_INTELLIGENCE_SYSTEM",
   "architecture_version": "1.1.0-s1-taxonomy",
   "stage": "S8_EVALUATION",
-  "status": "READY_TO_START",
+  "status": "IN_PROGRESS",
   "repository": "arsafiqri-aybi/copywriting-intelligence-system",
   "protected_constraints": {
     "top_level_core_count": 7,
@@ -42,7 +42,7 @@
     "S5_MARKET_VALUE_INTEGRATION": "PASS",
     "S6_REASONING_ENGINE": "PASS",
     "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "PASS",
-    "S8_EVALUATION": "READY_TO_START",
+    "S8_EVALUATION": "IN_PROGRESS_CYCLE01_FRAMEWORK",
     "S9_SKILL_RUNTIME": "NOT_STARTED",
     "S10_RELEASE_CONTINUOUS_RESEARCH": "NOT_STARTED"
   },
@@ -70,13 +70,13 @@
     "G6_CONTRADICTION_INTEGRITY": "PARTIAL_PASS_S3",
     "G7_MEASUREMENT_VALIDITY": "PASS_FOR_S7_SCOPE",
     "G8_REASONING": "PASS_FOR_S6_SCOPE",
-    "G9_COPY_QUALITY": "NOT_RUN",
-    "G10_GENERALIZATION": "NOT_RUN",
+    "G9_COPY_QUALITY": "IN_PROGRESS",
+    "G10_GENERALIZATION": "IN_PROGRESS",
     "G11_FEEDBACK_LEARNING": "PASS_FOR_S7_SCOPE",
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "S8_EVALUATION: create separate development/regression/holdout/adversarial benchmark sets, evaluate reasoning/copy/uncertainty/generalization, and preserve holdout separation.",
+  "next_action": "S8 cycle02: run regression and adversarial suites first; freeze any implementation fixes before executing holdout once.",
   "integrity_repairs": [
     {
       "id": "REPAIR-2026-10-05-01",

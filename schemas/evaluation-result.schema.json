@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evaluation-result.schema.json",
+  "title": "Evaluation Result",
+  "type": "object",
+  "required": [
+    "case_id",
+    "critical_gate",
+    "dimension_scores",
+    "verdict",
+    "evidence"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "critical_gate": {
+      "type": "object",
+      "additionalProperties": {
+        "enum": [
+          "PASS",
+          "FAIL",
+          "N/A"
+        ]
+      }
+    },
+    "dimension_scores": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 1,
+        "maximum": 5
+      }
+    },
+    "verdict": {
+      "enum": [
+        "PASS",
+        "PASS_WITH_WARNINGS",
+        "FAIL"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "failures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

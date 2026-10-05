@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evaluation-case.schema.json",
+  "title": "Copywriting Evaluation Case",
+  "type": "object",
+  "required": [
+    "id",
+    "set",
+    "task_type",
+    "brief",
+    "critical_expectations",
+    "quality_expectations"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "set": {
+      "enum": [
+        "development",
+        "regression",
+        "holdout",
+        "adversarial"
+      ]
+    },
+    "task_type": {
+      "enum": [
+        "diagnose",
+        "strategy",
+        "generate",
+        "critique",
+        "experiment_design",
+        "feedback_update",
+        "full_pipeline"
+      ]
+    },
+    "brief": {
+      "type": "object"
+    },
+    "critical_expectations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "forbidden_failures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "quality_expectations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_mechanism_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "expected_conflict_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tuning_prohibited": {
+      "type": "boolean"
+    }
+  }
+}
