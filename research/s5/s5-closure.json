@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "stage": "S5_MARKET_VALUE_INTEGRATION",
+  "decision": "PASS",
+  "counts": {
+    "market_dimensions": 13,
+    "mapping_rules": 36,
+    "representative_cases": 10,
+    "representative_cases_passed": 10,
+    "scientific_nodes_created_in_s5": 0,
+    "scientific_edges_created_in_s5": 0,
+    "runtime_weights_assigned": 0
+  },
+  "validation": {
+    "mapping_reference_errors": [],
+    "representative_case_failures": [],
+    "contract_inputs_covered": 11,
+    "contract_inputs_required": 11
+  },
+  "protected_boundaries": [
+    "Market & Value remains an outer system, not an eighth core.",
+    "Commercial facts/signals do not modify scientific registries directly.",
+    "Feature != benefit != value != proof != mechanism.",
+    "Customer language is contextual evidence, not a validated latent-state measurement.",
+    "Awareness/sophistication are runtime segmentation labels, not scientific neurons.",
+    "Deadlines do not automatically imply scarcity, loss aversion or urgency.",
+    "Provisional proof/CTA/message-design nodes remain provisional.",
+    "Runtime activation confidence is not an empirical effect size."
+  ],
+  "pass_conditions": {
+    "outer_system_separation": true,
+    "live_graph_reference_integrity": true,
+    "representative_tests": true,
+    "required_runtime_inputs_covered": true,
+    "zero_scientific_registry_redefinition": true,
+    "zero_runtime_effect_size_leakage": true
+  },
+  "research_saturation": "NOT_CLAIMED",
+  "next_stage": "S6_COPYWRITING_REASONING_ENGINE"
+}

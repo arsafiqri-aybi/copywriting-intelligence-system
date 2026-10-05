@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0",
+  "status": "PASS",
+  "results": [
+    {
+      "id": "MVC-01",
+      "name": "SaaS migration friction",
+      "pass": true,
+      "matched_rule_ids": [
+        "MVM-001",
+        "MVM-018",
+        "MVM-011"
+      ],
+      "activated_node_ids": [
+        "C2-N01-02",
+        "C4-N08-02",
+        "C4-N08-04",
+        "C5-N08-05",
+        "C5-N03-01"
+      ],
+      "missing_expected": [],
+      "forbidden_activated": [],
+      "note": "No loss-aversion inference from migration cost alone."
+    },
+    {
+      "id": "MVC-02",
+      "name": "Price reference without automatic loss aversion",
+      "pass": true,
+      "matched_rule_ids": [
+        "MVM-017"
+      ],
+      "activated_node_ids": [
+        "C4-N07-01",
+        "C4-N07-02"
+      ],
+      "missing_expected": [],
+      "forbidden_activated": [],
+      "note": "Visible price comparison may activate anchor/reference-price hypotheses; not automatically loss aversion."
+    },
+    {
+      "id": "MVC-03",
+      "name": "Identity-led beauty purchase",
+      "pass": true,
+      "matched_rule_ids": [
+        "MVM-006",
+        "MVM-005"
+      ],
+      "activated_node_ids": [
+        "C3-N01-05",
+        "C3-N01-01",
+        "C3-N02-03"
+      ],
+      "missing_expected": [],
+      "forbidden_activated": [],
+      "note": "Desired self is not automatically status motivation."
+    },
+    {
+      "id": "MVC-04",
+      "name": "Controlling norm may backfire",
+      "pass": true,
+      "matched_rule_ids": [
+        "MVM-008",
+        "MVM-013"
+      ],
+      "activated_node_ids": [
+        "C3-N03-02",
+        "C5-N05-02"
+      ],
+      "missing_expected": [],
+      "forbidden_activated": [],
+      "note": "Injunctive norm may coexist with reactance; do not assume norm always increases compliance."
+    },
+    {
+      "id": "MVC-05",
+      "name": "Proof gap",
+      "pass": true,
+      "matched_rule_ids": [
+        "MVM-012",
+        "MVM-020"
+      ],
+      "activated_node_ids": [
+        "C5-N04-04",
+        "C5-N04-03",
+        "C5-N07-02",
+        "C5-N07-04"
+      ],
+      "missing_expected": [],
+      "forbidden_activated": [],
+      "note": "Believability/proof gap is not automatically source expertise doubt."
+    },
+    {
+      "id": "MVC-06",
+      "name": "Customer language is context, not latent state",
+      "pass": true,
+      "matched_rule_ids": [
+        "MVM-022"
+      ],
+      "activated_node_ids": [
+        "C6-N03-01",
+        "C6-N03-02"
+      ],
+      "missing_expected": [],
+      "forbidden_activated": [],
+      "note": "Quote contextualizes language first; value/motivation requires additional interpretation evidence."
+    },
+    {
+      "id": "MVC-07",
+      "name": "Real deadline no fake scarcity inference",
+      "pass": true,
+      "matched_rule_ids": [
+        "MVM-027"
+      ],
+      "activated_node_ids": [],
+      "missing_expected": [],
+      "forbidden_activated": [],
+      "note": "Deadline stays a commercial constraint unless separate evidence supports scarcity/loss/emotion mechanisms."
+    },
+    {
+      "id": "MVC-08",
+      "name": "Too many options with moderator requirement",
+      "pass": true,
+      "matched_rule_ids": [
+        "MVM-034"
+      ],
+      "activated_node_ids": [
+        "C4-N04-02"
+      ],
+      "missing_expected": [],
+      "forbidden_activated": [],
+      "note": "Choice overload remains provisional and requires complexity/preference-uncertainty context."
+    },
+    {
+      "id": "MVC-09",
+      "name": "Guarantee does not equal trust",
+      "pass": true,
+      "matched_rule_ids": [
+        "MVM-026"
+      ],
+      "activated_node_ids": [
+        "C4-N03-01",
+        "C5-N03-02"
+      ],
+      "missing_expected": [],
+      "forbidden_activated": [],
+      "note": "Targets are hypotheses/contextualization only; guarantee cannot be treated as proof of trust or quality."
+    },
+    {
+      "id": "MVC-10",
+      "name": "Feature is not value",
+      "pass": true,
+      "matched_rule_ids": [
+        "MVM-032"
+      ],
+      "activated_node_ids": [],
+      "missing_expected": [],
+      "forbidden_activated": [],
+      "note": "Feature needs an audience goal/barrier link before value mechanism activation."
+    }
+  ]
+}

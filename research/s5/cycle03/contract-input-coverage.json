@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "required": [
+    "goal",
+    "audience",
+    "product",
+    "offer",
+    "market",
+    "channel",
+    "constraints",
+    "brand voice",
+    "customer language",
+    "available evidence",
+    "observed performance"
+  ],
+  "represented": {
+    "goal": "market-context.goal",
+    "audience": "market-context.audience",
+    "product": "market-context.product",
+    "offer": "market-context.offer",
+    "market": "market-context.market",
+    "channel": "market-context.channel",
+    "constraints": "market-context.constraints",
+    "brand voice": "market-context.brand.voice",
+    "customer language": "facts dimension=customer_language",
+    "available evidence": "market-context.available_evidence + proof_inventory",
+    "observed performance": "market-context.observed_performance"
+  }
+}

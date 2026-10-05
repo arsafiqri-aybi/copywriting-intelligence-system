@@ -1,0 +1,127 @@
+{
+  "version": "1.0.0",
+  "name": "S5_TO_S6_DIAGNOSIS_HANDOFF",
+  "required_sections": [
+    {
+      "id": "H1",
+      "name": "grounded_context",
+      "contains": [
+        "goal",
+        "audience situation",
+        "product facts",
+        "market/alternatives",
+        "offer facts",
+        "channel/format",
+        "brand constraints"
+      ]
+    },
+    {
+      "id": "H2",
+      "name": "value_structure",
+      "contains": [
+        "ranked value hypotheses",
+        "current alternative/status quo",
+        "desired outcomes",
+        "sacrifices",
+        "required beliefs",
+        "required evidence"
+      ]
+    },
+    {
+      "id": "H3",
+      "name": "mechanism_hypotheses",
+      "contains": [
+        "node_id",
+        "activation_status",
+        "basis facts",
+        "mapping rules",
+        "scientific edges if relevant",
+        "uncertainty",
+        "alternative explanations"
+      ]
+    },
+    {
+      "id": "H4",
+      "name": "mechanism_conflicts",
+      "contains": [
+        "competing motives",
+        "norm/reactance conflicts",
+        "fluency/detail conflicts",
+        "risk/value conflicts",
+        "identity/fit conflicts"
+      ]
+    },
+    {
+      "id": "H5",
+      "name": "belief_trust_gaps",
+      "contains": [
+        "claim plausibility",
+        "source expertise",
+        "source trustworthiness",
+        "evidence diagnosticity",
+        "counterarguments"
+      ]
+    },
+    {
+      "id": "H6",
+      "name": "friction_map",
+      "contains": [
+        "decision friction",
+        "implementation friction",
+        "copy-removable versus non-copy-removable barriers"
+      ]
+    },
+    {
+      "id": "H7",
+      "name": "proof_requirements",
+      "contains": [
+        "claim-to-proof mapping",
+        "traceability",
+        "independence",
+        "limitations",
+        "missing evidence"
+      ]
+    },
+    {
+      "id": "H8",
+      "name": "customer_language",
+      "contains": [
+        "verbatim phrases",
+        "speaker/context",
+        "connotation/common-ground implications",
+        "terms to avoid unsupported inference from"
+      ]
+    },
+    {
+      "id": "H9",
+      "name": "non_inferences",
+      "contains": [
+        "explicit mechanisms not justified by current evidence",
+        "marketing labels that must remain context only"
+      ]
+    },
+    {
+      "id": "H10",
+      "name": "open_questions",
+      "contains": [
+        "decision-critical unknowns",
+        "research requests",
+        "experiment candidates"
+      ]
+    }
+  ],
+  "s6_may_do": [
+    "retrieve scientific nodes/edges relevant to bounded mechanism hypotheses",
+    "synthesize strategy across multiple cores",
+    "surface conflicts and uncertainty",
+    "form message hypotheses",
+    "derive claim/value/proof/framing/sequence/language/CTA decisions"
+  ],
+  "s6_may_not_do": [
+    "promote a market assumption into scientific knowledge",
+    "treat provisional mapping as universal causal law",
+    "invent proof or product facts",
+    "convert platform metrics directly into latent states",
+    "treat runtime priority as empirical effect size"
+  ]
+}
