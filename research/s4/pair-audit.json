@@ -1,0 +1,181 @@
+{
+  "version": "1.0.0",
+  "pairs": [
+    {
+      "pair": "C1-C2",
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-001"
+      ],
+      "rationale": "Goal-directed control provides a direct cross-core mechanism.",
+      "audited": true
+    },
+    {
+      "pair": "C1-C3",
+      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
+      "edge_ids": [],
+      "rationale": "Identity/self relevance plausibly biases attention, but current registry lacks sufficiently direct construct-matched evidence for a promoted edge.",
+      "audited": true
+    },
+    {
+      "pair": "C1-C4",
+      "status": "PROVISIONAL_EDGE",
+      "edge_ids": [
+        "EDGE-S4-002"
+      ],
+      "rationale": "Salience-choice bridge exists but transport/mechanism specificity remains bounded.",
+      "audited": true
+    },
+    {
+      "pair": "C1-C5",
+      "status": "PROVISIONAL_EDGE",
+      "edge_ids": [
+        "EDGE-S4-004"
+      ],
+      "rationale": "Fluency can inform judgment, but persuasion/claim-plausibility effect is attribution-dependent.",
+      "audited": true
+    },
+    {
+      "pair": "C1-C6",
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-003"
+      ],
+      "rationale": "Working-memory constraints directly interface with sentence/text processing.",
+      "audited": true
+    },
+    {
+      "pair": "C1-C7",
+      "status": "PROVISIONAL_EDGE",
+      "edge_ids": [
+        "EDGE-S4-005"
+      ],
+      "rationale": "Comparative message structure can change attention in advertising, but channel transport is limited.",
+      "audited": true
+    },
+    {
+      "pair": "C2-C3",
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-006"
+      ],
+      "rationale": "Self-related relevance and motivational value are mechanistically connected.",
+      "audited": true
+    },
+    {
+      "pair": "C2-C4",
+      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
+      "edge_ids": [],
+      "rationale": "Many motivation-decision links exist in the literature, but current node/source mapping is not yet specific enough for an S4 promoted edge.",
+      "audited": true
+    },
+    {
+      "pair": "C2-C5",
+      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
+      "edge_ids": [],
+      "rationale": "Valuation is implicated in persuasion, but current C2 node semantics do not yet support a nonredundant direct edge to a specific C5 node.",
+      "audited": true
+    },
+    {
+      "pair": "C2-C6",
+      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
+      "edge_ids": [],
+      "rationale": "No construct-matched direct edge promoted in this wave.",
+      "audited": true
+    },
+    {
+      "pair": "C2-C7",
+      "status": "PROVISIONAL_EDGE",
+      "edge_ids": [
+        "EDGE-S4-011"
+      ],
+      "rationale": "Emotional message design interfaces with appraisal/affect but is heterogeneous.",
+      "audited": true
+    },
+    {
+      "pair": "C3-C4",
+      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
+      "edge_ids": [],
+      "rationale": "Norm/identity effects on choice require node-specific research rather than a generic social-to-choice edge.",
+      "audited": true
+    },
+    {
+      "pair": "C3-C5",
+      "status": "PROVISIONAL_AND_EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-007",
+        "EDGE-S4-009"
+      ],
+      "rationale": "Similarity/trust and norms/intention bridges exist, but both have context/transport constraints.",
+      "audited": true
+    },
+    {
+      "pair": "C3-C6",
+      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
+      "edge_ids": [],
+      "rationale": "Social identity affects language use broadly, but no current construct-matched promoted edge.",
+      "audited": true
+    },
+    {
+      "pair": "C3-C7",
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-008"
+      ],
+      "rationale": "Character-recipient similarity can support narrative identification.",
+      "audited": true
+    },
+    {
+      "pair": "C4-C5",
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-010"
+      ],
+      "rationale": "Implementation friction provides a concrete decision-to-action translation bridge.",
+      "audited": true
+    },
+    {
+      "pair": "C4-C6",
+      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
+      "edge_ids": [],
+      "rationale": "Linguistic form can alter decisions, but current evidence is represented through C7 framing/message design rather than a direct C6→C4 edge.",
+      "audited": true
+    },
+    {
+      "pair": "C4-C7",
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-012"
+      ],
+      "rationale": "Comparative message architecture directly creates a relative-evaluation context.",
+      "audited": true
+    },
+    {
+      "pair": "C5-C6",
+      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
+      "edge_ids": [],
+      "rationale": "Meaning/comprehension is necessary for persuasion but necessity alone is not a scientific edge between specific nodes.",
+      "audited": true
+    },
+    {
+      "pair": "C5-C7",
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-013",
+        "EDGE-S4-014"
+      ],
+      "rationale": "Narrative transportation and refutational sidedness have direct persuasion/credibility evidence.",
+      "audited": true
+    },
+    {
+      "pair": "C6-C7",
+      "status": "EVIDENCE_BACKED_AND_PROVISIONAL",
+      "edge_ids": [
+        "EDGE-S4-015",
+        "EDGE-S4-016"
+      ],
+      "rationale": "Audience design→stance is evidence-backed; analogy→figurative interpretation remains provisional.",
+      "audited": true
+    }
+  ]
+}

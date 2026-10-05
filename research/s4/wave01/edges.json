@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "records": [
+  "edges": [
     {
       "id": "EDGE-S4-001",
       "source": "C2-N01-02",

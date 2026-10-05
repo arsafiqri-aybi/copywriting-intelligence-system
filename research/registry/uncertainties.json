@@ -400,6 +400,78 @@
       "reducibility": "retrieval",
       "resolution_requirement": "Preserve provisional status and test in downstream runtime/evaluation rather than invent universal rules.",
       "blocks_gate": false
+    },
+    {
+      "id": "UNC-S4C1-001",
+      "channel": "transport_context",
+      "target_ids": [
+        "EDGE-S4-002"
+      ],
+      "level": "medium",
+      "reason": "Economic/choice salience effects do not imply every perceptually salient feature changes attribute weighting in copy contexts.",
+      "reducibility": "experiment",
+      "resolution_requirement": "Calibrate in message/choice contexts before runtime strength assignment.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S4C1-002",
+      "channel": "transport_context",
+      "target_ids": [
+        "EDGE-S4-004"
+      ],
+      "level": "medium",
+      "reason": "Processing fluency can influence judgments through multiple interpretations; direct effect on claim plausibility is context-dependent.",
+      "reducibility": "experiment",
+      "resolution_requirement": "Keep edge provisional and distinguish perceptual/conceptual fluency plus attribution context.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S4C1-003",
+      "channel": "transport_context",
+      "target_ids": [
+        "EDGE-S4-006"
+      ],
+      "level": "medium",
+      "reason": "Comparative advertising affects attention/processing in bounded advertising contexts; transport to all copy formats is not established.",
+      "reducibility": "experiment",
+      "resolution_requirement": "Channel-specific validation.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S4C1-004",
+      "channel": "transport_context",
+      "target_ids": [
+        "EDGE-S4-008"
+      ],
+      "level": "medium",
+      "reason": "Similarity-trust effects are especially supported in influencer/social contexts and exhibit heterogeneity.",
+      "reducibility": "context_information",
+      "resolution_requirement": "Do not generalize beyond source/audience contexts without evidence.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S4C1-005",
+      "channel": "epistemic",
+      "target_ids": [
+        "EDGE-S4-011"
+      ],
+      "level": "medium",
+      "reason": "Emotional appeal categories are heterogeneous; different emotions/appraisals produce different effects.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Split by specific emotion/appraisal when runtime context permits.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S4C1-006",
+      "channel": "construct",
+      "target_ids": [
+        "EDGE-S4-015"
+      ],
+      "level": "medium",
+      "reason": "Analogy is broader than metaphor; metaphor-comprehension evidence supports only part of the proposed cross-domain mapping edge.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Add analogy-specific comprehension evidence before acceptance.",
+      "blocks_gate": false
     }
   ]
 }

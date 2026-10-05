@@ -3739,6 +3739,238 @@
         "SRC-C3-002"
       ],
       "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S4-001",
+      "statement": "Active task goals bias attentional selection toward goal-relevant information, alongside stimulus-driven and selection-history influences.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N01-02",
+        "C1-N02-02"
+      ],
+      "source_ids": [
+        "SRC-C1-001",
+        "SRC-C1-002"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-002",
+      "statement": "Salient features can attract attention and alter economic choice by changing which attributes or options receive relative weight, but effects are context-dependent.",
+      "claim_type": "mechanistic",
+      "stance": "bounds",
+      "target_ids": [
+        "C1-N01-02",
+        "C4-N06-03"
+      ],
+      "source_ids": [
+        "SRC-X-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-003",
+      "statement": "Working-memory limitations constrain sentence and text comprehension when linguistic processing requires maintaining and integrating information.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N03-01",
+        "C6-N02-05"
+      ],
+      "source_ids": [
+        "SRC-C1-003",
+        "SRC-C6-002"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-004",
+      "statement": "Processing fluency can be used as information in judgment, but whether ease increases plausibility or positive evaluation depends on attribution and context.",
+      "claim_type": "mechanistic",
+      "stance": "bounds",
+      "target_ids": [
+        "C1-N04-03",
+        "C5-N04-04"
+      ],
+      "source_ids": [
+        "SRC-C1-005"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-005",
+      "statement": "Comparative message formats can change attention and message processing relative to noncomparative formats, while effects vary by outcome and context.",
+      "claim_type": "causal",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N05-03",
+        "C1-N01-01"
+      ],
+      "source_ids": [
+        "SRC-C7-007"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-006",
+      "statement": "Self-related motives and self-relevance can increase the subjective significance of information and outcomes, linking self processes with motivational valuation.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N01-01",
+        "C2-N03-02"
+      ],
+      "source_ids": [
+        "SRC-X-002"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-007",
+      "statement": "Perceived similarity or homophily can be associated with trustworthiness and favorable source/brand responses, with substantial contextual heterogeneity.",
+      "claim_type": "association",
+      "stance": "bounds",
+      "target_ids": [
+        "C3-N06-03",
+        "C5-N03-02"
+      ],
+      "source_ids": [
+        "SRC-REUSE-TR-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-008",
+      "statement": "Character-recipient similarity is associated with stronger character identification in narrative persuasion, though the effect varies by similarity type and context.",
+      "claim_type": "association",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N06-03",
+        "C7-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C7-011"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-009",
+      "statement": "Descriptive and injunctive norm perceptions are associated with attitudes, intentions, and behavior through distinguishable pathways rather than one generic norm effect.",
+      "claim_type": "association",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N03-01",
+        "C3-N03-02",
+        "C5-N08-01"
+      ],
+      "source_ids": [
+        "SRC-C3-004"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-010",
+      "statement": "Implementation burden can widen the gap between behavioral intention and completed action because additional steps, time, or effort create barriers after intention formation.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N08-04",
+        "C5-N08-05"
+      ],
+      "source_ids": [
+        "SRC-C4-016",
+        "SRC-C5-014"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-011",
+      "statement": "Emotional appeals can alter persuasion outcomes, but effects differ by emotion, appeal type, audience, and context; the message design should therefore be linked to specific affective/appraisal mechanisms rather than a generic emotion node.",
+      "claim_type": "mechanistic",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N02-02",
+        "C2-N04-01"
+      ],
+      "source_ids": [
+        "SRC-C7-006",
+        "SRC-C2-002"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-012",
+      "statement": "Comparative message structure creates an explicit comparison context that can shift relative evaluation of options, while persuasive consequences also depend on credibility and claim content.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C7-N05-03",
+        "C4-N07-04"
+      ],
+      "source_ids": [
+        "SRC-C7-007",
+        "SRC-C4-003"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-013",
+      "statement": "Narrative transportation is associated with persuasive outcomes including evaluations and intentions, with meaningful moderator effects.",
+      "claim_type": "association",
+      "stance": "supports",
+      "target_ids": [
+        "C7-N03-01",
+        "C5-N01-02"
+      ],
+      "source_ids": [
+        "SRC-C7-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-014",
+      "statement": "Refutational two-sided messages can affect perceived credibility and persuasion differently from one-sided or nonrefutational two-sided messages.",
+      "claim_type": "causal",
+      "stance": "supports",
+      "target_ids": [
+        "C7-N06-03",
+        "C5-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C7-002",
+        "SRC-C7-003"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-015",
+      "statement": "Audience design adapts linguistic form to addressee knowledge and needs and therefore constrains how message architecture should be realized for a specific audience.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N03-02",
+        "C7-N02-04"
+      ],
+      "source_ids": [
+        "SRC-C6-008"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-016",
+      "statement": "Analogical or metaphorical mappings require receiver-side interpretation of cross-domain or figurative meaning; metaphor evidence supports this bridge but analogy is broader than metaphor.",
+      "claim_type": "mechanistic",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N05-02",
+        "C6-N07-01"
+      ],
+      "source_ids": [
+        "SRC-C6-004",
+        "SRC-C7-013"
+      ],
+      "status": "verified"
     }
   ]
 }
