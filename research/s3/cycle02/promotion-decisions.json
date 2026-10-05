@@ -1,0 +1,103 @@
+{
+  "version": "1.0.0",
+  "decisions": [
+    {
+      "candidate_id": "C1-N04-03",
+      "decision": "promote_accepted",
+      "claim_ids": [
+        "CLM-S3C2-001"
+      ],
+      "uncertainty_ids": [
+        "UNC-S1-001"
+      ],
+      "status": "closed_for_cycle02"
+    },
+    {
+      "candidate_id": "C2-N08-03",
+      "decision": "promote_accepted",
+      "claim_ids": [
+        "CLM-S3C2-002"
+      ],
+      "uncertainty_ids": [],
+      "status": "closed_for_cycle02"
+    },
+    {
+      "candidate_id": "C2-N08-04",
+      "decision": "promote_accepted",
+      "claim_ids": [
+        "CLM-S3C2-002"
+      ],
+      "uncertainty_ids": [],
+      "status": "closed_for_cycle02"
+    },
+    {
+      "candidate_id": "C3-N03-01",
+      "decision": "promote_accepted",
+      "claim_ids": [
+        "CLM-S3C2-003"
+      ],
+      "uncertainty_ids": [
+        "UNC-S1-004"
+      ],
+      "status": "closed_for_cycle02"
+    },
+    {
+      "candidate_id": "C4-N02-02",
+      "decision": "promote_accepted",
+      "claim_ids": [
+        "CLM-S3C2-004"
+      ],
+      "uncertainty_ids": [],
+      "status": "closed_for_cycle02"
+    },
+    {
+      "candidate_id": "C4-N02-03",
+      "decision": "promote_provisional",
+      "claim_ids": [
+        "CLM-S3C2-004"
+      ],
+      "uncertainty_ids": [
+        "UNC-S3C2-001"
+      ],
+      "status": "closed_for_cycle02"
+    },
+    {
+      "candidate_id": "C5-N03-01",
+      "decision": "promote_accepted",
+      "claim_ids": [
+        "CLM-S3C2-005",
+        "CLM-S3C2-006"
+      ],
+      "uncertainty_ids": [],
+      "status": "closed_for_cycle02"
+    },
+    {
+      "candidate_id": "C5-N03-02",
+      "decision": "promote_accepted",
+      "claim_ids": [
+        "CLM-S3C2-005",
+        "CLM-S3C2-006"
+      ],
+      "uncertainty_ids": [],
+      "status": "closed_for_cycle02"
+    },
+    {
+      "candidate_id": "C6-N07-01",
+      "decision": "promote_accepted",
+      "claim_ids": [
+        "CLM-S3C2-007"
+      ],
+      "uncertainty_ids": [],
+      "status": "closed_for_cycle02"
+    },
+    {
+      "candidate_id": "C7-N06-02",
+      "decision": "promote_accepted",
+      "claim_ids": [
+        "CLM-S3C2-008"
+      ],
+      "uncertainty_ids": [],
+      "status": "closed_for_cycle02"
+    }
+  ]
+}

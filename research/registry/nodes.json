@@ -466,6 +466,352 @@
       "version": "1.0.0",
       "acceptance_scope": "construct_existence_and_basic_boundary",
       "measurement_state": "unmapped"
+    },
+    {
+      "id": "C1-N04-03",
+      "label": "Processing Fluency",
+      "aliases": [
+        "processing ease"
+      ],
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M04",
+      "definition": "The subjective ease with which information is processed.",
+      "inclusions": [
+        "experienced ease of processing",
+        "fluency signal"
+      ],
+      "exclusions": [
+        "objective readability alone",
+        "accurate comprehension",
+        "mere familiarity as a cause rather than the fluency experience"
+      ],
+      "mechanism_summary": "Fluency can inform judgment through affective or interpretive pathways; meaning depends on context and attribution.",
+      "claim_ids": [
+        "CLM-S3C2-001"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S1-001"
+      ],
+      "failure_modes": [
+        "Assuming fluent means true or good",
+        "Equating readability with fluency",
+        "Equating fluency with comprehension"
+      ],
+      "open_questions": [
+        "Perceptual versus conceptual subtypes and copy-specific moderators"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C2-N08-03",
+      "label": "Autonomous Motivation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M08",
+      "definition": "Motivation experienced with a sense of willingness, volition and personal endorsement, including intrinsic motivation and sufficiently internalized extrinsic motivation.",
+      "inclusions": [
+        "intrinsic motivation",
+        "identified/integrated forms of extrinsic regulation when genuinely endorsed"
+      ],
+      "exclusions": [
+        "mere high motivation intensity",
+        "externally pressured compliance"
+      ],
+      "mechanism_summary": "The quality/source of regulation differs from motivation amount and can affect persistence and experience.",
+      "claim_ids": [
+        "CLM-S3C2-002"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating autonomy as absence of external context",
+        "Equating autonomous with intrinsic only"
+      ],
+      "open_questions": [
+        "Transport from work/education to consumer action contexts"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C2-N08-04",
+      "label": "Controlled Motivation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M08",
+      "definition": "Motivation regulated by external or internal pressure, contingencies, demands or controlling reasons rather than full personal endorsement.",
+      "inclusions": [
+        "externally controlled regulation",
+        "internally pressuring regulation"
+      ],
+      "exclusions": [
+        "all extrinsic motivation",
+        "low motivation"
+      ],
+      "mechanism_summary": "Controlled regulation can produce action while differing functionally from autonomous motivation.",
+      "claim_ids": [
+        "CLM-S3C2-002"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating controlled motivation with extrinsic motivation universally",
+        "Assuming controlled motivation cannot produce behavior"
+      ],
+      "open_questions": [
+        "Conditions under which persuasive pressure shifts autonomous to controlled regulation"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C3-N03-01",
+      "label": "Descriptive Norm",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M03",
+      "definition": "A perception or communication about what relevant others typically do.",
+      "inclusions": [
+        "perceived prevalence of behavior",
+        "behavioral norm information"
+      ],
+      "exclusions": [
+        "what others approve or prescribe",
+        "simple popularity without a relevant social referent"
+      ],
+      "mechanism_summary": "Descriptive norms provide social information about common behavior and can differ from injunctive expectations.",
+      "claim_ids": [
+        "CLM-S3C2-003"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S1-004"
+      ],
+      "failure_modes": [
+        "Confusing prevalence with approval",
+        "Treating platform popularity as a validated norm measure"
+      ],
+      "open_questions": [
+        "Referent proximity and domain moderators"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_discrimination",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C4-N02-02",
+      "label": "Reference Point",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M02",
+      "definition": "A comparison standard relative to which outcomes or changes in value are evaluated.",
+      "inclusions": [
+        "status-quo reference",
+        "expectation-based reference",
+        "other salient comparison standards"
+      ],
+      "exclusions": [
+        "anchor used only for numeric estimation",
+        "objective baseline with no psychological comparison role"
+      ],
+      "mechanism_summary": "Reference-dependent evaluation can change sensitivity to gains/losses or changes relative to a comparison standard.",
+      "claim_ids": [
+        "CLM-S3C2-004"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming the status quo is always the operative reference",
+        "Assuming a single reference point"
+      ],
+      "open_questions": [
+        "How multiple reference points are selected in commercial choice"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C4-N02-03",
+      "label": "Loss Aversion",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C4",
+      "parent_id": "C4-M02",
+      "definition": "Greater sensitivity to losses than comparable gains relative to an operative reference point.",
+      "inclusions": [
+        "loss-gain asymmetry conditional on reference point"
+      ],
+      "exclusions": [
+        "all negativity effects",
+        "all endowment effects",
+        "reference dependence without asymmetric sensitivity"
+      ],
+      "mechanism_summary": "Loss aversion is one possible reference-dependent asymmetry; robustness and generality vary by paradigm and reference-point structure.",
+      "claim_ids": [
+        "CLM-S3C2-004"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C2-001"
+      ],
+      "failure_modes": [
+        "Treating loss aversion as a universal law",
+        "Explaining every negative framing effect as loss aversion"
+      ],
+      "open_questions": [
+        "Domain robustness and reference-point moderators"
+      ],
+      "version": "0.2.0",
+      "acceptance_scope": "provisional_bounded_construct",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C5-N03-01",
+      "label": "Perceived Source Expertise",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M03",
+      "definition": "Perceived competence or ability of a source to provide valid information within the relevant domain.",
+      "inclusions": [
+        "domain competence",
+        "relevant qualifications/experience as perceived"
+      ],
+      "exclusions": [
+        "trustworthiness/honesty",
+        "authority role alone",
+        "actual expertise without receiver perception"
+      ],
+      "mechanism_summary": "Expertise is a source-credibility dimension whose persuasive impact depends on receiver/message/context conditions.",
+      "claim_ids": [
+        "CLM-S3C2-005",
+        "CLM-S3C2-006"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating credentials as guaranteed perceived expertise",
+        "Assuming expertise always increases persuasion"
+      ],
+      "open_questions": [
+        "Interaction with prior attitudes and elaboration"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C5-N03-02",
+      "label": "Perceived Source Trustworthiness",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M03",
+      "definition": "Perceived honesty, integrity or lack of deceptive intent attributed to a source in the relevant communication context.",
+      "inclusions": [
+        "perceived honesty",
+        "perceived integrity"
+      ],
+      "exclusions": [
+        "expertise",
+        "liking",
+        "relational trust as a broad interpersonal history unless source evaluation is the target"
+      ],
+      "mechanism_summary": "Trustworthiness is a distinct source-credibility dimension and its effect is context-dependent.",
+      "claim_ids": [
+        "CLM-S3C2-005",
+        "CLM-S3C2-006"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating trustworthiness with expertise",
+        "Assuming familiar/liked sources are necessarily trustworthy"
+      ],
+      "open_questions": [
+        "Interaction with transparency and persuasion knowledge"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C6-N07-01",
+      "label": "Metaphor Comprehension",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M07",
+      "definition": "Processes by which a listener or reader derives intended figurative meaning from metaphorical expressions.",
+      "inclusions": [
+        "figurative mapping/interpretation",
+        "metaphorical meaning construction"
+      ],
+      "exclusions": [
+        "analogy used purely as argumentative structure",
+        "all nonliteral language"
+      ],
+      "mechanism_summary": "Multiple theoretical accounts—analogy, categorization and conceptual mapping—capture aspects of metaphor comprehension; no single mechanism is assumed universally.",
+      "claim_ids": [
+        "CLM-S3C2-007"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating every metaphor as conceptual mapping only",
+        "Assuming figurative language improves comprehension by default"
+      ],
+      "open_questions": [
+        "Familiarity, novelty and complexity moderators"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_theory_pluralism",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C7-N06-02",
+      "label": "Two-Sided Message",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M06",
+      "definition": "A persuasive message structure that presents both supporting and opposing or negative considerations about the advocated position/object.",
+      "inclusions": [
+        "two-sided advertising",
+        "messages acknowledging opposing considerations"
+      ],
+      "exclusions": [
+        "refutational structure specifically",
+        "simple disclaimer unrelated to the advocated claim"
+      ],
+      "mechanism_summary": "Two-sidedness is a structural property; persuasive effects depend on refutation, amount/placement of negative information and receiver/context characteristics.",
+      "claim_ids": [
+        "CLM-S3C2-008"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming two-sided messages are universally superior",
+        "Equating any caveat with substantive two-sidedness"
+      ],
+      "open_questions": [
+        "Optimal use across sophistication/knowledge states and channels"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
     }
   ]
 }

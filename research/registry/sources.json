@@ -617,6 +617,316 @@
         "rhetoric_scope"
       ],
       "status": "screened_in"
+    },
+    {
+      "id": "SRC-C1-005",
+      "title": "A review of the theoretical models of processing fluency",
+      "authors": [
+        "Yoshihiko Yagi",
+        "Yu Kasagi",
+        "Kazuya Inoue"
+      ],
+      "year": 2023,
+      "evidence_class": "review",
+      "domain": [
+        "C1",
+        "C4",
+        "C5"
+      ],
+      "doi": "10.4992/jjpsy.94.22401",
+      "url": "https://doi.org/10.4992/jjpsy.94.22401",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "construct_boundary",
+        "cross_core_bridge"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C2-005",
+      "title": "Self-Determination Theory in Work Organizations: The State of a Science",
+      "authors": [
+        "Edward L. Deci",
+        "Anja H. Olafsen",
+        "Richard M. Ryan"
+      ],
+      "year": 2017,
+      "evidence_class": "review",
+      "domain": [
+        "C2"
+      ],
+      "doi": "10.1146/annurev-orgpsych-032516-113108",
+      "url": "https://doi.org/10.1146/annurev-orgpsych-032516-113108",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "theory_map",
+        "construct_boundary"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C3-004",
+      "title": "Descriptive Norms ≠ Injunctive Norms: A Meta-Analytic Review Across Four Health Contexts",
+      "authors": [
+        "Callie Kalny",
+        "Nathan Walter",
+        "Maria Lapinski",
+        "Hillary Shulman",
+        "Stefanie Demetriades"
+      ],
+      "year": 2026,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C3"
+      ],
+      "doi": "10.1080/10410236.2026.2678927",
+      "url": "https://doi.org/10.1080/10410236.2026.2678927",
+      "retrieval_depth": "abstract_metadata",
+      "role": [
+        "construct_discrimination",
+        "boundary_conditions"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-004",
+      "title": "The Endowment Effect",
+      "authors": [
+        "Keith M. Marzilli Ericson",
+        "Andreas Fuster"
+      ],
+      "year": 2014,
+      "evidence_class": "review",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1146/annurev-economics-080213-041320",
+      "url": "https://doi.org/10.1146/annurev-economics-080213-041320",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "reference_dependence",
+        "contradiction_boundary"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-006",
+      "title": "The Persuasiveness of Source Credibility: A Critical Review of Five Decades' Evidence",
+      "authors": [
+        "Chanthika Pornpitakpan"
+      ],
+      "year": 2004,
+      "evidence_class": "review",
+      "domain": [
+        "C5"
+      ],
+      "doi": "10.1111/j.1559-1816.2004.tb02547.x",
+      "url": "https://doi.org/10.1111/j.1559-1816.2004.tb02547.x",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "source_credibility",
+        "boundary_conditions"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-007",
+      "title": "How Effective Are Credible Sources in Changing Behavior? A Systematic Review with Meta-Analysis",
+      "authors": [
+        "Jack Hamer",
+        "Tracy Epton",
+        "Danielle Hamer",
+        "Christopher J. Armitage"
+      ],
+      "year": 2026,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C5"
+      ],
+      "doi": "10.1177/01461672261445474",
+      "url": "https://doi.org/10.1177/01461672261445474",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "source_credibility",
+        "behavior_outcome"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-004",
+      "title": "Metaphor comprehension: A critical review of theories and evidence",
+      "authors": [
+        "Keith J. Holyoak",
+        "Dušan Stamenković"
+      ],
+      "year": 2018,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1037/bul0000145",
+      "url": "https://doi.org/10.1037/bul0000145",
+      "retrieval_depth": "abstract_metadata",
+      "role": [
+        "metaphor",
+        "theory_comparison"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C1-005",
+      "title": "A review of the theoretical models of processing fluency",
+      "authors": [
+        "Yoshihiko Yagi",
+        "Yu Kasagi",
+        "Kazuya Inoue"
+      ],
+      "year": 2023,
+      "evidence_class": "review",
+      "domain": [
+        "C1",
+        "C4",
+        "C5"
+      ],
+      "doi": "10.4992/jjpsy.94.22401",
+      "url": "https://doi.org/10.4992/jjpsy.94.22401",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "construct_boundary",
+        "cross_core_bridge"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C2-005",
+      "title": "Self-Determination Theory in Work Organizations: The State of a Science",
+      "authors": [
+        "Edward L. Deci",
+        "Anja H. Olafsen",
+        "Richard M. Ryan"
+      ],
+      "year": 2017,
+      "evidence_class": "review",
+      "domain": [
+        "C2"
+      ],
+      "doi": "10.1146/annurev-orgpsych-032516-113108",
+      "url": "https://doi.org/10.1146/annurev-orgpsych-032516-113108",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "theory_map",
+        "construct_boundary"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C3-004",
+      "title": "Descriptive Norms ≠ Injunctive Norms: A Meta-Analytic Review Across Four Health Contexts",
+      "authors": [
+        "Callie Kalny",
+        "Nathan Walter",
+        "Maria Lapinski",
+        "Hillary Shulman",
+        "Stefanie Demetriades"
+      ],
+      "year": 2026,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C3"
+      ],
+      "doi": "10.1080/10410236.2026.2678927",
+      "url": "https://doi.org/10.1080/10410236.2026.2678927",
+      "retrieval_depth": "abstract_metadata",
+      "role": [
+        "construct_discrimination",
+        "boundary_conditions"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-004",
+      "title": "The Endowment Effect",
+      "authors": [
+        "Keith M. Marzilli Ericson",
+        "Andreas Fuster"
+      ],
+      "year": 2014,
+      "evidence_class": "review",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1146/annurev-economics-080213-041320",
+      "url": "https://doi.org/10.1146/annurev-economics-080213-041320",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "reference_dependence",
+        "contradiction_boundary"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-006",
+      "title": "The Persuasiveness of Source Credibility: A Critical Review of Five Decades' Evidence",
+      "authors": [
+        "Chanthika Pornpitakpan"
+      ],
+      "year": 2004,
+      "evidence_class": "review",
+      "domain": [
+        "C5"
+      ],
+      "doi": "10.1111/j.1559-1816.2004.tb02547.x",
+      "url": "https://doi.org/10.1111/j.1559-1816.2004.tb02547.x",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "source_credibility",
+        "boundary_conditions"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-007",
+      "title": "How Effective Are Credible Sources in Changing Behavior? A Systematic Review with Meta-Analysis",
+      "authors": [
+        "Jack Hamer",
+        "Tracy Epton",
+        "Danielle Hamer",
+        "Christopher J. Armitage"
+      ],
+      "year": 2026,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C5"
+      ],
+      "doi": "10.1177/01461672261445474",
+      "url": "https://doi.org/10.1177/01461672261445474",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "source_credibility",
+        "behavior_outcome"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-004",
+      "title": "Metaphor comprehension: A critical review of theories and evidence",
+      "authors": [
+        "Keith J. Holyoak",
+        "Dušan Stamenković"
+      ],
+      "year": 2018,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1037/bul0000145",
+      "url": "https://doi.org/10.1037/bul0000145",
+      "retrieval_depth": "abstract_metadata",
+      "role": [
+        "metaphor",
+        "theory_comparison"
+      ],
+      "status": "screened_in"
     }
   ]
 }

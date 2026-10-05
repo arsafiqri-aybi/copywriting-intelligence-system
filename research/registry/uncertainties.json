@@ -101,6 +101,18 @@
       "reducibility": "retrieval",
       "resolution_requirement": "Focused communication/advertising evidence review.",
       "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C2-001",
+      "channel": "epistemic",
+      "target_ids": [
+        "C4-N02-03"
+      ],
+      "level": "medium",
+      "reason": "Loss aversion is influential but robustness and generalization vary across paradigms; some effects attributed to it may reflect reference points or alternative mechanisms.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Target meta-analyses/replications by domain before any strong runtime rule.",
+      "blocks_gate": false
     }
   ]
 }

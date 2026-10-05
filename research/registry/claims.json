@@ -525,6 +525,228 @@
         "SRC-C7-003"
       ],
       "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-001",
+      "statement": "Processing fluency is the experienced ease of processing and can influence judgments, but its effect depends on how the fluency signal is interpreted.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N04-03"
+      ],
+      "source_ids": [
+        "SRC-C1-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-002",
+      "statement": "Self-determination theory distinguishes autonomous motivation from controlled motivation, with intrinsic and fully internalized extrinsic motivation falling on the autonomous side.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N08-03",
+        "C2-N08-04"
+      ],
+      "source_ids": [
+        "SRC-C2-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-003",
+      "statement": "Descriptive and injunctive norms are related but distinct constructs with different associations across attitudes, intentions and behavior.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N03-01",
+        "C3-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C3-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-004",
+      "statement": "Reference points are central to reference-dependent valuation, while loss aversion is a more specific and context-sensitive proposition that should not be assumed from every reference-point effect.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N02-02",
+        "C4-N02-03"
+      ],
+      "source_ids": [
+        "SRC-C4-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-005",
+      "statement": "Perceived expertise and trustworthiness are core dimensions used to operationalize source credibility in persuasion research.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N03-01",
+        "C5-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C5-006",
+        "SRC-C5-007"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-006",
+      "statement": "Source credibility effects are conditional on source, message, channel, receiver and outcome characteristics rather than uniformly beneficial.",
+      "claim_type": "moderation",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N03-01",
+        "C5-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C5-006"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C2-007",
+      "statement": "Metaphor comprehension is supported by multiple theoretical accounts including analogy, categorization and conceptual mapping, so metaphor should not be represented by a single uncontested mechanism.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C6-N07-01"
+      ],
+      "source_ids": [
+        "SRC-C6-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-008",
+      "statement": "Two-sided messages constitute a distinct message-structure class whose persuasive effects depend on refutation and other message/receiver conditions.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C7-N06-02"
+      ],
+      "source_ids": [
+        "SRC-C7-002",
+        "SRC-C7-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-001",
+      "statement": "Processing fluency is the experienced ease of processing and can influence judgments, but its effect depends on how the fluency signal is interpreted.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N04-03"
+      ],
+      "source_ids": [
+        "SRC-C1-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-002",
+      "statement": "Self-determination theory distinguishes autonomous motivation from controlled motivation, with intrinsic and fully internalized extrinsic motivation falling on the autonomous side.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N08-03",
+        "C2-N08-04"
+      ],
+      "source_ids": [
+        "SRC-C2-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-003",
+      "statement": "Descriptive and injunctive norms are related but distinct constructs with different associations across attitudes, intentions and behavior.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N03-01",
+        "C3-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C3-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-004",
+      "statement": "Reference points are central to reference-dependent valuation, while loss aversion is a more specific and context-sensitive proposition that should not be assumed from every reference-point effect.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N02-02",
+        "C4-N02-03"
+      ],
+      "source_ids": [
+        "SRC-C4-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-005",
+      "statement": "Perceived expertise and trustworthiness are core dimensions used to operationalize source credibility in persuasion research.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N03-01",
+        "C5-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C5-006",
+        "SRC-C5-007"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-006",
+      "statement": "Source credibility effects are conditional on source, message, channel, receiver and outcome characteristics rather than uniformly beneficial.",
+      "claim_type": "moderation",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N03-01",
+        "C5-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C5-006"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C2-007",
+      "statement": "Metaphor comprehension is supported by multiple theoretical accounts including analogy, categorization and conceptual mapping, so metaphor should not be represented by a single uncontested mechanism.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C6-N07-01"
+      ],
+      "source_ids": [
+        "SRC-C6-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C2-008",
+      "statement": "Two-sided messages constitute a distinct message-structure class whose persuasive effects depend on refutation and other message/receiver conditions.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C7-N06-02"
+      ],
+      "source_ids": [
+        "SRC-C7-002",
+        "SRC-C7-003"
+      ],
+      "status": "verified_for_construct_existence"
     }
   ]
 }
