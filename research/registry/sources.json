@@ -1856,6 +1856,175 @@
         "intention_strength"
       ],
       "status": "screened_in"
+    },
+    {
+      "id": "SRC-C1C3-001",
+      "title": "Relevance to self: A brief review and framework of neural systems underlying appraisal",
+      "authors": [],
+      "year": 2007,
+      "evidence_class": "review",
+      "domain": [
+        "C1",
+        "C3"
+      ],
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S014976340700005X",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "self_relevance",
+        "attention",
+        "appraisal"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C2C4-001",
+      "title": "The affect heuristic",
+      "authors": [
+        "Paul Slovic",
+        "Melissa L. Finucane",
+        "Ellen Peters",
+        "Donald G. MacGregor"
+      ],
+      "year": 2007,
+      "evidence_class": "review",
+      "domain": [
+        "C2",
+        "C4"
+      ],
+      "doi": "10.1016/j.ejor.2005.04.006",
+      "url": "https://doi.org/10.1016/j.ejor.2005.04.006",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "affect",
+        "judgment",
+        "risk"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C3C6-001",
+      "title": "Communication accommodation theory: Past accomplishments, current trends, and future prospects",
+      "authors": [
+        "Howard Giles",
+        "America L. Edwards",
+        "Joseph B. Walther"
+      ],
+      "year": 2023,
+      "evidence_class": "review",
+      "domain": [
+        "C3",
+        "C6"
+      ],
+      "doi": "10.1016/j.langsci.2023.101571",
+      "url": "https://doi.org/10.1016/j.langsci.2023.101571",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "social_identity",
+        "language_accommodation",
+        "communication"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C3C6-002",
+      "title": "Language and Discrimination: Generating Meaning, Perceiving Identities, and Discriminating Outcomes",
+      "authors": [
+        "Justin T. Craft",
+        "Kelly E. Wright",
+        "Rachel Elizabeth Weissler",
+        "Robin M. Queen"
+      ],
+      "year": 2020,
+      "evidence_class": "review",
+      "domain": [
+        "C3",
+        "C6"
+      ],
+      "doi": "10.1146/annurev-linguistics-011718-011659",
+      "url": "https://doi.org/10.1146/annurev-linguistics-011718-011659",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "social_indexicality",
+        "identity",
+        "language"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4C6-001",
+      "title": "Evaluative polarity words in risky choice framing",
+      "authors": [
+        "Annika Wallin",
+        "Carita Paradis",
+        "Konstantinos V. Katsikopoulos"
+      ],
+      "year": 2016,
+      "evidence_class": "randomized_experiment",
+      "domain": [
+        "C4",
+        "C6"
+      ],
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378216616302004",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "evaluative_polarity",
+        "linguistic_framing",
+        "risky_choice"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C2C5-001",
+      "title": "Appealing to Motivation to Change Attitudes, Intentions, and Behavior: A Systematic Review and Meta-Analysis of 702 Experimental Tests of the Effects of Motivational Message Matching on Persuasion",
+      "authors": [
+        "Keven Joyal-Desmarais",
+        "Alexandra K. Scharmer",
+        "Molly K. Madzelan",
+        "Jolene V. See",
+        "Alexander J. Rothman",
+        "Mark Snyder"
+      ],
+      "year": 2022,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C2",
+        "C5",
+        "C7"
+      ],
+      "doi": "10.1037/bul0000377",
+      "url": "https://doi.org/10.1037/bul0000377",
+      "retrieval_depth": "abstract_metadata",
+      "role": [
+        "motivational_matching",
+        "persuasion",
+        "attitude_intention_behavior"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5C6-001",
+      "title": "The Effects of Structural and Grammatical Variables on Persuasion: An Elaboration Likelihood Model Perspective",
+      "authors": [
+        "Charles S. Areni"
+      ],
+      "year": 2003,
+      "evidence_class": "review",
+      "domain": [
+        "C5",
+        "C6",
+        "C7"
+      ],
+      "doi": "10.1002/mar.10077",
+      "url": "https://doi.org/10.1002/mar.10077",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "grammar",
+        "message_processing",
+        "persuasion"
+      ],
+      "status": "screened_in"
     }
   ]
 }

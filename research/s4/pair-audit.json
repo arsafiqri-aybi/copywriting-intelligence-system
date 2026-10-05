@@ -12,10 +12,13 @@
     },
     {
       "pair": "C1-C3",
-      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
-      "edge_ids": [],
-      "rationale": "Identity/self relevance plausibly biases attention, but current registry lacks sufficiently direct construct-matched evidence for a promoted edge.",
-      "audited": true
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-017"
+      ],
+      "rationale": "Self-relevance provides a construct-matched top-down attention bridge.",
+      "audited": true,
+      "wave02_updated": true
     },
     {
       "pair": "C1-C4",
@@ -64,17 +67,23 @@
     },
     {
       "pair": "C2-C4",
-      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
-      "edge_ids": [],
-      "rationale": "Many motivation-decision links exist in the literature, but current node/source mapping is not yet specific enough for an S4 promoted edge.",
-      "audited": true
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-018"
+      ],
+      "rationale": "Affect-as-information supplies a direct motivation/affect-to-judgment mechanism.",
+      "audited": true,
+      "wave02_updated": true
     },
     {
       "pair": "C2-C5",
-      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
-      "edge_ids": [],
-      "rationale": "Valuation is implicated in persuasion, but current C2 node semantics do not yet support a nonredundant direct edge to a specific C5 node.",
-      "audited": true
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-019"
+      ],
+      "rationale": "Large experimental synthesis supports motivational matching as a moderator of persuasion.",
+      "audited": true,
+      "wave02_updated": true
     },
     {
       "pair": "C2-C6",
@@ -111,10 +120,13 @@
     },
     {
       "pair": "C3-C6",
-      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
-      "edge_ids": [],
-      "rationale": "Social identity affects language use broadly, but no current construct-matched promoted edge.",
-      "audited": true
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-020"
+      ],
+      "rationale": "Social identity/accommodation has a direct language/register bridge.",
+      "audited": true,
+      "wave02_updated": true
     },
     {
       "pair": "C3-C7",
@@ -136,10 +148,13 @@
     },
     {
       "pair": "C4-C6",
-      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
-      "edge_ids": [],
-      "rationale": "Linguistic form can alter decisions, but current evidence is represented through C7 framing/message design rather than a direct C6→C4 edge.",
-      "audited": true
+      "status": "EVIDENCE_BACKED",
+      "edge_ids": [
+        "EDGE-S4-021"
+      ],
+      "rationale": "Lexical evaluative polarity contributes to framing and risky choice.",
+      "audited": true,
+      "wave02_updated": true
     },
     {
       "pair": "C4-C7",
@@ -152,10 +167,13 @@
     },
     {
       "pair": "C5-C6",
-      "status": "INSUFFICIENT_DIRECT_EVIDENCE",
-      "edge_ids": [],
-      "rationale": "Meaning/comprehension is necessary for persuasion but necessity alone is not a scientific edge between specific nodes.",
-      "audited": true
+      "status": "PROVISIONAL_EDGE",
+      "edge_ids": [
+        "EDGE-S4-022"
+      ],
+      "rationale": "Language structure can alter elaboration, but mechanism and transport remain context dependent.",
+      "audited": true,
+      "wave02_updated": true
     },
     {
       "pair": "C5-C7",

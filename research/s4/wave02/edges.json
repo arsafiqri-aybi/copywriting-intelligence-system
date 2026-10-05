@@ -1,0 +1,161 @@
+{
+  "version": "1.0.0",
+  "edges": [
+    {
+      "id": "EDGE-S4-017",
+      "source": "C3-N01-01",
+      "target": "C1-N02-02",
+      "relation": "biases",
+      "polarity": "positive",
+      "directionality": "directed",
+      "causal_status": "mechanistic_theory",
+      "mechanism": "Self-relevance supplies top-down priority signals that can bias selective attention toward personally significant information.",
+      "claim_ids": [
+        "CLM-S4-017"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Self-relevance is context and identity dependent.",
+        "Bottom-up salience can compete with self-relevance."
+      ],
+      "transport_limits": [
+        "Neurocognitive review does not justify a universal marketing effect size."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C1-C3"
+    },
+    {
+      "id": "EDGE-S4-018",
+      "source": "C2-N04-02",
+      "target": "C4-N01-04",
+      "relation": "enables",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "mechanistic_theory",
+      "mechanism": "Affective goodness/badness evaluations provide a rapid informational input that can be used as an affect heuristic in judgment.",
+      "claim_ids": [
+        "CLM-S4-018"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Affect is useful only when treated as diagnostic of the target.",
+        "Incidental affect can mislead judgment."
+      ],
+      "transport_limits": [
+        "No claim that affect dominates all decisions."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C2-C4"
+    },
+    {
+      "id": "EDGE-S4-019",
+      "source": "C2-N02-03",
+      "target": "C5-N01-02",
+      "relation": "moderates",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "experimental_causal",
+      "mechanism": "Promotion/prevention motivational orientation moderates persuasive response when message features are motivationally matched or mismatched.",
+      "claim_ids": [
+        "CLM-S4-019"
+      ],
+      "moderator_ids": [
+        "C2-N02-04"
+      ],
+      "boundary_conditions": [
+        "Requires a construct-matched message manipulation.",
+        "Matching effects vary across motive types and outcomes."
+      ],
+      "transport_limits": [
+        "Do not equate personalization with motivational matching."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [
+        "UNC-S4C2-001"
+      ],
+      "status": "accepted",
+      "core_pair": "C2-C5"
+    },
+    {
+      "id": "EDGE-S4-020",
+      "source": "C3-N02-03",
+      "target": "C6-N08-03",
+      "relation": "biases",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "mechanistic_theory",
+      "mechanism": "Salient social identities and accommodation goals can bias register/style choices and interpretation of socially indexed language.",
+      "claim_ids": [
+        "CLM-S4-020"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Language identities are fluid and interaction-specific.",
+        "Accommodation can converge or diverge."
+      ],
+      "transport_limits": [
+        "Sociolinguistic identity is not a fixed persona label."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C3-C6"
+    },
+    {
+      "id": "EDGE-S4-021",
+      "source": "C6-N01-02",
+      "target": "C4-N02-01",
+      "relation": "biases",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "mixed",
+      "mechanism": "Evaluative lexical polarity helps construct the gain/loss meaning of a decision description and can thereby shift risky choice framing.",
+      "claim_ids": [
+        "CLM-S4-021"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Reference-point and outcome-salience mechanisms must be distinguished.",
+        "Language-specific polarity and negation matter."
+      ],
+      "transport_limits": [
+        "Evidence is strongest for controlled risky-choice framing tasks."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [],
+      "status": "accepted",
+      "core_pair": "C4-C6"
+    },
+    {
+      "id": "EDGE-S4-022",
+      "source": "C6-N02-01",
+      "target": "C5-N02-05",
+      "relation": "moderates",
+      "polarity": "context_dependent",
+      "directionality": "directed",
+      "causal_status": "mechanistic_theory",
+      "mechanism": "Syntactic/structural complexity can alter the amount and character of message processing, thereby changing conditions for elaboration.",
+      "claim_ids": [
+        "CLM-S4-022"
+      ],
+      "moderator_ids": [],
+      "boundary_conditions": [
+        "Complexity can increase effort or impair comprehension depending on ability and motivation.",
+        "Sentence length is not equivalent to syntactic complexity."
+      ],
+      "transport_limits": [
+        "No universal claim that simpler syntax persuades better."
+      ],
+      "runtime_parameter_id": null,
+      "uncertainty_ids": [
+        "UNC-S4C2-002"
+      ],
+      "status": "provisional",
+      "core_pair": "C5-C6"
+    }
+  ]
+}

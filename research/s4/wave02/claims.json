@@ -1,0 +1,92 @@
+{
+  "version": "1.0.0",
+  "claims": [
+    {
+      "id": "CLM-S4-017",
+      "statement": "Self-relevant information recruits top-down appraisal systems capable of biasing attentional processing toward personally significant stimuli.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N01-01",
+        "C1-N02-02"
+      ],
+      "source_ids": [
+        "SRC-C1C3-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-018",
+      "statement": "Affective evaluations of goodness/badness can serve as information in judgment and decision making, forming the basis of the affect heuristic.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N04-02",
+        "C4-N01-04"
+      ],
+      "source_ids": [
+        "SRC-C2C4-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-019",
+      "statement": "Matching persuasive messages to recipients' motivational orientations produces a small but reliable persuasion advantage across many experimental tests, with meaningful moderators.",
+      "claim_type": "moderation",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N02-03",
+        "C2-N02-04",
+        "C5-N01-02",
+        "C5-N08-01"
+      ],
+      "source_ids": [
+        "SRC-C2C5-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-020",
+      "statement": "Social identity and accommodation processes can shape linguistic choices and communicative style, while language cues can also index social identities.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N02-03",
+        "C6-N08-03"
+      ],
+      "source_ids": [
+        "SRC-C3C6-001",
+        "SRC-C3C6-002"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-021",
+      "statement": "Evaluative polarity in wording can contribute to risky-choice framing effects, showing that lexical/connotative properties can help construct decision frames.",
+      "claim_type": "causal",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N01-02",
+        "C4-N02-01"
+      ],
+      "source_ids": [
+        "SRC-C4C6-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S4-022",
+      "statement": "Structural and grammatical message variables can alter persuasion through their effects on processing, but direction and magnitude depend on elaboration and context.",
+      "claim_type": "mechanistic",
+      "stance": "bounds",
+      "target_ids": [
+        "C6-N02-01",
+        "C5-N02-05"
+      ],
+      "source_ids": [
+        "SRC-C5C6-001"
+      ],
+      "status": "verified"
+    }
+  ]
+}

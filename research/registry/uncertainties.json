@@ -472,6 +472,30 @@
       "reducibility": "retrieval",
       "resolution_requirement": "Add analogy-specific comprehension evidence before acceptance.",
       "blocks_gate": false
+    },
+    {
+      "id": "UNC-S4C2-001",
+      "channel": "transport_context",
+      "target_ids": [
+        "EDGE-S4-019"
+      ],
+      "level": "medium",
+      "reason": "Motivational matching has a reliable average effect but varies by motive type, message manipulation, outcome, and context.",
+      "reducibility": "context_information",
+      "resolution_requirement": "Runtime must match a specified motivational construct to a specified message feature rather than applying generic personalization.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S4C2-002",
+      "channel": "construct",
+      "target_ids": [
+        "EDGE-S4-021"
+      ],
+      "level": "medium",
+      "reason": "Syntactic complexity is only one structural message property and can influence persuasion through multiple processing mechanisms.",
+      "reducibility": "experiment",
+      "resolution_requirement": "Keep edge provisional and separate load, fluency, comprehension and elaboration explanations.",
+      "blocks_gate": false
     }
   ]
 }
