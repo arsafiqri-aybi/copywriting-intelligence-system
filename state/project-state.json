@@ -1,0 +1,60 @@
+{
+  "project": "COPYWRITING_INTELLIGENCE_SYSTEM",
+  "architecture_version": "1.0.0-bootstrap",
+  "stage": "S0_CONTRACT_AND_ARCHITECTURE_FREEZE",
+  "status": "IN_PROGRESS",
+  "repository": "arsafiqri-aybi/copywriting-intelligence-system",
+  "protected_constraints": {
+    "top_level_core_count": 7,
+    "core_names": [
+      "Cognitive Processing & Attention",
+      "Motivation & Affect",
+      "Social Psychology & Identity",
+      "Judgment & Decision",
+      "Persuasion, Belief & Trust",
+      "Language, Pragmatics & Meaning",
+      "Rhetoric, Argumentation & Message Architecture"
+    ],
+    "network_not_linear_funnel": true,
+    "market_value_is_outer_system": true,
+    "research_evidence_feedback_is_epistemic_substrate": true,
+    "do_not_force_edges": true,
+    "do_not_treat_runtime_weights_as_empirical_effect_sizes": true
+  },
+  "scale_envelope": {
+    "cores": 7,
+    "initial_provisional_modules": 56,
+    "primary_neuron_range": [250, 450],
+    "micro_neurons": "evidence_driven_open",
+    "edge_count": "evidence_driven_open",
+    "claim_count": "evidence_driven_open"
+  },
+  "accepted_artifacts": [
+    "README.md",
+    "PROJECT_CONTRACT.md",
+    "docs/ARCHITECTURE_V1.md",
+    "docs/QUALITY_GATES.md",
+    "research/EVIDENCE_POLICY.md",
+    "research/RESEARCH_PLAN.md",
+    "schemas/node.schema.json",
+    "schemas/scientific-edge.schema.json",
+    "schemas/atomic-claim.schema.json",
+    "schemas/measurement.schema.json"
+  ],
+  "gate_status": {
+    "G1_ARCHITECTURE": "NOT_RUN",
+    "G2_COVERAGE": "NOT_RUN",
+    "G3_EVIDENCE": "NOT_RUN",
+    "G4_CAUSAL_DISCIPLINE": "NOT_RUN",
+    "G5_CONNECTION_VALIDITY": "NOT_RUN",
+    "G6_CONTRADICTION_INTEGRITY": "NOT_RUN",
+    "G7_MEASUREMENT_VALIDITY": "NOT_RUN",
+    "G8_REASONING": "NOT_RUN",
+    "G9_COPY_QUALITY": "NOT_RUN",
+    "G10_GENERALIZATION": "NOT_RUN",
+    "G11_FEEDBACK_LEARNING": "NOT_RUN",
+    "G12_SKILL_QUALITY": "NOT_RUN"
+  },
+  "research_saturation": "NOT_CLAIMED",
+  "next_action": "S1_DOMAIN_TAXONOMY: validate the 56 provisional modules against scientific disciplines, construct boundaries, terminology collisions, major theories and measurement traditions before promoting modules or creating large neuron inventories."
+}
