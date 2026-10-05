@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "feedback-update-decision.schema.json",
+  "title": "Bounded Feedback Update Decision",
+  "type": "object",
+  "required": [
+    "id",
+    "result_class",
+    "causal_variant_effect_allowed",
+    "mechanism_causal_interpretation_allowed",
+    "allowed_update_scopes",
+    "forbidden_updates",
+    "runtime_update",
+    "scientific_action"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "result_class": {
+      "enum": [
+        "supports",
+        "contradicts",
+        "null",
+        "mixed",
+        "invalid"
+      ]
+    },
+    "causal_variant_effect_allowed": {
+      "type": "boolean"
+    },
+    "mechanism_causal_interpretation_allowed": {
+      "type": "boolean"
+    },
+    "allowed_update_scopes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "forbidden_updates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "runtime_update": {
+      "enum": [
+        "strengthen",
+        "weaken",
+        "no_change",
+        "split_by_context",
+        "invalidate"
+      ]
+    },
+    "scope_key": {
+      "type": "object"
+    },
+    "scientific_action": {
+      "enum": [
+        "none",
+        "create_candidate_only",
+        "send_to_research_lifecycle"
+      ]
+    },
+    "rationale": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alternative_explanations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "regression_required": {
+      "type": "boolean"
+    }
+  }
+}

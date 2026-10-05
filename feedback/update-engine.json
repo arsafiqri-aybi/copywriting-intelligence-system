@@ -1,0 +1,95 @@
+{
+  "version": "1.0.0",
+  "name": "BOUNDED_FEEDBACK_UPDATE_ENGINE",
+  "rules": [
+    {
+      "id": "FU-001",
+      "condition": "observation_type=campaign_observation",
+      "decision": "causal_variant_effect_allowed=false; mechanism_causal_interpretation_allowed=false; updates limited to audience/market/channel/message hypotheses or runtime priors."
+    },
+    {
+      "id": "FU-002",
+      "condition": "design=randomized_ab or multivariate_randomized AND valid_randomization=true AND implementation_valid=true",
+      "decision": "causal_variant_effect_allowed=true for the randomized intervention bundle in tested context."
+    },
+    {
+      "id": "FU-003",
+      "condition": "material_components_changed>1",
+      "decision": "mechanism_causal_interpretation_allowed=false unless factorial/mediation design identifies components."
+    },
+    {
+      "id": "FU-004",
+      "condition": "mechanism_identification_level in L0/L1",
+      "decision": "mechanism_causal_interpretation_allowed=false."
+    },
+    {
+      "id": "FU-005",
+      "condition": "mechanism_identification_level in L2/L3 AND valid randomized/quasi identification",
+      "decision": "mechanism interpretation may be boundedly supported; scientific registry still not directly updated."
+    },
+    {
+      "id": "FU-006",
+      "condition": "preregistered/valid decision rule violated OR optional stopping without supported sequential design",
+      "decision": "result_class=invalid; runtime_update=invalidate."
+    },
+    {
+      "id": "FU-007",
+      "condition": "primary outcome null",
+      "decision": "retain null; do not promote secondary favorable outcome as if primary succeeded."
+    },
+    {
+      "id": "FU-008",
+      "condition": "primary improves but critical guardrail worsens",
+      "decision": "result_class=mixed; runtime_update=split_by_context or no_change pending decision utility."
+    },
+    {
+      "id": "FU-009",
+      "condition": "qualitative feedback/user research",
+      "decision": "update audience/customer-language/objection hypotheses; no population causal effect."
+    },
+    {
+      "id": "FU-010",
+      "condition": "result conflicts with prior runtime heuristic",
+      "decision": "weaken or split by context; never delete contradictory evidence."
+    },
+    {
+      "id": "FU-011",
+      "condition": "scientific_claim_candidate requested",
+      "decision": "create candidate only and route through SOURCE→CLAIM→VERIFICATION→PROMOTION lifecycle."
+    }
+  ],
+  "update_scope_permissions": {
+    "campaign_observation": [
+      "audience_hypothesis",
+      "market_estimate",
+      "channel_prior",
+      "message_hypothesis",
+      "runtime_heuristic"
+    ],
+    "qualitative_feedback": [
+      "audience_hypothesis",
+      "message_hypothesis"
+    ],
+    "user_research": [
+      "audience_hypothesis",
+      "market_estimate",
+      "message_hypothesis"
+    ],
+    "randomized_experiment_result": [
+      "message_hypothesis",
+      "runtime_heuristic",
+      "calibration_parameter",
+      "scientific_claim_candidate"
+    ],
+    "quasi_experiment_result": [
+      "message_hypothesis",
+      "runtime_heuristic",
+      "calibration_parameter",
+      "scientific_claim_candidate"
+    ],
+    "expert_review": [
+      "message_hypothesis",
+      "runtime_heuristic"
+    ]
+  }
+}

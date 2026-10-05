@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "cases": [
+    {
+      "id": "FB-01",
+      "name": "Observational CTR lift",
+      "input": {
+        "observation_type": "campaign_observation",
+        "design": "observational",
+        "primary_result": "supports",
+        "valid_randomization": false,
+        "implementation_valid": true,
+        "material_components_changed": 4,
+        "mechanism_identification_level": "L0",
+        "requested_scope": "message_hypothesis"
+      },
+      "expected": {
+        "causal_variant_effect_allowed": false,
+        "mechanism_causal_interpretation_allowed": false,
+        "runtime_update": "strengthen",
+        "scientific_action": "none"
+      }
+    },
+    {
+      "id": "FB-02",
+      "name": "Single-component randomized CTA clarity win",
+      "input": {
+        "observation_type": "randomized_experiment_result",
+        "design": "randomized_ab",
+        "primary_result": "supports",
+        "valid_randomization": true,
+        "implementation_valid": true,
+        "decision_rule_valid": true,
+        "material_components_changed": 1,
+        "mechanism_identification_level": "L1",
+        "requested_scope": "runtime_heuristic"
+      },
+      "expected": {
+        "causal_variant_effect_allowed": true,
+        "mechanism_causal_interpretation_allowed": false,
+        "runtime_update": "strengthen",
+        "scientific_action": "none"
+      }
+    },
+    {
+      "id": "FB-03",
+      "name": "Randomized proof null",
+      "input": {
+        "observation_type": "randomized_experiment_result",
+        "design": "randomized_ab",
+        "primary_result": "null",
+        "valid_randomization": true,
+        "implementation_valid": true,
+        "decision_rule_valid": true,
+        "material_components_changed": 1,
+        "mechanism_identification_level": "L1",
+        "requested_scope": "message_hypothesis"
+      },
+      "expected": {
+        "causal_variant_effect_allowed": true,
+        "mechanism_causal_interpretation_allowed": false,
+        "runtime_update": "weaken",
+        "scientific_action": "none"
+      }
+    },
+    {
+      "id": "FB-04",
+      "name": "Conversion up but complaint guardrail worsens",
+      "input": {
+        "observation_type": "randomized_experiment_result",
+        "design": "randomized_ab",
+        "primary_result": "supports",
+        "guardrail_result": "worse_critical",
+        "valid_randomization": true,
+        "implementation_valid": true,
+        "decision_rule_valid": true,
+        "material_components_changed": 1,
+        "mechanism_identification_level": "L1",
+        "requested_scope": "runtime_heuristic"
+      },
+      "expected": {
+        "causal_variant_effect_allowed": true,
+        "mechanism_causal_interpretation_allowed": false,
+        "runtime_update": "split_by_context",
+        "scientific_action": "none"
+      }
+    },
+    {
+      "id": "FB-05",
+      "name": "Checkout abandonment observation",
+      "input": {
+        "observation_type": "campaign_observation",
+        "design": "observational",
+        "primary_result": "supports",
+        "valid_randomization": false,
+        "implementation_valid": true,
+        "material_components_changed": 0,
+        "mechanism_identification_level": "L0",
+        "requested_scope": "audience_hypothesis"
+      },
+      "expected": {
+        "causal_variant_effect_allowed": false,
+        "mechanism_causal_interpretation_allowed": false,
+        "runtime_update": "strengthen",
+        "scientific_action": "none"
+      }
+    },
+    {
+      "id": "FB-06",
+      "name": "Interview trust concern",
+      "input": {
+        "observation_type": "user_research",
+        "design": "observational",
+        "primary_result": "supports",
+        "valid_randomization": false,
+        "implementation_valid": true,
+        "material_components_changed": 0,
+        "mechanism_identification_level": "L0",
+        "requested_scope": "audience_hypothesis"
+      },
+      "expected": {
+        "causal_variant_effect_allowed": false,
+        "mechanism_causal_interpretation_allowed": false,
+        "runtime_update": "strengthen",
+        "scientific_action": "none"
+      }
+    },
+    {
+      "id": "FB-07",
+      "name": "Optional-stopping winner",
+      "input": {
+        "observation_type": "randomized_experiment_result",
+        "design": "randomized_ab",
+        "primary_result": "supports",
+        "valid_randomization": true,
+        "implementation_valid": true,
+        "decision_rule_valid": false,
+        "material_components_changed": 1,
+        "mechanism_identification_level": "L1",
+        "requested_scope": "runtime_heuristic"
+      },
+      "expected": {
+        "causal_variant_effect_allowed": false,
+        "mechanism_causal_interpretation_allowed": false,
+        "runtime_update": "invalidate",
+        "scientific_action": "none"
+      }
+    },
+    {
+      "id": "FB-08",
+      "name": "Mechanism-supported randomized replication candidate",
+      "input": {
+        "observation_type": "randomized_experiment_result",
+        "design": "randomized_ab",
+        "primary_result": "supports",
+        "valid_randomization": true,
+        "implementation_valid": true,
+        "decision_rule_valid": true,
+        "material_components_changed": 1,
+        "mechanism_identification_level": "L2",
+        "requested_scope": "scientific_claim_candidate"
+      },
+      "expected": {
+        "causal_variant_effect_allowed": true,
+        "mechanism_causal_interpretation_allowed": true,
+        "runtime_update": "strengthen",
+        "scientific_action": "create_candidate_only"
+      }
+    }
+  ]
+}
