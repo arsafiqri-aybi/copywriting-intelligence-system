@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "status": "PASS",
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "skill_lines": 178,
+    "linked_references": 4,
+    "positive_triggers": 8,
+    "negative_triggers": 6,
+    "edge_triggers": 4
+  },
+  "validation_mode": "connector-based equivalent of scripts/validate_skill_runtime.py; the script itself is persisted for local/CI execution."
+}

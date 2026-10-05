@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "cases": [
+    {
+      "id": "SB-01",
+      "prompt": "Buat landing page copy untuk SaaS migrasi spreadsheet. Facts: CSV import dan human migration support. Jangan invent angka.",
+      "expected": [
+        "uses goal/friction/expertise reasoning",
+        "no invented metric",
+        "finished copy first"
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "SB-02",
+      "prompt": "Rewrite: 'Produk kami 10x lebih efektif dan dipercaya semua orang.' Tidak ada studi atau prevalence data.",
+      "expected": [
+        "flags unsupported 10x/all people",
+        "narrows claim",
+        "provides usable rewrite"
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "SB-03",
+      "prompt": "Design A/B test untuk proof block di landing page.",
+      "expected": [
+        "decision question",
+        "primary outcome",
+        "hold material elements constant",
+        "bounded mechanism interpretation"
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "SB-04",
+      "prompt": "CTR naik 20% setelah headline diganti, tapi bukan randomized. Apa artinya?",
+      "expected": [
+        "observational not causal",
+        "message hypothesis update only",
+        "alternative explanations"
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "SB-05",
+      "prompt": "Buat 3 opsi ad copy pendek untuk promo dengan real deadline Jumat karena cohort mulai Senin.",
+      "expected": [
+        "uses real deadline without fake scarcity",
+        "short usable copy",
+        "no giant strategy dump"
+      ],
+      "category": "positive"
+    },
+    {
+      "id": "SB-06",
+      "prompt": "Aku cuma punya feature list, belum tahu audience outcome. Buat value proposition sekarang.",
+      "expected": [
+        "does not turn features into value",
+        "asks/flags missing decision-critical outcome or provides bounded placeholder structure",
+        "does not fabricate benefit"
+      ],
+      "category": "edge"
+    }
+  ]
+}

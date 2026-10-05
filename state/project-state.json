@@ -43,7 +43,7 @@
     "S6_REASONING_ENGINE": "PASS",
     "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "PASS",
     "S8_EVALUATION": "PASS_INTERNAL_WITH_EVALUATOR_INDEPENDENCE_LIMITATION",
-    "S9_SKILL_RUNTIME": "IN_PROGRESS_CYCLE01_PACKAGE",
+    "S9_SKILL_RUNTIME": "IN_PROGRESS_CYCLE02_VALIDATION",
     "S10_RELEASE_CONTINUOUS_RESEARCH": "NOT_STARTED"
   },
   "knowledge_counts": {
@@ -76,7 +76,7 @@
     "G12_SKILL_QUALITY": "IN_PROGRESS"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "Run static package/reference audit, trigger-catalog audit, and representative behavior checks; repair before claiming S9 PASS.",
+  "next_action": "S9 closure audit: verify progressive disclosure, runtime dependencies, behavior evidence, installation claims, and package status; then open S10 release/continuous research.",
   "integrity_repairs": [
     {
       "id": "REPAIR-2026-10-05-01",

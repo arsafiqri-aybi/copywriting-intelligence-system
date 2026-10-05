@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "outputs": [
+    {
+      "id": "SB-01",
+      "response": "Strategy: lead with the active goal (move reporting off spreadsheets), reduce migration uncertainty, and use human migration support as relevant expertise proof. Copy: “Move reporting out of spreadsheets without figuring out migration alone. Import your CSV data, then work with human migration support to get the setup aligned to your workflow. See how the reporting flow works and book a demo.”",
+      "checks": [
+        "No time-saving number invented.",
+        "Goal/friction/expertise all addressed."
+      ]
+    },
+    {
+      "id": "SB-02",
+      "response": "The original has two unsupported claims: “10x more effective” and “trusted by everyone.” Rewrite: “Built to help [audience] achieve [supported outcome] using [documented capability]. See the product evidence and decide whether it fits your use case.” If you have a valid comparative study or trust/prevalence data, we can strengthen the claim within that evidence.",
+      "checks": [
+        "Unsupported precision removed.",
+        "Unsupported consensus removed."
+      ]
+    },
+    {
+      "id": "SB-03",
+      "response": "Decision: does adding claim-specific diagnostic proof improve the target action? Randomize eligible visitors to the same page with versus without the proof block; keep main claim, offer, CTA, and layout constant as feasible. Pre-register one primary outcome, guardrails, sample/stopping rule, and analysis. A conversion lift identifies the proof-block variant effect in this context; mechanism interpretation needs a construct-appropriate check.",
+      "checks": [
+        "Primary outcome and stopping rule required.",
+        "Mechanism causality bounded."
+      ]
+    },
+    {
+      "id": "SB-04",
+      "response": "It means the campaign observed higher CTR after the headline change. Because there was no random assignment/control, do not conclude the headline caused the lift or that attention/persuasion increased. Update a bounded message hypothesis and check targeting, placement, seasonality, offer, tracking, and other concurrent changes; use a randomized test if causal attribution matters.",
+      "checks": [
+        "No observational causal leap."
+      ]
+    },
+    {
+      "id": "SB-05",
+      "response": "Option 1: “The next cohort starts Monday. Enrollment closes Friday so we can finalize the group—join if this cohort fits your schedule.” Option 2: “Planning to join the Monday cohort? Enrollment closes Friday for cohort setup. See the details and enroll when you’re ready.” Option 3: “Friday is the enrollment cutoff for Monday’s cohort. Review the program, schedule, and terms before you decide.”",
+      "checks": [
+        "Deadline factual.",
+        "No fake scarcity language.",
+        "Output remains concise."
+      ]
+    },
+    {
+      "id": "SB-06",
+      "response": "A feature list is not enough to make a defensible value proposition because value depends on whose goal or burden the feature changes. Give me the audience + desired outcome (or the current alternative/problem). Until then, the safe structure is: “[capability] helps [specific audience] achieve/reduce [verified outcome/barrier], compared with [current alternative], supported by [evidence].” Do not fill the outcome with a guess.",
+      "checks": [
+        "Feature/value boundary preserved.",
+        "Only decision-critical clarification requested."
+      ]
+    }
+  ]
+}

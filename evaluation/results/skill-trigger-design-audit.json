@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "mode": "design_catalog_audit",
+  "host_router_tested": false,
+  "catalog": {
+    "positive": 8,
+    "negative": 6,
+    "edge": 4
+  },
+  "decision": "PASS_DESIGN_SCOPE",
+  "findings": [
+    "Description explicitly scopes persuasive marketing/copy tasks.",
+    "Description explicitly excludes general creative writing, personal messages, and unrelated psychology explanations.",
+    "Edge cases distinguish promotional Instagram copy from personal captions and real copy tasks from AIDA explanation-only requests."
+  ],
+  "limitation": "Automatic implicit selection by a production host/router was not executed in this repository workflow."
+}
