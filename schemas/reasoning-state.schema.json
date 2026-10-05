@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "reasoning-state.schema.json",
+  "title": "Copywriting Reasoning State",
+  "type": "object",
+  "required": [
+    "reasoning_id",
+    "goal",
+    "retrieval",
+    "activation_ledger",
+    "conflicts",
+    "uncertainties",
+    "strategy"
+  ],
+  "properties": {
+    "reasoning_id": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "object"
+    },
+    "retrieval": {
+      "type": "object",
+      "required": [
+        "seed_node_ids",
+        "retrieved_node_ids",
+        "retrieved_edge_ids"
+      ],
+      "properties": {
+        "seed_node_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "retrieved_node_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "retrieved_edge_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "excluded_items": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "activation_ledger": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "node_id",
+          "role",
+          "runtime_status",
+          "basis"
+        ],
+        "properties": {
+          "node_id": {
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "primary",
+              "supporting",
+              "countervailing",
+              "constraint",
+              "uncertainty"
+            ]
+          },
+          "runtime_status": {
+            "enum": [
+              "strong_candidate",
+              "candidate",
+              "weak_candidate",
+              "inactive",
+              "blocked"
+            ]
+          },
+          "basis": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "edge_path": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence_state": {
+            "enum": [
+              "accepted_direct",
+              "accepted_inferred",
+              "provisional",
+              "heuristic",
+              "unknown"
+            ]
+          },
+          "warnings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "participants",
+          "resolution"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "participants": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "resolution": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "active",
+              "bounded",
+              "resolved",
+              "requires_test"
+            ]
+          }
+        }
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "strategy": {
+      "$ref": "strategy-plan.schema.json"
+    },
+    "non_inferences": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

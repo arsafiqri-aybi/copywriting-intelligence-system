@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "copy-critique.schema.json",
+  "title": "Copy Critique Report",
+  "type": "object",
+  "required": [
+    "verdict",
+    "findings",
+    "unsupported_claims",
+    "strategy_mismatches",
+    "uncertainty_violations",
+    "revision_priorities"
+  ],
+  "properties": {
+    "verdict": {
+      "enum": [
+        "PASS",
+        "PASS_WITH_WARNINGS",
+        "FAIL"
+      ]
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "dimension",
+          "severity",
+          "finding"
+        ],
+        "properties": {
+          "dimension": {
+            "enum": [
+              "factuality",
+              "evidence",
+              "mechanism_fit",
+              "audience_fit",
+              "value",
+              "proof",
+              "trust",
+              "friction",
+              "language",
+              "sequence",
+              "cta",
+              "channel",
+              "brand",
+              "ethics",
+              "uncertainty"
+            ]
+          },
+          "severity": {
+            "enum": [
+              "info",
+              "warning",
+              "critical"
+            ]
+          },
+          "finding": {
+            "type": "string"
+          },
+          "basis_node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "basis_edge_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "unsupported_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "strategy_mismatches": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncertainty_violations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "revision_priorities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "strategy-plan.schema.json",
+  "title": "Evidence-Aware Message Strategy",
+  "type": "object",
+  "required": [
+    "message_hypothesis",
+    "claim_plan",
+    "value_plan",
+    "proof_plan",
+    "framing_plan",
+    "objection_plan",
+    "sequence_plan",
+    "language_plan",
+    "cta_plan",
+    "channel_adaptation"
+  ],
+  "properties": {
+    "message_hypothesis": {
+      "type": "object",
+      "required": [
+        "statement",
+        "basis_node_ids",
+        "status"
+      ],
+      "properties": {
+        "statement": {
+          "type": "string"
+        },
+        "basis_node_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "basis_edge_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "enum": [
+            "supported",
+            "bounded",
+            "experimental"
+          ]
+        }
+      }
+    },
+    "claim_plan": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim",
+          "support_required",
+          "status"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "support_required": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "enum": [
+              "safe_with_current_evidence",
+              "requires_support",
+              "avoid"
+            ]
+          }
+        }
+      }
+    },
+    "value_plan": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "proof_plan": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "framing_plan": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "emotion_plan": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "social_identity_plan": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "objection_plan": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "sequence_plan": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "language_plan": {
+      "type": "object",
+      "properties": {
+        "register": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "specificity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "use_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "avoid_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "cta_plan": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "explicitness": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "friction_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reactance_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "channel_adaptation": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "experiment_hooks": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

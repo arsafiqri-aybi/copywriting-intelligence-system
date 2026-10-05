@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "purpose": "Model-facing contract for generating copy only after strategy synthesis.",
+  "required_inputs": [
+    "grounded facts",
+    "message strategy",
+    "brand voice",
+    "channel constraints",
+    "allowed claims",
+    "required proof",
+    "prohibited claims",
+    "customer language evidence"
+  ],
+  "generation_rules": [
+    "Write for the diagnosed audience situation, not a generic persona.",
+    "Lead with the most relevant value/belief problem for this context, not a fixed formula.",
+    "Use only claims permitted by the claim plan.",
+    "Place proof where it answers the active belief gap.",
+    "Use emotional language only when supported by the strategy; do not intensify fear/shame by default.",
+    "Preserve autonomy when reactance risk is active.",
+    "Use customer wording as language evidence, not as a command to imitate every phrase.",
+    "Keep comparisons factual and appropriately qualified.",
+    "Make next action understandable without fabricating urgency.",
+    "Adapt length/structure to channel while preserving critical evidence and constraints."
+  ],
+  "forbidden_shortcuts": [
+    "automatic AIDA",
+    "automatic PAS",
+    "power-word stuffing",
+    "fake scarcity",
+    "unsupported superlatives",
+    "invented numbers/testimonials",
+    "generic 'pain point' amplification without evidence"
+  ]
+}

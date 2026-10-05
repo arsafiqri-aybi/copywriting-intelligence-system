@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "note": "These are runtime design tensions, not new scientific edges. A conflict fires only when its participants are active in the current case.",
+  "conflicts": [
+    {
+      "id": "CF-001",
+      "name": "Norm pressure vs autonomy/reactance",
+      "participants": [
+        "C3-N03-02",
+        "C5-N05-02"
+      ],
+      "resolution": "Prefer autonomy-supportive wording, descriptive evidence, or value relevance over controlling 'you should' language when reactance is active.",
+      "evidence_edges": [
+        "EDGE-S4-027",
+        "EDGE-S4-028"
+      ]
+    },
+    {
+      "id": "CF-002",
+      "name": "Proof detail vs processing burden",
+      "participants": [
+        "C5-N04-03",
+        "C1-N03-05"
+      ],
+      "resolution": "Layer proof: surface the most diagnostic evidence first; make depth available without forcing all detail into the first exposure.",
+      "evidence_edges": []
+    },
+    {
+      "id": "CF-003",
+      "name": "Complexity vs fluency",
+      "participants": [
+        "C6-N02-02",
+        "C1-N04-03"
+      ],
+      "resolution": "Resolve avoidable ambiguity; retain complexity only when it carries necessary precision or meaning.",
+      "evidence_edges": [
+        "EDGE-S4-023",
+        "EDGE-S4-025"
+      ]
+    },
+    {
+      "id": "CF-004",
+      "name": "Comparative contrast vs credibility",
+      "participants": [
+        "C7-N05-03",
+        "C5-N03-02"
+      ],
+      "resolution": "Use factual, symmetric comparison criteria and support claims; avoid exaggerated superiority that creates trust costs.",
+      "evidence_edges": [
+        "EDGE-S4-012"
+      ]
+    },
+    {
+      "id": "CF-005",
+      "name": "Emotion intensity vs decision risk",
+      "participants": [
+        "C7-N02-02",
+        "C4-N03-01"
+      ],
+      "resolution": "Use emotion to make stakes relevant, but pair high-risk decisions with evidence/control information rather than escalating affect alone.",
+      "evidence_edges": [
+        "EDGE-S4-011"
+      ]
+    },
+    {
+      "id": "CF-006",
+      "name": "Action directness vs reactance",
+      "participants": [
+        "C7-N08-01",
+        "C5-N05-02"
+      ],
+      "resolution": "Keep next action clear while preserving choice/autonomy and avoiding coercive pressure.",
+      "evidence_edges": [
+        "EDGE-S4-033"
+      ]
+    },
+    {
+      "id": "CF-007",
+      "name": "Narrative depth vs action clarity",
+      "participants": [
+        "C7-N03-01",
+        "C4-N08-04"
+      ],
+      "resolution": "Use narrative only as long as it supports value/belief change; make the transition to next action explicit and low-friction.",
+      "evidence_edges": []
+    },
+    {
+      "id": "CF-008",
+      "name": "Specificity vs unsupported precision",
+      "participants": [
+        "C6-N08-05",
+        "C5-N07-02"
+      ],
+      "resolution": "Be specific where facts are verifiable; do not invent precise numbers/claims to create credibility.",
+      "evidence_edges": []
+    }
+  ]
+}

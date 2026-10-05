@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "objective": "Retrieve the smallest scientifically relevant subgraph needed for the current commercial diagnosis and writing goal.",
+  "seed_sources": [
+    "S5 mechanism_hypotheses with candidate or strong_candidate status",
+    "goal-critical belief/trust/friction nodes",
+    "explicit message-design nodes required by the output task"
+  ],
+  "traversal": [
+    "Include seed nodes even when provisional, but preserve their provisional state.",
+    "Prefer accepted scientific edges for one-hop expansion.",
+    "Allow provisional edges only when directly relevant to an unresolved decision and attach uncertainty.",
+    "Default graph horizon is one hop; allow two hops only when required to explain mediation/conflict or a critical strategy dependency.",
+    "Never traverse an edge solely because it increases graph density.",
+    "Do not retrieve every node in a core.",
+    "Do not convert same-core adjacency into an implied scientific edge."
+  ],
+  "ranking_dimensions": [
+    "direct grounding in current facts",
+    "goal relevance",
+    "barrier relevance",
+    "claim/proof relevance",
+    "edge evidence status",
+    "uncertainty burden",
+    "channel relevance"
+  ],
+  "exclusion_rules": [
+    "Exclude nodes contradicted by explicit current facts unless retained as counter-hypotheses.",
+    "Exclude provisional marketing/design nodes from dominant-mechanism status unless no accepted construct can represent the need.",
+    "Exclude scientific details that cannot change strategy, copy, testing, or critique for this task."
+  ],
+  "stopping_rule": "Stop retrieval when additional nodes no longer change a material strategy decision, conflict, uncertainty, or experiment candidate."
+}

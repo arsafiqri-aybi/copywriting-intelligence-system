@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "name": "COPYWRITING_REASONING_ENGINE",
+  "mission": "Reason from grounded commercial context through scientific mechanisms into evidence-aware message strategy and copy constraints.",
+  "pipeline": [
+    "INGEST_CONTEXT",
+    "VALIDATE_FACTS_AND_CONSTRAINTS",
+    "LOAD_S5_DIAGNOSIS",
+    "PLAN_RETRIEVAL",
+    "RETRIEVE_RELEVANT_SUBGRAPH",
+    "BUILD_ACTIVATION_LEDGER",
+    "DETECT_MECHANISM_AND_DESIGN_CONFLICTS",
+    "PROPAGATE_UNCERTAINTY",
+    "SYNTHESIZE_VALUE_AND_BELIEF_MODEL",
+    "FORM_MESSAGE_HYPOTHESIS",
+    "BUILD_CLAIM_PROOF_FRAMING_PLAN",
+    "BUILD_OBJECTION_SEQUENCE_LANGUAGE_CTA_PLAN",
+    "ADAPT_TO_CHANNEL_AND_BRAND",
+    "GENERATE_COPY_WITH_FACT_LOCK",
+    "CRITIQUE_AGAINST_STRATEGY_EVIDENCE_AND_CONSTRAINTS",
+    "EMIT_EXPERIMENT_HOOKS_FOR_UNCERTAIN_DECISIONS"
+  ],
+  "invariant_rules": [
+    "No copy formula is mandatory.",
+    "Every material strategy recommendation must trace to facts plus a mechanism/design rationale.",
+    "Scientific nodes describe mechanisms; commercial objects describe context.",
+    "Provisional constructs remain provisional.",
+    "No invented product facts, proof, customer quotes, metrics, guarantees, scarcity, deadlines or social proof.",
+    "No numerical runtime parameter may be called an empirical effect size unless it actually is one from a cited study and is used only as evidence metadata.",
+    "A valid outcome may be 'insufficient evidence; ask/research/test' rather than a persuasive claim."
+  ],
+  "outputs": [
+    "reasoning-state.schema.json",
+    "strategy-plan.schema.json",
+    "copy draft",
+    "copy-critique.schema.json"
+  ]
+}

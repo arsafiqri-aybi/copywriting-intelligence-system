@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "principles": [
+    "Runtime confidence is diagnostic confidence, not a probability of truth or an empirical effect size.",
+    "A provisional seed or provisional edge cannot produce an accepted inferred conclusion.",
+    "Inferred hypotheses inherit the strongest relevant uncertainty/boundary condition on their path.",
+    "Contradictory evidence is attached to the decision it affects rather than averaged away.",
+    "When multiple mechanisms explain the same observation, keep alternatives until discriminating evidence exists.",
+    "If a strategy recommendation depends on a high-uncertainty mechanism, mark it experimental and produce a test hook.",
+    "Facts and product limitations override persuasive convenience."
+  ],
+  "status_order": [
+    "accepted_direct",
+    "accepted_inferred",
+    "provisional",
+    "heuristic",
+    "unknown"
+  ],
+  "downgrade_rules": [
+    {
+      "if": "source node is provisional",
+      "then": "downstream evidence_state cannot exceed provisional"
+    },
+    {
+      "if": "edge is provisional",
+      "then": "downstream evidence_state cannot exceed provisional"
+    },
+    {
+      "if": "mapping is heuristic",
+      "then": "runtime_status cannot exceed weak_candidate without independent support"
+    },
+    {
+      "if": "basis is only model_inference",
+      "then": "runtime_status cannot exceed weak_candidate"
+    },
+    {
+      "if": "material contradiction unresolved",
+      "then": "strategy status becomes bounded or experimental"
+    }
+  ]
+}
