@@ -38,8 +38,8 @@
     "S1_DOMAIN_TAXONOMY": "PASS_WITH_BOUNDED_PROVISIONAL_MODULES",
     "S2_RESEARCH_FOUNDATION": "PASS",
     "S3_SEVEN_CORE_KNOWLEDGE_BUILD": "PASS_WITH_BOUNDED_PROVISIONALS",
-    "S4_CONNECTION_BUILD": "CLOSURE_AUDIT_PENDING",
-    "S5_MARKET_VALUE_INTEGRATION": "NOT_STARTED",
+    "S4_CONNECTION_BUILD": "PASS_WITH_BOUNDED_PROVISIONAL_EDGES",
+    "S5_MARKET_VALUE_INTEGRATION": "READY_TO_START",
     "S6_REASONING_ENGINE": "NOT_STARTED",
     "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "NOT_STARTED",
     "S8_EVALUATION": "NOT_STARTED",
@@ -52,21 +52,21 @@
     "uncertainty_records": 31,
     "candidate_neurons": 280,
     "accepted_neurons": 200,
-    "accepted_scientific_edges": 23,
+    "accepted_scientific_edges": 22,
     "provisional_neurons": 54,
     "measurement_mappings": 57,
     "covered_modules": 56,
     "contradiction_records": 7,
     "remaining_candidate_hypotheses": 26,
     "scientific_edges": 35,
-    "provisional_scientific_edges": 12
+    "provisional_scientific_edges": 13
   },
   "gate_status": {
     "G1_ARCHITECTURE": "PARTIAL_PASS_S1",
     "G2_COVERAGE": "PASS_FOR_S3_SCOPE",
     "G3_EVIDENCE": "PARTIAL_PASS_S3_CONTINUES_PROJECT_WIDE",
     "G4_CAUSAL_DISCIPLINE": "PARTIAL_PASS_S3",
-    "G5_CONNECTION_VALIDITY": "CLOSURE_AUDIT_PENDING",
+    "G5_CONNECTION_VALIDITY": "PASS_FOR_S4_SCOPE",
     "G6_CONTRADICTION_INTEGRITY": "PARTIAL_PASS_S3",
     "G7_MEASUREMENT_VALIDITY": "PARTIAL_PASS_S3_MEASUREMENT_GAPS_DEFERRED_TO_S7",
     "G8_REASONING": "NOT_RUN",
@@ -76,7 +76,7 @@
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "Run S4 closure audit: validate edge references, causal-status discipline, pair decisions, provisional boundaries, edge directionality, and explicit non-edges. Close S4 only if clean.",
+  "next_action": "S5_MARKET_VALUE_INTEGRATION: build a separate commercial-context ontology and mapping layer from audience/product/alternatives/value/offer/risk/friction/customer language into the seven-core mechanism graph without turning marketing labels into scientific nodes.",
   "integrity_repairs": [
     {
       "id": "REPAIR-2026-10-05-01",

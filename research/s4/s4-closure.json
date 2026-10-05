@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "stage": "S4_CONNECTION_BUILD",
+  "decision": "PASS_WITH_BOUNDED_PROVISIONAL_EDGES",
+  "counts": {
+    "edges": 35,
+    "accepted_edges": 22,
+    "provisional_edges": 13,
+    "core_pairs_audited": 21,
+    "pairs_with_promoted_edges": 19,
+    "explicit_bounded_non_edge_pairs": 2
+  },
+  "causal_discipline": {
+    "runtime_parameters_assigned": 0,
+    "rule": "Literature effect sizes remain evidence metadata and are not runtime propagation weights.",
+    "accepted_edges_require_accepted_endpoints": true
+  },
+  "explicit_non_edges": [
+    {
+      "pair": "C2-C6",
+      "rationale": "Emotion and motivation interact with language, but current C2 nodes represent receiver affect/motivation whereas available C6 evidence often concerns affective lexical properties or language stimuli. No direct node-to-node edge is promoted to avoid construct conflation."
+    },
+    {
+      "pair": "C3-C4",
+      "rationale": "Social norms and identity clearly influence behavior broadly, but current C4 nodes are specific judgment/choice mechanisms. A generic social-to-decision edge would be too coarse; effects should route through future construct-matched choice nodes or specific experiments."
+    }
+  ],
+  "boundaries": [
+    "Edge density is not a quality target.",
+    "Pairs can close with explicit insufficient-evidence/non-edge decisions.",
+    "Provisional edges may guide research/retrieval but must not be treated as settled causal rules.",
+    "Within-core hierarchy and node definitions remain usable even when a node has no cross-core edge.",
+    "Scientific connection saturation is NOT_CLAIMED."
+  ],
+  "research_saturation": "NOT_CLAIMED",
+  "next_stage": "S5_MARKET_VALUE_INTEGRATION"
+}

@@ -134,11 +134,11 @@
     },
     {
       "pair": "C3-C6",
-      "status": "EVIDENCE_BACKED",
+      "status": "PROVISIONAL_EDGE",
       "edge_ids": [
         "EDGE-S4-020"
       ],
-      "rationale": "Social identity/accommodation has a direct language/register bridge.",
+      "rationale": "Social identity/accommodation provides a credible language/register bridge, but the current Register/Formality target node remains provisional; edge confidence is bounded accordingly.",
       "audited": true,
       "wave02_updated": true
     },

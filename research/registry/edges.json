@@ -508,11 +508,12 @@
         "Accommodation can converge or diverge."
       ],
       "transport_limits": [
-        "Sociolinguistic identity is not a fixed persona label."
+        "Sociolinguistic identity is not a fixed persona label.",
+        "Target register/formality node remains provisional; edge cannot exceed endpoint confidence."
       ],
       "runtime_parameter_id": null,
       "uncertainty_ids": [],
-      "status": "accepted",
+      "status": "provisional",
       "core_pair": "C3-C6"
     },
     {
