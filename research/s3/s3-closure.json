@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "stage": "S3_SEVEN_CORE_KNOWLEDGE_BUILD",
+  "decision": "PASS_WITH_BOUNDED_PROVISIONALS",
+  "rationale": [
+    "Primary-neuron minimum envelope reached (>=250).",
+    "All 7 protected cores contain accepted nodes.",
+    "All 56 modules contain at least accepted or bounded-provisional node coverage.",
+    "No live registry integrity errors or blocking uncertainty records remain.",
+    "Every accepted node has at least one evidence claim; fine-grained measurement coverage remains intentionally incomplete and is not an S3 requirement.",
+    "Provisional message-design/proof constructs retain uncertainty rather than being promoted solely to satisfy counts.",
+    "Remaining candidate hypotheses have explicit defer/merge lifecycle decisions."
+  ],
+  "counts": {
+    "sources": 86,
+    "claims": 277,
+    "nodes": 254,
+    "accepted_nodes": 200,
+    "provisional_nodes": 54,
+    "modules": 56,
+    "modules_with_accepted": 52,
+    "bounded_provisional_modules": 4,
+    "measurements": 57,
+    "contradictions": 7,
+    "uncertainties": 31,
+    "high_uncertainties": 7,
+    "remaining_candidates": 26
+  },
+  "bounded_provisional_modules": [
+    {
+      "module_id": "C5-M07",
+      "label": "Proof, Demonstration, Verification & Reason-to-Believe",
+      "provisional_ids": [
+        "C5-N07-02",
+        "C5-N07-01",
+        "C5-N07-03",
+        "C5-N07-04"
+      ]
+    },
+    {
+      "module_id": "C7-M04",
+      "label": "Message Sequencing, Order & Progressive Disclosure",
+      "provisional_ids": [
+        "C7-N04-05",
+        "C7-N04-01",
+        "C7-N04-02"
+      ]
+    },
+    {
+      "module_id": "C7-M07",
+      "label": "Tension, Pacing, Resolution & Momentum",
+      "provisional_ids": [
+        "C7-N07-02",
+        "C7-N07-01",
+        "C7-N07-03",
+        "C7-N07-04",
+        "C7-N07-05"
+      ]
+    },
+    {
+      "module_id": "C7-M08",
+      "label": "Call-to-Action & Action-Request Architecture",
+      "provisional_ids": [
+        "C7-N08-02",
+        "C7-N08-01",
+        "C7-N08-03",
+        "C7-N08-05"
+      ]
+    }
+  ],
+  "high_uncertainty_ids": [
+    "UNC-S1-006",
+    "UNC-S3C4-001",
+    "UNC-S3C4-002",
+    "UNC-S3C5-002",
+    "UNC-S3C8-003",
+    "UNC-S3C8-005",
+    "UNC-S3C9-002"
+  ],
+  "blocking_uncertainty_ids": [],
+  "research_saturation": "NOT_CLAIMED",
+  "condition_for_s4": "S4 may begin. Provisional nodes may participate only as provisional hypotheses/bridges and must not be used as accepted causal edges without evidence."
+}

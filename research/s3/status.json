@@ -1,13 +1,7 @@
 {
-  "version": "0.1.0",
-  "stage": "S3_SEVEN_CORE_KNOWLEDGE_BUILD",
-  "status": "IN_PROGRESS",
-  "strategy": "breadth_first",
-  "modules_seeded": 56,
-  "candidate_neurons_seeded": 280,
-  "accepted_neurons": 0,
-  "provisional_neurons": 0,
-  "rejected_or_merged_neurons": 0,
-  "rule": "Candidate labels are discovery hypotheses, not accepted scientific constructs. Each must pass definition, boundary, evidence, measurement, contradiction, and transport review before promotion.",
-  "next_action": "Run evidence cycles across all seven cores, promoting only verified constructs while recording merges/rejections and maintaining balanced coverage."
+  "version": "1.0.0",
+  "stage": "S3",
+  "status": "PASS_WITH_BOUNDED_PROVISIONALS",
+  "closure_ref": "research/s3/s3-closure.json",
+  "next_stage": "S4_CONNECTION_BUILD"
 }

@@ -1,0 +1,239 @@
+{
+  "version": "1.0.0",
+  "decisions": [
+    {
+      "candidate_id": "C1-N04-05",
+      "label": "comprehension monitoring",
+      "parent_id": "C1-M04",
+      "decision": "deferred_research",
+      "reason": "Comprehension monitoring is plausible but crosses C1/C6 metacognition/comprehension boundaries; requires dedicated construct evidence.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C1-N05-05",
+      "label": "memory-priority allocation",
+      "parent_id": "C1-M05",
+      "decision": "deferred_research",
+      "reason": "Memory-priority allocation is too broad/underspecified for canonical promotion.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C2-N02-05",
+      "label": "behavioral approach-inhibition tendency",
+      "parent_id": "C2-M02",
+      "decision": "deferred_research",
+      "reason": "Behavioral approach/inhibition tendency risks collapsing trait systems with state approach/avoidance nodes already accepted.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C3-N04-04",
+      "label": "costly signaling",
+      "parent_id": "C3-M04",
+      "decision": "deferred_research",
+      "reason": "Costly signaling requires economics/evolutionary/social-signaling evidence and boundary separation from status/reputation.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C3-N07-03",
+      "label": "behavioral social proof",
+      "parent_id": "C3-M07",
+      "decision": "merge_candidate",
+      "reason": "Behavioral social proof substantially overlaps accepted descriptive norm/social consensus constructs; requires nonredundancy proof.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C3-N07-05",
+      "label": "consensus diagnosticity",
+      "parent_id": "C3-M07",
+      "decision": "deferred_research",
+      "reason": "Consensus diagnosticity is plausible but needs explicit evidence distinguishing cue prevalence from perceived diagnosticity.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C4-N04-03",
+      "label": "option ordering",
+      "parent_id": "C4-M04",
+      "decision": "deferred_research",
+      "reason": "Option ordering is a choice-architecture manipulation family, not yet a single stable psychological construct.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C4-N04-04",
+      "label": "choice-set partitioning",
+      "parent_id": "C4-M04",
+      "decision": "deferred_research",
+      "reason": "Choice-set partitioning requires dedicated context/partition evidence before node promotion.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C4-N05-04",
+      "label": "future-self continuity",
+      "parent_id": "C4-M05",
+      "decision": "deferred_research",
+      "reason": "Future-self continuity is relevant to intertemporal choice but needs focused construct/measurement evidence.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C4-N05-05",
+      "label": "temporal construal",
+      "parent_id": "C4-M05",
+      "decision": "deferred_research",
+      "reason": "Temporal construal requires focused construal-level evidence and boundary work against temporal discounting.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C4-N07-05",
+      "label": "contextual range evaluation",
+      "parent_id": "C4-M07",
+      "decision": "deferred_research",
+      "reason": "Contextual range evaluation may overlap relative evaluation/contrast; nonredundancy not yet established.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C5-N03-05",
+      "label": "source-track-record evaluation",
+      "parent_id": "C5-M03",
+      "decision": "merge_candidate",
+      "reason": "Source-track-record evaluation overlaps provisional C5-N03-04 Source Reliability Track Record.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C5-N05-04",
+      "label": "resistance motivation",
+      "parent_id": "C5-M05",
+      "decision": "deferred_research",
+      "reason": "Resistance motivation is broader than accepted counterarguing/reactance/inoculation nodes and needs construct-specific evidence.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C5-N05-05",
+      "label": "selective message avoidance",
+      "parent_id": "C5-M05",
+      "decision": "deferred_research",
+      "reason": "Selective message avoidance is plausible but needs direct avoidance evidence and boundaries against information avoidance/reactance.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C5-N07-05",
+      "label": "diagnostic proof cue",
+      "parent_id": "C5-M07",
+      "decision": "merge_candidate",
+      "reason": "Diagnostic proof cue overlaps C5 evidence diagnosticity plus provisional proof-design nodes; canonical nonredundancy not established.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C6-N03-05",
+      "label": "pragmatic politeness",
+      "parent_id": "C6-M03",
+      "decision": "deferred_research",
+      "reason": "Pragmatic politeness is established broadly but needs a scoped taxonomy suitable for copywriting without collapsing multiple politeness theories.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C6-N04-05",
+      "label": "implicature cancellation/revision",
+      "parent_id": "C6-M04",
+      "decision": "deferred_research",
+      "reason": "Cancellation/revision is better treated as a property/process of implicature unless evidence supports a distinct runtime node.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C6-N07-03",
+      "label": "idiom processing",
+      "parent_id": "C6-M07",
+      "decision": "deferred_research",
+      "reason": "Idiom processing is scientifically valid but lower runtime criticality; defer until C6 depth expansion.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C6-N07-04",
+      "label": "metonymic interpretation",
+      "parent_id": "C6-M07",
+      "decision": "deferred_research",
+      "reason": "Metonymic interpretation is valid but requires dedicated figurative-language evidence.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C6-N07-05",
+      "label": "figurative framing",
+      "parent_id": "C6-M07",
+      "decision": "merge_candidate",
+      "reason": "Figurative framing overlaps metaphor/figurative meaning plus C4/C7 framing; requires clear primary mechanism.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C6-N08-04",
+      "label": "tone/persona realization",
+      "parent_id": "C6-M08",
+      "decision": "deferred_research",
+      "reason": "Tone/persona realization is an applied language-design family that needs decomposition by linguistic features and social meaning.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C7-N04-03",
+      "label": "progressive disclosure",
+      "parent_id": "C7-M04",
+      "decision": "deferred_research",
+      "reason": "Progressive disclosure is a design pattern; causal persuasion evidence is insufficient for canonical effect claims.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C7-N04-04",
+      "label": "evidence timing",
+      "parent_id": "C7-M04",
+      "decision": "deferred_research",
+      "reason": "Evidence timing is a design variable whose effects depend on order, source cues and elaboration.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C7-N05-05",
+      "label": "categorical juxtaposition",
+      "parent_id": "C7-M05",
+      "decision": "merge_candidate",
+      "reason": "Categorical juxtaposition overlaps accepted contrast/comparative structure unless a distinct mechanism is demonstrated.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C7-N06-05",
+      "label": "counterargument sequencing",
+      "parent_id": "C7-M06",
+      "decision": "deferred_research",
+      "reason": "Counterargument sequencing is a design variable; message-sidedness/refutation constructs already cover core structure.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    },
+    {
+      "candidate_id": "C7-N08-04",
+      "label": "temporal immediacy of request",
+      "parent_id": "C7-M08",
+      "decision": "deferred_research",
+      "reason": "Temporal immediacy of request is a CTA design variable requiring direct behavioral evidence and interaction with delay/friction/reactance.",
+      "blocks_s3": false,
+      "revisit_stage": "S4-S7 targeted research"
+    }
+  ]
+}

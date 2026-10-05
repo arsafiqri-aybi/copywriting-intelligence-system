@@ -37,8 +37,8 @@
     "S0_CONTRACT_AND_ARCHITECTURE_FREEZE": "PASS",
     "S1_DOMAIN_TAXONOMY": "PASS_WITH_BOUNDED_PROVISIONAL_MODULES",
     "S2_RESEARCH_FOUNDATION": "PASS",
-    "S3_SEVEN_CORE_KNOWLEDGE_BUILD": "MINIMUM_ENVELOPE_REACHED_AUDIT_PENDING",
-    "S4_CONNECTION_BUILD": "NOT_STARTED",
+    "S3_SEVEN_CORE_KNOWLEDGE_BUILD": "PASS_WITH_BOUNDED_PROVISIONALS",
+    "S4_CONNECTION_BUILD": "READY_TO_START",
     "S5_MARKET_VALUE_INTEGRATION": "NOT_STARTED",
     "S6_REASONING_ENGINE": "NOT_STARTED",
     "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "NOT_STARTED",
@@ -56,16 +56,17 @@
     "provisional_neurons": 54,
     "measurement_mappings": 57,
     "covered_modules": 56,
-    "contradiction_records": 7
+    "contradiction_records": 7,
+    "remaining_candidate_hypotheses": 26
   },
   "gate_status": {
     "G1_ARCHITECTURE": "PARTIAL_PASS_S1",
-    "G2_COVERAGE": "PRIMARY_NEURON_MINIMUM_REACHED_254",
-    "G3_EVIDENCE": "IN_PROGRESS_WITH_CONTRADICTION_AWARE_DEPTH",
-    "G4_CAUSAL_DISCIPLINE": "IN_PROGRESS",
+    "G2_COVERAGE": "PASS_FOR_S3_SCOPE",
+    "G3_EVIDENCE": "PARTIAL_PASS_S3_CONTINUES_PROJECT_WIDE",
+    "G4_CAUSAL_DISCIPLINE": "PARTIAL_PASS_S3",
     "G5_CONNECTION_VALIDITY": "NOT_RUN",
-    "G6_CONTRADICTION_INTEGRITY": "ACTIVE_WITH_BOUNDED_RECORDS",
-    "G7_MEASUREMENT_VALIDITY": "ACTIVE_WITH_EXPANDING_CONSTRUCT_MAPS",
+    "G6_CONTRADICTION_INTEGRITY": "PARTIAL_PASS_S3",
+    "G7_MEASUREMENT_VALIDITY": "PARTIAL_PASS_S3_MEASUREMENT_GAPS_DEFERRED_TO_S7",
     "G8_REASONING": "NOT_RUN",
     "G9_COPY_QUALITY": "NOT_RUN",
     "G10_GENERALIZATION": "NOT_RUN",
@@ -73,7 +74,7 @@
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "S3 closure audit before S4: do not start connection build until integrity and module/core acceptance coverage are verified.",
+  "next_action": "S4_CONNECTION_BUILD: audit all 21 unordered core pairs, promote only evidence-backed scientific edges, retain provisional/non-edge decisions, and never assign runtime propagation weights from literature effect sizes.",
   "integrity_repairs": [
     {
       "id": "REPAIR-2026-10-05-01",

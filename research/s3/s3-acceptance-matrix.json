@@ -1,0 +1,1112 @@
+{
+  "version": "1.0.0",
+  "cores": {
+    "C1": {
+      "total": 38,
+      "accepted": 34,
+      "provisional": 4,
+      "accepted_coverage": true
+    },
+    "C2": {
+      "total": 39,
+      "accepted": 37,
+      "provisional": 2,
+      "accepted_coverage": true
+    },
+    "C3": {
+      "total": 37,
+      "accepted": 30,
+      "provisional": 7,
+      "accepted_coverage": true
+    },
+    "C4": {
+      "total": 35,
+      "accepted": 28,
+      "provisional": 7,
+      "accepted_coverage": true
+    },
+    "C5": {
+      "total": 36,
+      "accepted": 27,
+      "provisional": 9,
+      "accepted_coverage": true
+    },
+    "C6": {
+      "total": 34,
+      "accepted": 31,
+      "provisional": 3,
+      "accepted_coverage": true
+    },
+    "C7": {
+      "total": 35,
+      "accepted": 13,
+      "provisional": 22,
+      "accepted_coverage": true
+    }
+  },
+  "modules": [
+    {
+      "module_id": "C1-M01",
+      "label": "Stimulus-driven Capture & Salience",
+      "core": "C1",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 4,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C1-N01-01",
+        "C1-N01-02",
+        "C1-N01-04",
+        "C1-N01-03"
+      ],
+      "provisional_ids": [
+        "C1-N01-05"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C1-M02",
+      "label": "Goal-directed Selection & Attentional Control",
+      "core": "C1",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C1-N02-01",
+        "C1-N02-05",
+        "C1-N02-02",
+        "C1-N02-03",
+        "C1-N02-04"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C1-M03",
+      "label": "Working Memory & Cognitive Load",
+      "core": "C1",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C1-N03-01",
+        "C1-N03-03",
+        "C1-N03-05",
+        "C1-N03-02",
+        "C1-N03-04"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C1-M04",
+      "label": "Processing Fluency & Comprehension Interface",
+      "core": "C1",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 4,
+      "accepted_nodes": 4,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C1-N04-03",
+        "C1-N04-01",
+        "C1-N04-02",
+        "C1-N04-04"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C1-M05",
+      "label": "Encoding, Retrieval & Attention–Memory Interface",
+      "core": "C1",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 4,
+      "accepted_nodes": 4,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C1-N05-01",
+        "C1-N05-02",
+        "C1-N05-03",
+        "C1-N05-04"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C1-M06",
+      "label": "Selection History, Novelty & Habituation",
+      "core": "C1",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C1-N06-02",
+        "C1-N06-01",
+        "C1-N06-05",
+        "C1-N06-03",
+        "C1-N06-04"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C1-M07",
+      "label": "Sustained Attention & Vigilance",
+      "core": "C1",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 4,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C1-N07-01",
+        "C1-N07-02",
+        "C1-N07-03",
+        "C1-N07-04"
+      ],
+      "provisional_ids": [
+        "C1-N07-05"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C1-M08",
+      "label": "Suppression, Disengagement & Task-State Competition",
+      "core": "C1",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 3,
+      "provisional_nodes": 2,
+      "accepted_ids": [
+        "C1-N08-02",
+        "C1-N08-04",
+        "C1-N08-03"
+      ],
+      "provisional_ids": [
+        "C1-N08-01",
+        "C1-N08-05"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C2-M01",
+      "label": "Needs, Goals & Goal Discrepancy",
+      "core": "C2",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C2-N01-02",
+        "C2-N01-05",
+        "C2-N01-03",
+        "C2-N01-04",
+        "C2-N01-01"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C2-M02",
+      "label": "Approach & Avoidance Motivation",
+      "core": "C2",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 4,
+      "accepted_nodes": 4,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C2-N02-03",
+        "C2-N02-04",
+        "C2-N02-01",
+        "C2-N02-02"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C2-M03",
+      "label": "Expectancy, Value, Reward & Incentive",
+      "core": "C2",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 4,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C2-N03-01",
+        "C2-N03-02",
+        "C2-N03-04",
+        "C2-N03-05"
+      ],
+      "provisional_ids": [
+        "C2-N03-03"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C2-M04",
+      "label": "Emotion Elicitation & Appraisal",
+      "core": "C2",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C2-N04-01",
+        "C2-N04-04",
+        "C2-N04-03",
+        "C2-N04-02",
+        "C2-N04-05"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C2-M05",
+      "label": "Arousal, Activation & Action Tendencies",
+      "core": "C2",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 4,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C2-N05-01",
+        "C2-N05-03",
+        "C2-N05-04",
+        "C2-N05-02"
+      ],
+      "provisional_ids": [
+        "C2-N05-05"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C2-M06",
+      "label": "Anticipation, Affective Forecasting & Expected Feeling",
+      "core": "C2",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C2-N06-02",
+        "C2-N06-04",
+        "C2-N06-01",
+        "C2-N06-03",
+        "C2-N06-05"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C2-M07",
+      "label": "Self-Regulation, Effort, Persistence & Volition",
+      "core": "C2",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C2-N07-02",
+        "C2-N07-05",
+        "C2-N07-01",
+        "C2-N07-03",
+        "C2-N07-04"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C2-M08",
+      "label": "Autonomy, Intrinsic/Extrinsic Motivation & Internalization",
+      "core": "C2",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C2-N08-03",
+        "C2-N08-04",
+        "C2-N08-01",
+        "C2-N08-05",
+        "C2-N08-02"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C3-M01",
+      "label": "Self-Concept, Self-Relevance & Personal Identity",
+      "core": "C3",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C3-N01-01",
+        "C3-N01-03",
+        "C3-N01-04",
+        "C3-N01-02",
+        "C3-N01-05"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C3-M02",
+      "label": "Social Categorization, Identification & Group Membership",
+      "core": "C3",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C3-N02-02",
+        "C3-N02-01",
+        "C3-N02-04",
+        "C3-N02-03",
+        "C3-N02-05"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C3-M03",
+      "label": "Descriptive/Injunctive Norms & Conformity",
+      "core": "C3",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C3-N03-02",
+        "C3-N03-01",
+        "C3-N03-03",
+        "C3-N03-04",
+        "C3-N03-05"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C3-M04",
+      "label": "Status, Reputation, Impression Management & Signaling",
+      "core": "C3",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 4,
+      "accepted_nodes": 3,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C3-N04-03",
+        "C3-N04-01",
+        "C3-N04-02"
+      ],
+      "provisional_ids": [
+        "C3-N04-05"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C3-M05",
+      "label": "Authority, Compliance & Interpersonal Influence",
+      "core": "C3",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 3,
+      "provisional_nodes": 2,
+      "accepted_ids": [
+        "C3-N05-02",
+        "C3-N05-01",
+        "C3-N05-03"
+      ],
+      "provisional_ids": [
+        "C3-N05-04",
+        "C3-N05-05"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C3-M06",
+      "label": "Reciprocity, Liking, Similarity & Affiliation Cues",
+      "core": "C3",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C3-N06-01",
+        "C3-N06-02",
+        "C3-N06-03",
+        "C3-N06-04",
+        "C3-N06-05"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C3-M07",
+      "label": "Social Proof, Descriptive Consensus & Collective Cues",
+      "core": "C3",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 3,
+      "accepted_nodes": 1,
+      "provisional_nodes": 2,
+      "accepted_ids": [
+        "C3-N07-04"
+      ],
+      "provisional_ids": [
+        "C3-N07-01",
+        "C3-N07-02"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C3-M08",
+      "label": "Belonging, Affiliation & Relationship Motivation",
+      "core": "C3",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 3,
+      "provisional_nodes": 2,
+      "accepted_ids": [
+        "C3-N08-01",
+        "C3-N08-05",
+        "C3-N08-02"
+      ],
+      "provisional_ids": [
+        "C3-N08-03",
+        "C3-N08-04"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C4-M01",
+      "label": "Heuristics & Adaptive/Simplified Judgment",
+      "core": "C4",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C4-N01-01",
+        "C4-N01-02",
+        "C4-N01-03",
+        "C4-N01-04",
+        "C4-N01-05"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C4-M02",
+      "label": "Framing, Reference Dependence & Contextual Valuation",
+      "core": "C4",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 3,
+      "provisional_nodes": 2,
+      "accepted_ids": [
+        "C4-N02-02",
+        "C4-N02-01",
+        "C4-N02-05"
+      ],
+      "provisional_ids": [
+        "C4-N02-03",
+        "C4-N02-04"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C4-M03",
+      "label": "Risk, Uncertainty & Probability Judgment",
+      "core": "C4",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 4,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C4-N03-01",
+        "C4-N03-03",
+        "C4-N03-02",
+        "C4-N03-05"
+      ],
+      "provisional_ids": [
+        "C4-N03-04"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C4-M04",
+      "label": "Choice Architecture, Defaults & Choice-Set Structure",
+      "core": "C4",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 3,
+      "accepted_nodes": 2,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C4-N04-01",
+        "C4-N04-05"
+      ],
+      "provisional_ids": [
+        "C4-N04-02"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C4-M05",
+      "label": "Intertemporal Choice, Delay & Temporal Discounting",
+      "core": "C4",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 3,
+      "accepted_nodes": 2,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C4-N05-01",
+        "C4-N05-02"
+      ],
+      "provisional_ids": [
+        "C4-N05-03"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C4-M06",
+      "label": "Trade-offs, Opportunity Cost & Attribute Conflict",
+      "core": "C4",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C4-N06-02",
+        "C4-N06-01",
+        "C4-N06-03",
+        "C4-N06-04",
+        "C4-N06-05"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C4-M07",
+      "label": "Comparison, Anchoring & Reference-Based Evaluation",
+      "core": "C4",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 4,
+      "accepted_nodes": 3,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C4-N07-01",
+        "C4-N07-03",
+        "C4-N07-04"
+      ],
+      "provisional_ids": [
+        "C4-N07-02"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C4-M08",
+      "label": "Decision Friction, Effort & Action Ease",
+      "core": "C4",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 4,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C4-N08-01",
+        "C4-N08-02",
+        "C4-N08-04",
+        "C4-N08-05"
+      ],
+      "provisional_ids": [
+        "C4-N08-03"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C5-M01",
+      "label": "Belief Formation, Attitude Formation & Evaluation",
+      "core": "C5",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C5-N01-04",
+        "C5-N01-05",
+        "C5-N01-01",
+        "C5-N01-02",
+        "C5-N01-03"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C5-M02",
+      "label": "Elaboration & Persuasion Processing Processes",
+      "core": "C5",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C5-N02-05",
+        "C5-N02-02",
+        "C5-N02-01",
+        "C5-N02-03",
+        "C5-N02-04"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C5-M03",
+      "label": "Source Credibility, Trustworthiness & Source Evaluation",
+      "core": "C5",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 4,
+      "accepted_nodes": 3,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C5-N03-01",
+        "C5-N03-02",
+        "C5-N03-03"
+      ],
+      "provisional_ids": [
+        "C5-N03-04"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C5-M04",
+      "label": "Argument Quality, Evidence Evaluation & Claim Acceptance",
+      "core": "C5",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 3,
+      "provisional_nodes": 2,
+      "accepted_ids": [
+        "C5-N04-01",
+        "C5-N04-03",
+        "C5-N04-04"
+      ],
+      "provisional_ids": [
+        "C5-N04-02",
+        "C5-N04-05"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C5-M05",
+      "label": "Resistance, Counterarguing, Reactance & Inoculation",
+      "core": "C5",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 3,
+      "accepted_nodes": 3,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C5-N05-02",
+        "C5-N05-01",
+        "C5-N05-03"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C5-M06",
+      "label": "Certainty, Confidence, Metacognition & Self-Validation",
+      "core": "C5",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 5,
+      "accepted_nodes": 4,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C5-N06-01",
+        "C5-N06-02",
+        "C5-N06-03",
+        "C5-N06-05"
+      ],
+      "provisional_ids": [
+        "C5-N06-04"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C5-M07",
+      "label": "Proof, Demonstration, Verification & Reason-to-Believe",
+      "core": "C5",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 4,
+      "accepted_nodes": 0,
+      "provisional_nodes": 4,
+      "accepted_ids": [],
+      "provisional_ids": [
+        "C5-N07-02",
+        "C5-N07-01",
+        "C5-N07-03",
+        "C5-N07-04"
+      ],
+      "s3_decision": "bounded_provisional_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C5-M08",
+      "label": "Intentions, Commitment & Attitude-to-Behavior Translation",
+      "core": "C5",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 4,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C5-N08-04",
+        "C5-N08-01",
+        "C5-N08-02",
+        "C5-N08-05"
+      ],
+      "provisional_ids": [
+        "C5-N08-03"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C6-M01",
+      "label": "Lexical Semantics, Concept Activation & Connotation",
+      "core": "C6",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C6-N01-03",
+        "C6-N01-04",
+        "C6-N01-05",
+        "C6-N01-01",
+        "C6-N01-02"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C6-M02",
+      "label": "Syntax, Sentence Structure & Incremental Parsing",
+      "core": "C6",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C6-N02-05",
+        "C6-N02-01",
+        "C6-N02-02",
+        "C6-N02-03",
+        "C6-N02-04"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C6-M03",
+      "label": "Pragmatics, Common Ground & Audience Design",
+      "core": "C6",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 4,
+      "accepted_nodes": 4,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C6-N03-01",
+        "C6-N03-02",
+        "C6-N03-03",
+        "C6-N03-04"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C6-M04",
+      "label": "Implicature, Presupposition & Pragmatic Inference",
+      "core": "C6",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 4,
+      "accepted_nodes": 4,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C6-N04-03",
+        "C6-N04-01",
+        "C6-N04-02",
+        "C6-N04-04"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C6-M05",
+      "label": "Ambiguity Resolution, Prediction & Incremental Language Processing",
+      "core": "C6",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C6-N05-05",
+        "C6-N05-04",
+        "C6-N05-01",
+        "C6-N05-02",
+        "C6-N05-03"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C6-M06",
+      "label": "Discourse Representation, Coherence & Situation Models",
+      "core": "C6",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 5,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C6-N06-03",
+        "C6-N06-01",
+        "C6-N06-02",
+        "C6-N06-04",
+        "C6-N06-05"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C6-M07",
+      "label": "Metaphor & Figurative Meaning",
+      "core": "C6",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 2,
+      "accepted_nodes": 1,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C6-N07-01"
+      ],
+      "provisional_ids": [
+        "C6-N07-02"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C6-M08",
+      "label": "Information Structure, Register, Tone & Specificity",
+      "core": "C6",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 4,
+      "accepted_nodes": 2,
+      "provisional_nodes": 2,
+      "accepted_ids": [
+        "C6-N08-01",
+        "C6-N08-02"
+      ],
+      "provisional_ids": [
+        "C6-N08-03",
+        "C6-N08-05"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C7-M01",
+      "label": "Claim, Premise, Evidence & Argument Structure",
+      "core": "C7",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 1,
+      "provisional_nodes": 4,
+      "accepted_ids": [
+        "C7-N01-01"
+      ],
+      "provisional_ids": [
+        "C7-N01-02",
+        "C7-N01-03",
+        "C7-N01-04",
+        "C7-N01-05"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C7-M02",
+      "label": "Persuasive Appeals, Stance & Rhetorical Credibility",
+      "core": "C7",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 5,
+      "accepted_nodes": 2,
+      "provisional_nodes": 3,
+      "accepted_ids": [
+        "C7-N02-02",
+        "C7-N02-04"
+      ],
+      "provisional_ids": [
+        "C7-N02-01",
+        "C7-N02-03",
+        "C7-N02-05"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C7-M03",
+      "label": "Narrative Structure, Transportation & Identification",
+      "core": "C7",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 5,
+      "accepted_nodes": 4,
+      "provisional_nodes": 1,
+      "accepted_ids": [
+        "C7-N03-01",
+        "C7-N03-02",
+        "C7-N03-03",
+        "C7-N03-04"
+      ],
+      "provisional_ids": [
+        "C7-N03-05"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C7-M04",
+      "label": "Message Sequencing, Order & Progressive Disclosure",
+      "core": "C7",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 3,
+      "accepted_nodes": 0,
+      "provisional_nodes": 3,
+      "accepted_ids": [],
+      "provisional_ids": [
+        "C7-N04-05",
+        "C7-N04-01",
+        "C7-N04-02"
+      ],
+      "s3_decision": "bounded_provisional_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C7-M05",
+      "label": "Contrast, Analogy & Comparative Message Structure",
+      "core": "C7",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 4,
+      "accepted_nodes": 2,
+      "provisional_nodes": 2,
+      "accepted_ids": [
+        "C7-N05-03",
+        "C7-N05-01"
+      ],
+      "provisional_ids": [
+        "C7-N05-02",
+        "C7-N05-04"
+      ],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C7-M06",
+      "label": "Counterargument, Message Sidedness, Refutation & Concession",
+      "core": "C7",
+      "taxonomy_status": "taxonomy_accepted",
+      "total_nodes": 4,
+      "accepted_nodes": 4,
+      "provisional_nodes": 0,
+      "accepted_ids": [
+        "C7-N06-03",
+        "C7-N06-02",
+        "C7-N06-01",
+        "C7-N06-04"
+      ],
+      "provisional_ids": [],
+      "s3_decision": "accepted_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C7-M07",
+      "label": "Tension, Pacing, Resolution & Momentum",
+      "core": "C7",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 5,
+      "accepted_nodes": 0,
+      "provisional_nodes": 5,
+      "accepted_ids": [],
+      "provisional_ids": [
+        "C7-N07-02",
+        "C7-N07-01",
+        "C7-N07-03",
+        "C7-N07-04",
+        "C7-N07-05"
+      ],
+      "s3_decision": "bounded_provisional_container",
+      "blocks_s4": false
+    },
+    {
+      "module_id": "C7-M08",
+      "label": "Call-to-Action & Action-Request Architecture",
+      "core": "C7",
+      "taxonomy_status": "taxonomy_provisional",
+      "total_nodes": 4,
+      "accepted_nodes": 0,
+      "provisional_nodes": 4,
+      "accepted_ids": [],
+      "provisional_ids": [
+        "C7-N08-02",
+        "C7-N08-01",
+        "C7-N08-03",
+        "C7-N08-05"
+      ],
+      "s3_decision": "bounded_provisional_container",
+      "blocks_s4": false
+    }
+  ]
+}
