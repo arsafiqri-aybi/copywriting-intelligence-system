@@ -1,8 +1,8 @@
 {
   "project": "COPYWRITING_INTELLIGENCE_SYSTEM",
   "architecture_version": "1.1.0-s1-taxonomy",
-  "stage": "S7_MEASUREMENT_EXPERIMENT_FEEDBACK",
-  "status": "IN_PROGRESS",
+  "stage": "S8_EVALUATION",
+  "status": "READY_TO_START",
   "repository": "arsafiqri-aybi/copywriting-intelligence-system",
   "protected_constraints": {
     "top_level_core_count": 7,
@@ -41,8 +41,8 @@
     "S4_CONNECTION_BUILD": "PASS_WITH_BOUNDED_PROVISIONAL_EDGES",
     "S5_MARKET_VALUE_INTEGRATION": "PASS",
     "S6_REASONING_ENGINE": "PASS",
-    "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "IN_PROGRESS_CYCLE02_UPDATE_ENGINE",
-    "S8_EVALUATION": "NOT_STARTED",
+    "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "PASS",
+    "S8_EVALUATION": "READY_TO_START",
     "S9_SKILL_RUNTIME": "NOT_STARTED",
     "S10_RELEASE_CONTINUOUS_RESEARCH": "NOT_STARTED"
   },
@@ -68,15 +68,15 @@
     "G4_CAUSAL_DISCIPLINE": "PARTIAL_PASS_S3",
     "G5_CONNECTION_VALIDITY": "PASS_FOR_S4_SCOPE",
     "G6_CONTRADICTION_INTEGRITY": "PARTIAL_PASS_S3",
-    "G7_MEASUREMENT_VALIDITY": "IN_PROGRESS_S7",
+    "G7_MEASUREMENT_VALIDITY": "PASS_FOR_S7_SCOPE",
     "G8_REASONING": "PASS_FOR_S6_SCOPE",
     "G9_COPY_QUALITY": "NOT_RUN",
     "G10_GENERALIZATION": "NOT_RUN",
-    "G11_FEEDBACK_LEARNING": "IN_PROGRESS_S7",
+    "G11_FEEDBACK_LEARNING": "PASS_FOR_S7_SCOPE",
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "Execute S7 feedback update tests; then audit metric semantics, feedback registry boundaries, and close S7 if all cases pass.",
+  "next_action": "S8_EVALUATION: create separate development/regression/holdout/adversarial benchmark sets, evaluate reasoning/copy/uncertainty/generalization, and preserve holdout separation.",
   "integrity_repairs": [
     {
       "id": "REPAIR-2026-10-05-01",

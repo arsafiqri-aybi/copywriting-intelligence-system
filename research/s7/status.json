@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "stage": "S7",
+  "status": "PASS",
+  "next_stage": "S8_EVALUATION"
+}
