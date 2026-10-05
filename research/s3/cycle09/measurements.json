@@ -1,0 +1,97 @@
+{
+  "version": "1.0.0",
+  "records": [
+    {
+      "id": "MEAS-C4-008",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "choice distribution across attribute-conflict sets including intermediate compromise option",
+      "target_ids": [
+        "C4-N06-05"
+      ],
+      "alternative_explanations": [
+        "decoy effects",
+        "extremeness aversion",
+        "attribute weighting"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C9-019"
+      ],
+      "reliability": null,
+      "population_scope": "multiattribute choice",
+      "channel_scope": null,
+      "ambiguity": "Middle-option selection alone does not establish compromise mechanism unless set structure and conflict are controlled.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C5-010",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "confidence rating attached to a specific judgment plus accuracy/calibration when ground truth is available",
+      "target_ids": [
+        "C5-N06-05",
+        "C5-N06-04"
+      ],
+      "alternative_explanations": [
+        "attitude certainty",
+        "thought confidence",
+        "belief strength"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C9-024",
+        "CLM-S3C9-023"
+      ],
+      "reliability": null,
+      "population_scope": "judgment/metacognition studies",
+      "channel_scope": null,
+      "ambiguity": "Confidence target must be specified; high confidence is not high accuracy.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C6-008",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "reference-resolution or discourse-inference accuracy/latency under controlled antecedent/coherence manipulations",
+      "target_ids": [
+        "C6-N06-04",
+        "C6-N06-05"
+      ],
+      "alternative_explanations": [
+        "working memory",
+        "lexical ambiguity",
+        "world knowledge"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C9-027",
+        "CLM-S3C9-028"
+      ],
+      "reliability": null,
+      "population_scope": "discourse comprehension",
+      "channel_scope": null,
+      "ambiguity": "Inference and reference resolution are affected by discourse and memory constraints; one task is not exhaustive.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C7-005",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "receiver judgments or behavior under randomized concession versus no-concession/two-sided message structures",
+      "target_ids": [
+        "C7-N06-04"
+      ],
+      "alternative_explanations": [
+        "source credibility",
+        "message sidedness",
+        "refutation quality"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C9-033"
+      ],
+      "reliability": null,
+      "population_scope": "persuasion/message-sidedness experiments",
+      "channel_scope": null,
+      "ambiguity": "Concession effect depends on content, refutation and audience; cannot be isolated from all two-sidedness mechanisms in every design.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    }
+  ]
+}

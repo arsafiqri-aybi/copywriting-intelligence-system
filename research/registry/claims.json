@@ -3273,6 +3273,472 @@
         "SRC-C7-010"
       ],
       "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-001",
+      "statement": "Learned environmental regularities can alter selection history, but effects must be separated from current goals and simple repetition.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N06-03"
+      ],
+      "source_ids": [
+        "SRC-C1-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-002",
+      "statement": "Repetition can shape later selection but should not be equated with reward-driven attention or long-term habit.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N06-04"
+      ],
+      "source_ids": [
+        "SRC-C1-001",
+        "SRC-C1-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-003",
+      "statement": "Attentional stability reflects multiple processes including alertness, lapses and mind wandering and needs task-specific measurement.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C1-N07-05"
+      ],
+      "source_ids": [
+        "SRC-C1-006",
+        "SRC-C1-002"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-004",
+      "statement": "Interference control overlaps executive attention and working-memory control but is distinguishable from simple distractor suppression.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N08-03"
+      ],
+      "source_ids": [
+        "SRC-C1-003",
+        "SRC-C1-007"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-005",
+      "statement": "Inhibitory-control terminology spans several mechanisms; this node remains provisional until proactive/reactive and attention/response inhibition are separated.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C1-N08-05"
+      ],
+      "source_ids": [
+        "SRC-C1-001",
+        "SRC-C1-007"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-006",
+      "statement": "Incentive salience is not identical to reward value, pleasure, or attention; transport from reward-neuroscience paradigms requires caution.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C2-N03-03"
+      ],
+      "source_ids": [
+        "SRC-C2-004",
+        "SRC-X-004"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-007",
+      "statement": "Physiological activation is multiply determined and cannot identify a specific emotion, appraisal, or motivational direction on its own.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C2-N05-05"
+      ],
+      "source_ids": [
+        "SRC-C2-003"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-008",
+      "statement": "Anticipated relief can motivate action but is distinct from actual experienced relief and from generic reward anticipation.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N06-05"
+      ],
+      "source_ids": [
+        "SRC-C2-002",
+        "SRC-C2-008"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-009",
+      "statement": "Goal shielding supports persistence but can also narrow attention and create opportunity costs.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N07-04"
+      ],
+      "source_ids": [
+        "SRC-C2-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-010",
+      "statement": "Extrinsic motivation is heterogeneous; it must not be equated with controlled motivation or monetary reward alone.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N08-02"
+      ],
+      "source_ids": [
+        "SRC-C2-009",
+        "SRC-C2-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-011",
+      "statement": "Depersonalization in self-categorization theory is not loss of personhood; it is category-based self-definition.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N02-05"
+      ],
+      "source_ids": [
+        "SRC-C3-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-012",
+      "statement": "Norm discrepancy can motivate alignment, resistance, concealment, or identity defense depending on identification and autonomy.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N03-05"
+      ],
+      "source_ids": [
+        "SRC-C3-003",
+        "SRC-C3-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-013",
+      "statement": "There is no single stable global susceptibility to requests; this node is a runtime/context abstraction rather than a trait claim.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C3-N05-05"
+      ],
+      "source_ids": [
+        "SRC-C3-002",
+        "SRC-C7-010"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-014",
+      "statement": "Attraction is distinct from trustworthiness, expertise, similarity and group identification even though they can interact.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N06-05"
+      ],
+      "source_ids": [
+        "SRC-C3-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-015",
+      "statement": "Communal orientation is relationship-specific and should not be inferred from warmth, reciprocity, or belonging cues alone.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C3-N08-04"
+      ],
+      "source_ids": [
+        "SRC-X-002"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-016",
+      "statement": "Satisficing can be adaptive under constraints and should not be treated as low-quality decision making by definition.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N01-05"
+      ],
+      "source_ids": [
+        "SRC-C4-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-017",
+      "statement": "Endowment effects are heterogeneous and should not automatically be attributed to loss aversion.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C4-N02-04"
+      ],
+      "source_ids": [
+        "SRC-C4-004"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-018",
+      "statement": "Tolerance is domain- and context-sensitive and overlaps but is not identical to ambiguity aversion or risk preference.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C4-N03-04"
+      ],
+      "source_ids": [
+        "SRC-C4-001"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-019",
+      "statement": "Compromise choice depends on set structure and conflict; it is not a universal preference for middle options.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N06-05"
+      ],
+      "source_ids": [
+        "SRC-C4-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-020",
+      "statement": "Relative evaluation creates context sensitivity and can interact with anchors, contrast and attribute ranges.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N07-04"
+      ],
+      "source_ids": [
+        "SRC-C4-003",
+        "SRC-X-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-021",
+      "statement": "Plausibility can affect claim acceptance but is not equivalent to factual truth; false claims can appear plausible and true claims implausible.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N04-04"
+      ],
+      "source_ids": [
+        "SRC-C5-001",
+        "SRC-C5-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-022",
+      "statement": "Mechanistic explanation can support understanding or credibility, but an intuitively satisfying mechanism is not causal proof.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N04-05"
+      ],
+      "source_ids": [
+        "SRC-C5-004",
+        "SRC-C5-005"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-023",
+      "statement": "Epistemic confidence overlaps belief strength and judgment confidence; exact boundaries depend on the target of confidence.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N06-04"
+      ],
+      "source_ids": [
+        "SRC-C5-001",
+        "SRC-C5-013"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-024",
+      "statement": "Confidence affects reliance on judgments but can be miscalibrated and should be distinguished from objective accuracy.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N06-05"
+      ],
+      "source_ids": [
+        "SRC-C5-013",
+        "SRC-C4-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-025",
+      "statement": "Word order interacts with syntactic expectations, dependency length, information structure and language-specific grammar.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N02-04"
+      ],
+      "source_ids": [
+        "SRC-C6-002",
+        "SRC-C6-013"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-026",
+      "statement": "Pragmatic inference integrates utterance, common ground, alternatives, goals and social reasoning.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N04-04"
+      ],
+      "source_ids": [
+        "SRC-C6-001",
+        "SRC-C6-012"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-027",
+      "statement": "Reference resolution depends on discourse representation, salience, syntax, semantics and common ground.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N06-04"
+      ],
+      "source_ids": [
+        "SRC-C6-003",
+        "SRC-C6-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-028",
+      "statement": "Inferences support coherence but vary in necessity, cost and dependence on world knowledge.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N06-05"
+      ],
+      "source_ids": [
+        "SRC-C6-003",
+        "SRC-C6-011"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-029",
+      "statement": "Given–new organization interacts with focus, coherence and audience knowledge and is not a rigid word-order rule across languages.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N08-02"
+      ],
+      "source_ids": [
+        "SRC-C6-007",
+        "SRC-C6-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-030",
+      "statement": "Stance is a design property whose effects depend on credibility, pragmatics, identity and audience expectations.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C7-N02-04"
+      ],
+      "source_ids": [
+        "SRC-C7-004",
+        "SRC-C6-008"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-031",
+      "statement": "Credibility positioning must remain separate from actual receiver-side credibility judgments and factual source quality.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N02-05"
+      ],
+      "source_ids": [
+        "SRC-C5-006",
+        "SRC-C7-004"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-032",
+      "statement": "Transformation can organize stories and before–after claims, but persuasive effects depend on coherence, evidence, identification and relevance.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N03-05"
+      ],
+      "source_ids": [
+        "SRC-C7-001"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C9-033",
+      "statement": "Concession can support two-sidedness or credibility but effects depend on what is conceded, placement, refutation and audience prior beliefs.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C7-N06-04"
+      ],
+      "source_ids": [
+        "SRC-C7-002",
+        "SRC-C7-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C9-034",
+      "statement": "Request framing can alter compliance, but no single framing pattern is universally superior and effects interact with reactance, authority, reciprocity and friction.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N08-05"
+      ],
+      "source_ids": [
+        "SRC-C7-010",
+        "SRC-C5-008",
+        "SRC-C3-002"
+      ],
+      "status": "verified_for_provisional"
     }
   ]
 }

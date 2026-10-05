@@ -5597,6 +5597,868 @@
         "Needs focused validation/calibration before strong runtime recommendation."
       ],
       "version": "0.3.0"
+    },
+    {
+      "id": "C1-N06-03",
+      "label": "Statistical Learning of Attentional Priority",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M06",
+      "role_tags": [
+        "receiver_attention_mechanism"
+      ],
+      "definition": "Learning of regularities in the environment that biases later attentional priority even without explicit current instruction.",
+      "mechanism_summary": "Learned environmental regularities can alter selection history, but effects must be separated from current goals and simple repetition.",
+      "claim_ids": [
+        "CLM-S3C9-001"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Statistical Learning of Attentional Priority from a single output metric.",
+        "Do not treat Statistical Learning of Attentional Priority as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N06-04",
+      "label": "Repetition Priming of Selection",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M06",
+      "role_tags": [
+        "receiver_attention_mechanism"
+      ],
+      "definition": "Facilitation or bias in selection caused by recent repetition of target, feature, or selection episodes.",
+      "mechanism_summary": "Repetition can shape later selection but should not be equated with reward-driven attention or long-term habit.",
+      "claim_ids": [
+        "CLM-S3C9-002"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Repetition Priming of Selection from a single output metric.",
+        "Do not treat Repetition Priming of Selection as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N07-05",
+      "label": "Temporal Stability of Attention",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C1",
+      "parent_id": "C1-M07",
+      "role_tags": [
+        "receiver_attention_construct"
+      ],
+      "definition": "Degree to which attentional engagement remains stable rather than fluctuating across time within a task or exposure.",
+      "mechanism_summary": "Attentional stability reflects multiple processes including alertness, lapses and mind wandering and needs task-specific measurement.",
+      "claim_ids": [
+        "CLM-S3C9-003"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C9-001"
+      ],
+      "failure_modes": [
+        "Do not infer Temporal Stability of Attention from a single output metric.",
+        "Do not treat Temporal Stability of Attention as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C1-N08-03",
+      "label": "Interference Control",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M08",
+      "role_tags": [
+        "receiver_control_construct"
+      ],
+      "definition": "Ability/process of limiting disruption from competing representations, responses, or task-irrelevant information.",
+      "mechanism_summary": "Interference control overlaps executive attention and working-memory control but is distinguishable from simple distractor suppression.",
+      "claim_ids": [
+        "CLM-S3C9-004"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Interference Control from a single output metric.",
+        "Do not treat Interference Control as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N08-05",
+      "label": "Inhibitory Attentional Control",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C1",
+      "parent_id": "C1-M08",
+      "role_tags": [
+        "receiver_control_construct"
+      ],
+      "definition": "Control processes that reduce or prevent attentional allocation to information that conflicts with current goals.",
+      "mechanism_summary": "Inhibitory-control terminology spans several mechanisms; this node remains provisional until proactive/reactive and attention/response inhibition are separated.",
+      "claim_ids": [
+        "CLM-S3C9-005"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C9-001"
+      ],
+      "failure_modes": [
+        "Do not infer Inhibitory Attentional Control from a single output metric.",
+        "Do not treat Inhibitory Attentional Control as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C2-N03-03",
+      "label": "Incentive Salience",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C2",
+      "parent_id": "C2-M03",
+      "role_tags": [
+        "receiver_motivation_construct"
+      ],
+      "definition": "Motivational prominence or 'wanting' assigned to reward-associated cues, potentially dissociable from expected utility or experienced liking.",
+      "mechanism_summary": "Incentive salience is not identical to reward value, pleasure, or attention; transport from reward-neuroscience paradigms requires caution.",
+      "claim_ids": [
+        "CLM-S3C9-006"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C9-002"
+      ],
+      "failure_modes": [
+        "Do not infer Incentive Salience from a single output metric.",
+        "Do not treat Incentive Salience as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C2-N05-05",
+      "label": "Physiological Activation",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C2",
+      "parent_id": "C2-M05",
+      "role_tags": [
+        "measurement_adjacent_construct"
+      ],
+      "definition": "Autonomic or bodily activation associated with emotional/motivational states.",
+      "mechanism_summary": "Physiological activation is multiply determined and cannot identify a specific emotion, appraisal, or motivational direction on its own.",
+      "claim_ids": [
+        "CLM-S3C9-007"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Physiological Activation from a single output metric.",
+        "Do not treat Physiological Activation as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C2-N06-05",
+      "label": "Anticipated Relief",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M06",
+      "role_tags": [
+        "receiver_affective_construct"
+      ],
+      "definition": "Expected future relief from removal, reduction, or avoidance of an aversive state or problem.",
+      "mechanism_summary": "Anticipated relief can motivate action but is distinct from actual experienced relief and from generic reward anticipation.",
+      "claim_ids": [
+        "CLM-S3C9-008"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Anticipated Relief from a single output metric.",
+        "Do not treat Anticipated Relief as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N07-04",
+      "label": "Goal Shielding",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M07",
+      "role_tags": [
+        "receiver_self_regulation_construct"
+      ],
+      "definition": "Protection of an active focal goal from interference by competing goals, temptations, or distractions.",
+      "mechanism_summary": "Goal shielding supports persistence but can also narrow attention and create opportunity costs.",
+      "claim_ids": [
+        "CLM-S3C9-009"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Goal Shielding from a single output metric.",
+        "Do not treat Goal Shielding as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N08-02",
+      "label": "Extrinsic Motivation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M08",
+      "role_tags": [
+        "receiver_motivation_construct"
+      ],
+      "definition": "Motivation to act for outcomes separable from the inherent enjoyment of the activity, ranging from externally controlled to highly internalized forms.",
+      "mechanism_summary": "Extrinsic motivation is heterogeneous; it must not be equated with controlled motivation or monetary reward alone.",
+      "claim_ids": [
+        "CLM-S3C9-010"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Extrinsic Motivation from a single output metric.",
+        "Do not treat Extrinsic Motivation as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N02-05",
+      "label": "Group-Based Depersonalization",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M02",
+      "role_tags": [
+        "receiver_identity_mechanism"
+      ],
+      "definition": "Shift in self-perception from unique personal identity toward seeing the self as an interchangeable exemplar of a salient group category.",
+      "mechanism_summary": "Depersonalization in self-categorization theory is not loss of personhood; it is category-based self-definition.",
+      "claim_ids": [
+        "CLM-S3C9-011"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Group-Based Depersonalization from a single output metric.",
+        "Do not treat Group-Based Depersonalization as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N03-05",
+      "label": "Perceived Norm Discrepancy",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M03",
+      "role_tags": [
+        "receiver_social_judgment"
+      ],
+      "definition": "Perceived gap between one's own behavior/belief and the descriptive or injunctive norm attributed to a relevant group.",
+      "mechanism_summary": "Norm discrepancy can motivate alignment, resistance, concealment, or identity defense depending on identification and autonomy.",
+      "claim_ids": [
+        "CLM-S3C9-012"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Perceived Norm Discrepancy from a single output metric.",
+        "Do not treat Perceived Norm Discrepancy as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N05-05",
+      "label": "Request Susceptibility",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C3",
+      "parent_id": "C3-M05",
+      "role_tags": [
+        "receiver_social_influence_construct"
+      ],
+      "definition": "Context-specific likelihood of complying with a request as a function of requester, relationship, authority, norms, framing and recipient state.",
+      "mechanism_summary": "There is no single stable global susceptibility to requests; this node is a runtime/context abstraction rather than a trait claim.",
+      "claim_ids": [
+        "CLM-S3C9-013"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C9-003"
+      ],
+      "failure_modes": [
+        "Do not infer Request Susceptibility from a single output metric.",
+        "Do not treat Request Susceptibility as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C3-N06-05",
+      "label": "Interpersonal Attraction",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M06",
+      "role_tags": [
+        "receiver_social_construct"
+      ],
+      "definition": "Positive social attraction toward another person that can support liking, affiliation and receptivity.",
+      "mechanism_summary": "Attraction is distinct from trustworthiness, expertise, similarity and group identification even though they can interact.",
+      "claim_ids": [
+        "CLM-S3C9-014"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Interpersonal Attraction from a single output metric.",
+        "Do not treat Interpersonal Attraction as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N08-04",
+      "label": "Communal Orientation",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C3",
+      "parent_id": "C3-M08",
+      "role_tags": [
+        "relationship_construct"
+      ],
+      "definition": "Orientation toward relationships in which parties attend to each other's needs without strict immediate exchange accounting.",
+      "mechanism_summary": "Communal orientation is relationship-specific and should not be inferred from warmth, reciprocity, or belonging cues alone.",
+      "claim_ids": [
+        "CLM-S3C9-015"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C9-003"
+      ],
+      "failure_modes": [
+        "Do not infer Communal Orientation from a single output metric.",
+        "Do not treat Communal Orientation as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C4-N01-05",
+      "label": "Satisficing",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M01",
+      "role_tags": [
+        "receiver_decision_strategy"
+      ],
+      "definition": "Decision strategy of selecting an option that meets an acceptability threshold rather than exhaustively optimizing across all alternatives.",
+      "mechanism_summary": "Satisficing can be adaptive under constraints and should not be treated as low-quality decision making by definition.",
+      "claim_ids": [
+        "CLM-S3C9-016"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Satisficing from a single output metric.",
+        "Do not treat Satisficing as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N02-04",
+      "label": "Endowment Valuation / Endowment Effect",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C4",
+      "parent_id": "C4-M02",
+      "role_tags": [
+        "receiver_judgment_construct"
+      ],
+      "definition": "Higher valuation sometimes observed for an object or option when it is owned or treated as endowed relative to otherwise comparable nonownership conditions.",
+      "mechanism_summary": "Endowment effects are heterogeneous and should not automatically be attributed to loss aversion.",
+      "claim_ids": [
+        "CLM-S3C9-017"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Endowment Valuation / Endowment Effect from a single output metric.",
+        "Do not treat Endowment Valuation / Endowment Effect as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C4-N03-04",
+      "label": "Uncertainty Tolerance",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C4",
+      "parent_id": "C4-M03",
+      "role_tags": [
+        "receiver_judgment_construct"
+      ],
+      "definition": "Degree to which a person is willing to accept unresolved, probabilistic, ambiguous, or incomplete information in a decision context.",
+      "mechanism_summary": "Tolerance is domain- and context-sensitive and overlaps but is not identical to ambiguity aversion or risk preference.",
+      "claim_ids": [
+        "CLM-S3C9-018"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Uncertainty Tolerance from a single output metric.",
+        "Do not treat Uncertainty Tolerance as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C4-N06-05",
+      "label": "Compromise Resolution",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M06",
+      "role_tags": [
+        "receiver_choice_strategy"
+      ],
+      "definition": "Resolution of attribute conflict by selecting an intermediate option that avoids extremes on competing dimensions.",
+      "mechanism_summary": "Compromise choice depends on set structure and conflict; it is not a universal preference for middle options.",
+      "claim_ids": [
+        "CLM-S3C9-019"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Compromise Resolution from a single output metric.",
+        "Do not treat Compromise Resolution as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N07-04",
+      "label": "Relative Evaluation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M07",
+      "role_tags": [
+        "receiver_judgment_mechanism"
+      ],
+      "definition": "Evaluation of a target partly in relation to other available or salient alternatives rather than only on absolute properties.",
+      "mechanism_summary": "Relative evaluation creates context sensitivity and can interact with anchors, contrast and attribute ranges.",
+      "claim_ids": [
+        "CLM-S3C9-020"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Relative Evaluation from a single output metric.",
+        "Do not treat Relative Evaluation as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N04-04",
+      "label": "Claim Plausibility",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M04",
+      "role_tags": [
+        "receiver_belief_evaluation"
+      ],
+      "definition": "Perceived compatibility of a claim with prior knowledge, causal expectations, base beliefs, and contextual evidence.",
+      "mechanism_summary": "Plausibility can affect claim acceptance but is not equivalent to factual truth; false claims can appear plausible and true claims implausible.",
+      "claim_ids": [
+        "CLM-S3C9-021"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Claim Plausibility from a single output metric.",
+        "Do not treat Claim Plausibility as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N04-05",
+      "label": "Mechanism / Causal-Explanation Credibility",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C5",
+      "parent_id": "C5-M04",
+      "role_tags": [
+        "receiver_belief_evaluation"
+      ],
+      "definition": "Perceived credibility of an explanation for how or why a claimed effect would occur.",
+      "mechanism_summary": "Mechanistic explanation can support understanding or credibility, but an intuitively satisfying mechanism is not causal proof.",
+      "claim_ids": [
+        "CLM-S3C9-022"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C9-004"
+      ],
+      "failure_modes": [
+        "Do not infer Mechanism / Causal-Explanation Credibility from a single output metric.",
+        "Do not treat Mechanism / Causal-Explanation Credibility as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C5-N06-04",
+      "label": "Epistemic Confidence",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C5",
+      "parent_id": "C5-M06",
+      "role_tags": [
+        "receiver_metacognitive_construct"
+      ],
+      "definition": "Confidence in the correctness or truth status of knowledge, beliefs, or informational judgments.",
+      "mechanism_summary": "Epistemic confidence overlaps belief strength and judgment confidence; exact boundaries depend on the target of confidence.",
+      "claim_ids": [
+        "CLM-S3C9-023"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C9-004"
+      ],
+      "failure_modes": [
+        "Do not infer Epistemic Confidence from a single output metric.",
+        "Do not treat Epistemic Confidence as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C5-N06-05",
+      "label": "Judgment Confidence",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M06",
+      "role_tags": [
+        "receiver_metacognitive_construct"
+      ],
+      "definition": "Subjective confidence in a specific evaluative or decision judgment.",
+      "mechanism_summary": "Confidence affects reliance on judgments but can be miscalibrated and should be distinguished from objective accuracy.",
+      "claim_ids": [
+        "CLM-S3C9-024"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Judgment Confidence from a single output metric.",
+        "Do not treat Judgment Confidence as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N02-04",
+      "label": "Word-Order Processing",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M02",
+      "role_tags": [
+        "language_processing_construct"
+      ],
+      "definition": "Processing consequences of the order in which sentence constituents and dependent elements are arranged.",
+      "mechanism_summary": "Word order interacts with syntactic expectations, dependency length, information structure and language-specific grammar.",
+      "claim_ids": [
+        "CLM-S3C9-025"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Word-Order Processing from a single output metric.",
+        "Do not treat Word-Order Processing as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N04-04",
+      "label": "Pragmatic Inference",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M04",
+      "role_tags": [
+        "language_pragmatic_construct"
+      ],
+      "definition": "Context-sensitive inference used to derive intended communicative meaning beyond literal encoded content.",
+      "mechanism_summary": "Pragmatic inference integrates utterance, common ground, alternatives, goals and social reasoning.",
+      "claim_ids": [
+        "CLM-S3C9-026"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Pragmatic Inference from a single output metric.",
+        "Do not treat Pragmatic Inference as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N06-04",
+      "label": "Anaphora / Reference Resolution",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M06",
+      "role_tags": [
+        "discourse_processing_construct"
+      ],
+      "definition": "Process of identifying which prior or contextual entity a referring expression denotes.",
+      "mechanism_summary": "Reference resolution depends on discourse representation, salience, syntax, semantics and common ground.",
+      "claim_ids": [
+        "CLM-S3C9-027"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Anaphora / Reference Resolution from a single output metric.",
+        "Do not treat Anaphora / Reference Resolution as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N06-05",
+      "label": "Discourse Inference",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M06",
+      "role_tags": [
+        "discourse_processing_construct"
+      ],
+      "definition": "Inference used to connect explicit discourse content, fill causal or referential gaps, and build coherent situation models.",
+      "mechanism_summary": "Inferences support coherence but vary in necessity, cost and dependence on world knowledge.",
+      "claim_ids": [
+        "CLM-S3C9-028"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Discourse Inference from a single output metric.",
+        "Do not treat Discourse Inference as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N08-02",
+      "label": "Given–New Ordering",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M08",
+      "role_tags": [
+        "language_design_construct"
+      ],
+      "definition": "Organization of linguistic information according to what is treated as already established versus newly introduced in discourse.",
+      "mechanism_summary": "Given–new organization interacts with focus, coherence and audience knowledge and is not a rigid word-order rule across languages.",
+      "claim_ids": [
+        "CLM-S3C9-029"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Given–New Ordering from a single output metric.",
+        "Do not treat Given–New Ordering as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N02-04",
+      "label": "Speaker / Message Stance",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M02",
+      "role_tags": [
+        "message_design_construct"
+      ],
+      "definition": "Linguistic and rhetorical positioning of the speaker toward claims, certainty, values, evidence, audience and alternatives.",
+      "mechanism_summary": "Stance is a design property whose effects depend on credibility, pragmatics, identity and audience expectations.",
+      "claim_ids": [
+        "CLM-S3C9-030"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Speaker / Message Stance from a single output metric.",
+        "Do not treat Speaker / Message Stance as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N02-05",
+      "label": "Rhetorical Credibility Positioning",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M02",
+      "role_tags": [
+        "message_design_construct"
+      ],
+      "definition": "Deliberate presentation choices intended to position a source as credible, trustworthy, expert, transparent or aligned with audience values.",
+      "mechanism_summary": "Credibility positioning must remain separate from actual receiver-side credibility judgments and factual source quality.",
+      "claim_ids": [
+        "CLM-S3C9-031"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C9-004"
+      ],
+      "failure_modes": [
+        "Do not infer Rhetorical Credibility Positioning from a single output metric.",
+        "Do not treat Rhetorical Credibility Positioning as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C7-N03-05",
+      "label": "Transformation Arc",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M03",
+      "role_tags": [
+        "message_design_construct"
+      ],
+      "definition": "Narrative organization around a meaningful transition from an initial state through events or conflict to a changed later state.",
+      "mechanism_summary": "Transformation can organize stories and before–after claims, but persuasive effects depend on coherence, evidence, identification and relevance.",
+      "claim_ids": [
+        "CLM-S3C9-032"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C9-004"
+      ],
+      "failure_modes": [
+        "Do not infer Transformation Arc from a single output metric.",
+        "Do not treat Transformation Arc as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C7-N06-04",
+      "label": "Concession",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M06",
+      "role_tags": [
+        "message_design_construct"
+      ],
+      "definition": "Deliberate acknowledgment of a limitation, opposing point, uncertainty, or disadvantage within an advocated message.",
+      "mechanism_summary": "Concession can support two-sidedness or credibility but effects depend on what is conceded, placement, refutation and audience prior beliefs.",
+      "claim_ids": [
+        "CLM-S3C9-033"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Do not infer Concession from a single output metric.",
+        "Do not treat Concession as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N08-05",
+      "label": "Request Framing",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M08",
+      "role_tags": [
+        "message_design_construct"
+      ],
+      "definition": "Way a requested action is linguistically and contextually presented, including politeness, norm cues, autonomy support, benefit/cost framing and social context.",
+      "mechanism_summary": "Request framing can alter compliance, but no single framing pattern is universally superior and effects interact with reactance, authority, reciprocity and friction.",
+      "claim_ids": [
+        "CLM-S3C9-034"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S3C9-004"
+      ],
+      "failure_modes": [
+        "Do not infer Request Framing from a single output metric.",
+        "Do not treat Request Framing as a universal persuasion effect without boundary conditions."
+      ],
+      "open_questions": [
+        "Requires further construct discrimination or direct evidence before strong runtime use."
+      ],
+      "version": "0.3.0"
     }
   ]
 }

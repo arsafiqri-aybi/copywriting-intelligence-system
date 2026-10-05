@@ -346,6 +346,60 @@
       "reducibility": "experiment",
       "resolution_requirement": "Retain as provisional design nodes and validate by channel/task during S7/S8.",
       "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C9-001",
+      "channel": "construct",
+      "target_ids": [
+        "C1-N07-05",
+        "C1-N08-05"
+      ],
+      "level": "medium",
+      "reason": "These higher-order attention-control summaries may decompose into multiple task-specific mechanisms.",
+      "reducibility": "measurement",
+      "resolution_requirement": "Keep bounded; prefer lower-level accepted nodes when specific mechanism evidence is available.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C9-002",
+      "channel": "transport_context",
+      "target_ids": [
+        "C2-N03-03"
+      ],
+      "level": "high",
+      "reason": "Incentive salience originates largely in reward-learning/neuroscience traditions and should not be naively translated into copywriting 'desire' language.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Require human consumer/motivation evidence before strong runtime weighting.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C9-003",
+      "channel": "construct",
+      "target_ids": [
+        "C3-N05-05",
+        "C3-N08-04"
+      ],
+      "level": "medium",
+      "reason": "These are context-level abstractions rather than stable universal recipient traits.",
+      "reducibility": "context_information",
+      "resolution_requirement": "Use only with explicit relational/context evidence.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C9-004",
+      "channel": "epistemic",
+      "target_ids": [
+        "C5-N04-05",
+        "C5-N06-04",
+        "C7-N02-05",
+        "C7-N03-05",
+        "C7-N08-05"
+      ],
+      "level": "medium",
+      "reason": "Construct boundaries/effects are plausible but direct generalizable evidence is incomplete.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Preserve provisional status and test in downstream runtime/evaluation rather than invent universal rules.",
+      "blocks_gate": false
     }
   ]
 }
