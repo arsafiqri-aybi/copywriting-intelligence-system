@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "stage": "S8",
+  "status": "PASS_INTERNAL_WITH_EVALUATOR_INDEPENDENCE_LIMITATION",
+  "next_stage": "S9_SKILL_RUNTIME"
+}

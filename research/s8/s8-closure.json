@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "stage": "S8_EVALUATION",
+  "decision": "PASS_INTERNAL_WITH_EVALUATOR_INDEPENDENCE_LIMITATION",
+  "evidence": {
+    "regression_preflight": {
+      "total": 8,
+      "pass": 8,
+      "critical_failures": 0
+    },
+    "adversarial_preflight": {
+      "total": 8,
+      "pass": 8,
+      "critical_failures": 0
+    },
+    "holdout_v1": {
+      "cases": 12,
+      "pass": 12,
+      "pass_with_warnings": 0,
+      "fail": 0,
+      "critical_gate_failures": 0,
+      "mean_dimension_score": 4.605
+    }
+  },
+  "critical_result": "0 critical failures across regression/adversarial/holdout runs.",
+  "holdout_integrity": {
+    "frozen": true,
+    "runtime_commit_before_run": "b2ec046334ea2cd5968ed06897d54c493a295f32",
+    "post_holdout_tuning": "none performed in this run"
+  },
+  "limitation": "The build agent also generated and scored the outputs. This is a real frozen holdout run against unchanged artifacts, but it is not an independent human or external-model evaluation.",
+  "release_interpretation": "S8 is sufficient to proceed to Skill packaging. Independent human/external-model evaluation remains valuable release evidence but is not falsely claimed here.",
+  "next_stage": "S9_SKILL_RUNTIME"
+}

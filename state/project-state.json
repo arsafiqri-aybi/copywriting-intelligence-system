@@ -1,8 +1,8 @@
 {
   "project": "COPYWRITING_INTELLIGENCE_SYSTEM",
   "architecture_version": "1.1.0-s1-taxonomy",
-  "stage": "S8_EVALUATION",
-  "status": "IN_PROGRESS",
+  "stage": "S9_SKILL_RUNTIME",
+  "status": "READY_TO_START",
   "repository": "arsafiqri-aybi/copywriting-intelligence-system",
   "protected_constraints": {
     "top_level_core_count": 7,
@@ -42,8 +42,8 @@
     "S5_MARKET_VALUE_INTEGRATION": "PASS",
     "S6_REASONING_ENGINE": "PASS",
     "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "PASS",
-    "S8_EVALUATION": "IN_PROGRESS_HOLDOUT_V1_PASS",
-    "S9_SKILL_RUNTIME": "NOT_STARTED",
+    "S8_EVALUATION": "PASS_INTERNAL_WITH_EVALUATOR_INDEPENDENCE_LIMITATION",
+    "S9_SKILL_RUNTIME": "READY_TO_START",
     "S10_RELEASE_CONTINUOUS_RESEARCH": "NOT_STARTED"
   },
   "knowledge_counts": {
@@ -70,13 +70,13 @@
     "G6_CONTRADICTION_INTEGRITY": "PARTIAL_PASS_S3",
     "G7_MEASUREMENT_VALIDITY": "PASS_FOR_S7_SCOPE",
     "G8_REASONING": "PASS_FOR_S6_SCOPE",
-    "G9_COPY_QUALITY": "PASS_INTERNAL_HOLDOUT",
-    "G10_GENERALIZATION": "PASS_INTERNAL_HOLDOUT",
+    "G9_COPY_QUALITY": "PASS_INTERNAL_WITH_EVALUATOR_LIMITATION",
+    "G10_GENERALIZATION": "PASS_INTERNAL_WITH_EVALUATOR_LIMITATION",
     "G11_FEEDBACK_LEARNING": "PASS_FOR_S7_SCOPE",
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "S8 closure: persist evaluator-independence limitation, summarize regression/adversarial/holdout results, then open S9 skill runtime packaging without tuning S5-S7 to holdout-v1.",
+  "next_action": "S9_SKILL_RUNTIME: inspect Skill Builder authority, package progressive-disclosure skill runtime around validated registries/resolver/reasoning/feedback layers, then validate triggering/retrieval/failure handling.",
   "integrity_repairs": [
     {
       "id": "REPAIR-2026-10-05-01",
