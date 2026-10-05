@@ -37,7 +37,7 @@
     "S0_CONTRACT_AND_ARCHITECTURE_FREEZE": "PASS",
     "S1_DOMAIN_TAXONOMY": "PASS_WITH_BOUNDED_PROVISIONAL_MODULES",
     "S2_RESEARCH_FOUNDATION": "PASS",
-    "S3_SEVEN_CORE_KNOWLEDGE_BUILD": "IN_PROGRESS_BREADTH_FIRST",
+    "S3_SEVEN_CORE_KNOWLEDGE_BUILD": "IN_PROGRESS_CYCLE01",
     "S4_CONNECTION_BUILD": "NOT_STARTED",
     "S5_MARKET_VALUE_INTEGRATION": "NOT_STARTED",
     "S6_REASONING_ENGINE": "NOT_STARTED",
@@ -48,16 +48,16 @@
   },
   "knowledge_counts": {
     "screened_sources": 30,
-    "extracted_taxonomy_claims": 25,
+    "extracted_taxonomy_claims": 39,
     "uncertainty_records": 8,
     "candidate_neurons": 280,
-    "accepted_neurons": 0,
+    "accepted_neurons": 14,
     "accepted_scientific_edges": 0
   },
   "gate_status": {
     "G1_ARCHITECTURE": "PARTIAL_PASS_S1",
-    "G2_COVERAGE": "S3_CANDIDATE_COVERAGE_ONLY",
-    "G3_EVIDENCE": "IN_PROGRESS",
+    "G2_COVERAGE": "PARTIAL_ACCEPTED_COVERAGE_ALL_7_CORES",
+    "G3_EVIDENCE": "IN_PROGRESS_WITH_14_ACCEPTED_CONSTRUCTS",
     "G4_CAUSAL_DISCIPLINE": "IN_PROGRESS",
     "G5_CONNECTION_VALIDITY": "NOT_RUN",
     "G6_CONTRADICTION_INTEGRITY": "FOUNDATION_READY",
@@ -69,5 +69,5 @@
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "S3 evidence cycles: research candidate constructs across all seven cores, promote/merge/reject with atomic claims and measurement mappings, then audit cross-core scientific edges."
+  "next_action": "Continue S3 breadth-first evidence cycles across remaining candidate neurons; add measurement mappings and contradiction/null searches before deeper edge construction."
 }

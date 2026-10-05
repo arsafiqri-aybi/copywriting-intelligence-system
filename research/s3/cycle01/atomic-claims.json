@@ -1,0 +1,187 @@
+{
+  "version": "1.0.0",
+  "claims": [
+    {
+      "id": "CLM-S3C1-001",
+      "statement": "Attentional capture refers to conditions in which salient objects or events receive attentional priority, including cases where they conflict with current goals.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N01-01"
+      ],
+      "source_ids": [
+        "SRC-C1-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-002",
+      "statement": "Working memory is an attention-linked system for temporarily representing task-relevant information, with control processes affecting which representations are prioritized.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N03-01"
+      ],
+      "source_ids": [
+        "SRC-C1-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-003",
+      "statement": "Expectancies for success are a major class of motivational beliefs and are theoretically distinct from task value.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N03-01"
+      ],
+      "source_ids": [
+        "SRC-C2-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-004",
+      "statement": "Appraisal of events is a core part of emotion elicitation and differentiation, including evaluation of an event's significance for the person.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N04-01"
+      ],
+      "source_ids": [
+        "SRC-C2-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-005",
+      "statement": "Group identification is a central moderator/mechanism in social-identity accounts of group influence and norm effects.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N02-02"
+      ],
+      "source_ids": [
+        "SRC-C3-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-006",
+      "statement": "Injunctive norms concern socially shared views about what people should or should not do.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C3-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-007",
+      "statement": "Risk perception/judgment is a distinct component of judgment and decision-making under uncertainty and should not be collapsed into preference or choice.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N03-01"
+      ],
+      "source_ids": [
+        "SRC-C4-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-008",
+      "statement": "Attribute trade-offs are a recurring structure in choice problems in which competing attributes or goals must be balanced or resolved.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N06-02"
+      ],
+      "source_ids": [
+        "SRC-C4-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-009",
+      "statement": "Attitudinal ambivalence is a recognized dimension of attitude structure/strength and is distinct from simple attitude valence.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N01-04"
+      ],
+      "source_ids": [
+        "SRC-C5-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-010",
+      "statement": "Attitude-behavior consistency is a distinct persuasion outcome problem; attitudes and behavior should not be treated as interchangeable measures.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N08-04"
+      ],
+      "source_ids": [
+        "SRC-C5-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-011",
+      "statement": "Common ground is information that interaction participants treat as shared background for the purposes of communication.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N03-01"
+      ],
+      "source_ids": [
+        "SRC-C6-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-012",
+      "statement": "Discourse comprehension includes construction of a situation model that represents the described situation beyond surface wording.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N06-03"
+      ],
+      "source_ids": [
+        "SRC-C6-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-013",
+      "statement": "Narrative transportation is a defined construct in which consumers become mentally immersed in a story world, and its antecedents/consequences have been meta-analytically studied.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C7-N03-01"
+      ],
+      "source_ids": [
+        "SRC-C7-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C1-014",
+      "statement": "A refutational two-sided message presents opposing considerations and refutes them; it is empirically distinct from one-sided and nonrefutational two-sided messages.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C7-N06-03"
+      ],
+      "source_ids": [
+        "SRC-C7-003"
+      ],
+      "status": "verified_for_construct_existence"
+    }
+  ]
+}

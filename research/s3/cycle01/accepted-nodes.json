@@ -1,0 +1,471 @@
+{
+  "version": "1.0.0",
+  "nodes": [
+    {
+      "id": "C1-N01-01",
+      "label": "Bottom-up Attentional Capture",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M01",
+      "definition": "Priority allocation toward salient or otherwise attention-attracting events that can occur even when those events are not aligned with the current task goal.",
+      "inclusions": [
+        "stimulus-driven capture",
+        "salient-event priority"
+      ],
+      "exclusions": [
+        "all attention to salient stimuli",
+        "goal-directed selection",
+        "learned selection-history effects when those are the primary mechanism"
+      ],
+      "mechanism_summary": "Competition for attentional priority can favor salient events; control depends on interaction with goals and selection history.",
+      "claim_ids": [
+        "CLM-S3C1-001"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating salience as sufficient for guaranteed attention",
+        "Assuming capture is fully independent of goals/context"
+      ],
+      "open_questions": [
+        "Operational boundary with novelty orienting and selection-history capture"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C1-N03-01",
+      "label": "Working-Memory Capacity",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M03",
+      "definition": "Limited capacity for maintaining and using currently relevant information under task demands.",
+      "inclusions": [
+        "temporary maintenance capacity",
+        "capacity constraints relevant to active processing"
+      ],
+      "exclusions": [
+        "all long-term memory ability",
+        "generic intelligence",
+        "cognitive load itself"
+      ],
+      "mechanism_summary": "Working-memory limitations constrain active representation and interact with attentional control.",
+      "claim_ids": [
+        "CLM-S3C1-002"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating one task score with universal capacity",
+        "Treating capacity as identical to cognitive load"
+      ],
+      "open_questions": [
+        "Task-general versus task-specific capacity modeling"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C2-N03-01",
+      "label": "Expectancy of Success",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M03",
+      "definition": "A person's expectation or belief about the likelihood of succeeding at a task or attaining a goal.",
+      "inclusions": [
+        "success expectancy",
+        "expected attainability"
+      ],
+      "exclusions": [
+        "subjective value of the outcome",
+        "objective probability"
+      ],
+      "mechanism_summary": "Expectancy contributes to motivational choice, effort or persistence in combination with value and context.",
+      "claim_ids": [
+        "CLM-S3C1-003"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating expectancy as value",
+        "Assuming high expectancy always increases action regardless of value/cost"
+      ],
+      "open_questions": [
+        "Boundary with self-efficacy and perceived control"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C2-N04-01",
+      "label": "Goal-Relevance Appraisal",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M04",
+      "definition": "Evaluation of whether an event or situation bears on the person's goals, concerns, or well-being.",
+      "inclusions": [
+        "goal significance appraisal",
+        "personal relevance in emotion elicitation"
+      ],
+      "exclusions": [
+        "generic message relevance",
+        "goal activation itself"
+      ],
+      "mechanism_summary": "Appraisal of personal significance contributes to emotional differentiation and action tendencies.",
+      "claim_ids": [
+        "CLM-S3C1-004"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Using emotional label as proof of the underlying appraisal",
+        "Confusing goal relevance with positive valence"
+      ],
+      "open_questions": [
+        "Interaction with novelty, controllability and certainty appraisals"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C3-N02-02",
+      "label": "Group Identification",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M02",
+      "definition": "The degree to which a group membership is psychologically incorporated into the self and becomes relevant to perception and behavior.",
+      "inclusions": [
+        "strength of identification with a group",
+        "self-definition in group terms"
+      ],
+      "exclusions": [
+        "mere group membership",
+        "general interpersonal liking"
+      ],
+      "mechanism_summary": "Identification can change the relevance of group norms and referent influence.",
+      "claim_ids": [
+        "CLM-S3C1-005"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Inferring strong identification from membership alone",
+        "Treating all group effects as identity effects"
+      ],
+      "open_questions": [
+        "State versus chronic identification in commercial contexts"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C3-N03-02",
+      "label": "Injunctive Norm",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M03",
+      "definition": "A perceived or communicated socially shared view about what people should or should not do.",
+      "inclusions": [
+        "perceived social approval/disapproval",
+        "normative expectations about appropriate conduct"
+      ],
+      "exclusions": [
+        "descriptive prevalence of behavior",
+        "formal legal rule unless socially represented as a norm"
+      ],
+      "mechanism_summary": "Injunctive norms can guide behavior through internalization or anticipated social enforcement, with important reactance/autonomy boundaries.",
+      "claim_ids": [
+        "CLM-S3C1-006"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Confusing what others do with what others approve",
+        "Assuming norm messaging cannot backfire"
+      ],
+      "open_questions": [
+        "Conditions producing reactance or undermining intrinsic motivation"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C4-N03-01",
+      "label": "Risk Perception",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M03",
+      "definition": "Subjective judgment about the possibility and/or severity of uncertain adverse outcomes.",
+      "inclusions": [
+        "subjective risk judgment",
+        "perceived likelihood/severity under uncertainty"
+      ],
+      "exclusions": [
+        "objective statistical risk",
+        "risk preference",
+        "probability weighting as a specific mechanism"
+      ],
+      "mechanism_summary": "Risk perception contributes to judgment under uncertainty but is analytically distinct from preference and final choice.",
+      "claim_ids": [
+        "CLM-S3C1-007"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating perceived risk with objective probability",
+        "Inferring risk aversion from high risk perception"
+      ],
+      "open_questions": [
+        "Decomposition into likelihood versus severity across domains"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C4-N06-02",
+      "label": "Attribute Trade-Off Conflict",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M06",
+      "definition": "Conflict arising when alternatives differ on attributes or goals such that improvement on one dimension requires sacrifice on another.",
+      "inclusions": [
+        "competing attribute evaluation",
+        "goal trade-off conflict"
+      ],
+      "exclusions": [
+        "simple preference with no competing attributes",
+        "opportunity cost awareness as a separate process"
+      ],
+      "mechanism_summary": "Trade-off structure shapes whether decision makers balance attributes, choose compromise options, or adopt more extreme solutions.",
+      "claim_ids": [
+        "CLM-S3C1-008"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating all multiattribute choice as experienced conflict",
+        "Assuming a single universal compromise response"
+      ],
+      "open_questions": [
+        "Moderators of mixed versus extreme resolution"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C5-N01-04",
+      "label": "Attitudinal Ambivalence",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M01",
+      "definition": "Coexistence of positive and negative evaluative tendencies toward the same attitude object.",
+      "inclusions": [
+        "simultaneous evaluative conflict",
+        "mixed positive/negative attitude components"
+      ],
+      "exclusions": [
+        "uncertainty caused only by lack of knowledge",
+        "neutral attitude with no positive or negative evaluation"
+      ],
+      "mechanism_summary": "Ambivalence is an attitude-structure property that can affect certainty, processing and resistance.",
+      "claim_ids": [
+        "CLM-S3C1-009"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating ambivalence with neutrality",
+        "Equating ambivalence with low confidence"
+      ],
+      "open_questions": [
+        "Objective versus subjective ambivalence and their runtime relevance"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C5-N08-04",
+      "label": "Attitude–Behavior Consistency",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M08",
+      "definition": "The degree to which an attitude corresponds with or predicts relevant behavior under specified conditions.",
+      "inclusions": [
+        "attitude-behavior correspondence",
+        "behavioral predictive validity of attitudes"
+      ],
+      "exclusions": [
+        "behavioral intention",
+        "mere attitude strength without behavioral observation"
+      ],
+      "mechanism_summary": "Attitudes do not map mechanically to behavior; context, self-interest, control and other moderators can affect consistency.",
+      "claim_ids": [
+        "CLM-S3C1-010"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Using attitude change as proof of behavioral change",
+        "Substituting intention for observed behavior"
+      ],
+      "open_questions": [
+        "Which moderators are most useful for copywriting runtime inference"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C6-N03-01",
+      "label": "Common Ground",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M03",
+      "definition": "Information that communicators treat as shared background for the purposes of their interaction.",
+      "inclusions": [
+        "assumed shared background",
+        "communicatively relevant shared context"
+      ],
+      "exclusions": [
+        "literal proof of mutual knowledge",
+        "all cultural knowledge"
+      ],
+      "mechanism_summary": "Language interpretation and audience design can depend on what information is treated as shared, using mechanisms whose efficiency varies with context and cognitive demands.",
+      "claim_ids": [
+        "CLM-S3C1-011"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming the audience actually shares what the writer presupposes",
+        "Equating common ground with demographic similarity"
+      ],
+      "open_questions": [
+        "How to infer common ground safely from customer research"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C6-N06-03",
+      "label": "Situation-Model Construction",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M06",
+      "definition": "Construction of a mental representation of the situation described by discourse, beyond the surface wording and local propositions.",
+      "inclusions": [
+        "referential/situational representation",
+        "integration of events/entities/relations across discourse"
+      ],
+      "exclusions": [
+        "verbatim recall",
+        "sentence parsing alone"
+      ],
+      "mechanism_summary": "Comprehenders integrate discourse and knowledge into a representation that supports coherence and inference.",
+      "claim_ids": [
+        "CLM-S3C1-012"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming comprehension from surface recall alone",
+        "Treating situation models as directly observable without task-specific inference"
+      ],
+      "open_questions": [
+        "Best operational proxies for commercial message comprehension"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C7-N03-01",
+      "label": "Narrative Transportation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M03",
+      "definition": "A state in which a recipient becomes mentally immersed in the world evoked by a narrative.",
+      "inclusions": [
+        "mental entry into story world",
+        "narrative immersion as operationalized in transportation research"
+      ],
+      "exclusions": [
+        "generic engagement",
+        "watch time",
+        "attention without narrative immersion"
+      ],
+      "mechanism_summary": "Transportation is a narrative-processing construct with empirically studied antecedents, moderators and persuasive consequences.",
+      "claim_ids": [
+        "CLM-S3C1-013"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating engagement metrics with transportation",
+        "Assuming every story transports every audience"
+      ],
+      "open_questions": [
+        "Channel and audience moderators relevant to copy runtime"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    },
+    {
+      "id": "C7-N06-03",
+      "label": "Refutational Two-Sided Message",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M06",
+      "definition": "A persuasive message that acknowledges opposing considerations and explicitly refutes or answers them.",
+      "inclusions": [
+        "two-sided refutational structure",
+        "opposing argument plus rebuttal"
+      ],
+      "exclusions": [
+        "one-sided advocacy",
+        "two-sided nonrefutational concession"
+      ],
+      "mechanism_summary": "Message-sidedness effects depend on whether opposing arguments are refuted and on message/context characteristics.",
+      "claim_ids": [
+        "CLM-S3C1-014"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming two-sidedness is universally more persuasive",
+        "Treating concession without refutation as equivalent"
+      ],
+      "open_questions": [
+        "Boundary conditions by product category, audience position and time pressure"
+      ],
+      "version": "1.0.0",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "measurement_state": "unmapped"
+    }
+  ]
+}

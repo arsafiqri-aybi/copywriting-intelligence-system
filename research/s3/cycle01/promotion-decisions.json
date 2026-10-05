@@ -1,0 +1,201 @@
+{
+  "version": "1.0.0",
+  "decisions": [
+    {
+      "candidate_id": "C1-N01-01",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-001"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C1-N03-01",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-002"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C2-N03-01",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-003"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C2-N04-01",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-004"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C3-N02-02",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-005"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C3-N03-02",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-006"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C4-N03-01",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-007"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C4-N06-02",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-008"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C5-N01-04",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-009"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C5-N08-04",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-010"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C6-N03-01",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-011"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C6-N06-03",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-012"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C7-N03-01",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-013"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    },
+    {
+      "candidate_id": "C7-N06-03",
+      "decision": "promote_accepted",
+      "acceptance_scope": "construct_existence_and_basic_boundary",
+      "evidence_claim_ids": [
+        "CLM-S3C1-014"
+      ],
+      "limitations": [
+        "No universal effect size assigned",
+        "No runtime propagation weight assigned",
+        "Measurement mapping not yet promoted"
+      ],
+      "status": "closed_for_cycle01"
+    }
+  ]
+}
