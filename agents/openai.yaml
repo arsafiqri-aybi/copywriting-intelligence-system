@@ -1,0 +1,11 @@
+interface:
+  display_name: Copywriting Intelligence
+  short_description: Evidence-aware copy strategy, writing, critique, and testing
+  default_prompt: Gunakan $copywriting-intelligence untuk mendiagnosis konteks, membangun strategi, lalu menulis atau memperbaiki copy berikut tanpa mengarang fakta atau bukti.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

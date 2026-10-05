@@ -1,0 +1,103 @@
+{
+  "version": "1.0.0",
+  "positive": [
+    {
+      "id": "TP-01",
+      "prompt": "Buat landing page copy untuk SaaS ini berdasarkan product facts dan customer interviews.",
+      "expected": true
+    },
+    {
+      "id": "TP-02",
+      "prompt": "Perbaiki headline dan body iklan ini supaya lebih persuasive tapi jangan overclaim.",
+      "expected": true
+    },
+    {
+      "id": "TP-03",
+      "prompt": "Kenapa copy email campaign ini lemah? Diagnosis dan rewrite.",
+      "expected": true
+    },
+    {
+      "id": "TP-04",
+      "prompt": "Bantu susun value proposition, proof, objection handling, dan CTA untuk produk ini.",
+      "expected": true
+    },
+    {
+      "id": "TP-05",
+      "prompt": "Design an A/B test for this landing-page proof block.",
+      "expected": true
+    },
+    {
+      "id": "TP-06",
+      "prompt": "CTR naik setelah copy diganti. Apa yang boleh kita simpulkan dan apa yang harus dites?",
+      "expected": true
+    },
+    {
+      "id": "TP-07",
+      "prompt": "Buat product description ecommerce yang sesuai brand voice ini.",
+      "expected": true
+    },
+    {
+      "id": "TP-08",
+      "prompt": "Audit klaim dan social proof di sales page ini, lalu revisi.",
+      "expected": true
+    }
+  ],
+  "negative": [
+    {
+      "id": "TN-01",
+      "prompt": "Tulis puisi tentang hujan.",
+      "expected": false
+    },
+    {
+      "id": "TN-02",
+      "prompt": "Bantu aku menulis chat ke dosen supaya sopan.",
+      "expected": false
+    },
+    {
+      "id": "TN-03",
+      "prompt": "Apa itu loss aversion dalam psikologi?",
+      "expected": false
+    },
+    {
+      "id": "TN-04",
+      "prompt": "Buat website portfolio React.",
+      "expected": false
+    },
+    {
+      "id": "TN-05",
+      "prompt": "Ringkas jurnal ini.",
+      "expected": false
+    },
+    {
+      "id": "TN-06",
+      "prompt": "Ajari aku public speaking.",
+      "expected": false
+    }
+  ],
+  "edge": [
+    {
+      "id": "TE-01",
+      "prompt": "Buat caption Instagram untuk promo produk baru.",
+      "expected": true,
+      "note": "Promotional/marketing social copy."
+    },
+    {
+      "id": "TE-02",
+      "prompt": "Buat caption Instagram untuk foto liburan pribadi.",
+      "expected": false,
+      "note": "General social writing, not persuasive marketing."
+    },
+    {
+      "id": "TE-03",
+      "prompt": "Jelaskan AIDA.",
+      "expected": false,
+      "note": "Explanation only; no real copy task."
+    },
+    {
+      "id": "TE-04",
+      "prompt": "Gunakan AIDA untuk landing page produk ini.",
+      "expected": true,
+      "note": "Copy task triggers; skill may decline rigid formula if mechanism fit is poor."
+    }
+  ]
+}
