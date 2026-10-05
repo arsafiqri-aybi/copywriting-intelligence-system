@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "records": [
+    {
+      "id": "UNC-S1-001",
+      "channel": "construct",
+      "target_ids": [
+        "C1-M04",
+        "C6"
+      ],
+      "level": "medium",
+      "reason": "Processing fluency can influence comprehension judgments but is not equivalent to linguistic comprehension.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Review fluency/comprehension literature before child-node promotion.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S1-002",
+      "channel": "construct",
+      "target_ids": [
+        "C2-M06",
+        "C2-M03"
+      ],
+      "level": "medium",
+      "reason": "Affective forecasting/anticipated affect overlaps expected value and reward anticipation.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Separate anticipatory affect, predicted affect and expected utility constructs.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S1-003",
+      "channel": "construct",
+      "target_ids": [
+        "C3-M04"
+      ],
+      "level": "medium",
+      "reason": "Status, reputation, signaling and impression management have overlapping but nonidentical traditions.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Construct-level theory comparison.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S1-004",
+      "channel": "construct",
+      "target_ids": [
+        "C3-M03",
+        "C3-M07"
+      ],
+      "level": "medium",
+      "reason": "Applied social-proof language overlaps descriptive norms/consensus information.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Promote only scientifically distinct nodes; merge aliases where warranted.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S1-005",
+      "channel": "construct",
+      "target_ids": [
+        "C5-M06"
+      ],
+      "level": "medium",
+      "reason": "Attitude certainty, thought confidence, self-validation and judgment confidence require construct-specific boundaries.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Focused metacognition review.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S1-006",
+      "channel": "construct",
+      "target_ids": [
+        "C5-M07"
+      ],
+      "level": "high",
+      "reason": "Proof/reason-to-believe is applied marketing terminology rather than a single scientific construct.",
+      "reducibility": "structural_replan",
+      "resolution_requirement": "Translate container into verifiability, evidence, demonstration and credibility mechanisms; split/merge children as evidence dictates.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S1-007",
+      "channel": "construct",
+      "target_ids": [
+        "C6-M08"
+      ],
+      "level": "medium",
+      "reason": "Register, tone, information structure and specificity are multiple linguistic systems grouped for retrieval convenience.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Decompose at neuron level with separate linguistic evidence.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S1-008",
+      "channel": "epistemic",
+      "target_ids": [
+        "C7-M04",
+        "C7-M07",
+        "C7-M08"
+      ],
+      "level": "medium",
+      "reason": "Applied message sequencing, pacing and CTA structure require stronger evidence mapping than current taxonomy sources provide.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Focused communication/advertising evidence review.",
+      "blocks_gate": false
+    }
+  ]
+}

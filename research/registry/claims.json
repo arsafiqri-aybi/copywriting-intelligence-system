@@ -1,0 +1,348 @@
+{
+  "version": "1.0.0",
+  "claims": [
+    {
+      "id": "CLM-S1-001",
+      "statement": "Attentional priority can reflect interacting goal-directed, stimulus-driven, and selection-history influences rather than a single capture mechanism.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1",
+        "C1-M01",
+        "C1-M02",
+        "C1-M06"
+      ],
+      "source_ids": [
+        "SRC-C1-001"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-002",
+      "statement": "Attention can be usefully partitioned by the targets it operates over, including external sensory information and internal representations such as working memory and task rules.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1"
+      ],
+      "source_ids": [
+        "SRC-C1-002"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-003",
+      "statement": "Working-memory maintenance and control are tightly linked with selective attention, supporting an explicit attention-working-memory interface rather than treating them as independent silos.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C1-M03"
+      ],
+      "source_ids": [
+        "SRC-C1-003",
+        "SRC-C1-004"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-004",
+      "statement": "Salient features can attract attention and alter economic choice, creating a cross-core bridge between attentional priority and judgment.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C1",
+        "C4"
+      ],
+      "source_ids": [
+        "SRC-X-001"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-005",
+      "statement": "Motivation research spans expectancies, values, goals, intrinsic motivation and self-regulation, so motivation cannot be reduced to reward or desire alone.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2"
+      ],
+      "source_ids": [
+        "SRC-C2-001",
+        "SRC-C2-004"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-006",
+      "statement": "Emotion processes can be modeled as unfolding from event appraisal through differentiated action tendencies and other response components.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C2-M04",
+        "C2-M05"
+      ],
+      "source_ids": [
+        "SRC-C2-002"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-007",
+      "statement": "Self-related motives and self-conscious emotions are intertwined with social approval and acceptance, requiring an explicit bridge between motivation/affect and social identity.",
+      "claim_type": "association",
+      "stance": "supports",
+      "target_ids": [
+        "C2",
+        "C3"
+      ],
+      "source_ids": [
+        "SRC-X-002"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-008",
+      "statement": "Group identity provides a mechanism for social influence through group norms, with effects moderated by identification and social context.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C3-M02",
+        "C3-M03"
+      ],
+      "source_ids": [
+        "SRC-C3-001"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-009",
+      "statement": "Compliance and conformity can be organized around goals involving accurate reality perception, social relationships, and favorable self-concept.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3"
+      ],
+      "source_ids": [
+        "SRC-C3-002"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-010",
+      "statement": "Norm-based influence is context-dependent and can backfire when it threatens autonomy, morality, values, trust or intrinsic motivation.",
+      "claim_type": "moderation",
+      "stance": "bounds",
+      "target_ids": [
+        "C3-M03"
+      ],
+      "source_ids": [
+        "SRC-C3-003"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-011",
+      "statement": "Judgment and decision research can be organized around judgment, preference and choice, supporting distinct but connected decision modules.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4"
+      ],
+      "source_ids": [
+        "SRC-C4-001"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-012",
+      "statement": "Heuristics are not intrinsically irrational; their performance depends on environmental structure and task conditions.",
+      "claim_type": "moderation",
+      "stance": "bounds",
+      "target_ids": [
+        "C4-M01"
+      ],
+      "source_ids": [
+        "SRC-C4-002"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-013",
+      "statement": "Many apparent choice effects can be understood through how people resolve trade-offs rather than as unrelated isolated biases.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-M06",
+        "C4-M07"
+      ],
+      "source_ids": [
+        "SRC-C4-003"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-014",
+      "statement": "Communication framing and psychological framing should be linked but not collapsed: messages can alter which considerations become relevant to evaluation.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C4-M02",
+        "C7-M05"
+      ],
+      "source_ids": [
+        "SRC-X-003"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-015",
+      "statement": "Attitude formation, attitude change, attitude strength and attitude-behavior relations are distinct research problems within persuasion.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-M01",
+        "C5-M08"
+      ],
+      "source_ids": [
+        "SRC-C5-001",
+        "SRC-C5-002"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-016",
+      "statement": "Persuasion can operate through multiple high- and low-effort processes, so message effects should not be represented as one universal route.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C5-M02"
+      ],
+      "source_ids": [
+        "SRC-C5-002"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-017",
+      "statement": "Subjective valuation can mediate persuasion and social influence, with self-related and social considerations contributing to value.",
+      "claim_type": "mediation",
+      "stance": "supports",
+      "target_ids": [
+        "C2",
+        "C3",
+        "C5"
+      ],
+      "source_ids": [
+        "SRC-X-004"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-018",
+      "statement": "Persuasion generalization depends on speaker/receiver, treatment/message, outcome and setting, so transport limits must be explicit.",
+      "claim_type": "transport_generalization",
+      "stance": "bounds",
+      "target_ids": [
+        "C5",
+        "C7"
+      ],
+      "source_ids": [
+        "SRC-C5-003"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-019",
+      "statement": "Persuasion effects exist in field settings but vary by domain and communication environment, so laboratory and campaign evidence cannot be treated as universally interchangeable.",
+      "claim_type": "transport_generalization",
+      "stance": "bounds",
+      "target_ids": [
+        "C5",
+        "MARKET_VALUE"
+      ],
+      "source_ids": [
+        "SRC-C5-005"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-020",
+      "statement": "Common ground is treated as shared background information and is managed through multiple mechanisms whose availability depends on communicative context and cognitive demands.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C6-M03"
+      ],
+      "source_ids": [
+        "SRC-C6-001"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-021",
+      "statement": "Sentence and text comprehension integrates syntactic, lexical, semantic, prosodic and discourse information with context, experience and memory.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6"
+      ],
+      "source_ids": [
+        "SRC-C6-002"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-022",
+      "statement": "Discourse comprehension involves multiple levels of representation including surface form, propositional content and situation models.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-M06"
+      ],
+      "source_ids": [
+        "SRC-C6-003"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-023",
+      "statement": "Narrative transportation has identifiable antecedents and consequences for consumer responses, with moderator effects that make narrative persuasion context-dependent.",
+      "claim_type": "moderation",
+      "stance": "supports",
+      "target_ids": [
+        "C7-M03",
+        "C5"
+      ],
+      "source_ids": [
+        "SRC-C7-001"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-024",
+      "statement": "The persuasive effect of two-sided messages is conditional on message, marketer and receiver characteristics rather than uniformly superior.",
+      "claim_type": "moderation",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-M06"
+      ],
+      "source_ids": [
+        "SRC-C7-002"
+      ],
+      "status": "extracted"
+    },
+    {
+      "id": "CLM-S1-025",
+      "statement": "Whether a two-sided message refutes opposing arguments materially changes its credibility and persuasive effects.",
+      "claim_type": "moderation",
+      "stance": "supports",
+      "target_ids": [
+        "C7-M06"
+      ],
+      "source_ids": [
+        "SRC-C7-003"
+      ],
+      "status": "extracted"
+    }
+  ]
+}

@@ -1,0 +1,4207 @@
+{
+  "version": "0.1.0",
+  "strategy": "breadth_first",
+  "count": 280,
+  "candidates": [
+    {
+      "id": "C1-N01-01",
+      "label": "bottom-up attentional capture",
+      "parent_id": "C1-M01",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning bottom-up attentional capture; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "bottom-up attentional capture",
+        "bottom-up attentional capture psychology",
+        "bottom-up attentional capture persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N01-02",
+      "label": "perceptual salience",
+      "parent_id": "C1-M01",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning perceptual salience; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "perceptual salience",
+        "perceptual salience psychology",
+        "perceptual salience persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N01-03",
+      "label": "abrupt-onset attentional priority",
+      "parent_id": "C1-M01",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning abrupt-onset attentional priority; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "abrupt-onset attentional priority",
+        "abrupt-onset attentional priority psychology",
+        "abrupt-onset attentional priority persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N01-04",
+      "label": "novelty orienting",
+      "parent_id": "C1-M01",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning novelty orienting; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "novelty orienting",
+        "novelty orienting psychology",
+        "novelty orienting persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N01-05",
+      "label": "distractor capture susceptibility",
+      "parent_id": "C1-M01",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning distractor capture susceptibility; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "distractor capture susceptibility",
+        "distractor capture susceptibility psychology",
+        "distractor capture susceptibility persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N02-01",
+      "label": "attentional set",
+      "parent_id": "C1-M02",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning attentional set; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "attentional set",
+        "attentional set psychology",
+        "attentional set persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N02-02",
+      "label": "top-down attentional selection",
+      "parent_id": "C1-M02",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning top-down attentional selection; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "top-down attentional selection",
+        "top-down attentional selection psychology",
+        "top-down attentional selection persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N02-03",
+      "label": "feature-based attention",
+      "parent_id": "C1-M02",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning feature-based attention; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "feature-based attention",
+        "feature-based attention psychology",
+        "feature-based attention persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N02-04",
+      "label": "spatial attentional selection",
+      "parent_id": "C1-M02",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning spatial attentional selection; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "spatial attentional selection",
+        "spatial attentional selection psychology",
+        "spatial attentional selection persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N02-05",
+      "label": "executive attentional control",
+      "parent_id": "C1-M02",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning executive attentional control; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "executive attentional control",
+        "executive attentional control psychology",
+        "executive attentional control persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N03-01",
+      "label": "working-memory capacity",
+      "parent_id": "C1-M03",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning working-memory capacity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "working-memory capacity",
+        "working-memory capacity psychology",
+        "working-memory capacity persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N03-02",
+      "label": "active maintenance",
+      "parent_id": "C1-M03",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning active maintenance; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "active maintenance",
+        "active maintenance psychology",
+        "active maintenance persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N03-03",
+      "label": "working-memory updating",
+      "parent_id": "C1-M03",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning working-memory updating; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "working-memory updating",
+        "working-memory updating psychology",
+        "working-memory updating persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N03-04",
+      "label": "interference susceptibility",
+      "parent_id": "C1-M03",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning interference susceptibility; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "interference susceptibility",
+        "interference susceptibility psychology",
+        "interference susceptibility persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N03-05",
+      "label": "cognitive load",
+      "parent_id": "C1-M03",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning cognitive load; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "cognitive load",
+        "cognitive load psychology",
+        "cognitive load persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N04-01",
+      "label": "perceptual fluency",
+      "parent_id": "C1-M04",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning perceptual fluency; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "perceptual fluency",
+        "perceptual fluency psychology",
+        "perceptual fluency persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N04-02",
+      "label": "conceptual fluency",
+      "parent_id": "C1-M04",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning conceptual fluency; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "conceptual fluency",
+        "conceptual fluency psychology",
+        "conceptual fluency persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N04-03",
+      "label": "processing ease",
+      "parent_id": "C1-M04",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning processing ease; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "processing ease",
+        "processing ease psychology",
+        "processing ease persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N04-04",
+      "label": "processing disfluency",
+      "parent_id": "C1-M04",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning processing disfluency; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "processing disfluency",
+        "processing disfluency psychology",
+        "processing disfluency persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N04-05",
+      "label": "comprehension monitoring",
+      "parent_id": "C1-M04",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning comprehension monitoring; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "comprehension monitoring",
+        "comprehension monitoring psychology",
+        "comprehension monitoring persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N05-01",
+      "label": "attentional encoding",
+      "parent_id": "C1-M05",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning attentional encoding; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "attentional encoding",
+        "attentional encoding psychology",
+        "attentional encoding persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N05-02",
+      "label": "retrieval cue effectiveness",
+      "parent_id": "C1-M05",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning retrieval cue effectiveness; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "retrieval cue effectiveness",
+        "retrieval cue effectiveness psychology",
+        "retrieval cue effectiveness persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N05-03",
+      "label": "recognition accessibility",
+      "parent_id": "C1-M05",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning recognition accessibility; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "recognition accessibility",
+        "recognition accessibility psychology",
+        "recognition accessibility persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N05-04",
+      "label": "recall accessibility",
+      "parent_id": "C1-M05",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning recall accessibility; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "recall accessibility",
+        "recall accessibility psychology",
+        "recall accessibility persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N05-05",
+      "label": "memory-priority allocation",
+      "parent_id": "C1-M05",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning memory-priority allocation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "memory-priority allocation",
+        "memory-priority allocation psychology",
+        "memory-priority allocation persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N06-01",
+      "label": "selection-history bias",
+      "parent_id": "C1-M06",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning selection-history bias; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "selection-history bias",
+        "selection-history bias psychology",
+        "selection-history bias persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N06-02",
+      "label": "value-driven attentional priority",
+      "parent_id": "C1-M06",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning value-driven attentional priority; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "value-driven attentional priority",
+        "value-driven attentional priority psychology",
+        "value-driven attentional priority persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N06-03",
+      "label": "statistical learning of attentional priority",
+      "parent_id": "C1-M06",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning statistical learning of attentional priority; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "statistical learning of attentional priority",
+        "statistical learning of attentional priority psychology",
+        "statistical learning of attentional priority persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N06-04",
+      "label": "repetition priming of selection",
+      "parent_id": "C1-M06",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning repetition priming of selection; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "repetition priming of selection",
+        "repetition priming of selection psychology",
+        "repetition priming of selection persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N06-05",
+      "label": "habituation",
+      "parent_id": "C1-M06",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning habituation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "habituation",
+        "habituation psychology",
+        "habituation persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N07-01",
+      "label": "sustained attention",
+      "parent_id": "C1-M07",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning sustained attention; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "sustained attention",
+        "sustained attention psychology",
+        "sustained attention persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N07-02",
+      "label": "vigilance decrement",
+      "parent_id": "C1-M07",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning vigilance decrement; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "vigilance decrement",
+        "vigilance decrement psychology",
+        "vigilance decrement persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N07-03",
+      "label": "mind wandering",
+      "parent_id": "C1-M07",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning mind wandering; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "mind wandering",
+        "mind wandering psychology",
+        "mind wandering persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N07-04",
+      "label": "alertness",
+      "parent_id": "C1-M07",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning alertness; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "alertness",
+        "alertness psychology",
+        "alertness persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N07-05",
+      "label": "temporal stability of attention",
+      "parent_id": "C1-M07",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning temporal stability of attention; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "temporal stability of attention",
+        "temporal stability of attention psychology",
+        "temporal stability of attention persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N08-01",
+      "label": "distractor suppression",
+      "parent_id": "C1-M08",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning distractor suppression; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "distractor suppression",
+        "distractor suppression psychology",
+        "distractor suppression persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N08-02",
+      "label": "attentional disengagement",
+      "parent_id": "C1-M08",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning attentional disengagement; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "attentional disengagement",
+        "attentional disengagement psychology",
+        "attentional disengagement persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N08-03",
+      "label": "interference control",
+      "parent_id": "C1-M08",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning interference control; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "interference control",
+        "interference control psychology",
+        "interference control persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N08-04",
+      "label": "task switching",
+      "parent_id": "C1-M08",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning task switching; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "task switching",
+        "task switching psychology",
+        "task switching persuasion communication"
+      ]
+    },
+    {
+      "id": "C1-N08-05",
+      "label": "inhibitory attentional control",
+      "parent_id": "C1-M08",
+      "primary_core": "C1",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning inhibitory attentional control; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "inhibitory attentional control",
+        "inhibitory attentional control psychology",
+        "inhibitory attentional control persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N01-01",
+      "label": "need activation",
+      "parent_id": "C2-M01",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning need activation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "need activation",
+        "need activation psychology",
+        "need activation persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N01-02",
+      "label": "goal activation",
+      "parent_id": "C2-M01",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning goal activation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "goal activation",
+        "goal activation psychology",
+        "goal activation persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N01-03",
+      "label": "goal discrepancy",
+      "parent_id": "C2-M01",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning goal discrepancy; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "goal discrepancy",
+        "goal discrepancy psychology",
+        "goal discrepancy persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N01-04",
+      "label": "goal importance",
+      "parent_id": "C2-M01",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning goal importance; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "goal importance",
+        "goal importance psychology",
+        "goal importance persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N01-05",
+      "label": "goal commitment",
+      "parent_id": "C2-M01",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning goal commitment; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "goal commitment",
+        "goal commitment psychology",
+        "goal commitment persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N02-01",
+      "label": "approach motivation",
+      "parent_id": "C2-M02",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning approach motivation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "approach motivation",
+        "approach motivation psychology",
+        "approach motivation persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N02-02",
+      "label": "avoidance motivation",
+      "parent_id": "C2-M02",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning avoidance motivation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "avoidance motivation",
+        "avoidance motivation psychology",
+        "avoidance motivation persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N02-03",
+      "label": "promotion focus",
+      "parent_id": "C2-M02",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning promotion focus; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "promotion focus",
+        "promotion focus psychology",
+        "promotion focus persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N02-04",
+      "label": "prevention focus",
+      "parent_id": "C2-M02",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning prevention focus; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "prevention focus",
+        "prevention focus psychology",
+        "prevention focus persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N02-05",
+      "label": "behavioral approach-inhibition tendency",
+      "parent_id": "C2-M02",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning behavioral approach-inhibition tendency; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "behavioral approach-inhibition tendency",
+        "behavioral approach-inhibition tendency psychology",
+        "behavioral approach-inhibition tendency persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N03-01",
+      "label": "expectancy of success",
+      "parent_id": "C2-M03",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning expectancy of success; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "expectancy of success",
+        "expectancy of success psychology",
+        "expectancy of success persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N03-02",
+      "label": "subjective task value",
+      "parent_id": "C2-M03",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning subjective task value; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "subjective task value",
+        "subjective task value psychology",
+        "subjective task value persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N03-03",
+      "label": "incentive salience",
+      "parent_id": "C2-M03",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning incentive salience; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "incentive salience",
+        "incentive salience psychology",
+        "incentive salience persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N03-04",
+      "label": "reward anticipation",
+      "parent_id": "C2-M03",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning reward anticipation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "reward anticipation",
+        "reward anticipation psychology",
+        "reward anticipation persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N03-05",
+      "label": "perceived motivational cost",
+      "parent_id": "C2-M03",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning perceived motivational cost; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "perceived motivational cost",
+        "perceived motivational cost psychology",
+        "perceived motivational cost persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N04-01",
+      "label": "goal-relevance appraisal",
+      "parent_id": "C2-M04",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning goal-relevance appraisal; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "goal-relevance appraisal",
+        "goal-relevance appraisal psychology",
+        "goal-relevance appraisal persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N04-02",
+      "label": "valence appraisal",
+      "parent_id": "C2-M04",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning valence appraisal; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "valence appraisal",
+        "valence appraisal psychology",
+        "valence appraisal persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N04-03",
+      "label": "controllability appraisal",
+      "parent_id": "C2-M04",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning controllability appraisal; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "controllability appraisal",
+        "controllability appraisal psychology",
+        "controllability appraisal persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N04-04",
+      "label": "certainty appraisal",
+      "parent_id": "C2-M04",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning certainty appraisal; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "certainty appraisal",
+        "certainty appraisal psychology",
+        "certainty appraisal persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N04-05",
+      "label": "emotion differentiation",
+      "parent_id": "C2-M04",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning emotion differentiation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "emotion differentiation",
+        "emotion differentiation psychology",
+        "emotion differentiation persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N05-01",
+      "label": "arousal intensity",
+      "parent_id": "C2-M05",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning arousal intensity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "arousal intensity",
+        "arousal intensity psychology",
+        "arousal intensity persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N05-02",
+      "label": "action readiness",
+      "parent_id": "C2-M05",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning action readiness; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "action readiness",
+        "action readiness psychology",
+        "action readiness persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N05-03",
+      "label": "approach action tendency",
+      "parent_id": "C2-M05",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning approach action tendency; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "approach action tendency",
+        "approach action tendency psychology",
+        "approach action tendency persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N05-04",
+      "label": "withdrawal action tendency",
+      "parent_id": "C2-M05",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning withdrawal action tendency; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "withdrawal action tendency",
+        "withdrawal action tendency psychology",
+        "withdrawal action tendency persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N05-05",
+      "label": "physiological activation",
+      "parent_id": "C2-M05",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning physiological activation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "physiological activation",
+        "physiological activation psychology",
+        "physiological activation persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N06-01",
+      "label": "anticipated affect",
+      "parent_id": "C2-M06",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning anticipated affect; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "anticipated affect",
+        "anticipated affect psychology",
+        "anticipated affect persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N06-02",
+      "label": "affective forecasting",
+      "parent_id": "C2-M06",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning affective forecasting; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "affective forecasting",
+        "affective forecasting psychology",
+        "affective forecasting persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N06-03",
+      "label": "anticipatory pleasure",
+      "parent_id": "C2-M06",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning anticipatory pleasure; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "anticipatory pleasure",
+        "anticipatory pleasure psychology",
+        "anticipatory pleasure persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N06-04",
+      "label": "anticipated regret",
+      "parent_id": "C2-M06",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning anticipated regret; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "anticipated regret",
+        "anticipated regret psychology",
+        "anticipated regret persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N06-05",
+      "label": "anticipated relief",
+      "parent_id": "C2-M06",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning anticipated relief; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "anticipated relief",
+        "anticipated relief psychology",
+        "anticipated relief persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N07-01",
+      "label": "effort mobilization",
+      "parent_id": "C2-M07",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning effort mobilization; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "effort mobilization",
+        "effort mobilization psychology",
+        "effort mobilization persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N07-02",
+      "label": "goal persistence",
+      "parent_id": "C2-M07",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning goal persistence; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "goal persistence",
+        "goal persistence psychology",
+        "goal persistence persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N07-03",
+      "label": "self-control",
+      "parent_id": "C2-M07",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning self-control; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "self-control",
+        "self-control psychology",
+        "self-control persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N07-04",
+      "label": "goal shielding",
+      "parent_id": "C2-M07",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning goal shielding; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "goal shielding",
+        "goal shielding psychology",
+        "goal shielding persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N07-05",
+      "label": "goal disengagement",
+      "parent_id": "C2-M07",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning goal disengagement; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "goal disengagement",
+        "goal disengagement psychology",
+        "goal disengagement persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N08-01",
+      "label": "intrinsic motivation",
+      "parent_id": "C2-M08",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning intrinsic motivation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "intrinsic motivation",
+        "intrinsic motivation psychology",
+        "intrinsic motivation persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N08-02",
+      "label": "extrinsic motivation",
+      "parent_id": "C2-M08",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning extrinsic motivation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "extrinsic motivation",
+        "extrinsic motivation psychology",
+        "extrinsic motivation persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N08-03",
+      "label": "autonomous motivation",
+      "parent_id": "C2-M08",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning autonomous motivation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "autonomous motivation",
+        "autonomous motivation psychology",
+        "autonomous motivation persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N08-04",
+      "label": "controlled motivation",
+      "parent_id": "C2-M08",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning controlled motivation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "controlled motivation",
+        "controlled motivation psychology",
+        "controlled motivation persuasion communication"
+      ]
+    },
+    {
+      "id": "C2-N08-05",
+      "label": "internalization",
+      "parent_id": "C2-M08",
+      "primary_core": "C2",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning internalization; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "internalization",
+        "internalization psychology",
+        "internalization persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N01-01",
+      "label": "self-relevance",
+      "parent_id": "C3-M01",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning self-relevance; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "self-relevance",
+        "self-relevance psychology",
+        "self-relevance persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N01-02",
+      "label": "self-schema activation",
+      "parent_id": "C3-M01",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning self-schema activation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "self-schema activation",
+        "self-schema activation psychology",
+        "self-schema activation persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N01-03",
+      "label": "self-verification",
+      "parent_id": "C3-M01",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning self-verification; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "self-verification",
+        "self-verification psychology",
+        "self-verification persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N01-04",
+      "label": "self-enhancement",
+      "parent_id": "C3-M01",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning self-enhancement; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "self-enhancement",
+        "self-enhancement psychology",
+        "self-enhancement persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N01-05",
+      "label": "aspirational identity",
+      "parent_id": "C3-M01",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning aspirational identity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "aspirational identity",
+        "aspirational identity psychology",
+        "aspirational identity persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N02-01",
+      "label": "self-categorization",
+      "parent_id": "C3-M02",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning self-categorization; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "self-categorization",
+        "self-categorization psychology",
+        "self-categorization persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N02-02",
+      "label": "group identification",
+      "parent_id": "C3-M02",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning group identification; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "group identification",
+        "group identification psychology",
+        "group identification persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N02-03",
+      "label": "identity salience",
+      "parent_id": "C3-M02",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning identity salience; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "identity salience",
+        "identity salience psychology",
+        "identity salience persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N02-04",
+      "label": "in-group prototypicality",
+      "parent_id": "C3-M02",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning in-group prototypicality; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "in-group prototypicality",
+        "in-group prototypicality psychology",
+        "in-group prototypicality persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N02-05",
+      "label": "group-based depersonalization",
+      "parent_id": "C3-M02",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning group-based depersonalization; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "group-based depersonalization",
+        "group-based depersonalization psychology",
+        "group-based depersonalization persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N03-01",
+      "label": "descriptive norms",
+      "parent_id": "C3-M03",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning descriptive norms; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "descriptive norms",
+        "descriptive norms psychology",
+        "descriptive norms persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N03-02",
+      "label": "injunctive norms",
+      "parent_id": "C3-M03",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning injunctive norms; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "injunctive norms",
+        "injunctive norms psychology",
+        "injunctive norms persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N03-03",
+      "label": "conformity pressure",
+      "parent_id": "C3-M03",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning conformity pressure; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "conformity pressure",
+        "conformity pressure psychology",
+        "conformity pressure persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N03-04",
+      "label": "norm internalization",
+      "parent_id": "C3-M03",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning norm internalization; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "norm internalization",
+        "norm internalization psychology",
+        "norm internalization persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N03-05",
+      "label": "perceived norm discrepancy",
+      "parent_id": "C3-M03",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning perceived norm discrepancy; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "perceived norm discrepancy",
+        "perceived norm discrepancy psychology",
+        "perceived norm discrepancy persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N04-01",
+      "label": "status motivation",
+      "parent_id": "C3-M04",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning status motivation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "status motivation",
+        "status motivation psychology",
+        "status motivation persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N04-02",
+      "label": "reputation concern",
+      "parent_id": "C3-M04",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning reputation concern; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "reputation concern",
+        "reputation concern psychology",
+        "reputation concern persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N04-03",
+      "label": "impression management",
+      "parent_id": "C3-M04",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning impression management; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "impression management",
+        "impression management psychology",
+        "impression management persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N04-04",
+      "label": "costly signaling",
+      "parent_id": "C3-M04",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning costly signaling; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "costly signaling",
+        "costly signaling psychology",
+        "costly signaling persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N04-05",
+      "label": "identity signaling",
+      "parent_id": "C3-M04",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning identity signaling; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "identity signaling",
+        "identity signaling psychology",
+        "identity signaling persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N05-01",
+      "label": "authority legitimacy",
+      "parent_id": "C3-M05",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning authority legitimacy; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "authority legitimacy",
+        "authority legitimacy psychology",
+        "authority legitimacy persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N05-02",
+      "label": "compliance",
+      "parent_id": "C3-M05",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning compliance; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "compliance",
+        "compliance psychology",
+        "compliance persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N05-03",
+      "label": "obedience to authority",
+      "parent_id": "C3-M05",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning obedience to authority; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "obedience to authority",
+        "obedience to authority psychology",
+        "obedience to authority persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N05-04",
+      "label": "power asymmetry",
+      "parent_id": "C3-M05",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning power asymmetry; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "power asymmetry",
+        "power asymmetry psychology",
+        "power asymmetry persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N05-05",
+      "label": "request susceptibility",
+      "parent_id": "C3-M05",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning request susceptibility; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "request susceptibility",
+        "request susceptibility psychology",
+        "request susceptibility persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N06-01",
+      "label": "reciprocity norm",
+      "parent_id": "C3-M06",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning reciprocity norm; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "reciprocity norm",
+        "reciprocity norm psychology",
+        "reciprocity norm persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N06-02",
+      "label": "liking",
+      "parent_id": "C3-M06",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning liking; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "liking",
+        "liking psychology",
+        "liking persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N06-03",
+      "label": "perceived similarity",
+      "parent_id": "C3-M06",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning perceived similarity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "perceived similarity",
+        "perceived similarity psychology",
+        "perceived similarity persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N06-04",
+      "label": "homophily cue",
+      "parent_id": "C3-M06",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning homophily cue; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "homophily cue",
+        "homophily cue psychology",
+        "homophily cue persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N06-05",
+      "label": "interpersonal attraction",
+      "parent_id": "C3-M06",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning interpersonal attraction; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "interpersonal attraction",
+        "interpersonal attraction psychology",
+        "interpersonal attraction persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N07-01",
+      "label": "descriptive consensus",
+      "parent_id": "C3-M07",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning descriptive consensus; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "descriptive consensus",
+        "descriptive consensus psychology",
+        "descriptive consensus persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N07-02",
+      "label": "popularity cue",
+      "parent_id": "C3-M07",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning popularity cue; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "popularity cue",
+        "popularity cue psychology",
+        "popularity cue persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N07-03",
+      "label": "behavioral social proof",
+      "parent_id": "C3-M07",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning behavioral social proof; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "behavioral social proof",
+        "behavioral social proof psychology",
+        "behavioral social proof persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N07-04",
+      "label": "uncertainty-dependent social reliance",
+      "parent_id": "C3-M07",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning uncertainty-dependent social reliance; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "uncertainty-dependent social reliance",
+        "uncertainty-dependent social reliance psychology",
+        "uncertainty-dependent social reliance persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N07-05",
+      "label": "consensus diagnosticity",
+      "parent_id": "C3-M07",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning consensus diagnosticity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "consensus diagnosticity",
+        "consensus diagnosticity psychology",
+        "consensus diagnosticity persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N08-01",
+      "label": "need to belong",
+      "parent_id": "C3-M08",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning need to belong; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "need to belong",
+        "need to belong psychology",
+        "need to belong persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N08-02",
+      "label": "affiliation motivation",
+      "parent_id": "C3-M08",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning affiliation motivation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "affiliation motivation",
+        "affiliation motivation psychology",
+        "affiliation motivation persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N08-03",
+      "label": "relational closeness",
+      "parent_id": "C3-M08",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning relational closeness; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "relational closeness",
+        "relational closeness psychology",
+        "relational closeness persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N08-04",
+      "label": "communal orientation",
+      "parent_id": "C3-M08",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning communal orientation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "communal orientation",
+        "communal orientation psychology",
+        "communal orientation persuasion communication"
+      ]
+    },
+    {
+      "id": "C3-N08-05",
+      "label": "social exclusion sensitivity",
+      "parent_id": "C3-M08",
+      "primary_core": "C3",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning social exclusion sensitivity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "social exclusion sensitivity",
+        "social exclusion sensitivity psychology",
+        "social exclusion sensitivity persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N01-01",
+      "label": "recognition heuristic",
+      "parent_id": "C4-M01",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning recognition heuristic; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "recognition heuristic",
+        "recognition heuristic psychology",
+        "recognition heuristic persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N01-02",
+      "label": "availability heuristic",
+      "parent_id": "C4-M01",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning availability heuristic; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "availability heuristic",
+        "availability heuristic psychology",
+        "availability heuristic persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N01-03",
+      "label": "representativeness heuristic",
+      "parent_id": "C4-M01",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning representativeness heuristic; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "representativeness heuristic",
+        "representativeness heuristic psychology",
+        "representativeness heuristic persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N01-04",
+      "label": "affect heuristic",
+      "parent_id": "C4-M01",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning affect heuristic; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "affect heuristic",
+        "affect heuristic psychology",
+        "affect heuristic persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N01-05",
+      "label": "satisficing",
+      "parent_id": "C4-M01",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning satisficing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "satisficing",
+        "satisficing psychology",
+        "satisficing persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N02-01",
+      "label": "gain-loss framing",
+      "parent_id": "C4-M02",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning gain-loss framing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "gain-loss framing",
+        "gain-loss framing psychology",
+        "gain-loss framing persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N02-02",
+      "label": "reference point",
+      "parent_id": "C4-M02",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning reference point; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "reference point",
+        "reference point psychology",
+        "reference point persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N02-03",
+      "label": "loss aversion",
+      "parent_id": "C4-M02",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning loss aversion; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "loss aversion",
+        "loss aversion psychology",
+        "loss aversion persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N02-04",
+      "label": "endowment valuation",
+      "parent_id": "C4-M02",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning endowment valuation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "endowment valuation",
+        "endowment valuation psychology",
+        "endowment valuation persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N02-05",
+      "label": "mental accounting",
+      "parent_id": "C4-M02",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning mental accounting; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "mental accounting",
+        "mental accounting psychology",
+        "mental accounting persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N03-01",
+      "label": "risk perception",
+      "parent_id": "C4-M03",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning risk perception; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "risk perception",
+        "risk perception psychology",
+        "risk perception persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N03-02",
+      "label": "probability weighting",
+      "parent_id": "C4-M03",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning probability weighting; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "probability weighting",
+        "probability weighting psychology",
+        "probability weighting persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N03-03",
+      "label": "ambiguity aversion",
+      "parent_id": "C4-M03",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning ambiguity aversion; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "ambiguity aversion",
+        "ambiguity aversion psychology",
+        "ambiguity aversion persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N03-04",
+      "label": "uncertainty tolerance",
+      "parent_id": "C4-M03",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning uncertainty tolerance; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "uncertainty tolerance",
+        "uncertainty tolerance psychology",
+        "uncertainty tolerance persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N03-05",
+      "label": "probability calibration",
+      "parent_id": "C4-M03",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning probability calibration; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "probability calibration",
+        "probability calibration psychology",
+        "probability calibration persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N04-01",
+      "label": "default effect",
+      "parent_id": "C4-M04",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning default effect; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "default effect",
+        "default effect psychology",
+        "default effect persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N04-02",
+      "label": "choice overload",
+      "parent_id": "C4-M04",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning choice overload; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "choice overload",
+        "choice overload psychology",
+        "choice overload persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N04-03",
+      "label": "option ordering",
+      "parent_id": "C4-M04",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning option ordering; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "option ordering",
+        "option ordering psychology",
+        "option ordering persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N04-04",
+      "label": "choice-set partitioning",
+      "parent_id": "C4-M04",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning choice-set partitioning; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "choice-set partitioning",
+        "choice-set partitioning psychology",
+        "choice-set partitioning persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N04-05",
+      "label": "asymmetric dominance/decoy effect",
+      "parent_id": "C4-M04",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning asymmetric dominance/decoy effect; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "asymmetric dominance/decoy effect",
+        "asymmetric dominance/decoy effect psychology",
+        "asymmetric dominance/decoy effect persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N05-01",
+      "label": "temporal discounting",
+      "parent_id": "C4-M05",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning temporal discounting; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "temporal discounting",
+        "temporal discounting psychology",
+        "temporal discounting persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N05-02",
+      "label": "present bias",
+      "parent_id": "C4-M05",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning present bias; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "present bias",
+        "present bias psychology",
+        "present bias persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N05-03",
+      "label": "delay aversion",
+      "parent_id": "C4-M05",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning delay aversion; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "delay aversion",
+        "delay aversion psychology",
+        "delay aversion persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N05-04",
+      "label": "future-self continuity",
+      "parent_id": "C4-M05",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning future-self continuity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "future-self continuity",
+        "future-self continuity psychology",
+        "future-self continuity persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N05-05",
+      "label": "temporal construal",
+      "parent_id": "C4-M05",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning temporal construal; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "temporal construal",
+        "temporal construal psychology",
+        "temporal construal persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N06-01",
+      "label": "opportunity-cost salience",
+      "parent_id": "C4-M06",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning opportunity-cost salience; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "opportunity-cost salience",
+        "opportunity-cost salience psychology",
+        "opportunity-cost salience persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N06-02",
+      "label": "attribute trade-off conflict",
+      "parent_id": "C4-M06",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning attribute trade-off conflict; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "attribute trade-off conflict",
+        "attribute trade-off conflict psychology",
+        "attribute trade-off conflict persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N06-03",
+      "label": "attribute weighting",
+      "parent_id": "C4-M06",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning attribute weighting; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "attribute weighting",
+        "attribute weighting psychology",
+        "attribute weighting persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N06-04",
+      "label": "choice conflict",
+      "parent_id": "C4-M06",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning choice conflict; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "choice conflict",
+        "choice conflict psychology",
+        "choice conflict persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N06-05",
+      "label": "compromise resolution",
+      "parent_id": "C4-M06",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning compromise resolution; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "compromise resolution",
+        "compromise resolution psychology",
+        "compromise resolution persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N07-01",
+      "label": "anchoring and adjustment",
+      "parent_id": "C4-M07",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning anchoring and adjustment; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "anchoring and adjustment",
+        "anchoring and adjustment psychology",
+        "anchoring and adjustment persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N07-02",
+      "label": "reference-price evaluation",
+      "parent_id": "C4-M07",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning reference-price evaluation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "reference-price evaluation",
+        "reference-price evaluation psychology",
+        "reference-price evaluation persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N07-03",
+      "label": "contrast effect",
+      "parent_id": "C4-M07",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning contrast effect; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "contrast effect",
+        "contrast effect psychology",
+        "contrast effect persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N07-04",
+      "label": "relative evaluation",
+      "parent_id": "C4-M07",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning relative evaluation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "relative evaluation",
+        "relative evaluation psychology",
+        "relative evaluation persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N07-05",
+      "label": "contextual range evaluation",
+      "parent_id": "C4-M07",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning contextual range evaluation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "contextual range evaluation",
+        "contextual range evaluation psychology",
+        "contextual range evaluation persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N08-01",
+      "label": "effort cost",
+      "parent_id": "C4-M08",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning effort cost; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "effort cost",
+        "effort cost psychology",
+        "effort cost persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N08-02",
+      "label": "decision friction",
+      "parent_id": "C4-M08",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning decision friction; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "decision friction",
+        "decision friction psychology",
+        "decision friction persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N08-03",
+      "label": "action inertia",
+      "parent_id": "C4-M08",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning action inertia; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "action inertia",
+        "action inertia psychology",
+        "action inertia persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N08-04",
+      "label": "implementation friction",
+      "parent_id": "C4-M08",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning implementation friction; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "implementation friction",
+        "implementation friction psychology",
+        "implementation friction persuasion communication"
+      ]
+    },
+    {
+      "id": "C4-N08-05",
+      "label": "action ease",
+      "parent_id": "C4-M08",
+      "primary_core": "C4",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning action ease; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "action ease",
+        "action ease psychology",
+        "action ease persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N01-01",
+      "label": "belief strength",
+      "parent_id": "C5-M01",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning belief strength; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "belief strength",
+        "belief strength psychology",
+        "belief strength persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N01-02",
+      "label": "attitude valence",
+      "parent_id": "C5-M01",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning attitude valence; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "attitude valence",
+        "attitude valence psychology",
+        "attitude valence persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N01-03",
+      "label": "attitude accessibility",
+      "parent_id": "C5-M01",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning attitude accessibility; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "attitude accessibility",
+        "attitude accessibility psychology",
+        "attitude accessibility persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N01-04",
+      "label": "attitudinal ambivalence",
+      "parent_id": "C5-M01",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning attitudinal ambivalence; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "attitudinal ambivalence",
+        "attitudinal ambivalence psychology",
+        "attitudinal ambivalence persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N01-05",
+      "label": "evaluative conditioning",
+      "parent_id": "C5-M01",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning evaluative conditioning; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "evaluative conditioning",
+        "evaluative conditioning psychology",
+        "evaluative conditioning persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N02-01",
+      "label": "elaboration likelihood",
+      "parent_id": "C5-M02",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning elaboration likelihood; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "elaboration likelihood",
+        "elaboration likelihood psychology",
+        "elaboration likelihood persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N02-02",
+      "label": "personal involvement",
+      "parent_id": "C5-M02",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning personal involvement; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "personal involvement",
+        "personal involvement psychology",
+        "personal involvement persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N02-03",
+      "label": "systematic/central processing",
+      "parent_id": "C5-M02",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning systematic/central processing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "systematic/central processing",
+        "systematic/central processing psychology",
+        "systematic/central processing persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N02-04",
+      "label": "heuristic/peripheral processing",
+      "parent_id": "C5-M02",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning heuristic/peripheral processing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "heuristic/peripheral processing",
+        "heuristic/peripheral processing psychology",
+        "heuristic/peripheral processing persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N02-05",
+      "label": "depth of message processing",
+      "parent_id": "C5-M02",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning depth of message processing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "depth of message processing",
+        "depth of message processing psychology",
+        "depth of message processing persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N03-01",
+      "label": "perceived expertise",
+      "parent_id": "C5-M03",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning perceived expertise; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "perceived expertise",
+        "perceived expertise psychology",
+        "perceived expertise persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N03-02",
+      "label": "perceived trustworthiness",
+      "parent_id": "C5-M03",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning perceived trustworthiness; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "perceived trustworthiness",
+        "perceived trustworthiness psychology",
+        "perceived trustworthiness persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N03-03",
+      "label": "source authenticity",
+      "parent_id": "C5-M03",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning source authenticity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "source authenticity",
+        "source authenticity psychology",
+        "source authenticity persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N03-04",
+      "label": "source reliability",
+      "parent_id": "C5-M03",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning source reliability; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "source reliability",
+        "source reliability psychology",
+        "source reliability persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N03-05",
+      "label": "source-track-record evaluation",
+      "parent_id": "C5-M03",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning source-track-record evaluation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "source-track-record evaluation",
+        "source-track-record evaluation psychology",
+        "source-track-record evaluation persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N04-01",
+      "label": "argument strength",
+      "parent_id": "C5-M04",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning argument strength; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "argument strength",
+        "argument strength psychology",
+        "argument strength persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N04-02",
+      "label": "evidence quality",
+      "parent_id": "C5-M04",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning evidence quality; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "evidence quality",
+        "evidence quality psychology",
+        "evidence quality persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N04-03",
+      "label": "evidence diagnosticity",
+      "parent_id": "C5-M04",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning evidence diagnosticity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "evidence diagnosticity",
+        "evidence diagnosticity psychology",
+        "evidence diagnosticity persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N04-04",
+      "label": "claim plausibility",
+      "parent_id": "C5-M04",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning claim plausibility; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "claim plausibility",
+        "claim plausibility psychology",
+        "claim plausibility persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N04-05",
+      "label": "mechanism/causal-explanation credibility",
+      "parent_id": "C5-M04",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning mechanism/causal-explanation credibility; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "mechanism/causal-explanation credibility",
+        "mechanism/causal-explanation credibility psychology",
+        "mechanism/causal-explanation credibility persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N05-01",
+      "label": "counterarguing",
+      "parent_id": "C5-M05",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning counterarguing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "counterarguing",
+        "counterarguing psychology",
+        "counterarguing persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N05-02",
+      "label": "psychological reactance",
+      "parent_id": "C5-M05",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning psychological reactance; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "psychological reactance",
+        "psychological reactance psychology",
+        "psychological reactance persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N05-03",
+      "label": "inoculation/prebunking",
+      "parent_id": "C5-M05",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning inoculation/prebunking; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "inoculation/prebunking",
+        "inoculation/prebunking psychology",
+        "inoculation/prebunking persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N05-04",
+      "label": "resistance motivation",
+      "parent_id": "C5-M05",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning resistance motivation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "resistance motivation",
+        "resistance motivation psychology",
+        "resistance motivation persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N05-05",
+      "label": "selective message avoidance",
+      "parent_id": "C5-M05",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning selective message avoidance; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "selective message avoidance",
+        "selective message avoidance psychology",
+        "selective message avoidance persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N06-01",
+      "label": "attitude certainty",
+      "parent_id": "C5-M06",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning attitude certainty; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "attitude certainty",
+        "attitude certainty psychology",
+        "attitude certainty persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N06-02",
+      "label": "thought confidence",
+      "parent_id": "C5-M06",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning thought confidence; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "thought confidence",
+        "thought confidence psychology",
+        "thought confidence persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N06-03",
+      "label": "self-validation",
+      "parent_id": "C5-M06",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning self-validation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "self-validation",
+        "self-validation psychology",
+        "self-validation persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N06-04",
+      "label": "epistemic confidence",
+      "parent_id": "C5-M06",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning epistemic confidence; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "epistemic confidence",
+        "epistemic confidence psychology",
+        "epistemic confidence persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N06-05",
+      "label": "judgment confidence",
+      "parent_id": "C5-M06",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning judgment confidence; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "judgment confidence",
+        "judgment confidence psychology",
+        "judgment confidence persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N07-01",
+      "label": "demonstration evidence",
+      "parent_id": "C5-M07",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning demonstration evidence; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "demonstration evidence",
+        "demonstration evidence psychology",
+        "demonstration evidence persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N07-02",
+      "label": "verifiability",
+      "parent_id": "C5-M07",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning verifiability; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "verifiability",
+        "verifiability psychology",
+        "verifiability persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N07-03",
+      "label": "corroboration",
+      "parent_id": "C5-M07",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning corroboration; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "corroboration",
+        "corroboration psychology",
+        "corroboration persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N07-04",
+      "label": "evidence traceability",
+      "parent_id": "C5-M07",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning evidence traceability; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "evidence traceability",
+        "evidence traceability psychology",
+        "evidence traceability persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N07-05",
+      "label": "diagnostic proof cue",
+      "parent_id": "C5-M07",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning diagnostic proof cue; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "diagnostic proof cue",
+        "diagnostic proof cue psychology",
+        "diagnostic proof cue persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N08-01",
+      "label": "behavioral intention",
+      "parent_id": "C5-M08",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning behavioral intention; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "behavioral intention",
+        "behavioral intention psychology",
+        "behavioral intention persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N08-02",
+      "label": "intention strength",
+      "parent_id": "C5-M08",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning intention strength; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "intention strength",
+        "intention strength psychology",
+        "intention strength persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N08-03",
+      "label": "commitment consistency",
+      "parent_id": "C5-M08",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning commitment consistency; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "commitment consistency",
+        "commitment consistency psychology",
+        "commitment consistency persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N08-04",
+      "label": "attitude-behavior consistency",
+      "parent_id": "C5-M08",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning attitude-behavior consistency; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "attitude-behavior consistency",
+        "attitude-behavior consistency psychology",
+        "attitude-behavior consistency persuasion communication"
+      ]
+    },
+    {
+      "id": "C5-N08-05",
+      "label": "intention-behavior gap",
+      "parent_id": "C5-M08",
+      "primary_core": "C5",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning intention-behavior gap; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "intention-behavior gap",
+        "intention-behavior gap psychology",
+        "intention-behavior gap persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N01-01",
+      "label": "denotative meaning",
+      "parent_id": "C6-M01",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning denotative meaning; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "denotative meaning",
+        "denotative meaning psychology",
+        "denotative meaning persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N01-02",
+      "label": "connotative meaning",
+      "parent_id": "C6-M01",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning connotative meaning; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "connotative meaning",
+        "connotative meaning psychology",
+        "connotative meaning persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N01-03",
+      "label": "lexical ambiguity/polysemy",
+      "parent_id": "C6-M01",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning lexical ambiguity/polysemy; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "lexical ambiguity/polysemy",
+        "lexical ambiguity/polysemy psychology",
+        "lexical ambiguity/polysemy persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N01-04",
+      "label": "semantic priming",
+      "parent_id": "C6-M01",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning semantic priming; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "semantic priming",
+        "semantic priming psychology",
+        "semantic priming persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N01-05",
+      "label": "concreteness and imageability",
+      "parent_id": "C6-M01",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning concreteness and imageability; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "concreteness and imageability",
+        "concreteness and imageability psychology",
+        "concreteness and imageability persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N02-01",
+      "label": "syntactic complexity",
+      "parent_id": "C6-M02",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning syntactic complexity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "syntactic complexity",
+        "syntactic complexity psychology",
+        "syntactic complexity persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N02-02",
+      "label": "syntactic ambiguity",
+      "parent_id": "C6-M02",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning syntactic ambiguity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "syntactic ambiguity",
+        "syntactic ambiguity psychology",
+        "syntactic ambiguity persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N02-03",
+      "label": "dependency length",
+      "parent_id": "C6-M02",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning dependency length; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "dependency length",
+        "dependency length psychology",
+        "dependency length persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N02-04",
+      "label": "word-order processing",
+      "parent_id": "C6-M02",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning word-order processing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "word-order processing",
+        "word-order processing psychology",
+        "word-order processing persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N02-05",
+      "label": "sentence-parsing load",
+      "parent_id": "C6-M02",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning sentence-parsing load; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "sentence-parsing load",
+        "sentence-parsing load psychology",
+        "sentence-parsing load persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N03-01",
+      "label": "common ground",
+      "parent_id": "C6-M03",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning common ground; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "common ground",
+        "common ground psychology",
+        "common ground persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N03-02",
+      "label": "audience design",
+      "parent_id": "C6-M03",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning audience design; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "audience design",
+        "audience design psychology",
+        "audience design persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N03-03",
+      "label": "perspective taking",
+      "parent_id": "C6-M03",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning perspective taking; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "perspective taking",
+        "perspective taking psychology",
+        "perspective taking persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N03-04",
+      "label": "deictic/reference interpretation",
+      "parent_id": "C6-M03",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning deictic/reference interpretation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "deictic/reference interpretation",
+        "deictic/reference interpretation psychology",
+        "deictic/reference interpretation persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N03-05",
+      "label": "pragmatic politeness",
+      "parent_id": "C6-M03",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning pragmatic politeness; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "pragmatic politeness",
+        "pragmatic politeness psychology",
+        "pragmatic politeness persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N04-01",
+      "label": "conversational implicature",
+      "parent_id": "C6-M04",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning conversational implicature; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "conversational implicature",
+        "conversational implicature psychology",
+        "conversational implicature persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N04-02",
+      "label": "scalar implicature",
+      "parent_id": "C6-M04",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning scalar implicature; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "scalar implicature",
+        "scalar implicature psychology",
+        "scalar implicature persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N04-03",
+      "label": "presupposition",
+      "parent_id": "C6-M04",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning presupposition; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "presupposition",
+        "presupposition psychology",
+        "presupposition persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N04-04",
+      "label": "pragmatic inference",
+      "parent_id": "C6-M04",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning pragmatic inference; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "pragmatic inference",
+        "pragmatic inference psychology",
+        "pragmatic inference persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N04-05",
+      "label": "implicature cancellation/revision",
+      "parent_id": "C6-M04",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning implicature cancellation/revision; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "implicature cancellation/revision",
+        "implicature cancellation/revision psychology",
+        "implicature cancellation/revision persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N05-01",
+      "label": "lexical prediction",
+      "parent_id": "C6-M05",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning lexical prediction; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "lexical prediction",
+        "lexical prediction psychology",
+        "lexical prediction persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N05-02",
+      "label": "syntactic prediction",
+      "parent_id": "C6-M05",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning syntactic prediction; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "syntactic prediction",
+        "syntactic prediction psychology",
+        "syntactic prediction persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N05-03",
+      "label": "semantic expectancy",
+      "parent_id": "C6-M05",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning semantic expectancy; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "semantic expectancy",
+        "semantic expectancy psychology",
+        "semantic expectancy persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N05-04",
+      "label": "ambiguity resolution",
+      "parent_id": "C6-M05",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning ambiguity resolution; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "ambiguity resolution",
+        "ambiguity resolution psychology",
+        "ambiguity resolution persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N05-05",
+      "label": "linguistic surprisal/predictability",
+      "parent_id": "C6-M05",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning linguistic surprisal/predictability; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "linguistic surprisal/predictability",
+        "linguistic surprisal/predictability psychology",
+        "linguistic surprisal/predictability persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N06-01",
+      "label": "local discourse coherence",
+      "parent_id": "C6-M06",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning local discourse coherence; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "local discourse coherence",
+        "local discourse coherence psychology",
+        "local discourse coherence persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N06-02",
+      "label": "global discourse coherence",
+      "parent_id": "C6-M06",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning global discourse coherence; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "global discourse coherence",
+        "global discourse coherence psychology",
+        "global discourse coherence persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N06-03",
+      "label": "situation-model construction",
+      "parent_id": "C6-M06",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning situation-model construction; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "situation-model construction",
+        "situation-model construction psychology",
+        "situation-model construction persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N06-04",
+      "label": "anaphora/reference resolution",
+      "parent_id": "C6-M06",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning anaphora/reference resolution; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "anaphora/reference resolution",
+        "anaphora/reference resolution psychology",
+        "anaphora/reference resolution persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N06-05",
+      "label": "discourse inference",
+      "parent_id": "C6-M06",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning discourse inference; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "discourse inference",
+        "discourse inference psychology",
+        "discourse inference persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N07-01",
+      "label": "metaphor comprehension",
+      "parent_id": "C6-M07",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning metaphor comprehension; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "metaphor comprehension",
+        "metaphor comprehension psychology",
+        "metaphor comprehension persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N07-02",
+      "label": "conceptual metaphor",
+      "parent_id": "C6-M07",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning conceptual metaphor; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "conceptual metaphor",
+        "conceptual metaphor psychology",
+        "conceptual metaphor persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N07-03",
+      "label": "idiom processing",
+      "parent_id": "C6-M07",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning idiom processing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "idiom processing",
+        "idiom processing psychology",
+        "idiom processing persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N07-04",
+      "label": "metonymic interpretation",
+      "parent_id": "C6-M07",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning metonymic interpretation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "metonymic interpretation",
+        "metonymic interpretation psychology",
+        "metonymic interpretation persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N07-05",
+      "label": "figurative framing",
+      "parent_id": "C6-M07",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning figurative framing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "figurative framing",
+        "figurative framing psychology",
+        "figurative framing persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N08-01",
+      "label": "focus/information structure",
+      "parent_id": "C6-M08",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning focus/information structure; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "focus/information structure",
+        "focus/information structure psychology",
+        "focus/information structure persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N08-02",
+      "label": "given-new ordering",
+      "parent_id": "C6-M08",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning given-new ordering; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "given-new ordering",
+        "given-new ordering psychology",
+        "given-new ordering persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N08-03",
+      "label": "register/formality",
+      "parent_id": "C6-M08",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning register/formality; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "register/formality",
+        "register/formality psychology",
+        "register/formality persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N08-04",
+      "label": "tone/persona realization",
+      "parent_id": "C6-M08",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning tone/persona realization; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "tone/persona realization",
+        "tone/persona realization psychology",
+        "tone/persona realization persuasion communication"
+      ]
+    },
+    {
+      "id": "C6-N08-05",
+      "label": "linguistic specificity",
+      "parent_id": "C6-M08",
+      "primary_core": "C6",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning linguistic specificity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "linguistic specificity",
+        "linguistic specificity psychology",
+        "linguistic specificity persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N01-01",
+      "label": "claim clarity",
+      "parent_id": "C7-M01",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning claim clarity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "claim clarity",
+        "claim clarity psychology",
+        "claim clarity persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N01-02",
+      "label": "premise support",
+      "parent_id": "C7-M01",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning premise support; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "premise support",
+        "premise support psychology",
+        "premise support persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N01-03",
+      "label": "evidence-claim linkage",
+      "parent_id": "C7-M01",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning evidence-claim linkage; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "evidence-claim linkage",
+        "evidence-claim linkage psychology",
+        "evidence-claim linkage persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N01-04",
+      "label": "argument warrant",
+      "parent_id": "C7-M01",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning argument warrant; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "argument warrant",
+        "argument warrant psychology",
+        "argument warrant persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N01-05",
+      "label": "argument completeness",
+      "parent_id": "C7-M01",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning argument completeness; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "argument completeness",
+        "argument completeness psychology",
+        "argument completeness persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N02-01",
+      "label": "ethos appeal",
+      "parent_id": "C7-M02",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning ethos appeal; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "ethos appeal",
+        "ethos appeal psychology",
+        "ethos appeal persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N02-02",
+      "label": "pathos appeal",
+      "parent_id": "C7-M02",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning pathos appeal; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "pathos appeal",
+        "pathos appeal psychology",
+        "pathos appeal persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N02-03",
+      "label": "logos appeal",
+      "parent_id": "C7-M02",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning logos appeal; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "logos appeal",
+        "logos appeal psychology",
+        "logos appeal persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N02-04",
+      "label": "speaker/message stance",
+      "parent_id": "C7-M02",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning speaker/message stance; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "speaker/message stance",
+        "speaker/message stance psychology",
+        "speaker/message stance persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N02-05",
+      "label": "rhetorical credibility positioning",
+      "parent_id": "C7-M02",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning rhetorical credibility positioning; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "rhetorical credibility positioning",
+        "rhetorical credibility positioning psychology",
+        "rhetorical credibility positioning persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N03-01",
+      "label": "narrative transportation",
+      "parent_id": "C7-M03",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning narrative transportation; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "narrative transportation",
+        "narrative transportation psychology",
+        "narrative transportation persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N03-02",
+      "label": "character identification",
+      "parent_id": "C7-M03",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning character identification; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "character identification",
+        "character identification psychology",
+        "character identification persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N03-03",
+      "label": "narrative coherence",
+      "parent_id": "C7-M03",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning narrative coherence; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "narrative coherence",
+        "narrative coherence psychology",
+        "narrative coherence persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N03-04",
+      "label": "causal narrative structure",
+      "parent_id": "C7-M03",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning causal narrative structure; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "causal narrative structure",
+        "causal narrative structure psychology",
+        "causal narrative structure persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N03-05",
+      "label": "transformation arc",
+      "parent_id": "C7-M03",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning transformation arc; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "transformation arc",
+        "transformation arc psychology",
+        "transformation arc persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N04-01",
+      "label": "primacy ordering",
+      "parent_id": "C7-M04",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning primacy ordering; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "primacy ordering",
+        "primacy ordering psychology",
+        "primacy ordering persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N04-02",
+      "label": "recency ordering",
+      "parent_id": "C7-M04",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning recency ordering; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "recency ordering",
+        "recency ordering psychology",
+        "recency ordering persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N04-03",
+      "label": "progressive disclosure",
+      "parent_id": "C7-M04",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning progressive disclosure; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "progressive disclosure",
+        "progressive disclosure psychology",
+        "progressive disclosure persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N04-04",
+      "label": "evidence timing",
+      "parent_id": "C7-M04",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning evidence timing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "evidence timing",
+        "evidence timing psychology",
+        "evidence timing persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N04-05",
+      "label": "information sequence",
+      "parent_id": "C7-M04",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning information sequence; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "information sequence",
+        "information sequence psychology",
+        "information sequence persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N05-01",
+      "label": "contrast structure",
+      "parent_id": "C7-M05",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning contrast structure; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "contrast structure",
+        "contrast structure psychology",
+        "contrast structure persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N05-02",
+      "label": "analogy",
+      "parent_id": "C7-M05",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning analogy; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "analogy",
+        "analogy psychology",
+        "analogy persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N05-03",
+      "label": "comparative framing",
+      "parent_id": "C7-M05",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning comparative framing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "comparative framing",
+        "comparative framing psychology",
+        "comparative framing persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N05-04",
+      "label": "before-after structure",
+      "parent_id": "C7-M05",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning before-after structure; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "before-after structure",
+        "before-after structure psychology",
+        "before-after structure persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N05-05",
+      "label": "categorical juxtaposition",
+      "parent_id": "C7-M05",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning categorical juxtaposition; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "categorical juxtaposition",
+        "categorical juxtaposition psychology",
+        "categorical juxtaposition persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N06-01",
+      "label": "one-sided message",
+      "parent_id": "C7-M06",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning one-sided message; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "one-sided message",
+        "one-sided message psychology",
+        "one-sided message persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N06-02",
+      "label": "two-sided message",
+      "parent_id": "C7-M06",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning two-sided message; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "two-sided message",
+        "two-sided message psychology",
+        "two-sided message persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N06-03",
+      "label": "refutational two-sided message",
+      "parent_id": "C7-M06",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning refutational two-sided message; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "refutational two-sided message",
+        "refutational two-sided message psychology",
+        "refutational two-sided message persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N06-04",
+      "label": "concession",
+      "parent_id": "C7-M06",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning concession; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "concession",
+        "concession psychology",
+        "concession persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N06-05",
+      "label": "counterargument sequencing",
+      "parent_id": "C7-M06",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning counterargument sequencing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "counterargument sequencing",
+        "counterargument sequencing psychology",
+        "counterargument sequencing persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N07-01",
+      "label": "tension",
+      "parent_id": "C7-M07",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning tension; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "tension",
+        "tension psychology",
+        "tension persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N07-02",
+      "label": "suspense",
+      "parent_id": "C7-M07",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning suspense; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "suspense",
+        "suspense psychology",
+        "suspense persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N07-03",
+      "label": "message pacing",
+      "parent_id": "C7-M07",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning message pacing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "message pacing",
+        "message pacing psychology",
+        "message pacing persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N07-04",
+      "label": "resolution",
+      "parent_id": "C7-M07",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning resolution; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "resolution",
+        "resolution psychology",
+        "resolution persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N07-05",
+      "label": "open-loop/curiosity-gap structure",
+      "parent_id": "C7-M07",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning open-loop/curiosity-gap structure; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "open-loop/curiosity-gap structure",
+        "open-loop/curiosity-gap structure psychology",
+        "open-loop/curiosity-gap structure persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N08-01",
+      "label": "CTA explicitness",
+      "parent_id": "C7-M08",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning CTA explicitness; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "CTA explicitness",
+        "CTA explicitness psychology",
+        "CTA explicitness persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N08-02",
+      "label": "action specificity",
+      "parent_id": "C7-M08",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning action specificity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "action specificity",
+        "action specificity psychology",
+        "action specificity persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N08-03",
+      "label": "next-step clarity",
+      "parent_id": "C7-M08",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning next-step clarity; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "next-step clarity",
+        "next-step clarity psychology",
+        "next-step clarity persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N08-04",
+      "label": "temporal immediacy of request",
+      "parent_id": "C7-M08",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning temporal immediacy of request; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "temporal immediacy of request",
+        "temporal immediacy of request psychology",
+        "temporal immediacy of request persuasion communication"
+      ]
+    },
+    {
+      "id": "C7-N08-05",
+      "label": "request framing",
+      "parent_id": "C7-M08",
+      "primary_core": "C7",
+      "status": "candidate",
+      "evidence_state": "not_yet_verified",
+      "candidate_definition": "Candidate construct concerning request framing; exact definition, aliases, exclusions, measurement mapping, and cross-core membership require S3 evidence verification before promotion.",
+      "discovery_reason": "breadth_first_taxonomy_seed",
+      "search_terms": [
+        "request framing",
+        "request framing psychology",
+        "request framing persuasion communication"
+      ]
+    }
+  ]
+}
