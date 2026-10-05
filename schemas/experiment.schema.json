@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "experiment.schema.json",
+  "title": "Copywriting Experiment",
+  "type": "object",
+  "required": [
+    "id",
+    "hypothesis",
+    "unit",
+    "intervention",
+    "comparison",
+    "outcomes",
+    "design",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "hypothesis": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "intervention": {
+      "type": "object"
+    },
+    "comparison": {
+      "type": "object"
+    },
+    "outcomes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "design": {
+      "enum": [
+        "randomized_ab",
+        "multivariate_randomized",
+        "quasi_experimental",
+        "pre_post",
+        "observational",
+        "simulation"
+      ]
+    },
+    "preregistered_decision_rule": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "context": {
+      "type": "object"
+    },
+    "mechanism_target_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alternative_explanations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "enum": [
+        "planned",
+        "running",
+        "completed",
+        "invalidated",
+        "abandoned"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,9 +1,10 @@
 {
   "project": "COPYWRITING_INTELLIGENCE_SYSTEM",
-  "architecture_version": "1.0.0-bootstrap",
-  "stage": "S0_CONTRACT_AND_ARCHITECTURE_FREEZE",
+  "architecture_version": "1.1.0-s1-taxonomy",
+  "stage": "S2_RESEARCH_FOUNDATION_AND_S3_BREADTH_FIRST_PREP",
   "status": "IN_PROGRESS",
   "repository": "arsafiqri-aybi/copywriting-intelligence-system",
+  "last_verified_head_parent": "fc23ba91846eb89000dcb2196456c167f0482ead",
   "protected_constraints": {
     "top_level_core_count": 7,
     "core_names": [
@@ -23,38 +24,47 @@
   },
   "scale_envelope": {
     "cores": 7,
-    "initial_provisional_modules": 56,
-    "primary_neuron_range": [250, 450],
+    "modules": 56,
+    "primary_neuron_range": [
+      250,
+      450
+    ],
     "micro_neurons": "evidence_driven_open",
     "edge_count": "evidence_driven_open",
     "claim_count": "evidence_driven_open"
   },
-  "accepted_artifacts": [
-    "README.md",
-    "PROJECT_CONTRACT.md",
-    "docs/ARCHITECTURE_V1.md",
-    "docs/QUALITY_GATES.md",
-    "research/EVIDENCE_POLICY.md",
-    "research/RESEARCH_PLAN.md",
-    "schemas/node.schema.json",
-    "schemas/scientific-edge.schema.json",
-    "schemas/atomic-claim.schema.json",
-    "schemas/measurement.schema.json"
-  ],
+  "stage_status": {
+    "S0_CONTRACT_AND_ARCHITECTURE_FREEZE": "PASS",
+    "S1_DOMAIN_TAXONOMY": "PASS_WITH_BOUNDED_PROVISIONAL_MODULES",
+    "S2_RESEARCH_FOUNDATION": "IN_PROGRESS",
+    "S3_SEVEN_CORE_KNOWLEDGE_BUILD": "NOT_STARTED",
+    "S4_CONNECTION_BUILD": "NOT_STARTED",
+    "S5_MARKET_VALUE_INTEGRATION": "NOT_STARTED",
+    "S6_REASONING_ENGINE": "NOT_STARTED",
+    "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "NOT_STARTED",
+    "S8_EVALUATION": "NOT_STARTED",
+    "S9_SKILL_RUNTIME": "NOT_STARTED",
+    "S10_RELEASE_CONTINUOUS_RESEARCH": "NOT_STARTED"
+  },
+  "evidence_state": {
+    "screened_sources": 30,
+    "taxonomy_seed_claims": 25,
+    "source_retrieval_depth_note": "Current seed claims are taxonomy-level abstractions from review/meta-analysis abstract or review pages; they are not yet fine-grained node/edge claim verification."
+  },
   "gate_status": {
-    "G1_ARCHITECTURE": "NOT_RUN",
+    "G1_ARCHITECTURE": "PARTIAL_PASS_S1",
     "G2_COVERAGE": "NOT_RUN",
-    "G3_EVIDENCE": "NOT_RUN",
-    "G4_CAUSAL_DISCIPLINE": "NOT_RUN",
+    "G3_EVIDENCE": "IN_PROGRESS",
+    "G4_CAUSAL_DISCIPLINE": "IN_PROGRESS",
     "G5_CONNECTION_VALIDITY": "NOT_RUN",
-    "G6_CONTRADICTION_INTEGRITY": "NOT_RUN",
-    "G7_MEASUREMENT_VALIDITY": "NOT_RUN",
+    "G6_CONTRADICTION_INTEGRITY": "FOUNDATION_IN_PROGRESS",
+    "G7_MEASUREMENT_VALIDITY": "FOUNDATION_IN_PROGRESS",
     "G8_REASONING": "NOT_RUN",
     "G9_COPY_QUALITY": "NOT_RUN",
     "G10_GENERALIZATION": "NOT_RUN",
-    "G11_FEEDBACK_LEARNING": "NOT_RUN",
+    "G11_FEEDBACK_LEARNING": "FOUNDATION_IN_PROGRESS",
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "S1_DOMAIN_TAXONOMY: validate the 56 provisional modules against scientific disciplines, construct boundaries, terminology collisions, major theories and measurement traditions before promoting modules or creating large neuron inventories."
+  "next_action": "Complete S2 registries and lifecycle validators, then begin S3 breadth-first candidate-neuron discovery across all 56 modules before deepening any one core."
 }

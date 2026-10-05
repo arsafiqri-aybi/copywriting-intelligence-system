@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source.schema.json",
+  "title": "Research Source",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "year",
+    "evidence_class",
+    "domain",
+    "url",
+    "retrieval_depth",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "year": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "evidence_class": {
+      "enum": [
+        "meta_analysis",
+        "systematic_review",
+        "review",
+        "review_framework",
+        "randomized_experiment",
+        "field_experiment",
+        "quasi_experimental",
+        "longitudinal",
+        "correlational",
+        "measurement_validation",
+        "theory",
+        "authoritative_standard",
+        "practitioner",
+        "anecdotal"
+      ]
+    },
+    "domain": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "doi": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "retrieval_depth": {
+      "enum": [
+        "metadata_only",
+        "abstract_metadata",
+        "abstract_review_page",
+        "full_text_partial",
+        "full_text_complete"
+      ]
+    },
+    "role": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "editorial_status": {
+      "enum": [
+        "clear",
+        "correction",
+        "expression_of_concern",
+        "retracted",
+        "unknown"
+      ]
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "screened_in",
+        "screened_out",
+        "extracted",
+        "verified_for_claim",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

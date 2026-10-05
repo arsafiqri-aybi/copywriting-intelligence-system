@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "status": "taxonomy_level_only",
+  "warning": "These are measurement traditions, not validated one-to-one mappings from observables to latent constructs.",
+  "cores": {
+    "C1": [
+      "visual search and attentional capture tasks",
+      "reaction-time/accuracy paradigms",
+      "eye tracking and fixation allocation",
+      "sustained-attention/vigilance tasks",
+      "working-memory capacity/manipulation tasks",
+      "recognition/recall and encoding tests",
+      "dual-task/load manipulations"
+    ],
+    "C2": [
+      "validated motivation/goal scales",
+      "effort and persistence behavior",
+      "choice under incentive/reward",
+      "approach-avoidance tasks",
+      "emotion self-report with appraisal measures",
+      "physiological/autonomic measures with construct caveats",
+      "behavioral goal-pursuit outcomes"
+    ],
+    "C3": [
+      "group-identification/self-categorization measures",
+      "norm perception measures",
+      "conformity/compliance behavior",
+      "social-choice and group experiments",
+      "status/reputation signaling behavior",
+      "relationship/belonging scales",
+      "social network/context manipulations"
+    ],
+    "C4": [
+      "choice tasks",
+      "risk/uncertainty/probability judgment tasks",
+      "framing/reference manipulations",
+      "intertemporal discounting tasks",
+      "anchoring/comparison experiments",
+      "choice-set/default manipulations",
+      "process-tracing and response-time measures"
+    ],
+    "C5": [
+      "explicit attitude/evaluation scales",
+      "belief/claim acceptance measures",
+      "source credibility/trustworthiness scales",
+      "argument-thought listing/counterarguing",
+      "reactance/resistance measures",
+      "attitude certainty/confidence measures",
+      "behavioral intention and observed action kept separate"
+    ],
+    "C6": [
+      "reading time and self-paced reading",
+      "eye tracking during language processing",
+      "lexical decision/naming",
+      "reference-resolution tasks",
+      "comprehension accuracy",
+      "discourse inference/coherence tasks",
+      "ERP/neurophysiological measures with interpretation limits"
+    ],
+    "C7": [
+      "randomized message experiments",
+      "argument/message coding",
+      "message-sidedness/refutation manipulations",
+      "narrative transportation/identification scales",
+      "recall/comprehension of message structure",
+      "attitude/intention/behavior outcomes",
+      "sequence/order experiments"
+    ]
+  }
+}

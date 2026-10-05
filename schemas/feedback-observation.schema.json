@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "feedback-observation.schema.json",
+  "title": "Feedback Observation",
+  "type": "object",
+  "required": [
+    "id",
+    "observation_type",
+    "observed_variables",
+    "context",
+    "update_scope",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "observation_type": {
+      "enum": [
+        "campaign_observation",
+        "qualitative_feedback",
+        "randomized_experiment_result",
+        "quasi_experiment_result",
+        "user_research",
+        "expert_review"
+      ]
+    },
+    "observed_variables": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "minItems": 1
+    },
+    "context": {
+      "type": "object"
+    },
+    "related_copy_artifact_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "related_experiment_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alternative_explanations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "update_scope": {
+      "enum": [
+        "audience_hypothesis",
+        "market_estimate",
+        "channel_prior",
+        "message_hypothesis",
+        "runtime_heuristic",
+        "calibration_parameter",
+        "scientific_claim_candidate"
+      ]
+    },
+    "causal_interpretation_allowed": {
+      "type": "boolean"
+    },
+    "status": {
+      "enum": [
+        "raw",
+        "reviewed",
+        "accepted_for_bounded_update",
+        "rejected",
+        "superseded"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

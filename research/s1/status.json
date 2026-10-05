@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "stage": "S1_DOMAIN_TAXONOMY",
+  "status": "PASS_WITH_BOUNDED_PROVISIONAL_MODULES",
+  "module_count": 56,
+  "decisions": {
+    "taxonomy_accepted": 42,
+    "taxonomy_provisional": 14
+  },
+  "protected_core_count": 7,
+  "critical_findings": [
+    "Seven-core architecture remains useful as a retrieval/reasoning ontology when treated as overlapping containers rather than biological compartments.",
+    "Information-seeking content was removed from C1 and returned to motivation; sustained attention/vigilance was added to C1.",
+    "Trust was removed from the C3 relationship module and retained primarily in C5.",
+    "Psychological framing (C4) is separated from deliberate message construction (C7).",
+    "Ethos/pathos/logos are retained as rhetorical organizing concepts but not treated as mechanistic primitives.",
+    "Generic psycholinguistics was replaced with operational language-processing mechanisms."
+  ],
+  "unresolved_noncritical": [
+    "Processing fluency versus comprehension boundary requires deeper S3 research.",
+    "Affective forecasting versus expectancy/value overlap requires deeper S3 research.",
+    "Status/signaling/impression-management decomposition remains provisional.",
+    "Social proof versus descriptive norms requires node-level de-duplication.",
+    "Metacognition/self-validation substructure requires focused evidence review.",
+    "Proof/reason-to-believe must be translated from applied terminology into scientific mechanisms.",
+    "Information structure/register/tone requires finer linguistic decomposition.",
+    "Message sequencing, pacing and CTA modules require stronger evidence mapping."
+  ],
+  "sources_screened_in": 30,
+  "taxonomy_seed_claims": 25,
+  "saturation": "NOT_CLAIMED",
+  "next_stage": "S2_RESEARCH_FOUNDATION_AND_S3_BREADTH_FIRST_NODE_DISCOVERY"
+}

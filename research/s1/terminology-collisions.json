@@ -1,0 +1,96 @@
+{
+  "version": "1.0.0",
+  "status": "active",
+  "records": [
+    {
+      "term_a": "salience",
+      "term_b": "attention capture",
+      "rule": "Salience is a property/relative prominence that may influence priority; attentional capture is an outcome/process. Do not equate them."
+    },
+    {
+      "term_a": "processing fluency",
+      "term_b": "comprehension",
+      "rule": "Ease/speed of processing is not identical to accurate semantic comprehension."
+    },
+    {
+      "term_a": "subjective value",
+      "term_b": "motivation",
+      "rule": "Valuation can feed motivation and choice but is not synonymous with motivational state."
+    },
+    {
+      "term_a": "reward",
+      "term_b": "benefit",
+      "rule": "Reward is a psychological/learning construct; marketing 'benefit' is a product/value representation."
+    },
+    {
+      "term_a": "emotion",
+      "term_b": "affect/arousal",
+      "rule": "Do not collapse discrete emotion, valence and arousal into one latent variable."
+    },
+    {
+      "term_a": "self-concept",
+      "term_b": "social identity",
+      "rule": "Personal-self representations and group-based self-categorization can interact but are not identical."
+    },
+    {
+      "term_a": "social proof",
+      "term_b": "descriptive norm",
+      "rule": "Observed consensus/popularity cues may instantiate descriptive norm information, but the applied label is not automatically a separate scientific construct."
+    },
+    {
+      "term_a": "injunctive norm",
+      "term_b": "descriptive norm",
+      "rule": "What others approve/expect and what others do are distinct signals."
+    },
+    {
+      "term_a": "trust",
+      "term_b": "credibility",
+      "rule": "Credibility judgments may contribute to trust; source trustworthiness/expertise and relational trust must be separately represented."
+    },
+    {
+      "term_a": "framing",
+      "term_b": "message framing",
+      "rule": "C4 stores psychological representation/reference effects; C7 stores deliberate message construction. Connect by edges, not duplicate nodes."
+    },
+    {
+      "term_a": "belief",
+      "term_b": "attitude",
+      "rule": "Propositional belief and evaluative attitude are related but nonidentical."
+    },
+    {
+      "term_a": "intention",
+      "term_b": "behavior",
+      "rule": "Behavioral intention is not observed behavior and must not be used as a direct substitute."
+    },
+    {
+      "term_a": "common ground",
+      "term_b": "shared knowledge",
+      "rule": "Common ground concerns information treated as shared for interaction; literal mutual knowledge is a stronger claim."
+    },
+    {
+      "term_a": "ethos",
+      "term_b": "source credibility",
+      "rule": "Ethos is a rhetorical category; source credibility is an empirically operationalized construct family. Do not merge automatically."
+    },
+    {
+      "term_a": "narrative transportation",
+      "term_b": "engagement",
+      "rule": "Transportation is a specific narrative construct; generic engagement metrics are not direct measures."
+    },
+    {
+      "term_a": "readability",
+      "term_b": "processing fluency",
+      "rule": "Readability can influence fluency but is not a direct measure of the latent construct."
+    },
+    {
+      "term_a": "proof",
+      "term_b": "evidence",
+      "rule": "'Proof' is applied copy terminology; scientific evidence evaluation must preserve source/design/uncertainty."
+    },
+    {
+      "term_a": "persuasion",
+      "term_b": "influence",
+      "rule": "Influence is broader; persuasion usually implies communication-driven changes in attitudes/beliefs/behavioral dispositions."
+    }
+  ]
+}

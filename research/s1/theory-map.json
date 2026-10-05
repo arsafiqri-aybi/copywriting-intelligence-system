@@ -1,0 +1,326 @@
+{
+  "version": "1.0.0",
+  "status": "S1_taxonomy_map_not_node_acceptance",
+  "cores": {
+    "C1": [
+      {
+        "family": "tripartite attentional priority",
+        "covers": [
+          "goal-directed control",
+          "stimulus-driven capture",
+          "selection history"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "external/internal attention taxonomy",
+        "covers": [
+          "sensory selection",
+          "internal representations",
+          "working memory"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "working-memory control models",
+        "covers": [
+          "maintenance",
+          "selection",
+          "cognitive control"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "attention-memory interaction",
+        "covers": [
+          "encoding",
+          "retrieval",
+          "working memory"
+        ],
+        "status": "bridge"
+      }
+    ],
+    "C2": [
+      {
+        "family": "expectancy-value traditions",
+        "covers": [
+          "expectancy",
+          "subjective/task value",
+          "choice/persistence"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "goal and self-regulation traditions",
+        "covers": [
+          "goals",
+          "effort",
+          "persistence",
+          "volition"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "self-determination/internalization",
+        "covers": [
+          "intrinsic/extrinsic motivation",
+          "autonomy",
+          "internalization"
+        ],
+        "status": "central_research_required"
+      },
+      {
+        "family": "appraisal theories of emotion",
+        "covers": [
+          "appraisal",
+          "differentiation",
+          "action tendency"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "approach-avoidance and reward motivation",
+        "covers": [
+          "approach",
+          "avoidance",
+          "reward",
+          "punishment"
+        ],
+        "status": "central"
+      }
+    ],
+    "C3": [
+      {
+        "family": "social identity/self-categorization",
+        "covers": [
+          "group identification",
+          "norm salience",
+          "referent influence"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "normative and informational influence",
+        "covers": [
+          "conformity",
+          "descriptive norms",
+          "injunctive norms"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "compliance/social influence",
+        "covers": [
+          "authority",
+          "reciprocity",
+          "liking",
+          "similarity"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "self and impression/signaling traditions",
+        "covers": [
+          "self-concept",
+          "status",
+          "reputation",
+          "impression management"
+        ],
+        "status": "central_research_required"
+      }
+    ],
+    "C4": [
+      {
+        "family": "judgment-preference-choice framework",
+        "covers": [
+          "judgment",
+          "preference",
+          "choice"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "heuristics/ecological rationality",
+        "covers": [
+          "simple heuristics",
+          "environmental fit"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "reference-dependent/framing traditions",
+        "covers": [
+          "reference points",
+          "framing",
+          "loss/gain evaluation"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "choice architecture",
+        "covers": [
+          "defaults",
+          "choice sets",
+          "friction"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "intertemporal/risk/tradeoff research",
+        "covers": [
+          "delay",
+          "risk",
+          "uncertainty",
+          "attribute tradeoffs"
+        ],
+        "status": "central"
+      }
+    ],
+    "C5": [
+      {
+        "family": "attitude formation/change",
+        "covers": [
+          "evaluation",
+          "attitude strength",
+          "change",
+          "behavior relation"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "multiple-process persuasion models",
+        "covers": [
+          "elaboration",
+          "high/low effort processing",
+          "source/message roles"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "source credibility/trust",
+        "covers": [
+          "expertise",
+          "trustworthiness",
+          "source evaluation"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "resistance/reactance/inoculation",
+        "covers": [
+          "counterarguing",
+          "resistance",
+          "reactance"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "metacognition/self-validation",
+        "covers": [
+          "thought confidence",
+          "certainty",
+          "confidence"
+        ],
+        "status": "research_required"
+      },
+      {
+        "family": "generalizing persuasion",
+        "covers": [
+          "actors",
+          "treatments",
+          "outcomes",
+          "settings"
+        ],
+        "status": "transport_framework"
+      }
+    ],
+    "C6": [
+      {
+        "family": "formal and cognitive pragmatics",
+        "covers": [
+          "common ground",
+          "context",
+          "audience design"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "psycholinguistic sentence processing",
+        "covers": [
+          "lexical access",
+          "syntax",
+          "incremental parsing"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "discourse comprehension",
+        "covers": [
+          "textbase",
+          "situation models",
+          "coherence",
+          "inference"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "semantics and figurative meaning",
+        "covers": [
+          "lexical semantics",
+          "connotation",
+          "metaphor"
+        ],
+        "status": "central"
+      }
+    ],
+    "C7": [
+      {
+        "family": "argumentation traditions",
+        "covers": [
+          "claim",
+          "premise",
+          "evidence",
+          "refutation"
+        ],
+        "status": "central_research_required"
+      },
+      {
+        "family": "classical rhetoric",
+        "covers": [
+          "ethos",
+          "pathos",
+          "logos"
+        ],
+        "status": "historical_framework_not_mechanistic_primitive"
+      },
+      {
+        "family": "narrative transportation",
+        "covers": [
+          "transportation",
+          "identification",
+          "narrative persuasion"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "message-sidedness/refutation",
+        "covers": [
+          "one-sided/two-sided",
+          "refutation",
+          "credibility"
+        ],
+        "status": "central"
+      },
+      {
+        "family": "message design/sequencing",
+        "covers": [
+          "order",
+          "disclosure",
+          "CTA",
+          "comparative structure"
+        ],
+        "status": "applied_research_required"
+      }
+    ]
+  }
+}

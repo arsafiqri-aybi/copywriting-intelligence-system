@@ -1,0 +1,454 @@
+{
+  "version": "1.0.0",
+  "scope": "S1",
+  "modules": [
+    {
+      "id": "C1-M01",
+      "old_label": "Attention Capture & Selection",
+      "new_label": "Stimulus-driven Capture & Salience",
+      "decision": "rename_merge_scope",
+      "status": "taxonomy_accepted",
+      "rationale": "Salience belongs inside attentional priority; avoid duplicating it as a separate container."
+    },
+    {
+      "id": "C1-M02",
+      "old_label": "Perception & Salience",
+      "new_label": "Goal-directed Selection & Attentional Control",
+      "decision": "repurpose",
+      "status": "taxonomy_accepted",
+      "rationale": "Separates goal-driven control from stimulus-driven capture."
+    },
+    {
+      "id": "C1-M03",
+      "old_label": "Cognitive Load & Working Memory",
+      "new_label": "Working Memory & Cognitive Load",
+      "decision": "retain_rename",
+      "status": "taxonomy_accepted",
+      "rationale": "Working memory is an attention-adjacent capacity/control interface with distinct measurement traditions."
+    },
+    {
+      "id": "C1-M04",
+      "old_label": "Comprehension & Processing Fluency",
+      "new_label": "Processing Fluency & Comprehension Interface",
+      "decision": "retain_boundary",
+      "status": "taxonomy_provisional",
+      "rationale": "Keep only processing-level ease/fluency here; linguistic meaning construction belongs primarily to C6."
+    },
+    {
+      "id": "C1-M05",
+      "old_label": "Learning, Encoding & Memory",
+      "new_label": "Encoding, Retrieval & Attention–Memory Interface",
+      "decision": "retain_rename",
+      "status": "taxonomy_accepted",
+      "rationale": "Explicitly models attention-memory coupling without making all memory part of C1."
+    },
+    {
+      "id": "C1-M06",
+      "old_label": "Prediction, Novelty & Habituation",
+      "new_label": "Selection History, Novelty & Habituation",
+      "decision": "refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Selection history is a major source of attentional priority; novelty/habituation remain related subfamilies."
+    },
+    {
+      "id": "C1-M07",
+      "old_label": "Information Seeking & Cognitive Relevance",
+      "new_label": "Sustained Attention & Vigilance",
+      "decision": "repurpose_move_old_scope",
+      "status": "taxonomy_accepted",
+      "rationale": "Information seeking is motivational and moves to C2; sustained attention was missing from C1."
+    },
+    {
+      "id": "C1-M08",
+      "old_label": "Context, Task State & Selective Processing",
+      "new_label": "Suppression, Disengagement & Task-State Competition",
+      "decision": "refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Adds inhibitory/disengagement processes required for realistic attention control."
+    },
+    {
+      "id": "C2-M01",
+      "old_label": "Needs, Goals & Goal Discrepancy",
+      "new_label": "Needs, Goals & Goal Discrepancy",
+      "decision": "retain",
+      "status": "taxonomy_accepted",
+      "rationale": "Central motivation family."
+    },
+    {
+      "id": "C2-M02",
+      "old_label": "Approach & Avoidance Motivation",
+      "new_label": "Approach & Avoidance Motivation",
+      "decision": "retain",
+      "status": "taxonomy_accepted",
+      "rationale": "Distinct motivational orientation/action-direction family."
+    },
+    {
+      "id": "C2-M03",
+      "old_label": "Reward, Incentive & Expected Value",
+      "new_label": "Expectancy, Value, Reward & Incentive",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Motivation literature requires expectancy and task/subjective value, not reward alone."
+    },
+    {
+      "id": "C2-M04",
+      "old_label": "Emotion & Appraisal",
+      "new_label": "Emotion Elicitation & Appraisal",
+      "decision": "refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Separates elicitation/appraisal from downstream arousal/action tendencies."
+    },
+    {
+      "id": "C2-M05",
+      "old_label": "Arousal, Intensity & Activation",
+      "new_label": "Arousal, Activation & Action Tendencies",
+      "decision": "refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Action tendencies are downstream emotion/motivation mechanisms and should be explicit."
+    },
+    {
+      "id": "C2-M06",
+      "old_label": "Anticipation & Affective Forecasting",
+      "new_label": "Anticipation, Affective Forecasting & Expected Feeling",
+      "decision": "retain_expand",
+      "status": "taxonomy_provisional",
+      "rationale": "Useful but requires deeper construct-boundary work against expected value and reward prediction."
+    },
+    {
+      "id": "C2-M07",
+      "old_label": "Self-Regulation, Effort & Action Readiness",
+      "new_label": "Self-Regulation, Effort, Persistence & Volition",
+      "decision": "refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Adds persistence/volition, a major motivation tradition."
+    },
+    {
+      "id": "C2-M08",
+      "old_label": "Frustration, Relief & State Transition",
+      "new_label": "Autonomy, Intrinsic/Extrinsic Motivation & Internalization",
+      "decision": "repurpose",
+      "status": "taxonomy_accepted",
+      "rationale": "Self-determination/internalization is foundational; frustration/relief move under appraisal/emotion neurons."
+    },
+    {
+      "id": "C3-M01",
+      "old_label": "Self-Concept & Personal Identity",
+      "new_label": "Self-Concept, Self-Relevance & Personal Identity",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Maintains personal-self mechanisms separate from group identity."
+    },
+    {
+      "id": "C3-M02",
+      "old_label": "Social Identity & Group Membership",
+      "new_label": "Social Categorization, Identification & Group Membership",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Self-categorization and degree of identification are central to group influence."
+    },
+    {
+      "id": "C3-M03",
+      "old_label": "Norms, Conformity & Social Validation",
+      "new_label": "Descriptive/Injunctive Norms & Conformity",
+      "decision": "refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Separates norm types; social validation remains a possible mechanism, not container label."
+    },
+    {
+      "id": "C3-M04",
+      "old_label": "Status, Reputation & Signaling",
+      "new_label": "Status, Reputation, Impression Management & Signaling",
+      "decision": "expand",
+      "status": "taxonomy_provisional",
+      "rationale": "Important applied family but requires clean boundaries among signaling, impression management and status motives."
+    },
+    {
+      "id": "C3-M05",
+      "old_label": "Authority & Interpersonal Influence",
+      "new_label": "Authority, Compliance & Interpersonal Influence",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Compliance is distinct from conformity and belongs explicitly."
+    },
+    {
+      "id": "C3-M06",
+      "old_label": "Reciprocity, Liking & Similarity",
+      "new_label": "Reciprocity, Liking, Similarity & Affiliation Cues",
+      "decision": "retain_expand",
+      "status": "taxonomy_provisional",
+      "rationale": "Broad container allowed provisionally; individual mechanisms must not be collapsed later."
+    },
+    {
+      "id": "C3-M07",
+      "old_label": "Social Proof & Collective Cues",
+      "new_label": "Social Proof, Descriptive Consensus & Collective Cues",
+      "decision": "refine_boundary",
+      "status": "taxonomy_provisional",
+      "rationale": "Must remain distinct from injunctive norms; descriptive consensus may overlap M03."
+    },
+    {
+      "id": "C3-M08",
+      "old_label": "Belonging, Relationship & Interpersonal Trust",
+      "new_label": "Belonging, Affiliation & Relationship Motivation",
+      "decision": "remove_overlap",
+      "status": "taxonomy_accepted",
+      "rationale": "Trust moves primarily to C5; C3 retains relational/affiliation mechanisms."
+    },
+    {
+      "id": "C4-M01",
+      "old_label": "Heuristics & Simplified Judgment",
+      "new_label": "Heuristics & Adaptive/Simplified Judgment",
+      "decision": "refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Avoids framing heuristics as inherently biased or irrational."
+    },
+    {
+      "id": "C4-M02",
+      "old_label": "Framing & Reference Dependence",
+      "new_label": "Framing, Reference Dependence & Contextual Valuation",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Psychological frame/reference effects live here; message-level frame construction remains C7."
+    },
+    {
+      "id": "C4-M03",
+      "old_label": "Risk, Uncertainty & Probability Perception",
+      "new_label": "Risk, Uncertainty & Probability Judgment",
+      "decision": "retain_rename",
+      "status": "taxonomy_accepted",
+      "rationale": "Core JDM family."
+    },
+    {
+      "id": "C4-M04",
+      "old_label": "Choice Architecture & Choice Overload",
+      "new_label": "Choice Architecture, Defaults & Choice-Set Structure",
+      "decision": "refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Defaults belong with choice architecture; overload becomes a candidate neuron/family rather than assumed universal effect."
+    },
+    {
+      "id": "C4-M05",
+      "old_label": "Intertemporal Choice & Delay",
+      "new_label": "Intertemporal Choice, Delay & Temporal Discounting",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Canonical choice family."
+    },
+    {
+      "id": "C4-M06",
+      "old_label": "Trade-offs, Cost & Opportunity Cost",
+      "new_label": "Trade-offs, Opportunity Cost & Attribute Conflict",
+      "decision": "refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Better captures conflict among attributes/options."
+    },
+    {
+      "id": "C4-M07",
+      "old_label": "Comparison, Evaluation & Anchoring",
+      "new_label": "Comparison, Anchoring & Reference-Based Evaluation",
+      "decision": "retain_refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Evaluation is retained but anchored to explicit comparison/reference processes."
+    },
+    {
+      "id": "C4-M08",
+      "old_label": "Decision Friction, Defaults & Action Ease",
+      "new_label": "Decision Friction, Effort & Action Ease",
+      "decision": "remove_overlap",
+      "status": "taxonomy_accepted",
+      "rationale": "Defaults moved to M04; friction/effort remain distinct."
+    },
+    {
+      "id": "C5-M01",
+      "old_label": "Belief & Attitude Formation",
+      "new_label": "Belief Formation, Attitude Formation & Evaluation",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Belief and attitude are related but nonidentical constructs."
+    },
+    {
+      "id": "C5-M02",
+      "old_label": "Elaboration & Persuasion Processing Routes",
+      "new_label": "Elaboration & Persuasion Processing Processes",
+      "decision": "rename",
+      "status": "taxonomy_accepted",
+      "rationale": "Avoids overcommitting to a single dual-route ontology; allows multiple-process models."
+    },
+    {
+      "id": "C5-M03",
+      "old_label": "Source Credibility & Trust",
+      "new_label": "Source Credibility, Trustworthiness & Source Evaluation",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Central source-level persuasion family; trust is primary here."
+    },
+    {
+      "id": "C5-M04",
+      "old_label": "Argument Quality & Evidence Evaluation",
+      "new_label": "Argument Quality, Evidence Evaluation & Claim Acceptance",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Connects argument evaluation to belief revision without assuming automatic persuasion."
+    },
+    {
+      "id": "C5-M05",
+      "old_label": "Resistance, Counterarguing & Reactance",
+      "new_label": "Resistance, Counterarguing, Reactance & Inoculation",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Adds established resistance/preemption family."
+    },
+    {
+      "id": "C5-M06",
+      "old_label": "Certainty, Confidence & Metacognition",
+      "new_label": "Certainty, Confidence, Metacognition & Self-Validation",
+      "decision": "expand",
+      "status": "taxonomy_provisional",
+      "rationale": "Requires careful separation among confidence in thought, attitude certainty and source confidence."
+    },
+    {
+      "id": "C5-M07",
+      "old_label": "Proof, Demonstration & Reason-to-Believe",
+      "new_label": "Proof, Demonstration, Verification & Reason-to-Believe",
+      "decision": "expand",
+      "status": "taxonomy_provisional",
+      "rationale": "Applied container; scientific nodes must map to evidence/credibility/learning mechanisms rather than marketing jargon."
+    },
+    {
+      "id": "C5-M08",
+      "old_label": "Commitment, Intention & Attitude-to-Behavior",
+      "new_label": "Intentions, Commitment & Attitude-to-Behavior Translation",
+      "decision": "refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Separates persuasion outcomes from actual behavior and preserves intention-behavior gaps."
+    },
+    {
+      "id": "C6-M01",
+      "old_label": "Lexical Semantics & Connotation",
+      "new_label": "Lexical Semantics, Concept Activation & Connotation",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Word meaning and associative/connotative activation remain primary language mechanisms."
+    },
+    {
+      "id": "C6-M02",
+      "old_label": "Syntax & Sentence Processing",
+      "new_label": "Syntax, Sentence Structure & Incremental Parsing",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Connects formal structure with online processing."
+    },
+    {
+      "id": "C6-M03",
+      "old_label": "Pragmatics & Common Ground",
+      "new_label": "Pragmatics, Common Ground & Audience Design",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Common ground and audience design are central contextual meaning mechanisms."
+    },
+    {
+      "id": "C6-M04",
+      "old_label": "Implicature, Presupposition & Inference",
+      "new_label": "Implicature, Presupposition & Pragmatic Inference",
+      "decision": "retain_refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Distinct inference family."
+    },
+    {
+      "id": "C6-M05",
+      "old_label": "Psycholinguistic Processing",
+      "new_label": "Ambiguity Resolution, Prediction & Incremental Language Processing",
+      "decision": "repurpose_specific",
+      "status": "taxonomy_provisional",
+      "rationale": "Generic 'psycholinguistics' is a discipline, not a construct container; replace with operational mechanisms."
+    },
+    {
+      "id": "C6-M06",
+      "old_label": "Discourse, Coherence & Information Flow",
+      "new_label": "Discourse Representation, Coherence & Situation Models",
+      "decision": "refine",
+      "status": "taxonomy_accepted",
+      "rationale": "Grounded in discourse comprehension traditions."
+    },
+    {
+      "id": "C6-M07",
+      "old_label": "Metaphor, Analogy & Figurative Meaning",
+      "new_label": "Metaphor & Figurative Meaning",
+      "decision": "remove_overlap",
+      "status": "taxonomy_accepted",
+      "rationale": "Analogy as argumentative structure moves primarily to C7."
+    },
+    {
+      "id": "C6-M08",
+      "old_label": "Information Structure, Register, Tone & Specificity",
+      "new_label": "Information Structure, Register, Tone & Specificity",
+      "decision": "retain",
+      "status": "taxonomy_provisional",
+      "rationale": "Useful linguistic production layer; requires decomposition before neuron promotion."
+    },
+    {
+      "id": "C7-M01",
+      "old_label": "Claim & Argument Structure",
+      "new_label": "Claim, Premise, Evidence & Argument Structure",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Core argumentation container."
+    },
+    {
+      "id": "C7-M02",
+      "old_label": "Ethos, Pathos & Logos Configuration",
+      "new_label": "Persuasive Appeals, Stance & Rhetorical Credibility",
+      "decision": "modernize",
+      "status": "taxonomy_provisional",
+      "rationale": "Ethos/pathos/logos remain historical organizing terms, not assumed mechanistic primitives."
+    },
+    {
+      "id": "C7-M03",
+      "old_label": "Narrative & Transformation Structure",
+      "new_label": "Narrative Structure, Transportation & Identification",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Narrative transportation has meta-analytic support and connects to persuasion."
+    },
+    {
+      "id": "C7-M04",
+      "old_label": "Message Sequencing & Progressive Disclosure",
+      "new_label": "Message Sequencing, Order & Progressive Disclosure",
+      "decision": "retain_expand",
+      "status": "taxonomy_provisional",
+      "rationale": "Needs deeper evidence on primacy/recency and disclosure sequencing."
+    },
+    {
+      "id": "C7-M05",
+      "old_label": "Contrast, Framing & Comparative Rhetoric",
+      "new_label": "Contrast, Analogy & Comparative Message Structure",
+      "decision": "remove_overlap",
+      "status": "taxonomy_accepted",
+      "rationale": "Psychological framing lives in C4; C7 represents deliberate message construction."
+    },
+    {
+      "id": "C7-M06",
+      "old_label": "Objection Handling, Refutation & Concession",
+      "new_label": "Counterargument, Message Sidedness, Refutation & Concession",
+      "decision": "expand",
+      "status": "taxonomy_accepted",
+      "rationale": "Supported by message-sidedness meta-analytic traditions."
+    },
+    {
+      "id": "C7-M07",
+      "old_label": "Tension, Pacing, Resolution & Momentum",
+      "new_label": "Tension, Pacing, Resolution & Momentum",
+      "decision": "retain",
+      "status": "taxonomy_provisional",
+      "rationale": "Operationally useful but requires stronger construct decomposition and measurement evidence."
+    },
+    {
+      "id": "C7-M08",
+      "old_label": "CTA, Commitment & Action Architecture",
+      "new_label": "Call-to-Action & Action-Request Architecture",
+      "decision": "remove_overlap",
+      "status": "taxonomy_provisional",
+      "rationale": "Commitment mechanism belongs primarily to C5/C4; C7 represents linguistic/rhetorical request design."
+    }
+  ]
+}

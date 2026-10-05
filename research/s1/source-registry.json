@@ -1,0 +1,623 @@
+{
+  "version": "1.0.0",
+  "scope": "S1_taxonomy_seed",
+  "sources": [
+    {
+      "id": "SRC-C1-001",
+      "title": "Attentional Capture and Control",
+      "authors": [
+        "Jan Theeuwes"
+      ],
+      "year": 2025,
+      "evidence_class": "review",
+      "domain": [
+        "C1"
+      ],
+      "doi": "10.1146/annurev-psych-011624-025340",
+      "url": "https://doi.org/10.1146/annurev-psych-011624-025340",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy",
+        "mechanism_boundary"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C1-002",
+      "title": "A Taxonomy of External and Internal Attention",
+      "authors": [
+        "Marvin M. Chun",
+        "Julie D. Golomb",
+        "Nicholas B. Turk-Browne"
+      ],
+      "year": 2011,
+      "evidence_class": "review",
+      "domain": [
+        "C1"
+      ],
+      "doi": "10.1146/annurev.psych.093008.100427",
+      "url": "https://doi.org/10.1146/annurev.psych.093008.100427",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C1-003",
+      "title": "The Cognitive Neuroscience of Working Memory",
+      "authors": [
+        "Mark D'Esposito",
+        "Bradley R. Postle"
+      ],
+      "year": 2015,
+      "evidence_class": "review",
+      "domain": [
+        "C1"
+      ],
+      "doi": "10.1146/annurev-psych-010814-015031",
+      "url": "https://doi.org/10.1146/annurev-psych-010814-015031",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy",
+        "mechanism_boundary"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C1-004",
+      "title": "The Relation Between Attention and Memory",
+      "authors": [],
+      "year": 2024,
+      "evidence_class": "review",
+      "domain": [
+        "C1"
+      ],
+      "doi": "10.1146/annurev-psych-040723-012736",
+      "url": "https://doi.org/10.1146/annurev-psych-040723-012736",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "cross_construct_boundary"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-X-001",
+      "title": "Salience",
+      "authors": [
+        "Pedro Bordalo",
+        "Nicola Gennaioli",
+        "Andrei Shleifer"
+      ],
+      "year": 2022,
+      "evidence_class": "review",
+      "domain": [
+        "C1",
+        "C4"
+      ],
+      "doi": "10.1146/annurev-economics-051520-011616",
+      "url": "https://doi.org/10.1146/annurev-economics-051520-011616",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "cross_core_bridge"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C2-001",
+      "title": "Motivational Beliefs, Values, and Goals",
+      "authors": [
+        "Jacquelynne S. Eccles",
+        "Allan Wigfield"
+      ],
+      "year": 2002,
+      "evidence_class": "review",
+      "domain": [
+        "C2"
+      ],
+      "doi": "10.1146/annurev.psych.53.100901.135153",
+      "url": "https://doi.org/10.1146/annurev.psych.53.100901.135153",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy",
+        "theory_map"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C2-002",
+      "title": "The Emotion Process: Event Appraisal and Component Differentiation",
+      "authors": [
+        "Klaus R. Scherer",
+        "Agnes Moors"
+      ],
+      "year": 2019,
+      "evidence_class": "review",
+      "domain": [
+        "C2"
+      ],
+      "doi": "10.1146/annurev-psych-122216-011854",
+      "url": "https://doi.org/10.1146/annurev-psych-122216-011854",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy",
+        "mechanism_boundary"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C2-003",
+      "title": "Emotion",
+      "authors": [
+        "John T. Cacioppo",
+        "Wendi L. Gardner"
+      ],
+      "year": 1999,
+      "evidence_class": "review",
+      "domain": [
+        "C2"
+      ],
+      "doi": "10.1146/annurev.psych.50.1.191",
+      "url": "https://doi.org/10.1146/annurev.psych.50.1.191",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-X-002",
+      "title": "Motivational and Emotional Aspects of the Self",
+      "authors": [
+        "Mark R. Leary"
+      ],
+      "year": 2007,
+      "evidence_class": "review",
+      "domain": [
+        "C2",
+        "C3"
+      ],
+      "doi": "10.1146/annurev.psych.58.110405.085658",
+      "url": "https://doi.org/10.1146/annurev.psych.58.110405.085658",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "cross_core_bridge"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C2-004",
+      "title": "Work Motivation Theory and Research at the Dawn of the Twenty-First Century",
+      "authors": [
+        "Gary P. Latham",
+        "Craig C. Pinder"
+      ],
+      "year": 2005,
+      "evidence_class": "review",
+      "domain": [
+        "C2"
+      ],
+      "doi": "10.1146/annurev.psych.55.090902.142105",
+      "url": "https://doi.org/10.1146/annurev.psych.55.090902.142105",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "theory_map"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C3-001",
+      "title": "Social Influence and Group Identity",
+      "authors": [
+        "Russell Spears"
+      ],
+      "year": 2021,
+      "evidence_class": "review",
+      "domain": [
+        "C3"
+      ],
+      "doi": "10.1146/annurev-psych-070620-111818",
+      "url": "https://doi.org/10.1146/annurev-psych-070620-111818",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy",
+        "theory_map"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C3-002",
+      "title": "Social Influence: Compliance and Conformity",
+      "authors": [
+        "Robert B. Cialdini",
+        "Noah J. Goldstein"
+      ],
+      "year": 2004,
+      "evidence_class": "review",
+      "domain": [
+        "C3"
+      ],
+      "doi": "10.1146/annurev.psych.55.090902.142015",
+      "url": "https://doi.org/10.1146/annurev.psych.55.090902.142015",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C3-003",
+      "title": "The Power and Pitfalls of Social Norms",
+      "authors": [],
+      "year": 2025,
+      "evidence_class": "review",
+      "domain": [
+        "C3"
+      ],
+      "doi": "10.1146/annurev-psych-020124-120310",
+      "url": "https://doi.org/10.1146/annurev-psych-020124-120310",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "boundary_conditions"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-001",
+      "title": "Judgment and Decision Making",
+      "authors": [
+        "Baruch Fischhoff",
+        "Stephen B. Broomell"
+      ],
+      "year": 2020,
+      "evidence_class": "review",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1146/annurev-psych-010419-050747",
+      "url": "https://doi.org/10.1146/annurev-psych-010419-050747",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-002",
+      "title": "Heuristic Decision Making",
+      "authors": [
+        "Gerd Gigerenzer",
+        "Wolfgang Gaissmaier"
+      ],
+      "year": 2011,
+      "evidence_class": "review",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1146/annurev-psych-120709-145346",
+      "url": "https://doi.org/10.1146/annurev-psych-120709-145346",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy",
+        "boundary_conditions"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-003",
+      "title": "Trade-Offs in Choice",
+      "authors": [
+        "Franklin Shaddy",
+        "Ayelet Fishbach",
+        "Itamar Simonson"
+      ],
+      "year": 2021,
+      "evidence_class": "review",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1146/annurev-psych-072420-125709",
+      "url": "https://doi.org/10.1146/annurev-psych-072420-125709",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-X-003",
+      "title": "Framing Theory",
+      "authors": [
+        "Dennis Chong",
+        "James N. Druckman"
+      ],
+      "year": 2007,
+      "evidence_class": "review",
+      "domain": [
+        "C4",
+        "C7"
+      ],
+      "doi": "10.1146/annurev.polisci.10.072805.103054",
+      "url": "https://doi.org/10.1146/annurev.polisci.10.072805.103054",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "cross_core_bridge"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-001",
+      "title": "Attitudes and Attitude Change",
+      "authors": [
+        "Dolores Albarracin",
+        "Sharon Shavitt"
+      ],
+      "year": 2018,
+      "evidence_class": "review",
+      "domain": [
+        "C5"
+      ],
+      "doi": "10.1146/annurev-psych-122216-011911",
+      "url": "https://doi.org/10.1146/annurev-psych-122216-011911",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy",
+        "theory_map"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-002",
+      "title": "Attitudes and Persuasion",
+      "authors": [
+        "William D. Crano",
+        "Radmila Prislin"
+      ],
+      "year": 2006,
+      "evidence_class": "review",
+      "domain": [
+        "C5"
+      ],
+      "doi": "10.1146/annurev.psych.57.102904.190034",
+      "url": "https://doi.org/10.1146/annurev.psych.57.102904.190034",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy",
+        "theory_map"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-X-004",
+      "title": "Persuasion, Influence, and Value: Perspectives from Communication and Social Neuroscience",
+      "authors": [
+        "Emily Falk",
+        "Christin Scholz"
+      ],
+      "year": 2018,
+      "evidence_class": "review",
+      "domain": [
+        "C2",
+        "C3",
+        "C5"
+      ],
+      "doi": "10.1146/annurev-psych-122216-011821",
+      "url": "https://doi.org/10.1146/annurev-psych-122216-011821",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "cross_core_bridge",
+        "market_value_bridge"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-003",
+      "title": "A Framework for the Study of Persuasion",
+      "authors": [
+        "James N. Druckman"
+      ],
+      "year": 2022,
+      "evidence_class": "review_framework",
+      "domain": [
+        "C5",
+        "C7"
+      ],
+      "doi": "10.1146/annurev-polisci-051120-110428",
+      "url": "https://doi.org/10.1146/annurev-polisci-051120-110428",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "generalization_framework"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-004",
+      "title": "Attitude Change: Persuasion and Social Influence",
+      "authors": [
+        "Wendy Wood"
+      ],
+      "year": 2000,
+      "evidence_class": "review",
+      "domain": [
+        "C3",
+        "C5"
+      ],
+      "doi": "10.1146/annurev.psych.51.1.539",
+      "url": "https://doi.org/10.1146/annurev.psych.51.1.539",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "cross_core_bridge"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-005",
+      "title": "Persuasion: Empirical Evidence",
+      "authors": [
+        "Stefano DellaVigna",
+        "Matthew Gentzkow"
+      ],
+      "year": 2010,
+      "evidence_class": "review",
+      "domain": [
+        "C5",
+        "MARKET_VALUE"
+      ],
+      "doi": "10.1146/annurev.economics.102308.124309",
+      "url": "https://doi.org/10.1146/annurev.economics.102308.124309",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "field_effects",
+        "market_value_bridge"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-001",
+      "title": "Common Ground: Between Formal Pragmatics and Psycholinguistics",
+      "authors": [
+        "Paula Rubio-Fernandez",
+        "Daniel W. Harris"
+      ],
+      "year": 2026,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1146/annurev-linguistics-041824-032410",
+      "url": "https://doi.org/10.1146/annurev-linguistics-041824-032410",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy",
+        "theory_map"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-002",
+      "title": "Sentence and Text Comprehension: Roles of Linguistic Structure",
+      "authors": [
+        "Charles Clifton Jr.",
+        "Susan A. Duffy"
+      ],
+      "year": 2001,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1146/annurev.psych.52.1.167",
+      "url": "https://doi.org/10.1146/annurev.psych.52.1.167",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy",
+        "measurement_tradition"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-003",
+      "title": "Discourse Comprehension",
+      "authors": [
+        "Arthur C. Graesser",
+        "Keith K. Millis",
+        "Rolf A. Zwaan"
+      ],
+      "year": 1997,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1146/annurev.psych.48.1.163",
+      "url": "https://doi.org/10.1146/annurev.psych.48.1.163",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "taxonomy",
+        "theory_map"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-001",
+      "title": "The Extended Transportation-Imagery Model: A Meta-Analysis of the Antecedents and Consequences of Consumers' Narrative Transportation",
+      "authors": [
+        "Tom van Laer",
+        "Ko de Ruyter",
+        "Luca M. Visconti",
+        "Martin Wetzels"
+      ],
+      "year": 2014,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C7",
+        "C5"
+      ],
+      "doi": "10.1086/673383",
+      "url": "https://doi.org/10.1086/673383",
+      "retrieval_depth": "abstract_metadata",
+      "role": [
+        "narrative",
+        "effect_synthesis"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-002",
+      "title": "Two-sided advertising: A meta-analysis",
+      "authors": [
+        "Martin Eisend"
+      ],
+      "year": 2006,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C7",
+        "C5"
+      ],
+      "doi": "10.1016/j.ijresmar.2005.11.001",
+      "url": "https://doi.org/10.1016/j.ijresmar.2005.11.001",
+      "retrieval_depth": "abstract_metadata",
+      "role": [
+        "message_sidedness",
+        "boundary_conditions"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-003",
+      "title": "How to Handle Opposing Arguments in Persuasive Messages: A Meta-Analytic Review of the Effects of One-Sided and Two-Sided Messages",
+      "authors": [
+        "Daniel J. O'Keefe"
+      ],
+      "year": 1999,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C7",
+        "C5"
+      ],
+      "doi": "10.1080/23808985.1999.11678963",
+      "url": "https://doi.org/10.1080/23808985.1999.11678963",
+      "retrieval_depth": "abstract_metadata",
+      "role": [
+        "refutation",
+        "message_sidedness"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-004",
+      "title": "The Rhetoric Revival in Political Theory",
+      "authors": [],
+      "year": 2011,
+      "evidence_class": "review",
+      "domain": [
+        "C7"
+      ],
+      "doi": "10.1146/annurev.polisci.040108.104834",
+      "url": "https://doi.org/10.1146/annurev.polisci.040108.104834",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "rhetoric_scope"
+      ],
+      "status": "screened_in"
+    }
+  ]
+}
