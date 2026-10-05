@@ -1,0 +1,171 @@
+{
+  "version": "1.0.0",
+  "gates": [
+    {
+      "id": "G1",
+      "name": "Architecture",
+      "decision": "PASS",
+      "evidence": [
+        "PROJECT_CONTRACT.md",
+        "docs/ARCHITECTURE_V1_1.md",
+        "research/s5/s5-closure.json"
+      ],
+      "rationale": "Exactly seven protected cores are preserved; Market & Value remains an outer system; Research/Evidence/Feedback remains the epistemic substrate."
+    },
+    {
+      "id": "G2",
+      "name": "Coverage",
+      "decision": "PASS",
+      "evidence": [
+        "research/s3/s3-closure.json"
+      ],
+      "rationale": "254 primary nodes cover all 56 modules; all seven cores contain accepted knowledge; provisional-only modules are bounded rather than hidden."
+    },
+    {
+      "id": "G3",
+      "name": "Evidence",
+      "decision": "PASS",
+      "evidence": [
+        "research/EVIDENCE_POLICY.md",
+        "research/s3/s3-closure.json",
+        "research/registry/claims.json",
+        "research/registry/sources.json",
+        "research/registry/uncertainties.json"
+      ],
+      "rationale": "Material claims are atomic and provenance-bearing; 31 uncertainty records preserve non-certainty. Scientific saturation is explicitly not claimed."
+    },
+    {
+      "id": "G4",
+      "name": "Causal Discipline",
+      "decision": "PASS",
+      "evidence": [
+        "research/s4/s4-closure.json",
+        "feedback/update-policy.json",
+        "feedback/update-engine.json"
+      ],
+      "rationale": "Scientific edges preserve causal status; S4 assigned zero runtime effect weights; S7 separates observational, randomized bundle, and mechanism-level interpretations."
+    },
+    {
+      "id": "G5",
+      "name": "Connection Validity",
+      "decision": "PASS",
+      "evidence": [
+        "research/s4/s4-closure.json",
+        "research/s4/pair-audit.json"
+      ],
+      "rationale": "All 21 unordered core pairs were audited; 35 scientific edges are bounded by evidence; 2 explicit non-edge decisions are preserved."
+    },
+    {
+      "id": "G6",
+      "name": "Contradiction Integrity",
+      "decision": "PASS",
+      "evidence": [
+        "research/registry/contradictions.json",
+        "research/s3/s3-closure.json",
+        "research/s4/s4-closure.json"
+      ],
+      "rationale": "7 contradiction/null/mixed-evidence records are retained; conflicting evidence is bounded through provisional status, moderators, and uncertainty instead of deleted."
+    },
+    {
+      "id": "G7",
+      "name": "Measurement Validity",
+      "decision": "PASS",
+      "evidence": [
+        "research/s7/s7-closure.json",
+        "feedback/observable-metric-catalog.json",
+        "research/registry/measurements.json"
+      ],
+      "rationale": "S7 passed with 15 observable metrics and zero metric-integrity errors; platform metrics remain outcomes/proxies rather than silent latent-state measurements."
+    },
+    {
+      "id": "G8",
+      "name": "Reasoning",
+      "decision": "PASS",
+      "evidence": [
+        "research/s6/s6-closure.json",
+        "reasoning/engine-spec.json",
+        "reasoning/retrieval-policy.json",
+        "reasoning/uncertainty-policy.json"
+      ],
+      "rationale": "S6 passed 8/8 representative reasoning cases with 0 integrity errors."
+    },
+    {
+      "id": "G9",
+      "name": "Copy Quality",
+      "decision": "PASS",
+      "evidence": [
+        "research/s8/s8-closure.json",
+        "evaluation/results/holdout-v1-summary.json"
+      ],
+      "rationale": "Frozen holdout passed 12/12 with mean dimension score 4.605 and zero critical failures. Evaluator independence limitation is disclosed separately."
+    },
+    {
+      "id": "G10",
+      "name": "Generalization",
+      "decision": "PASS",
+      "evidence": [
+        "research/s8/s8-closure.json",
+        "evaluation/regression.json",
+        "evaluation/adversarial.json",
+        "evaluation/holdout-v1.json"
+      ],
+      "rationale": "Regression 8/8, adversarial 8/8, and holdout 12/12 all passed with zero critical gate failures."
+    },
+    {
+      "id": "G11",
+      "name": "Feedback Learning",
+      "decision": "PASS",
+      "evidence": [
+        "research/s7/s7-closure.json",
+        "feedback/update-engine.json",
+        "feedback/lifecycle.json"
+      ],
+      "rationale": "Feedback/update discipline passed 8/8; scientific updates remain candidate-only until research promotion."
+    },
+    {
+      "id": "G12",
+      "name": "Skill Quality",
+      "decision": "PASS",
+      "evidence": [
+        "research/s9/s9-closure.json",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "evaluation/results/skill-static-audit.json",
+        "evaluation/results/skill-trigger-design-audit.json",
+        "evaluation/results/skill-behavior-v1-results.json"
+      ],
+      "rationale": "Repository Skill runtime passed static audit, 6/6 behavior cases, and trigger-design audit. Production host-router/installation is a deployment limitation, not a repository-runtime failure."
+    }
+  ],
+  "all_pass": true,
+  "non_blocking_limitations": [
+    {
+      "id": "LIM-001",
+      "severity": "non_blocking",
+      "scope": "evaluation",
+      "statement": "The build agent also generated and scored the outputs. This is a real frozen holdout run against unchanged artifacts, but it is not an independent human or external-model evaluation.",
+      "impact": "Independent human/external-model evaluation would strengthen release evidence; current frozen internal holdout remains valid but not independent."
+    },
+    {
+      "id": "LIM-002",
+      "severity": "non_blocking",
+      "scope": "deployment",
+      "statement": "Automatic implicit selection by a production host/router was not executed in this repository workflow.",
+      "impact": "Do not claim production auto-routing validation."
+    },
+    {
+      "id": "LIM-003",
+      "severity": "non_blocking",
+      "scope": "deployment",
+      "statement": "No installation into a specific ChatGPT account/workspace is claimed.",
+      "impact": "Repository package is complete and reusable; account/workspace deployment remains separate."
+    },
+    {
+      "id": "LIM-004",
+      "severity": "non_blocking",
+      "scope": "research",
+      "statement": "Scientific research saturation is NOT_CLAIMED.",
+      "impact": "v1.0.0 is project-complete for defined release scope, not universally complete psychology/copywriting science."
+    }
+  ]
+}

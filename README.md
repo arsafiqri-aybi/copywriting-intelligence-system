@@ -1,10 +1,10 @@
 # Copywriting Intelligence System
 
-Research-grounded neural knowledge architecture, reasoning engine, measurement layer, and feedback system for evidence-aware copywriting.
+**Release: v1.0.0 — PROJECT_COMPLETE**
+
+Research-grounded neural knowledge architecture, reasoning engine, measurement layer, feedback system, evaluation suite, and reusable Skill runtime for evidence-aware copywriting.
 
 ## Mission
-
-Build a system that can:
 
 ```text
 UNDERSTAND
@@ -17,11 +17,11 @@ UNDERSTAND
 → LEARN
 ```
 
-This repository does **not** treat AIDA, PAS, BAB, hooks, power words, scarcity, or other formulas as foundational science. Those are optional execution patterns built on deeper mechanisms.
+The system does **not** treat AIDA, PAS, BAB, hooks, power words, scarcity, urgency, storytelling, or social proof as foundational laws. They are optional execution patterns only when the diagnosed context and mechanisms justify them.
 
-## Protected architecture
+## Architecture
 
-The psychological/communication brain has **7 top-level cores**:
+Seven protected top-level cores:
 
 1. Cognitive Processing & Attention
 2. Motivation & Affect
@@ -31,12 +31,44 @@ The psychological/communication brain has **7 top-level cores**:
 6. Language, Pragmatics & Meaning
 7. Rhetoric, Argumentation & Message Architecture
 
-The seven cores form a **dynamic network**, not a linear funnel.
+The cores form a dynamic network, not a mandatory funnel.
 
-Two outer systems surround the core graph:
+Outer systems:
 
-- **Market & Value Model** — audience, product, alternatives, positioning, perceived value, offer, friction, risk and commercial context.
-- **Research, Evidence & Feedback** — source registry, atomic claims, contradictions, measurement validity, experiments, uncertainty, calibration and knowledge revision.
+- **Market & Value** — audience, goals/jobs, product, alternatives, value, offer, risk, proof, friction, customer language, channel and market context.
+- **Research, Evidence & Feedback** — sources, atomic claims, contradictions, uncertainty, measurement, experiments, calibration and controlled revision.
+
+## v1.0.0 snapshot
+
+- 7 protected cores
+- 56 modules
+- 254 primary neurons (200 accepted / 54 provisional)
+- 35 scientific edges (22 accepted / 13 provisional)
+- 86 screened sources
+- 277 atomic claims
+- 57 measurement mappings
+- 7 contradiction/null/mixed-evidence records
+- 31 uncertainty records
+- all 21 unordered core pairs audited
+- S5 mapping tests 10/10
+- S6 reasoning tests 8/8
+- S7 feedback tests 8/8
+- S8 regression 8/8, adversarial 8/8, frozen holdout 12/12
+- S9 packaged-Skill behavior 6/6
+
+## Use as a Skill
+
+Runtime authority: `SKILL.md`.
+
+Typical invocation:
+
+```text
+Use $copywriting-intelligence to diagnose the audience, value, objections,
+proof, friction and relevant mechanisms, then write/rewrite/critique the copy
+without inventing facts or evidence.
+```
+
+The Skill supports strategy, new copy, rewriting, critique, experiment design, and evidence-aware campaign feedback interpretation.
 
 ## Runtime concept
 
@@ -47,35 +79,44 @@ MARKET & VALUE MODEL
         ↓
 7-CORE HUMAN MECHANISM NETWORK
         ↓
+CONFLICT + UNCERTAINTY REASONING
+        ↓
 MESSAGE STRATEGY
         ↓
-CHANNEL ADAPTER
+EVIDENCE-LOCKED GENERATION
         ↓
-COPY
+COPY + CRITIQUE
         ↓
 OBSERVATION / EXPERIMENT
         ↓
-MEASUREMENT + ALTERNATIVE EXPLANATIONS
-        ↓
-EVIDENCE-AWARE FEEDBACK
-        └──────────────→ update bounded parts of the system
+BOUNDED FEEDBACK UPDATE
 ```
 
-## Current stage
+## Release quality
 
-**S0 — Contract & Architecture Freeze / bootstrap**
+All 12 mandatory release gates are **PASS** for the defined v1.0.0 repository scope.
 
-Initial module taxonomy is provisional until domain research and construct-boundary review.
+Important disclosed limitations:
 
-## Internal release target
+- frozen evaluation was generated/scored by the build agent rather than an independent human/external evaluator;
+- production host-router automatic selection was not executed;
+- no installation into a specific ChatGPT account/workspace is claimed;
+- scientific saturation is **NOT_CLAIMED**.
 
-"100/100" means all mandatory project quality gates pass with no known unresolved critical gap. It is **not** a claim of universal scientific perfection.
+These limit deployment/evaluation claims; they are not hidden as scientific or runtime certainty.
 
-See:
+See `release/QUALITY_GATES.json`, `release/RELEASE_MANIFEST.json`, and `research/s10/S10_CLOSURE_AUDIT.md`.
+
+## Core project files
 
 - `PROJECT_CONTRACT.md`
-- `docs/ARCHITECTURE_V1.md`
-- `docs/QUALITY_GATES.md`
+- `SKILL.md`
+- `agents/openai.yaml`
+- `docs/ARCHITECTURE_V1_1.md`
 - `research/EVIDENCE_POLICY.md`
-- `research/RESEARCH_PLAN.md`
-- `state/project-state.json`
+- `research/PROMOTION_POLICY.md`
+- `market_value/`
+- `reasoning/`
+- `feedback/`
+- `evaluation/`
+- `release/`
