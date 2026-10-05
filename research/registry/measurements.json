@@ -1039,6 +1039,154 @@
       "ambiguity": "Scalar implicature rates vary across expressions, tasks, populations and contexts.",
       "calibration_state": "partially_validated",
       "status": "accepted"
+    },
+    {
+      "id": "MEAS-C1-011",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "experience-sampling/task-probe rate of task-unrelated thought with concurrent task performance",
+      "target_ids": [
+        "C1-N07-03"
+      ],
+      "alternative_explanations": [
+        "fatigue",
+        "low motivation",
+        "task difficulty"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C8-003"
+      ],
+      "reliability": null,
+      "population_scope": "attention/mind-wandering research",
+      "channel_scope": null,
+      "ambiguity": "Self-reported off-task thought is not identical to all attentional lapses.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C1-012",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "switch cost and performance following task-set changes",
+      "target_ids": [
+        "C1-N08-04"
+      ],
+      "alternative_explanations": [
+        "motor switching",
+        "practice",
+        "stimulus-response conflict"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C8-006"
+      ],
+      "reliability": null,
+      "population_scope": "task-switching paradigms",
+      "channel_scope": null,
+      "ambiguity": "Switch costs combine multiple control and learning processes.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C2-009",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "intrinsic motivation/interest-enjoyment or autonomous regulation measure tied to a defined activity",
+      "target_ids": [
+        "C2-N08-01",
+        "C2-N08-05"
+      ],
+      "alternative_explanations": [
+        "controlled motivation",
+        "competence beliefs",
+        "social desirability"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C8-011",
+        "CLM-S3C8-012"
+      ],
+      "reliability": null,
+      "population_scope": "SDT research",
+      "channel_scope": null,
+      "ambiguity": "Intrinsic motivation and internalized extrinsic motivation are related but nonidentical.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C4-007",
+      "measurement_kind": "direct_behavior",
+      "observed_variable": "completion/abandonment differences under experimentally manipulated procedural steps or action burden",
+      "target_ids": [
+        "C4-N08-02",
+        "C4-N08-04",
+        "C4-N08-05"
+      ],
+      "alternative_explanations": [
+        "motivation",
+        "value",
+        "eligibility",
+        "technical errors"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C8-021",
+        "CLM-S3C8-023",
+        "CLM-S3C8-024"
+      ],
+      "reliability": null,
+      "population_scope": "choice architecture/UX experiments",
+      "channel_scope": "transactional flows",
+      "ambiguity": "Observed abandonment does not uniquely identify psychological friction unless implementation burden is manipulated or measured.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C5-009",
+      "measurement_kind": "direct_behavior",
+      "observed_variable": "observed target behavior compared with prior measured intention",
+      "target_ids": [
+        "C5-N08-01",
+        "C5-N08-02",
+        "C5-N08-05"
+      ],
+      "alternative_explanations": [
+        "opportunity constraints",
+        "habit",
+        "planning",
+        "measurement reactivity"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C7-030",
+        "CLM-S3C8-028",
+        "CLM-S3C8-030"
+      ],
+      "reliability": null,
+      "population_scope": "intention-behavior studies",
+      "channel_scope": null,
+      "ambiguity": "Behavioral follow-through depends on many moderators; intention is not a direct behavior measure.",
+      "calibration_state": "validated_for_scope",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C6-007",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "reading-time/ERP or expectancy-completion effects under manipulated lexical/syntactic/semantic predictability",
+      "target_ids": [
+        "C6-N05-01",
+        "C6-N05-02",
+        "C6-N05-03"
+      ],
+      "alternative_explanations": [
+        "frequency",
+        "semantic association",
+        "syntactic complexity"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C8-031",
+        "CLM-S3C8-032",
+        "CLM-S3C8-033"
+      ],
+      "reliability": null,
+      "population_scope": "language comprehension",
+      "channel_scope": null,
+      "ambiguity": "Prediction effects are probabilistic and not direct measures of persuasion or interest.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
     }
   ]
 }

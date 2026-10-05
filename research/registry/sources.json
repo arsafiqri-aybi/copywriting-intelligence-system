@@ -1739,6 +1739,123 @@
         "sentence_processing"
       ],
       "status": "screened_in"
+    },
+    {
+      "id": "SRC-C1-006",
+      "title": "The Science of Mind Wandering: Empirically Navigating the Stream of Consciousness",
+      "authors": [
+        "Jonathan Smallwood",
+        "Jonathan W. Schooler"
+      ],
+      "year": 2015,
+      "evidence_class": "review",
+      "domain": [
+        "C1"
+      ],
+      "doi": "10.1146/annurev-psych-010814-015331",
+      "url": "https://doi.org/10.1146/annurev-psych-010814-015331",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "mind_wandering",
+        "attention"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C1-007",
+      "title": "Attention and Performance",
+      "authors": [
+        "Harold Pashler",
+        "James C. Johnston",
+        "Eric Ruthruff"
+      ],
+      "year": 2001,
+      "evidence_class": "review",
+      "domain": [
+        "C1"
+      ],
+      "doi": "10.1146/annurev.psych.52.1.629",
+      "url": "https://doi.org/10.1146/annurev.psych.52.1.629",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "attentional_control",
+        "task_switching"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C2-009",
+      "title": "Intrinsic and extrinsic motivation from a self-determination theory perspective: Definitions, theory, practices, and future directions",
+      "authors": [
+        "Richard M. Ryan",
+        "Edward L. Deci"
+      ],
+      "year": 2020,
+      "evidence_class": "review",
+      "domain": [
+        "C2"
+      ],
+      "doi": "10.1016/j.cedpsych.2020.101860",
+      "url": "https://doi.org/10.1016/j.cedpsych.2020.101860",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "intrinsic_motivation",
+        "extrinsic_motivation",
+        "internalization"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-016",
+      "title": "Beyond nudges: Tools of a choice architecture",
+      "authors": [
+        "Eric J. Johnson",
+        "Suzanne B. Shu",
+        "Benedict G. C. Dellaert",
+        "Craig Fox",
+        "Daniel G. Goldstein",
+        "Gerald Häubl",
+        "Richard P. Larrick",
+        "John W. Payne",
+        "Ellen Peters",
+        "David Schkade",
+        "Brian Wansink",
+        "Elke U. Weber"
+      ],
+      "year": 2012,
+      "evidence_class": "review",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1007/s11002-012-9186-1",
+      "url": "https://doi.org/10.1007/s11002-012-9186-1",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "choice_architecture",
+        "friction",
+        "option_presentation"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-014",
+      "title": "Intention—Behavior Relations: A Conceptual and Empirical Review",
+      "authors": [
+        "Paschal Sheeran"
+      ],
+      "year": 2002,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C5"
+      ],
+      "doi": "10.1080/14792772143000003",
+      "url": "https://doi.org/10.1080/14792772143000003",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "intention_behavior_gap",
+        "intention_strength"
+      ],
+      "status": "screened_in"
     }
   ]
 }

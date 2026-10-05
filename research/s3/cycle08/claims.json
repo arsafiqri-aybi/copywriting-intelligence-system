@@ -1,0 +1,580 @@
+{
+  "version": "1.0.0",
+  "claims": [
+    {
+      "id": "CLM-S3C8-001",
+      "statement": "Recognition availability depends on encoding, cue/context match, and memory strength; it is not equivalent to unaided recall.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N05-03"
+      ],
+      "source_ids": [
+        "SRC-C1-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-002",
+      "statement": "Recall depends on encoding and retrieval cues and should not be used as a complete proxy for comprehension or persuasion.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N05-04"
+      ],
+      "source_ids": [
+        "SRC-C1-004"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-003",
+      "statement": "Mind wandering can impair task performance but can also support planning/creativity; it is not simply low attention ability.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N07-03"
+      ],
+      "source_ids": [
+        "SRC-C1-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-004",
+      "statement": "Alertness affects attentional performance but is distinguishable from selective attention and sustained attention.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N07-04"
+      ],
+      "source_ids": [
+        "SRC-C1-002",
+        "SRC-C1-007"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-005",
+      "statement": "Suppression can be proactive or reactive and should not be inferred simply because distraction was low.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C1-N08-01"
+      ],
+      "source_ids": [
+        "SRC-C1-001",
+        "SRC-C1-007"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-006",
+      "statement": "Switching carries performance/control costs and interacts with learning, preparation, and task-set activation.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N08-04"
+      ],
+      "source_ids": [
+        "SRC-C1-007"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-007",
+      "statement": "Anticipated affect can guide choice but is distinct from current affect and from experienced future emotion.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N06-01"
+      ],
+      "source_ids": [
+        "SRC-C2-008"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-008",
+      "statement": "Anticipatory pleasure is distinct from reward value and consummatory/experienced pleasure.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N06-03"
+      ],
+      "source_ids": [
+        "SRC-C2-003",
+        "SRC-C2-008"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-009",
+      "statement": "Effort mobilization depends on perceived demand, value, expectancy, and cost; more effort is not always adaptive.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N07-01"
+      ],
+      "source_ids": [
+        "SRC-C2-004",
+        "SRC-C4-008"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-010",
+      "statement": "Self-control is a family of control processes and should not be reduced to willpower as a fixed resource.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N07-03"
+      ],
+      "source_ids": [
+        "SRC-C2-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-011",
+      "statement": "Intrinsic motivation is distinct from reward-driven extrinsic motivation and depends on supportive conditions.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N08-01"
+      ],
+      "source_ids": [
+        "SRC-C2-009",
+        "SRC-C2-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-012",
+      "statement": "Internalization varies in degree; extrinsic motivation can become relatively autonomous without becoming intrinsic.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N08-05"
+      ],
+      "source_ids": [
+        "SRC-C2-009",
+        "SRC-C2-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-013",
+      "statement": "Obedience depends on legitimacy, context, role relations, and perceived responsibility; it is not equivalent to expertise.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N05-03"
+      ],
+      "source_ids": [
+        "SRC-C3-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-014",
+      "statement": "Power asymmetry changes influence conditions but is a context relation rather than a single internal psychological state.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C3-N05-04"
+      ],
+      "source_ids": [
+        "SRC-C3-002"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-015",
+      "statement": "Popularity can supply descriptive-consensus information but does not establish truth, quality, or an internalized norm.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C3-N07-02"
+      ],
+      "source_ids": [
+        "SRC-C3-002",
+        "SRC-REUSE-TR-001"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-016",
+      "statement": "Social information becomes more influential under uncertainty, but relevant referents and cue diagnosticity matter.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N07-04"
+      ],
+      "source_ids": [
+        "SRC-C3-002",
+        "SRC-C3-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-017",
+      "statement": "Affiliation motivation overlaps belonging needs but is action-oriented and context-sensitive.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N08-02"
+      ],
+      "source_ids": [
+        "SRC-C3-006",
+        "SRC-X-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-018",
+      "statement": "Closeness is distinct from trust, liking, similarity, and parasocial exposure; measurement must specify the relationship context.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C3-N08-03"
+      ],
+      "source_ids": [
+        "SRC-X-002",
+        "SRC-REUSE-TR-001"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-019",
+      "statement": "Reference-price effects belong to reference-dependent comparison but require dedicated pricing evidence before strong general runtime use.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C4-N07-02"
+      ],
+      "source_ids": [
+        "SRC-C4-004",
+        "SRC-C4-003"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-020",
+      "statement": "Contrast is relational and depends on the comparison context rather than an absolute target property.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N07-03"
+      ],
+      "source_ids": [
+        "SRC-C4-003",
+        "SRC-X-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-021",
+      "statement": "Friction can reduce action or shift choice, but observed drop-off may also reflect low value, uncertainty, or exclusion.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N08-02"
+      ],
+      "source_ids": [
+        "SRC-C4-016",
+        "SRC-C4-008"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-022",
+      "statement": "Inertia can arise from defaults, effort, uncertainty, habits, or switching costs and should not be assigned one mechanism without evidence.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C4-N08-03"
+      ],
+      "source_ids": [
+        "SRC-C4-016",
+        "SRC-C4-005"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-023",
+      "statement": "Implementation friction is observable in task structure but psychological causes of abandonment remain multiply determined.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N08-04"
+      ],
+      "source_ids": [
+        "SRC-C4-016",
+        "SRC-C5-014"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-024",
+      "statement": "Action ease can facilitate behavior but should not be equated with motivation or perceived value.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N08-05"
+      ],
+      "source_ids": [
+        "SRC-C4-016"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-025",
+      "statement": "Demonstration can increase inspectability but does not guarantee causal validity or representativeness.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N07-01"
+      ],
+      "source_ids": [
+        "SRC-C5-004",
+        "SRC-C5-005"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-026",
+      "statement": "Corroboration can increase confidence only to the extent that evidence sources are genuinely informative and not redundant.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N07-03"
+      ],
+      "source_ids": [
+        "SRC-C5-004",
+        "SRC-C5-006"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-027",
+      "statement": "Traceability supports inspection and accountability but is not itself proof that the underlying evidence is valid.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N07-04"
+      ],
+      "source_ids": [
+        "SRC-C5-004",
+        "SRC-C5-006"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-028",
+      "statement": "Stronger intentions generally predict behavior better, but substantial intention–behavior gaps remain.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N08-02"
+      ],
+      "source_ids": [
+        "SRC-C5-014"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-029",
+      "statement": "Consistency effects depend on commitment quality, public/private context, incentives, and new information; no universal consistency rule is assumed.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N08-03"
+      ],
+      "source_ids": [
+        "SRC-C5-002",
+        "SRC-C5-014"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-030",
+      "statement": "Intentions are imperfect predictors of behavior; planning, action control, habit, opportunity and context can moderate translation.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N08-05"
+      ],
+      "source_ids": [
+        "SRC-C5-014"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-031",
+      "statement": "Lexical prediction can facilitate processing but is probabilistic and context-sensitive.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N05-01"
+      ],
+      "source_ids": [
+        "SRC-C6-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-032",
+      "statement": "Syntactic prediction interacts with experience and structural constraints and is not identical to deterministic parsing.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N05-02"
+      ],
+      "source_ids": [
+        "SRC-C6-006",
+        "SRC-C6-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-033",
+      "statement": "Semantic expectancy affects processing difficulty but should not be equated with persuasion expectancy or curiosity.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N05-03"
+      ],
+      "source_ids": [
+        "SRC-C6-006",
+        "SRC-C6-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C8-034",
+      "statement": "Conceptual mapping is one theory family for metaphor and should not be treated as the only mechanism underlying all metaphors.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C6-N07-02"
+      ],
+      "source_ids": [
+        "SRC-C6-004"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-035",
+      "statement": "Register affects interpretation and social fit, but optimal formality is audience- and context-dependent.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C6-N08-03"
+      ],
+      "source_ids": [
+        "SRC-C6-008",
+        "SRC-C6-002"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-036",
+      "statement": "Specificity can improve inspectability or vividness but may also increase complexity or overprecision; effects require context-specific evidence.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C6-N08-05"
+      ],
+      "source_ids": [
+        "SRC-C6-002",
+        "SRC-C6-003"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-037",
+      "statement": "Tension can support anticipation in narrative contexts but is not a universal engagement mechanism.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N07-01"
+      ],
+      "source_ids": [
+        "SRC-C7-009",
+        "SRC-C7-001"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-038",
+      "statement": "Pacing likely interacts with cognitive load, suspense, channel constraints, and audience knowledge; no universal optimal pace is accepted.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N07-03"
+      ],
+      "source_ids": [
+        "SRC-C7-009",
+        "SRC-C6-003"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-039",
+      "statement": "Resolution can satisfy narrative/information structure but does not guarantee persuasion or action.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N07-04"
+      ],
+      "source_ids": [
+        "SRC-C7-009",
+        "SRC-C7-001"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-040",
+      "statement": "The design may recruit uncertainty/information-seeking mechanisms, but generic 'curiosity gap' claims require stronger direct evidence and can also trigger avoidance or distrust.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N07-05"
+      ],
+      "source_ids": [
+        "SRC-C7-009",
+        "SRC-C2-001"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-041",
+      "statement": "Explicit requests can improve action clarity but can also interact with reactance, social context, authority, and perceived pressure.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N08-01"
+      ],
+      "source_ids": [
+        "SRC-C7-010",
+        "SRC-C5-008"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C8-042",
+      "statement": "Clear next steps may reduce implementation friction, but clarity alone cannot create motivation or value.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N08-03"
+      ],
+      "source_ids": [
+        "SRC-C4-016",
+        "SRC-C7-010"
+      ],
+      "status": "verified_for_provisional"
+    }
+  ]
+}

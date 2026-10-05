@@ -275,6 +275,77 @@
       "reducibility": "experiment",
       "resolution_requirement": "Preserve as design nodes; calibrate effects only in channel/goal-specific experiments.",
       "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C8-001",
+      "channel": "construct",
+      "target_ids": [
+        "C1-N08-01"
+      ],
+      "level": "medium",
+      "reason": "Distractor suppression may involve proactive and reactive mechanisms that should not be collapsed if later evidence requires a split.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Focused suppression literature review before final node closure.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C8-002",
+      "channel": "construct",
+      "target_ids": [
+        "C3-N05-04",
+        "C3-N07-02",
+        "C3-N08-03"
+      ],
+      "level": "medium",
+      "reason": "These social/context constructs overlap neighboring mechanisms and require context-specific operationalization.",
+      "reducibility": "measurement",
+      "resolution_requirement": "Preserve boundaries and avoid direct platform-proxy mapping.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C8-003",
+      "channel": "construct",
+      "target_ids": [
+        "C5-N07-01",
+        "C5-N07-03",
+        "C5-N07-04"
+      ],
+      "level": "high",
+      "reason": "Proof-related labels are applied design constructs spanning evidence quality, credibility, verification and demonstration rather than established single latent mechanisms.",
+      "reducibility": "structural_replan",
+      "resolution_requirement": "Translate into evidence-evaluation and message-design substructures before final S3 acceptance.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C8-004",
+      "channel": "construct",
+      "target_ids": [
+        "C6-N07-02",
+        "C6-N08-03",
+        "C6-N08-05"
+      ],
+      "level": "medium",
+      "reason": "Language-design constructs need audience/language/community-specific transport bounds.",
+      "reducibility": "context_information",
+      "resolution_requirement": "Do not prescribe universal tone/formality/specificity rules.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C8-005",
+      "channel": "epistemic",
+      "target_ids": [
+        "C7-N07-01",
+        "C7-N07-03",
+        "C7-N07-04",
+        "C7-N07-05",
+        "C7-N08-01",
+        "C7-N08-03"
+      ],
+      "level": "high",
+      "reason": "Direct causal evidence for many applied message-design patterns is sparse or heavily context-bound.",
+      "reducibility": "experiment",
+      "resolution_requirement": "Retain as provisional design nodes and validate by channel/task during S7/S8.",
+      "blocks_gate": false
     }
   ]
 }
