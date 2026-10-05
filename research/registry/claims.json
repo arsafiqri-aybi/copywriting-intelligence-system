@@ -747,6 +747,244 @@
         "SRC-C7-003"
       ],
       "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C3-001",
+      "statement": "Perceptual salience can bias attentional priority but is not sufficient to guarantee attentional capture.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N01-02"
+      ],
+      "source_ids": [
+        "SRC-C1-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-002",
+      "statement": "An attentional set or target template is an active goal-relevant control representation that biases selection toward task-relevant features.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N02-01"
+      ],
+      "source_ids": [
+        "SRC-C1-001",
+        "SRC-C1-002"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-003",
+      "statement": "Executive attentional control supports resolution of competition among representations and should not be reduced to a single platform metric.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N02-05"
+      ],
+      "source_ids": [
+        "SRC-C1-001",
+        "SRC-C1-003"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-004",
+      "statement": "Prior reward associations can bias later attentional selection even when the associated feature is no longer currently rewarded, but the traditional value-driven capture effect is method-sensitive and often weak.",
+      "claim_type": "mechanistic",
+      "stance": "bounds",
+      "target_ids": [
+        "C1-N06-02"
+      ],
+      "source_ids": [
+        "SRC-REUSE-ATT-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-005",
+      "statement": "Selection history is a distinguishable influence on attentional priority in addition to current goals and physical salience.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N06-01"
+      ],
+      "source_ids": [
+        "SRC-C1-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-006",
+      "statement": "Sustained attention concerns maintaining task-relevant processing over time and is distinct from initial attentional capture.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N07-01"
+      ],
+      "source_ids": [
+        "SRC-C1-002"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-007",
+      "statement": "Vigilance decrement is a within-task decline in performance with time-on-task and should not be treated as a stable trait without appropriate evidence.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N07-02"
+      ],
+      "source_ids": [
+        "SRC-C1-002"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-008",
+      "statement": "Attentional disengagement is a process of releasing current attentional priority and is distinguishable from distractor suppression.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N08-02"
+      ],
+      "source_ids": [
+        "SRC-C1-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-009",
+      "statement": "Certainty appraisal is an appraisal dimension involved in emotion differentiation and is distinct from confidence in the truth of a source.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N04-04"
+      ],
+      "source_ids": [
+        "SRC-C2-002"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-010",
+      "statement": "Perceived control or coping potential is an event-specific appraisal dimension implicated in differentiated emotional responses.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N04-03"
+      ],
+      "source_ids": [
+        "SRC-C2-002"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-011",
+      "statement": "Affective arousal is a dimension of activation and does not by itself identify emotional meaning or a behavioral motive.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N05-01"
+      ],
+      "source_ids": [
+        "SRC-C2-003"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-012",
+      "statement": "Approach and withdrawal action tendencies are distinguishable from simple positive-negative valence and depend on appraisal/context.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C2-N05-03",
+        "C2-N05-04"
+      ],
+      "source_ids": [
+        "SRC-C2-002",
+        "SRC-C2-003"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-013",
+      "statement": "Self-relevance is distinct from generic liking or familiarity and concerns fit with a personally important self-aspect.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N01-01"
+      ],
+      "source_ids": [
+        "SRC-X-002"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-014",
+      "statement": "Self-categorization concerns the psychologically active classification of self in group terms; group membership alone does not establish that the category is active.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N02-01"
+      ],
+      "source_ids": [
+        "SRC-C3-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-015",
+      "statement": "Group prototypicality is relative to a salient group/category and is distinct from generic interpersonal similarity.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N02-04"
+      ],
+      "source_ids": [
+        "SRC-C3-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-016",
+      "statement": "Perceived genuineness or authenticity can contribute to source evaluation but is distinct from objective truth and from expertise.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N03-03"
+      ],
+      "source_ids": [
+        "SRC-REUSE-TR-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C3-017",
+      "statement": "A source's reliability track record is a separable historical cue to source evaluation but does not guarantee benevolence, expertise in every domain, or current accuracy.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N03-04"
+      ],
+      "source_ids": [
+        "SRC-C5-006"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C3-018",
+      "statement": "Arousal can increase social transmission probability in bounded content-sharing contexts, but high arousal does not guarantee sharing and does not uniquely identify an emotion.",
+      "claim_type": "causal",
+      "stance": "bounds",
+      "target_ids": [
+        "C2-N05-01"
+      ],
+      "source_ids": [
+        "SRC-C2-003"
+      ],
+      "status": "under_review_transport"
     }
   ]
 }

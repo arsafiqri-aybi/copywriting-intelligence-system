@@ -927,6 +927,53 @@
         "theory_comparison"
       ],
       "status": "screened_in"
+    },
+    {
+      "id": "SRC-REUSE-ATT-001",
+      "title": "Systematic review of the value-driven attentional capture paradigm in visual attention studies: Evidence from 52 experiments",
+      "authors": [
+        "M. Stanković"
+      ],
+      "year": 2025,
+      "evidence_class": "systematic_review",
+      "domain": [
+        "C1"
+      ],
+      "doi": "10.1016/j.actpsy.2025.105060",
+      "url": "https://doi.org/10.1016/j.actpsy.2025.105060",
+      "retrieval_depth": "abstract_metadata",
+      "role": [
+        "selection_history",
+        "value_driven_attention",
+        "reuse_verified_prior"
+      ],
+      "status": "screened_in",
+      "reuse_provenance": "arsafiqri-aybi/social-media-growth research/evidence_registry.json EV-ATT-001 and R2 node audit"
+    },
+    {
+      "id": "SRC-REUSE-TR-001",
+      "title": "Meta-analysis of social media influencer impact: Key antecedents and theoretical foundations",
+      "authors": [
+        "J. Han et al."
+      ],
+      "year": 2024,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C3",
+        "C5"
+      ],
+      "doi": "10.1002/mar.21927",
+      "url": "https://doi.org/10.1002/mar.21927",
+      "retrieval_depth": "abstract_metadata",
+      "role": [
+        "trustworthiness",
+        "expertise",
+        "authenticity",
+        "homophily",
+        "reuse_verified_prior"
+      ],
+      "status": "screened_in",
+      "reuse_provenance": "arsafiqri-aybi/social-media-growth research/evidence_registry.json EV-TRUST-001 and R2 node audit"
     }
   ]
 }

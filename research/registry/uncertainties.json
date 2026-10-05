@@ -113,6 +113,18 @@
       "reducibility": "retrieval",
       "resolution_requirement": "Target meta-analyses/replications by domain before any strong runtime rule.",
       "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C3-001",
+      "channel": "construct",
+      "target_ids": [
+        "C5-N03-04"
+      ],
+      "level": "medium",
+      "reason": "Prior social-media audit retained reliability track record as provisional because evidence sufficiency lagged measurement plausibility and non-redundancy.",
+      "reducibility": "retrieval",
+      "resolution_requirement": "Focused source-reliability literature review before acceptance.",
+      "blocks_gate": false
     }
   ]
 }

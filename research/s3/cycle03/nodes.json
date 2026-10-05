@@ -1,0 +1,585 @@
+{
+  "version": "1.0.0",
+  "nodes": [
+    {
+      "id": "C1-N01-02",
+      "label": "Perceptual Salience",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M01",
+      "definition": "Relative perceptual prominence of a stimulus feature or object that can bias selection priority.",
+      "inclusions": [
+        "feature contrast",
+        "perceptual prominence"
+      ],
+      "exclusions": [
+        "attentional capture itself",
+        "semantic relevance",
+        "social importance"
+      ],
+      "mechanism_summary": "Perceptual prominence contributes to competition for selection but does not guarantee capture.",
+      "claim_ids": [
+        "CLM-S3C3-001"
+      ],
+      "measurement_ids": [
+        "MEAS-C1-001"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating salience with actual attention",
+        "Inferring salience from engagement outcomes"
+      ],
+      "open_questions": [
+        "Cross-modal and naturalistic-copy salience"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N02-01",
+      "label": "Attentional Set / Target Template",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M02",
+      "definition": "An active representation of goal-relevant target properties that biases selective attention.",
+      "inclusions": [
+        "target template",
+        "goal-contingent selection settings"
+      ],
+      "exclusions": [
+        "stable preference",
+        "mere relevance after exposure"
+      ],
+      "mechanism_summary": "Goal-relevant representations alter competition for attentional selection.",
+      "claim_ids": [
+        "CLM-S3C3-002"
+      ],
+      "measurement_ids": [
+        "MEAS-C1-002"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming a marketing persona proves an attentional set"
+      ],
+      "open_questions": [
+        "Naturalistic inference from search intent and task context"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N02-05",
+      "label": "Executive Attentional Control",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M02",
+      "definition": "Control processes that regulate attentional competition in accordance with task goals.",
+      "inclusions": [
+        "competition resolution",
+        "goal-maintaining attentional control"
+      ],
+      "exclusions": [
+        "all executive function",
+        "working-memory capacity"
+      ],
+      "mechanism_summary": "Executive control can bias selection and resolve interference while interacting with working-memory representations.",
+      "claim_ids": [
+        "CLM-S3C3-003"
+      ],
+      "measurement_ids": [
+        "MEAS-C1-003"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating one reaction-time score as global executive control"
+      ],
+      "open_questions": [
+        "Task-specific transport"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N06-02",
+      "label": "Reward-Associated Attentional Priority",
+      "aliases": [
+        "value-driven attentional priority"
+      ],
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M06",
+      "definition": "Attentional priority acquired through prior associations between features and reward or learned value.",
+      "inclusions": [
+        "reward-history attentional bias",
+        "value-driven attention"
+      ],
+      "exclusions": [
+        "current incentive alone",
+        "physical salience alone"
+      ],
+      "mechanism_summary": "Learning history can persistently bias later selection, but magnitude is method-sensitive.",
+      "claim_ids": [
+        "CLM-S3C3-004"
+      ],
+      "measurement_ids": [
+        "MEAS-C1-004"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Using prior likes as direct evidence of value-driven capture",
+        "Assigning a universal effect coefficient"
+      ],
+      "open_questions": [
+        "Transport from visual-search paradigms to copy exposure"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N06-01",
+      "label": "Prior-Selection History",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M06",
+      "definition": "Bias in current attentional priority attributable to prior selections independently of current goals or physical salience.",
+      "inclusions": [
+        "selection-history influence"
+      ],
+      "exclusions": [
+        "reward learning when reward association is the primary mechanism",
+        "current goal selection"
+      ],
+      "mechanism_summary": "Past selection episodes can alter future priority.",
+      "claim_ids": [
+        "CLM-S3C3-005"
+      ],
+      "measurement_ids": [
+        "MEAS-C1-005"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Failing to control current goals/salience"
+      ],
+      "open_questions": [
+        "Duration and context specificity"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N07-01",
+      "label": "Sustained Attention",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M07",
+      "definition": "Maintenance of task-relevant attentional engagement over an extended interval.",
+      "inclusions": [
+        "time-on-task attentional maintenance"
+      ],
+      "exclusions": [
+        "initial capture",
+        "content completion itself"
+      ],
+      "mechanism_summary": "Sustained attention concerns ongoing task-relevant processing rather than initial selection.",
+      "claim_ids": [
+        "CLM-S3C3-006"
+      ],
+      "measurement_ids": [
+        "MEAS-C1-006"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Inferring sustained attention from early hold or completion rate alone"
+      ],
+      "open_questions": [
+        "Naturalistic content-specific measurement"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N07-02",
+      "label": "Vigilance Decrement",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M07",
+      "definition": "Decline in performance or attentional maintenance as time-on-task increases under vigilance demands.",
+      "inclusions": [
+        "within-task performance decrement"
+      ],
+      "exclusions": [
+        "momentary lapse",
+        "stable attentional trait"
+      ],
+      "mechanism_summary": "Performance may degrade over sustained monitoring time.",
+      "claim_ids": [
+        "CLM-S3C3-007"
+      ],
+      "measurement_ids": [
+        "MEAS-C1-006"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Calling any drop-off a vigilance decrement without task controls"
+      ],
+      "open_questions": [
+        "Applicability to media consumption"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N08-02",
+      "label": "Attentional Disengagement",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M08",
+      "definition": "Process of releasing or shifting attentional priority away from the currently selected target.",
+      "inclusions": [
+        "disengagement/reorienting cost"
+      ],
+      "exclusions": [
+        "distractor suppression",
+        "initial capture"
+      ],
+      "mechanism_summary": "Disengagement governs release from current priority and can shape switching/reorientation.",
+      "claim_ids": [
+        "CLM-S3C3-008"
+      ],
+      "measurement_ids": [
+        "MEAS-C1-007"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating disengagement with suppression"
+      ],
+      "open_questions": [
+        "Naturalistic message transition effects"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N04-04",
+      "label": "Certainty Appraisal",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M04",
+      "definition": "Appraisal of how certain or predictable an event, cause, or outcome appears within an emotional episode.",
+      "inclusions": [
+        "event certainty appraisal"
+      ],
+      "exclusions": [
+        "source credibility confidence",
+        "attitude certainty"
+      ],
+      "mechanism_summary": "Certainty appraisal contributes to differentiated emotional response patterns.",
+      "claim_ids": [
+        "CLM-S3C3-009"
+      ],
+      "measurement_ids": [
+        "MEAS-C2-001"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Confusing emotional certainty appraisal with epistemic confidence"
+      ],
+      "open_questions": [
+        "Commercial threat/opportunity contexts"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N04-03",
+      "label": "Controllability / Coping-Potential Appraisal",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M04",
+      "definition": "Appraisal of whether and how a person can control, cope with, or respond effectively to an event or its consequences.",
+      "inclusions": [
+        "control appraisal",
+        "coping potential"
+      ],
+      "exclusions": [
+        "general self-efficacy trait",
+        "objective controllability"
+      ],
+      "mechanism_summary": "Perceived control and coping potential contribute to emotion differentiation and action tendency.",
+      "claim_ids": [
+        "CLM-S3C3-010"
+      ],
+      "measurement_ids": [
+        "MEAS-C2-002"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming objective control equals perceived control"
+      ],
+      "open_questions": [
+        "Interaction with fear/anger/hope in copy"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N05-01",
+      "label": "Affective Arousal",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M05",
+      "definition": "Degree of affective activation or energetic intensity, analytically separable from positive-negative valence.",
+      "inclusions": [
+        "activation intensity",
+        "dimensional arousal"
+      ],
+      "exclusions": [
+        "specific emotion identity",
+        "behavioral action itself"
+      ],
+      "mechanism_summary": "Arousal can alter readiness and, in some contexts, social transmission, but its meaning depends on appraisal and context.",
+      "claim_ids": [
+        "CLM-S3C3-011",
+        "CLM-S3C3-018"
+      ],
+      "measurement_ids": [
+        "MEAS-C2-003"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Inferring emotion identity from arousal",
+        "Assuming high arousal guarantees sharing/action"
+      ],
+      "open_questions": [
+        "Channel and audience moderators"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N05-03",
+      "label": "Approach Action Tendency",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M05",
+      "definition": "Readiness or tendency to move toward, engage with, acquire, confront, or otherwise act in an approach-oriented direction.",
+      "inclusions": [
+        "approach readiness"
+      ],
+      "exclusions": [
+        "positive valence by itself",
+        "observed purchase without mechanism evidence"
+      ],
+      "mechanism_summary": "Appraisal and affect can organize approach-oriented action readiness, but valence does not map one-to-one onto approach.",
+      "claim_ids": [
+        "CLM-S3C3-012"
+      ],
+      "measurement_ids": [
+        "MEAS-C2-004"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating positive affect with approach"
+      ],
+      "open_questions": [
+        "Distinct approach forms in commercial decisions"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N05-04",
+      "label": "Withdrawal / Avoidance Action Tendency",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M05",
+      "definition": "Readiness or tendency to withdraw from, avoid, escape, or disengage from a target or situation.",
+      "inclusions": [
+        "avoidance readiness",
+        "withdrawal tendency"
+      ],
+      "exclusions": [
+        "negative valence by itself",
+        "non-purchase without mechanism evidence"
+      ],
+      "mechanism_summary": "Appraisal and affect can organize withdrawal/avoidance readiness, but negative valence does not map one-to-one onto avoidance.",
+      "claim_ids": [
+        "CLM-S3C3-012"
+      ],
+      "measurement_ids": [
+        "MEAS-C2-004"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating negative affect with avoidance"
+      ],
+      "open_questions": [
+        "Threat versus disgust versus effort-based avoidance"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N01-01",
+      "label": "Self-Relevance",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M01",
+      "definition": "Degree to which information, outcomes, or identities connect to a personally important aspect of the self.",
+      "inclusions": [
+        "self-related relevance",
+        "identity-linked personal significance"
+      ],
+      "exclusions": [
+        "generic relevance to a task",
+        "liking",
+        "familiarity"
+      ],
+      "mechanism_summary": "Self-relevance can alter valuation, attention and processing by linking information to self-representations.",
+      "claim_ids": [
+        "CLM-S3C3-013"
+      ],
+      "measurement_ids": [
+        "MEAS-C3-001"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Inferring self-relevance from demographic targeting alone"
+      ],
+      "open_questions": [
+        "State versus chronic self-relevance"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N02-01",
+      "label": "Self-Categorization",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M02",
+      "definition": "Psychological classification of self as a member of a salient social category, affecting self-perception and social influence.",
+      "inclusions": [
+        "active category-based self-definition"
+      ],
+      "exclusions": [
+        "objective membership without psychological activation"
+      ],
+      "mechanism_summary": "Salient self-categorization can make group norms and prototypes self-relevant.",
+      "claim_ids": [
+        "CLM-S3C3-014"
+      ],
+      "measurement_ids": [
+        "MEAS-C3-002"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Inferring self-categorization from membership only"
+      ],
+      "open_questions": [
+        "Contextual activation in market segments"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N02-04",
+      "label": "In-Group Prototypicality",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M02",
+      "definition": "Degree to which a person, source, or position is perceived as representative of a salient in-group.",
+      "inclusions": [
+        "group-relative prototypicality"
+      ],
+      "exclusions": [
+        "generic similarity",
+        "popularity"
+      ],
+      "mechanism_summary": "Prototypicality can shape who is influential when a group identity is salient.",
+      "claim_ids": [
+        "CLM-S3C3-015"
+      ],
+      "measurement_ids": [
+        "MEAS-C3-003"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Using surface similarity as proof of prototypicality"
+      ],
+      "open_questions": [
+        "Source prototypicality versus product prototypicality"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N03-03",
+      "label": "Perceived Source Genuineness / Authenticity",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M03",
+      "definition": "Perception that a source's self-presentation or communication is genuine rather than fabricated or strategically false in a way relevant to evaluation.",
+      "inclusions": [
+        "perceived genuineness",
+        "source authenticity perception"
+      ],
+      "exclusions": [
+        "objective factual truth",
+        "expertise",
+        "mere informality"
+      ],
+      "mechanism_summary": "Genuineness can contribute to source evaluation, especially in relational or influencer contexts, with contextual heterogeneity.",
+      "claim_ids": [
+        "CLM-S3C3-016"
+      ],
+      "measurement_ids": [
+        "MEAS-C5-001"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating casual tone as authenticity",
+        "Equating authenticity with factual accuracy"
+      ],
+      "open_questions": [
+        "Transport beyond creator/influencer contexts"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N03-04",
+      "label": "Source Reliability Track Record",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C5",
+      "parent_id": "C5-M03",
+      "definition": "Historical evidence or perception that a source has produced dependable outcomes or accurate/reliable information over time.",
+      "inclusions": [
+        "history-based reliability judgment"
+      ],
+      "exclusions": [
+        "current claim truth",
+        "benevolence",
+        "expertise"
+      ],
+      "mechanism_summary": "Past reliability can inform source evaluation but is domain-specific and evidence for an independent stable construct is not yet sufficient here.",
+      "claim_ids": [
+        "CLM-S3C3-017"
+      ],
+      "measurement_ids": [
+        "MEAS-C5-002"
+      ],
+      "uncertainty_ids": [
+        "UNC-S3C3-001"
+      ],
+      "failure_modes": [
+        "Treating past reliability as guaranteed current accuracy"
+      ],
+      "open_questions": [
+        "Best construct placement versus evidence-traceability module"
+      ],
+      "version": "0.2.0"
+    }
+  ]
+}

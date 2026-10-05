@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "cycle": "S3_CYCLE03",
+  "status": "PASS",
+  "strategy": "governor_verified_artifact_reuse_plus_transport_check",
+  "imported_scientific_sources": 2,
+  "new_claims": 18,
+  "new_accepted_nodes": 17,
+  "new_provisional_nodes": 1,
+  "new_measurement_mappings": 16,
+  "reuse_decisions": 21,
+  "runtime_weights_assigned": 0,
+  "warning": "Measurement routes are construct-scoped; platform behavior metrics remain ambiguous unless separately validated.",
+  "next_action": "Cycle04: cover modules still lacking accepted/provisional nodes and build explicit platform/copy outcome proxy map."
+}

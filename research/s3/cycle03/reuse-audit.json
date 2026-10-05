@@ -1,0 +1,133 @@
+{
+  "version": "1.0.0",
+  "source_project": "arsafiqri-aybi/social-media-growth",
+  "principle": "Reuse is allowed only when construct semantics, evidence provenance, measurement route, boundary conditions, and transport scope remain compatible. Reuse never imports runtime weights.",
+  "decisions": [
+    {
+      "source_node": "ATT-N01",
+      "target_node": "C1-N01-02",
+      "decision": "semantic_fit_reuse",
+      "reason": "Perceptual salience maps directly to C1 stimulus-driven salience; prior audit passed with bounded transport."
+    },
+    {
+      "source_node": "ATT-N05",
+      "target_node": "C1-N02-01",
+      "decision": "semantic_fit_reuse",
+      "reason": "Attentional set/target template maps directly."
+    },
+    {
+      "source_node": "ATT-N06",
+      "target_node": "C1-N02-05",
+      "decision": "semantic_fit_reuse",
+      "reason": "Executive attentional control maps directly."
+    },
+    {
+      "source_node": "ATT-N07",
+      "target_node": "C1-N06-02",
+      "decision": "semantic_fit_reuse",
+      "reason": "Reward-associated priority maps directly; systematic review caveats retained."
+    },
+    {
+      "source_node": "ATT-N08",
+      "target_node": "C1-N06-01",
+      "decision": "semantic_fit_reuse",
+      "reason": "Prior-selection history maps directly."
+    },
+    {
+      "source_node": "ATT-N09",
+      "target_node": "C1-N07-01",
+      "decision": "semantic_fit_reuse",
+      "reason": "Sustained attention maps directly."
+    },
+    {
+      "source_node": "ATT-N10",
+      "target_node": "C1-N07-02",
+      "decision": "semantic_fit_reuse",
+      "reason": "Vigilance decrement maps directly."
+    },
+    {
+      "source_node": "ATT-N13",
+      "target_node": "C1-N08-02",
+      "decision": "semantic_fit_reuse",
+      "reason": "Attentional disengagement maps directly."
+    },
+    {
+      "source_node": "ATT-N12",
+      "target_node": "C1-N08-01",
+      "decision": "partial_fit_research_required",
+      "reason": "Prior audit retained distractor suppression as provisional; no promotion performed here."
+    },
+    {
+      "source_node": "VE-N08",
+      "target_node": "C2-N04-04",
+      "decision": "semantic_fit_reuse",
+      "reason": "Certainty appraisal maps directly; source-truth confidence remains excluded."
+    },
+    {
+      "source_node": "VE-N09",
+      "target_node": "C2-N04-03",
+      "decision": "semantic_fit_reuse",
+      "reason": "Control/coping-potential appraisal maps directly."
+    },
+    {
+      "source_node": "VE-N12",
+      "target_node": "C2-N05-01",
+      "decision": "semantic_fit_reuse",
+      "reason": "Affective arousal maps directly with dimensional-affect boundary."
+    },
+    {
+      "source_node": "VE-N17",
+      "target_node": "C2-N05-03",
+      "decision": "semantic_fit_reuse",
+      "reason": "Approach tendency maps directly."
+    },
+    {
+      "source_node": "VE-N18",
+      "target_node": "C2-N05-04",
+      "decision": "semantic_fit_reuse",
+      "reason": "Avoidance/withdrawal tendency maps directly."
+    },
+    {
+      "source_node": "ID-N02",
+      "target_node": "C3-N01-01",
+      "decision": "semantic_fit_reuse",
+      "reason": "Self-relevance maps directly."
+    },
+    {
+      "source_node": "ID-N04",
+      "target_node": "C3-N02-01",
+      "decision": "semantic_fit_reuse",
+      "reason": "Self-categorization maps directly."
+    },
+    {
+      "source_node": "ID-N09",
+      "target_node": "C3-N02-04",
+      "decision": "semantic_fit_reuse",
+      "reason": "Group prototypicality maps directly."
+    },
+    {
+      "source_node": "TR-N06",
+      "target_node": "C5-N03-03",
+      "decision": "semantic_fit_reuse",
+      "reason": "Perceived genuineness maps to source authenticity with wording tightened."
+    },
+    {
+      "source_node": "TR-N09",
+      "target_node": "C5-N03-04",
+      "decision": "partial_fit_research_required",
+      "reason": "Prior audit retained reliability track record as provisional; copied only as provisional."
+    },
+    {
+      "source_node": "CUR-*",
+      "target_node": null,
+      "decision": "reject_bulk_reuse",
+      "reason": "Curiosity was an independent core in social-media-growth but is distributed across attention, motivation, uncertainty and rhetoric in the current seven-core ontology; requires construct-by-construct remapping."
+    },
+    {
+      "source_node": "CON-* / ST-* / RH-*",
+      "target_node": null,
+      "decision": "reject_bulk_reuse",
+      "reason": "Connection, social transmission and habit were domain-specific cores in social-media-growth; they may supply individual mechanisms later but cannot be imported as copywriting cores."
+    }
+  ]
+}
