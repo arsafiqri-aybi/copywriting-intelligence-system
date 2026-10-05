@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "stage": "S9_SKILL_RUNTIME",
+  "decision": "PASS_REPOSITORY_RUNTIME",
+  "evidence": {
+    "static_audit": "PASS",
+    "behavior_cases_total": 6,
+    "behavior_cases_passed": 6,
+    "trigger_design_audit": "PASS_DESIGN_SCOPE",
+    "host_router_tested": false
+  },
+  "package": {
+    "name": "copywriting-intelligence",
+    "runtime_authority": "SKILL.md",
+    "progressive_disclosure": true,
+    "references": [
+      "references/market-value.md",
+      "references/retrieval.md",
+      "references/evidence-feedback.md",
+      "references/runtime-workflow.md"
+    ],
+    "metadata": "agents/openai.yaml",
+    "validator": "scripts/validate_skill_runtime.py"
+  },
+  "limitations": [
+    "Automatic implicit selection by a production host/router was not executed in this repository workflow.",
+    "No installation into a ChatGPT account/workspace is claimed.",
+    "Behavior checks were run by the build agent, not an isolated external evaluator."
+  ],
+  "interpretation": "These limitations do not prevent the repository Skill package from being complete and reusable; they constrain claims about host installation/automatic routing.",
+  "next_stage": "S10_RELEASE_CONTINUOUS_RESEARCH"
+}
