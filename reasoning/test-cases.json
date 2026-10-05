@@ -1,0 +1,247 @@
+{
+  "version": "1.0.0",
+  "cases": [
+    {
+      "id": "RC-01",
+      "name": "Proof gap",
+      "signals": [
+        {
+          "dimension": "risk_objection",
+          "fact_type": "sounds_too_good",
+          "value": "Can it really reduce processing time by 60%?",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "proof_evidence",
+          "fact_type": "customer_requests_proof",
+          "value": "Needs method/data",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "seed_nodes": [
+          "C5-N04-04",
+          "C5-N04-03"
+        ],
+        "strategy_rules": [
+          "STR-004",
+          "STR-005"
+        ],
+        "forbidden_nodes": [
+          "C5-N03-01"
+        ],
+        "conflicts": []
+      }
+    },
+    {
+      "id": "RC-02",
+      "name": "Norm reactance",
+      "signals": [
+        {
+          "dimension": "market_category",
+          "fact_type": "reported_what_others_approve",
+          "value": "People like us should already use it",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "risk_objection",
+          "fact_type": "freedom_pressure",
+          "value": "Don't tell me what I should do",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "seed_nodes": [
+          "C3-N03-02",
+          "C5-N05-02"
+        ],
+        "strategy_rules": [
+          "STR-008",
+          "STR-009"
+        ],
+        "forbidden_nodes": [],
+        "conflicts": [
+          "CF-001"
+        ]
+      }
+    },
+    {
+      "id": "RC-03",
+      "name": "SaaS migration",
+      "signals": [
+        {
+          "dimension": "goal_job",
+          "fact_type": "explicit_current_goal",
+          "value": "Move team reporting off spreadsheets",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "friction",
+          "fact_type": "switching_work",
+          "value": "Migration takes hours",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "risk_objection",
+          "fact_type": "source_competence_doubt",
+          "value": "Can support migrate our data?",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "seed_nodes": [
+          "C2-N01-02",
+          "C4-N08-02",
+          "C4-N08-04",
+          "C5-N03-01"
+        ],
+        "strategy_rules": [
+          "STR-001",
+          "STR-002",
+          "STR-006",
+          "STR-007"
+        ],
+        "forbidden_nodes": [
+          "C4-N02-03"
+        ],
+        "conflicts": []
+      }
+    },
+    {
+      "id": "RC-04",
+      "name": "Aspirational identity",
+      "signals": [
+        {
+          "dimension": "value",
+          "fact_type": "desired_self",
+          "value": "polished but not overdone",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "audience",
+          "fact_type": "self_relevant_identity",
+          "value": "professional identity",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "seed_nodes": [
+          "C3-N01-05",
+          "C3-N01-01"
+        ],
+        "strategy_rules": [
+          "STR-010"
+        ],
+        "forbidden_nodes": [
+          "C3-N04-01"
+        ],
+        "conflicts": []
+      }
+    },
+    {
+      "id": "RC-05",
+      "name": "Price comparison",
+      "signals": [
+        {
+          "dimension": "offer",
+          "fact_type": "price",
+          "value": "300",
+          "epistemic_status": "observed"
+        },
+        {
+          "dimension": "offer",
+          "fact_type": "list_price",
+          "value": "500",
+          "epistemic_status": "observed"
+        }
+      ],
+      "expected": {
+        "seed_nodes": [
+          "C4-N07-01",
+          "C4-N07-02"
+        ],
+        "strategy_rules": [
+          "STR-013"
+        ],
+        "forbidden_nodes": [
+          "C4-N02-03"
+        ],
+        "conflicts": []
+      }
+    },
+    {
+      "id": "RC-06",
+      "name": "Real deadline",
+      "signals": [
+        {
+          "dimension": "offer",
+          "fact_type": "deadline",
+          "value": "Enrollment closes Friday because class starts Monday",
+          "epistemic_status": "observed"
+        }
+      ],
+      "expected": {
+        "seed_nodes": [],
+        "strategy_rules": [],
+        "forbidden_nodes": [
+          "C4-N02-03",
+          "C2-N04-01"
+        ],
+        "conflicts": []
+      }
+    },
+    {
+      "id": "RC-07",
+      "name": "Choice overload",
+      "signals": [
+        {
+          "dimension": "risk_objection",
+          "fact_type": "too_many_choices",
+          "value": "18 plans",
+          "epistemic_status": "reported"
+        },
+        {
+          "dimension": "risk_objection",
+          "fact_type": "decision_confusion",
+          "value": "Differences unclear",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "seed_nodes": [
+          "C4-N04-02"
+        ],
+        "strategy_rules": [
+          "STR-014"
+        ],
+        "forbidden_nodes": [],
+        "conflicts": []
+      }
+    },
+    {
+      "id": "RC-08",
+      "name": "Customer language",
+      "signals": [
+        {
+          "dimension": "customer_language",
+          "fact_type": "verbatim_phrase",
+          "value": "I want something that works without babysitting it",
+          "epistemic_status": "reported"
+        }
+      ],
+      "expected": {
+        "seed_nodes": [
+          "C6-N03-01",
+          "C6-N03-02"
+        ],
+        "strategy_rules": [
+          "STR-015"
+        ],
+        "forbidden_nodes": [
+          "C2-N03-02"
+        ],
+        "conflicts": []
+      }
+    }
+  ]
+}

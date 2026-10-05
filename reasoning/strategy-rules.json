@@ -1,0 +1,257 @@
+{
+  "version": "1.0.0",
+  "note": "Runtime strategy rules are operational design heuristics grounded in accepted/provisional mechanisms. They are not scientific effect-size claims.",
+  "rules": [
+    {
+      "id": "STR-001",
+      "name": "Goal-led relevance",
+      "when_nodes": [
+        "C2-N01-02"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "State the audience's active goal in their situation before product detail.",
+        "Link product capability only after the goal/outcome is clear."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-002",
+      "name": "Expertise gap repair",
+      "when_nodes": [
+        "C5-N03-01"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Use domain-relevant competence evidence, method, credentials, track record, or demonstration appropriate to the claim.",
+        "Do not substitute authority aesthetics for relevant expertise."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-003",
+      "name": "Trust gap repair",
+      "when_nodes": [
+        "C5-N03-02"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Increase source transparency, provenance, limitations, and verifiable support.",
+        "Avoid fake certainty or overclaiming."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-004",
+      "name": "Claim plausibility repair",
+      "when_nodes": [
+        "C5-N04-04"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Reduce claim scope to what evidence can support.",
+        "Explain mechanism or conditions only when grounded.",
+        "Pair the claim with diagnostic evidence."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-005",
+      "name": "Diagnostic proof",
+      "when_nodes": [
+        "C5-N04-03"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Choose proof that discriminates the claim from plausible alternatives.",
+        "Prefer claim-relevant evidence over proof quantity."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-006",
+      "name": "Implementation-friction reduction",
+      "when_nodes": [
+        "C4-N08-04"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Clarify the next step and remove avoidable procedural ambiguity.",
+        "Distinguish copy-removable friction from product/process friction."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-007",
+      "name": "Decision-friction reduction",
+      "when_nodes": [
+        "C4-N08-02"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Reduce unnecessary comparison/decision burden.",
+        "Provide a decision criterion when the audience lacks one."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-008",
+      "name": "Autonomy-supportive persuasion",
+      "when_nodes": [
+        "C5-N05-02"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Preserve choice and agency.",
+        "Avoid controlling language, false urgency, or coercive norm pressure.",
+        "Address the reason for resistance rather than pushing harder."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-009",
+      "name": "Norm-with-reactance resolution",
+      "when_nodes": [
+        "C3-N03-02",
+        "C5-N05-02"
+      ],
+      "when_conflicts": [
+        "CF-001"
+      ],
+      "actions": [
+        "Do not lean on 'people like you should...' framing.",
+        "Reframe around autonomy, personally relevant value, or factual descriptive evidence where appropriate."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-010",
+      "name": "Identity-relevant value",
+      "when_nodes": [
+        "C3-N01-01",
+        "C3-N01-05"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Connect the outcome to the desired self in a non-caricatured way.",
+        "Avoid converting identity aspiration into status pressure unless status evidence exists."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-011",
+      "name": "Risk clarification",
+      "when_nodes": [
+        "C4-N03-01"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Specify the relevant risk and control/mitigation information.",
+        "Avoid generic reassurance without evidence."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-012",
+      "name": "Ambiguity reduction",
+      "when_nodes": [
+        "C4-N03-03"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Clarify unknowns, ranges, conditions, and decision-relevant uncertainty.",
+        "Do not pretend uncertainty is zero."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-013",
+      "name": "Reference comparison discipline",
+      "when_nodes": [
+        "C4-N07-01",
+        "C4-N07-02"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Use factual, defensible price/reference comparisons.",
+        "Do not label the effect as loss aversion unless separate evidence supports it."
+      ],
+      "status": "provisional_runtime"
+    },
+    {
+      "id": "STR-014",
+      "name": "Choice-overload decision aid",
+      "when_nodes": [
+        "C4-N04-02"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Test guided selection, grouping, recommendation criteria, or reduced decision complexity.",
+        "Treat overload as context-dependent; do not simply remove options by default."
+      ],
+      "status": "experimental_runtime"
+    },
+    {
+      "id": "STR-015",
+      "name": "Customer-language alignment",
+      "when_nodes": [
+        "C6-N03-01",
+        "C6-N03-02"
+      ],
+      "when_conflicts": [],
+      "actions": [
+        "Use audience vocabulary that preserves intended meaning and brand truth.",
+        "Translate unfamiliar product language into known audience concepts."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-016",
+      "name": "Comparative credibility protection",
+      "when_nodes": [
+        "C7-N05-03"
+      ],
+      "when_conflicts": [
+        "CF-004"
+      ],
+      "actions": [
+        "Use symmetric comparison criteria and traceable support.",
+        "Qualify differences and limitations rather than exaggerating."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-017",
+      "name": "Complexity/fluency repair",
+      "when_nodes": [
+        "C1-N03-05",
+        "C1-N04-03"
+      ],
+      "when_conflicts": [
+        "CF-002",
+        "CF-003"
+      ],
+      "actions": [
+        "Layer technical detail and surface only decision-critical evidence first.",
+        "Remove ambiguity while preserving necessary precision."
+      ],
+      "status": "accepted_runtime"
+    },
+    {
+      "id": "STR-018",
+      "name": "CTA clarity with autonomy",
+      "when_nodes": [
+        "C4-N08-04",
+        "C5-N05-02"
+      ],
+      "when_conflicts": [
+        "CF-006"
+      ],
+      "actions": [
+        "Make the next step explicit and low-friction while preserving the recipient's choice.",
+        "Do not use pressure to compensate for unclear value."
+      ],
+      "status": "accepted_runtime"
+    }
+  ]
+}
