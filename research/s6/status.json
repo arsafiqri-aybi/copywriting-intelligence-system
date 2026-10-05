@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "stage": "S6",
+  "status": "PASS",
+  "next_stage": "S7_MEASUREMENT_EXPERIMENT_FEEDBACK"
+}

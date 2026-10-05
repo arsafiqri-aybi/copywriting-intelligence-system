@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "stage": "S6_COPYWRITING_REASONING_ENGINE",
+  "decision": "PASS",
+  "counts": {
+    "strategy_rules": 18,
+    "conflict_patterns": 8,
+    "reasoning_cases": 8,
+    "reasoning_cases_passed": 8,
+    "integrity_errors": 0
+  },
+  "capabilities_passed": [
+    "context ingestion contract",
+    "targeted retrieval policy",
+    "mechanism activation ledger",
+    "cross-core scientific-edge retrieval",
+    "runtime conflict detection",
+    "uncertainty propagation policy",
+    "strategy synthesis rules",
+    "evidence-locked generation packet",
+    "copy critique protocol",
+    "negative-inference guards"
+  ],
+  "boundaries": [
+    "Natural-language copy generation remains model-executed at runtime; S6 produces the evidence-locked generation packet and critique contract.",
+    "Copy quality/generalization are not declared here; they are tested in S8 and S9.",
+    "Runtime statuses are diagnostic/architectural labels, not probabilities or effect sizes.",
+    "Strategy rules do not modify scientific registries."
+  ],
+  "next_stage": "S7_MEASUREMENT_EXPERIMENT_FEEDBACK"
+}

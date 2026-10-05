@@ -1,0 +1,165 @@
+{
+  "version": "1.0.0",
+  "status": "PASS",
+  "results": [
+    {
+      "id": "RC-01",
+      "name": "Proof gap",
+      "pass": true,
+      "output": {
+        "seed_node_ids": [
+          "C5-N04-04",
+          "C5-N04-03",
+          "C5-N07-02",
+          "C5-N07-04"
+        ],
+        "conflict_ids": [],
+        "strategy_rule_ids": [
+          "STR-004",
+          "STR-005"
+        ]
+      },
+      "missingSeeds": [],
+      "forbidden": [],
+      "missingStrategies": [],
+      "missingConflicts": []
+    },
+    {
+      "id": "RC-02",
+      "name": "Norm reactance",
+      "pass": true,
+      "output": {
+        "seed_node_ids": [
+          "C3-N03-02",
+          "C5-N05-02"
+        ],
+        "conflict_ids": [
+          "CF-001"
+        ],
+        "strategy_rule_ids": [
+          "STR-008",
+          "STR-009"
+        ]
+      },
+      "missingSeeds": [],
+      "forbidden": [],
+      "missingStrategies": [],
+      "missingConflicts": []
+    },
+    {
+      "id": "RC-03",
+      "name": "SaaS migration",
+      "pass": true,
+      "output": {
+        "seed_node_ids": [
+          "C2-N01-02",
+          "C4-N08-02",
+          "C4-N08-04",
+          "C5-N08-05",
+          "C5-N03-01"
+        ],
+        "conflict_ids": [],
+        "strategy_rule_ids": [
+          "STR-001",
+          "STR-002",
+          "STR-006",
+          "STR-007"
+        ]
+      },
+      "missingSeeds": [],
+      "forbidden": [],
+      "missingStrategies": [],
+      "missingConflicts": []
+    },
+    {
+      "id": "RC-04",
+      "name": "Aspirational identity",
+      "pass": true,
+      "output": {
+        "seed_node_ids": [
+          "C3-N01-05",
+          "C3-N01-01",
+          "C3-N02-03"
+        ],
+        "conflict_ids": [],
+        "strategy_rule_ids": [
+          "STR-010"
+        ]
+      },
+      "missingSeeds": [],
+      "forbidden": [],
+      "missingStrategies": [],
+      "missingConflicts": []
+    },
+    {
+      "id": "RC-05",
+      "name": "Price comparison",
+      "pass": true,
+      "output": {
+        "seed_node_ids": [
+          "C4-N07-01",
+          "C4-N07-02"
+        ],
+        "conflict_ids": [],
+        "strategy_rule_ids": [
+          "STR-013"
+        ]
+      },
+      "missingSeeds": [],
+      "forbidden": [],
+      "missingStrategies": [],
+      "missingConflicts": []
+    },
+    {
+      "id": "RC-06",
+      "name": "Real deadline",
+      "pass": true,
+      "output": {
+        "seed_node_ids": [],
+        "conflict_ids": [],
+        "strategy_rule_ids": []
+      },
+      "missingSeeds": [],
+      "forbidden": [],
+      "missingStrategies": [],
+      "missingConflicts": []
+    },
+    {
+      "id": "RC-07",
+      "name": "Choice overload",
+      "pass": true,
+      "output": {
+        "seed_node_ids": [
+          "C4-N04-02"
+        ],
+        "conflict_ids": [],
+        "strategy_rule_ids": [
+          "STR-014"
+        ]
+      },
+      "missingSeeds": [],
+      "forbidden": [],
+      "missingStrategies": [],
+      "missingConflicts": []
+    },
+    {
+      "id": "RC-08",
+      "name": "Customer language",
+      "pass": true,
+      "output": {
+        "seed_node_ids": [
+          "C6-N03-01",
+          "C6-N03-02"
+        ],
+        "conflict_ids": [],
+        "strategy_rule_ids": [
+          "STR-015"
+        ]
+      },
+      "missingSeeds": [],
+      "forbidden": [],
+      "missingStrategies": [],
+      "missingConflicts": []
+    }
+  ]
+}

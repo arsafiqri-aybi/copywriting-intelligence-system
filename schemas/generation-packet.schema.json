@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "generation-packet.schema.json",
+  "title": "Evidence-Locked Copy Generation Packet",
+  "type": "object",
+  "required": [
+    "task",
+    "grounded_facts",
+    "allowed_claims",
+    "prohibited_claims",
+    "strategy_rule_ids",
+    "mechanism_node_ids",
+    "brand",
+    "channel",
+    "proof_requirements",
+    "copy_instructions"
+  ],
+  "properties": {
+    "task": {
+      "type": "string"
+    },
+    "grounded_facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "allowed_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim",
+          "support_status"
+        ],
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "support_status": {
+            "enum": [
+              "supported",
+              "qualified",
+              "experimental"
+            ]
+          },
+          "support_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "prohibited_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "strategy_rule_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mechanism_node_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scientific_edge_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conflict_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "brand": {
+      "type": "object"
+    },
+    "channel": {
+      "type": "object"
+    },
+    "proof_requirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "customer_language": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "must_include": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "must_avoid": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "copy_instructions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "experiment_hooks": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

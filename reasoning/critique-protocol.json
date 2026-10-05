@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "purpose": "Critique generated copy against the reasoning state and evidence lock before optimization.",
+  "ordered_checks": [
+    {
+      "id": "CP-01",
+      "name": "Fact lock",
+      "critical": true,
+      "questions": [
+        "Did the copy invent product facts, metrics, deadlines, guarantees, testimonials, customer quotes, or competitor claims?",
+        "Did it strengthen a qualified claim into an absolute claim?"
+      ]
+    },
+    {
+      "id": "CP-02",
+      "name": "Claim-proof fit",
+      "critical": true,
+      "questions": [
+        "Does each material claim have adequate support?",
+        "Does the proof actually discriminate the claim rather than merely look impressive?"
+      ]
+    },
+    {
+      "id": "CP-03",
+      "name": "Mechanism fit",
+      "critical": false,
+      "questions": [
+        "Does the copy address the diagnosed goal/barrier/belief gap?",
+        "Is it relying on an unactivated mechanism such as loss aversion or scarcity?"
+      ]
+    },
+    {
+      "id": "CP-04",
+      "name": "Conflict handling",
+      "critical": false,
+      "questions": [
+        "Does the copy worsen an active norm/reactance, proof/load, comparison/credibility, or CTA/reactance conflict?"
+      ]
+    },
+    {
+      "id": "CP-05",
+      "name": "Value clarity",
+      "critical": false,
+      "questions": [
+        "Is the product capability linked to a supported audience outcome?",
+        "Is value distinguished from feature and proof?"
+      ]
+    },
+    {
+      "id": "CP-06",
+      "name": "Language/common ground",
+      "critical": false,
+      "questions": [
+        "Does wording fit audience knowledge and customer language context?",
+        "Are connotations or jargon likely to mislead?"
+      ]
+    },
+    {
+      "id": "CP-07",
+      "name": "Friction/CTA",
+      "critical": false,
+      "questions": [
+        "Is the next step understandable?",
+        "Does copy pretend to solve non-copy operational friction?"
+      ]
+    },
+    {
+      "id": "CP-08",
+      "name": "Uncertainty discipline",
+      "critical": true,
+      "questions": [
+        "Are provisional hypotheses presented as certainty?",
+        "Are contradictions or limitations hidden where material?"
+      ]
+    },
+    {
+      "id": "CP-09",
+      "name": "Brand/channel constraints",
+      "critical": true,
+      "questions": [
+        "Does the copy obey brand must/must-not rules?",
+        "Does it fit channel format and factual constraints?"
+      ]
+    },
+    {
+      "id": "CP-10",
+      "name": "Manipulation/truthfulness",
+      "critical": true,
+      "questions": [
+        "Is urgency real?",
+        "Are social proof and comparisons authentic?",
+        "Is emotional pressure disproportionate to the evidence/value?"
+      ]
+    }
+  ],
+  "verdict_logic": {
+    "FAIL": "Any unresolved critical violation.",
+    "PASS_WITH_WARNINGS": "No critical violation, but one or more material noncritical mismatches.",
+    "PASS": "No critical violation and no material strategy mismatch."
+  }
+}
