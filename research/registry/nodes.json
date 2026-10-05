@@ -2031,6 +2031,594 @@
         "Treating a CTA phrase as a universal conversion mechanism"
       ],
       "version": "0.2.0"
+    },
+    {
+      "id": "C1-N03-03",
+      "label": "Working-Memory Updating",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M03",
+      "definition": "Control process that revises the contents of working memory by adding newly relevant information and removing or replacing no-longer-relevant contents.",
+      "mechanism_summary": "Updating changes the actively maintained representation used for ongoing processing and action.",
+      "claim_ids": [
+        "CLM-S3C5-001"
+      ],
+      "measurement_ids": [
+        "MEAS-C1-008"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating updating with storage capacity",
+        "Inferring updating ability from one platform behavior"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N03-05",
+      "label": "Cognitive Load",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M03",
+      "definition": "Demand imposed by a task or representation on limited active processing resources.",
+      "mechanism_summary": "Higher processing demand can consume resources needed for comprehension, maintenance, integration, or control.",
+      "claim_ids": [
+        "CLM-S3C5-002"
+      ],
+      "measurement_ids": [
+        "MEAS-C1-009"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating complexity as load without measuring task/person interaction",
+        "Equating load with working-memory capacity"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N04-01",
+      "label": "Perceptual Fluency",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M04",
+      "definition": "Experienced ease of processing the perceptual form of a stimulus.",
+      "mechanism_summary": "Perceptual features can alter processing ease, which may then be interpreted in downstream judgments.",
+      "claim_ids": [
+        "CLM-S3C5-003"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S1-001"
+      ],
+      "failure_modes": [
+        "Equating visual simplicity with comprehension",
+        "Assuming fluent equals true"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C1-N04-02",
+      "label": "Conceptual Fluency",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C1",
+      "parent_id": "C1-M04",
+      "definition": "Experienced ease of processing a stimulus's meaning, semantic relations, or conceptual interpretation.",
+      "mechanism_summary": "Semantic fit and prior conceptual activation can make meaning easier to process, with downstream judgment effects depending on attribution.",
+      "claim_ids": [
+        "CLM-S3C5-004"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S1-001"
+      ],
+      "failure_modes": [
+        "Equating conceptual fluency with factual understanding"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N01-05",
+      "label": "Goal Commitment",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M01",
+      "definition": "Degree of attachment to and determination to pursue a specified goal.",
+      "mechanism_summary": "Commitment affects persistence and resource allocation but is distinct from importance, desirability, and attainability.",
+      "claim_ids": [
+        "CLM-S3C5-005"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming importance guarantees commitment"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N02-04",
+      "label": "Prevention Focus",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M02",
+      "definition": "Regulatory orientation emphasizing security, responsibilities, and avoiding losses or failures.",
+      "mechanism_summary": "Prevention-focused concerns change sensitivity to vigilance, safety and loss-relevant means, often in contrast with promotion focus.",
+      "claim_ids": [
+        "CLM-S3C5-006"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating prevention focus with fear",
+        "Assuming prevention framing always fits every risk-averse audience"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N03-02",
+      "label": "Subjective Task Value",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M03",
+      "definition": "Perceived importance, usefulness, interest, or worth associated with engaging in a task or attaining its outcome.",
+      "mechanism_summary": "Value combines with expectancy and cost to shape motivation, choice, effort, and persistence.",
+      "claim_ids": [
+        "CLM-S3C5-007"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating value with reward magnitude",
+        "Ignoring cost and expectancy"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C2-N06-04",
+      "label": "Anticipated Regret",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C2",
+      "parent_id": "C2-M06",
+      "definition": "Prospective expectation of regret that may be experienced after a future action, inaction, or outcome.",
+      "mechanism_summary": "Anticipated regret can enter decision evaluation before the outcome occurs and is distinct from experienced regret.",
+      "claim_ids": [
+        "CLM-S3C5-008"
+      ],
+      "measurement_ids": [
+        "MEAS-C2-006"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Using regret language as proof of actual anticipated regret",
+        "Assuming regret appeals always improve choices"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N04-01",
+      "label": "Status Motivation",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M04",
+      "definition": "Motivation to acquire, maintain, improve, or defend relative social standing within a relevant hierarchy.",
+      "mechanism_summary": "Status motives can shape choice and signaling when social rank is psychologically relevant.",
+      "claim_ids": [
+        "CLM-S3C5-009"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S1-003"
+      ],
+      "failure_modes": [
+        "Treating all premium consumption as status motivation"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N04-02",
+      "label": "Reputation Concern",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M04",
+      "definition": "Concern about how one's character, competence, choices, or behavior are evaluated and remembered by others.",
+      "mechanism_summary": "Reputation concerns can motivate impression-management and signaling behaviors under social observability.",
+      "claim_ids": [
+        "CLM-S3C5-010"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [
+        "UNC-S1-003"
+      ],
+      "failure_modes": [
+        "Inferring reputation concern from public behavior alone"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N06-02",
+      "label": "Interpersonal Liking",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M06",
+      "definition": "Positive interpersonal evaluation or affect toward another person or source.",
+      "mechanism_summary": "Liking can increase receptivity and compliance in some social-influence settings but remains distinct from trust, expertise, or evidence quality.",
+      "claim_ids": [
+        "CLM-S3C5-011"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating liking with trustworthiness",
+        "Treating attractive design as interpersonal liking"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C3-N06-03",
+      "label": "Perceived Similarity",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C3",
+      "parent_id": "C3-M06",
+      "definition": "Perception that another person or source shares relevant characteristics, experiences, values, beliefs, or identities.",
+      "mechanism_summary": "Similarity can affect affiliation and source response, but effects depend on which dimension is similar and the active context.",
+      "claim_ids": [
+        "CLM-S3C5-012"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating demographic similarity with psychological similarity",
+        "Equating similarity with in-group identification"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N01-02",
+      "label": "Availability Heuristic",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M01",
+      "definition": "Use of the accessibility or ease of retrieving examples or instances as information for judgment.",
+      "mechanism_summary": "Accessible examples can influence judgment when accessibility is treated as diagnostic, but ecological validity depends on environment and task.",
+      "claim_ids": [
+        "CLM-S3C5-013"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating memorability as objective frequency",
+        "Assuming availability always biases rather than sometimes informs"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N04-02",
+      "label": "Choice Overload",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C4",
+      "parent_id": "C4-M04",
+      "definition": "Adverse choice consequences that can arise from a large or complex assortment under particular decision conditions.",
+      "mechanism_summary": "Overload is conditional on factors such as set complexity, task difficulty, preference uncertainty, and decision goals; assortment size alone is insufficient.",
+      "claim_ids": [
+        "CLM-S3C5-014"
+      ],
+      "measurement_ids": [
+        "MEAS-C4-003"
+      ],
+      "uncertainty_ids": [
+        "UNC-S3C5-001"
+      ],
+      "failure_modes": [
+        "Using a fixed option-count threshold",
+        "Assuming fewer options are universally better"
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C4-N04-05",
+      "label": "Asymmetric-Dominance / Decoy Effect",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M04",
+      "definition": "Context-dependent preference shift toward a target option after adding an alternative that is dominated by the target but not equivalently by the competitor.",
+      "mechanism_summary": "Choice sets can construct relative preference; decoy effects depend on attribute structure and task/context.",
+      "claim_ids": [
+        "CLM-S3C5-015"
+      ],
+      "measurement_ids": [
+        "MEAS-C4-004"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Adding an obviously bad option without asymmetric dominance and calling it a decoy",
+        "Assuming the effect is guaranteed"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C4-N05-02",
+      "label": "Present Bias",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C4",
+      "parent_id": "C4-M05",
+      "definition": "Disproportionate preference for more immediate outcomes relative to later outcomes beyond constant exponential discounting.",
+      "mechanism_summary": "Immediate outcomes can receive extra weight, producing preference reversals and time-inconsistent choices.",
+      "claim_ids": [
+        "CLM-S3C5-016"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating all impatience with present bias",
+        "Assuming present bias is stable across domains"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N01-05",
+      "label": "Evaluative Conditioning",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M01",
+      "definition": "Change in evaluation of a target resulting from pairing it with positively or negatively valenced stimuli.",
+      "mechanism_summary": "Pairings can change liking/evaluation, but effect magnitude and persistence depend on procedure, awareness, timing, and context.",
+      "claim_ids": [
+        "CLM-S3C5-017"
+      ],
+      "measurement_ids": [
+        "MEAS-C5-005"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating mere co-occurrence as guaranteed durable attitude change",
+        "Assuming laboratory effect transports directly to behavior"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N02-02",
+      "label": "Personal Involvement / Message Relevance",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M02",
+      "definition": "Degree to which a persuasive issue or message is personally consequential or relevant enough to motivate processing.",
+      "mechanism_summary": "Greater involvement can alter elaboration and the relative influence of argument quality versus simpler source/context cues.",
+      "claim_ids": [
+        "CLM-S3C5-018"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating involvement with attention duration",
+        "Assuming high involvement always increases persuasion"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N05-01",
+      "label": "Counterarguing",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M05",
+      "definition": "Generation or activation of issue-relevant thoughts that oppose, challenge, or rebut a persuasive message.",
+      "mechanism_summary": "Counterarguing can reduce persuasion and participates in resistance/reactance processes.",
+      "claim_ids": [
+        "CLM-S3C5-019"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating any negative sentiment as counterarguing"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C5-N05-03",
+      "label": "Inoculation / Prebunking",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C5",
+      "parent_id": "C5-M05",
+      "definition": "Pre-exposure intervention that warns of a future persuasive challenge and/or provides weakened counterarguments with refutations to build resistance.",
+      "mechanism_summary": "Inoculation can increase resistance to later persuasion, but mechanisms and timing moderators are not universally as originally theorized.",
+      "claim_ids": [
+        "CLM-S3C5-020"
+      ],
+      "measurement_ids": [
+        "MEAS-C5-006"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating any disclaimer as inoculation",
+        "Assuming threat/involvement always strengthen inoculation"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N01-04",
+      "label": "Semantic Priming",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M01",
+      "definition": "Facilitation or altered processing of a target due to prior activation of semantically related information.",
+      "mechanism_summary": "Semantic relations can change lexical processing independently of simple associative co-occurrence, with task and relation-type moderators.",
+      "claim_ids": [
+        "CLM-S3C5-021"
+      ],
+      "measurement_ids": [
+        "MEAS-C6-002"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating priming with persuasion",
+        "Assuming all related words produce the same effect"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N01-05",
+      "label": "Concreteness / Imageability",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M01",
+      "definition": "Degree to which word/concept meaning refers to readily perceptible entities or evokes sensory imagery, with concreteness and imageability related but nonidentical.",
+      "mechanism_summary": "Concrete language is often processed more efficiently, but lexical form, familiarity, context, and imageability contribute to observed effects.",
+      "claim_ids": [
+        "CLM-S3C5-022"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating all concrete wording as clearer or more persuasive",
+        "Collapsing concreteness and imageability"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N03-02",
+      "label": "Audience Design",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M03",
+      "definition": "Adaptation of utterance form/content to properties, needs, or likely knowledge of an addressee.",
+      "mechanism_summary": "Communicators can adapt through feedforward knowledge and recurrent prediction of communicative effects.",
+      "claim_ids": [
+        "CLM-S3C5-023"
+      ],
+      "measurement_ids": [
+        "MEAS-C6-003"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Overpersonalizing based on unsupported audience assumptions",
+        "Treating segmentation as proof of common ground"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C6-N03-03",
+      "label": "Perspective Taking in Communication",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C6",
+      "parent_id": "C6-M03",
+      "definition": "Representation and use of another communicator's likely knowledge, viewpoint, or informational access during production or comprehension.",
+      "mechanism_summary": "Perspective information can coordinate meaning, but people integrate it imperfectly with egocentric knowledge and context.",
+      "claim_ids": [
+        "CLM-S3C5-024"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Assuming perfect theory-of-mind inference",
+        "Treating persona stereotypes as the audience's actual perspective"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N03-02",
+      "label": "Character Identification",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M03",
+      "definition": "Narrative process in which recipients adopt, experience, or align with a character's perspective, goals, or self-relevant position.",
+      "mechanism_summary": "Identification can be strengthened by relevant similarity and can contribute to narrative persuasion alongside transportation.",
+      "claim_ids": [
+        "CLM-S3C5-025"
+      ],
+      "measurement_ids": [
+        "MEAS-C7-003"
+      ],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Equating liking a character with identification",
+        "Assuming demographic similarity always increases identification"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N04-01",
+      "label": "Primacy Ordering",
+      "level": "neuron",
+      "status": "provisional",
+      "primary_core": "C7",
+      "parent_id": "C7-M04",
+      "definition": "Message ordering in which earlier-presented information receives greater downstream influence than later information under specified conditions.",
+      "mechanism_summary": "Primacy is a possible order effect, not a universal rule; involvement, delay, competing messages, and audience characteristics can alter or reverse it.",
+      "claim_ids": [
+        "CLM-S3C5-026"
+      ],
+      "measurement_ids": [
+        "MEAS-C7-004"
+      ],
+      "uncertainty_ids": [
+        "UNC-S3C5-002"
+      ],
+      "failure_modes": [
+        "Always putting the 'strongest point first' because of a presumed universal primacy effect"
+      ],
+      "version": "0.3.0"
+    },
+    {
+      "id": "C7-N05-01",
+      "label": "Contrast Structure",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M05",
+      "definition": "Deliberate rhetorical juxtaposition of alternatives, attributes, states, or outcomes to make differences cognitively and evaluatively salient.",
+      "mechanism_summary": "Contrast can support comparative processing but can also create credibility or reactance costs depending on claims and context.",
+      "claim_ids": [
+        "CLM-S3C5-027"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Using misleading comparisons",
+        "Assuming more contrast always means more persuasion"
+      ],
+      "version": "1.0.0"
+    },
+    {
+      "id": "C7-N06-01",
+      "label": "One-Sided Message",
+      "level": "neuron",
+      "status": "accepted",
+      "primary_core": "C7",
+      "parent_id": "C7-M06",
+      "definition": "Persuasive message structure that presents arguments supporting the advocated position without substantively presenting opposing considerations.",
+      "mechanism_summary": "One-sidedness is a structural property whose effectiveness depends on audience knowledge/position, message context, and availability of counterarguments.",
+      "claim_ids": [
+        "CLM-S3C5-028"
+      ],
+      "measurement_ids": [],
+      "uncertainty_ids": [],
+      "failure_modes": [
+        "Treating one-sidedness as always less credible",
+        "Hiding material limitations where disclosure is required"
+      ],
+      "version": "1.0.0"
     }
   ]
 }

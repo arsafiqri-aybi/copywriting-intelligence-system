@@ -1442,6 +1442,267 @@
         "compliance"
       ],
       "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-009",
+      "title": "Choice overload: A conceptual review and meta-analysis",
+      "authors": [
+        "Alexander Chernev",
+        "Ulf Böckenholt",
+        "Joseph Goodman"
+      ],
+      "year": 2015,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1016/j.jcps.2014.08.002",
+      "url": "https://doi.org/10.1016/j.jcps.2014.08.002",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "choice_overload",
+        "moderators"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-010",
+      "title": "Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload",
+      "authors": [
+        "Benjamin Scheibehenne",
+        "Rainer Greifeneder",
+        "Peter M. Todd"
+      ],
+      "year": 2010,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1086/651235",
+      "url": "https://doi.org/10.1086/651235",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "choice_overload",
+        "null_mixed_evidence"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-011",
+      "title": "An integrative review of the decoy effect on choice behavior",
+      "authors": [
+        "P. K. Padamwar",
+        "Jagrook Dawra"
+      ],
+      "year": 2024,
+      "evidence_class": "review",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1002/mar.22076",
+      "url": "https://doi.org/10.1002/mar.22076",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "decoy_effect",
+        "context_effect"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C4-012",
+      "title": "Asymmetric Decoy Effects on Lower-Quality versus Higher-Quality Brands: Meta-analytic and Experimental Evidence",
+      "authors": [
+        "Timothy B. Heath",
+        "Subimal Chatterjee"
+      ],
+      "year": 1995,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C4"
+      ],
+      "doi": "10.1086/209449",
+      "url": "https://doi.org/10.1086/209449",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "decoy_effect",
+        "consumer_choice"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-010",
+      "title": "Evaluative Conditioning in Humans: A Meta-Analysis",
+      "authors": [
+        "Wilhelm Hofmann",
+        "Jan De Houwer",
+        "Marco Perugini",
+        "Frank Baeyens",
+        "Geert Crombez"
+      ],
+      "year": 2010,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C5"
+      ],
+      "doi": "10.1037/a0018916",
+      "url": "https://doi.org/10.1037/a0018916",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "evaluative_conditioning",
+        "attitude_change"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-011",
+      "title": "Evaluative conditioning interventions: A systematic review and meta-analysis focused on attitudinal and behavioral change outcomes",
+      "authors": [],
+      "year": 2025,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C5"
+      ],
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41100277/",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "evaluative_conditioning",
+        "field_transport",
+        "publication_bias"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C5-012",
+      "title": "A Meta-Analysis of Research on Inoculation Theory",
+      "authors": [
+        "John A. Banas",
+        "Stephen A. Rains"
+      ],
+      "year": 2010,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C5",
+        "C7"
+      ],
+      "doi": "10.1080/03637751003758193",
+      "url": "https://doi.org/10.1080/03637751003758193",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "inoculation",
+        "resistance"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-008",
+      "title": "A Mechanistic Framework for Explaining Audience Design in Language Production",
+      "authors": [
+        "Victor S. Ferreira"
+      ],
+      "year": 2019,
+      "evidence_class": "review",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1146/annurev-psych-122216-011653",
+      "url": "https://doi.org/10.1146/annurev-psych-122216-011653",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "audience_design",
+        "language_production"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-009",
+      "title": "Semantic priming without association: a meta-analytic review",
+      "authors": [
+        "M. Lucas"
+      ],
+      "year": 2000,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.3758/BF03212999",
+      "url": "https://doi.org/10.3758/BF03212999",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "semantic_priming"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C6-010",
+      "title": "Revisiting the concreteness effect: Non-arbitrary mappings between form and concreteness of English words influence lexical processing",
+      "authors": [
+        "Elaine Kearney",
+        "Katie L. McMahon",
+        "Frank Guenther",
+        "Joanne Arciuli",
+        "Greig I. de Zubicaray"
+      ],
+      "year": 2025,
+      "evidence_class": "correlational",
+      "domain": [
+        "C6"
+      ],
+      "doi": "10.1016/j.cognition.2024.105972",
+      "url": "https://doi.org/10.1016/j.cognition.2024.105972",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "concreteness",
+        "lexical_processing"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-011",
+      "title": "A Meta-Analysis Examining the Role of Character-Recipient Similarity in Narrative Persuasion",
+      "authors": [
+        "Meng Chen",
+        "Yujie Dong",
+        "Jilong Wang"
+      ],
+      "year": 2024,
+      "evidence_class": "meta_analysis",
+      "domain": [
+        "C7",
+        "C3",
+        "C5"
+      ],
+      "doi": "10.1177/00936502231204834",
+      "url": "https://doi.org/10.1177/00936502231204834",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "character_identification",
+        "similarity",
+        "narrative_persuasion"
+      ],
+      "status": "screened_in"
+    },
+    {
+      "id": "SRC-C7-012",
+      "title": "Message order effects and gender differences in advertising persuasion",
+      "authors": [
+        "Frédéric F. Brunel",
+        "Michelle R. Nelson"
+      ],
+      "year": 2003,
+      "evidence_class": "randomized_experiment",
+      "domain": [
+        "C7",
+        "C5"
+      ],
+      "doi": "10.2501/JAR-43-3-330-342",
+      "url": "https://doi.org/10.2501/JAR-43-3-330-342",
+      "retrieval_depth": "abstract_review_page",
+      "role": [
+        "message_order",
+        "primacy_recency"
+      ],
+      "status": "screened_in"
     }
   ]
 }

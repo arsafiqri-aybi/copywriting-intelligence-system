@@ -161,6 +161,30 @@
       "reducibility": "experiment",
       "resolution_requirement": "Calibrate by channel/action type rather than universal CTA rule.",
       "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C5-001",
+      "channel": "transport_context",
+      "target_ids": [
+        "C4-N04-02"
+      ],
+      "level": "medium",
+      "reason": "Choice overload depends on moderators and has conflicting aggregate findings.",
+      "reducibility": "context_information",
+      "resolution_requirement": "Runtime requires choice complexity/task difficulty/preference uncertainty context before using overload inference.",
+      "blocks_gate": false
+    },
+    {
+      "id": "UNC-S3C5-002",
+      "channel": "transport_context",
+      "target_ids": [
+        "C7-N04-01"
+      ],
+      "level": "high",
+      "reason": "Primacy order effects do not generalize uniformly across persuasive contexts.",
+      "reducibility": "experiment",
+      "resolution_requirement": "Keep provisional until channel-specific evidence/experiments justify narrower rules.",
+      "blocks_gate": false
     }
   ]
 }

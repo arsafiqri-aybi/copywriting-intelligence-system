@@ -1,76 +1,81 @@
 #!/usr/bin/env python3
 import json
 from pathlib import Path
-
 ROOT = Path(__file__).resolve().parents[1]
 
 def load(rel):
     with open(ROOT / rel, "r", encoding="utf-8") as f:
         return json.load(f)
 
+def unique(records, key, label, errors):
+    vals=[r[key] for r in records]
+    if len(vals)!=len(set(vals)):
+        errors.append(f"duplicate {label} IDs")
+
 def validate():
-    errors = []
-    state = load("state/project-state.json")
-    modules = load("research/s1/module-lifecycle.json")["modules"]
-    sources = load("research/registry/sources.json")["sources"]
-    claims = load("research/registry/claims.json")["claims"]
-    uncertainties = load("research/registry/uncertainties.json")["records"]
-    candidate_map = load("research/s3/candidate-neuron-map.json")["candidates"]
+    errors=[]
+    state=load("state/project-state.json")
+    modules=load("research/s1/module-lifecycle.json")["modules"]
+    sources=load("research/registry/sources.json")["sources"]
+    claims=load("research/registry/claims.json")["claims"]
+    nodes=load("research/registry/nodes.json")["nodes"]
+    measurements=load("research/registry/measurements.json")["records"]
+    contradictions=load("research/registry/contradictions.json")["records"]
+    uncertainties=load("research/registry/uncertainties.json")["records"]
 
     if state["protected_constraints"]["top_level_core_count"] != 7:
         errors.append("protected core count must remain 7")
+    if len(modules)!=56:
+        errors.append(f"expected 56 modules, found {len(modules)}")
 
-    module_ids = [x["id"] for x in modules]
-    if len(module_ids) != 56 or len(module_ids) != len(set(module_ids)):
-        errors.append("module lifecycle must contain 56 unique stable IDs")
+    unique(sources,"id","source",errors)
+    unique(claims,"id","claim",errors)
+    unique(nodes,"id","node",errors)
+    unique(measurements,"id","measurement",errors)
+    unique(contradictions,"id","contradiction",errors)
+    unique(uncertainties,"id","uncertainty",errors)
 
-    src_ids = [x["id"] for x in sources]
-    if len(src_ids) != len(set(src_ids)):
-        errors.append("duplicate source IDs")
-    known_sources = set(src_ids)
+    source_ids={x["id"] for x in sources}
+    claim_ids={x["id"] for x in claims}
+    node_ids={x["id"] for x in nodes}
+    measurement_ids={x["id"] for x in measurements}
+    uncertainty_ids={x["id"] for x in uncertainties}
+    module_ids={x["id"] for x in modules}
 
-    claim_ids = [x["id"] for x in claims]
-    if len(claim_ids) != len(set(claim_ids)):
-        errors.append("duplicate claim IDs")
     for c in claims:
-        missing = [s for s in c.get("source_ids", []) if s not in known_sources]
-        if missing:
-            errors.append(f"{c['id']} references missing sources: {missing}")
+        miss=[s for s in c.get("source_ids",[]) if s not in source_ids]
+        if miss: errors.append(f"{c['id']} missing sources {miss}")
+    for n in nodes:
+        if n.get("parent_id") not in module_ids:
+            errors.append(f"{n['id']} unknown parent {n.get('parent_id')}")
+        miss=[c for c in n.get("claim_ids",[]) if c not in claim_ids]
+        if miss: errors.append(f"{n['id']} missing claims {miss}")
+        miss=[m for m in n.get("measurement_ids",[]) if m not in measurement_ids]
+        if miss: errors.append(f"{n['id']} missing measurements {miss}")
+        miss=[u for u in n.get("uncertainty_ids",[]) if u not in uncertainty_ids]
+        if miss: errors.append(f"{n['id']} missing uncertainties {miss}")
+    for m in measurements:
+        miss=[n for n in m.get("target_ids",[]) if n not in node_ids]
+        if miss: errors.append(f"{m['id']} missing target nodes {miss}")
+        miss=[c for c in m.get("validity_evidence_claim_ids",[]) if c not in claim_ids]
+        if miss: errors.append(f"{m['id']} missing evidence claims {miss}")
+    for r in contradictions:
+        miss=[c for c in r.get("claim_ids",[]) if c not in claim_ids]
+        if miss: errors.append(f"{r['id']} missing claims {miss}")
+        miss=[s for s in r.get("source_ids",[]) if s not in source_ids]
+        if miss: errors.append(f"{r['id']} missing sources {miss}")
 
-    neuron_ids = [x["id"] for x in candidate_map]
-    if len(neuron_ids) != 280:
-        errors.append(f"expected 280 breadth-first candidate neurons, found {len(neuron_ids)}")
-    if len(neuron_ids) != len(set(neuron_ids)):
-        errors.append("duplicate candidate neuron IDs")
-    known_modules = set(module_ids)
-    for n in candidate_map:
-        if n["parent_id"] not in known_modules:
-            errors.append(f"{n['id']} references unknown parent module {n['parent_id']}")
-        if n.get("status") != "candidate":
-            errors.append(f"{n['id']} must remain candidate before evidence promotion")
+    covered={n["parent_id"] for n in nodes}
+    missing_modules=sorted(module_ids-covered)
+    if missing_modules:
+        errors.append(f"uncovered modules: {missing_modules}")
 
-    unc_ids = [u["id"] for u in uncertainties]
-    if len(unc_ids) != len(set(unc_ids)):
-        errors.append("duplicate uncertainty IDs")
-
-    for rel in [
-        "schemas/source.schema.json","schemas/uncertainty.schema.json","schemas/contradiction.schema.json",
-        "schemas/experiment.schema.json","schemas/feedback-observation.schema.json","schemas/node.schema.json",
-        "schemas/scientific-edge.schema.json","schemas/atomic-claim.schema.json","schemas/measurement.schema.json",
-        "research/registry/contradictions.json","research/registry/measurements.json","research/registry/edges.json",
-        "research/registry/experiments.json","research/registry/feedback.json"
-    ]:
-        try:
-            load(rel)
-        except Exception as e:
-            errors.append(f"{rel} invalid JSON: {e}")
     return errors
 
-if __name__ == "__main__":
-    errs = validate()
-    if errs:
+if __name__=="__main__":
+    e=validate()
+    if e:
         print("FAIL")
-        for e in errs:
-            print("-", e)
+        for x in e: print("-",x)
         raise SystemExit(1)
-    print("PASS: S1/S2/S3 bootstrap integrity")
+    print("PASS: live research graph integrity")

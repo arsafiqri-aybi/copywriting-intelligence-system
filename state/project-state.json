@@ -37,7 +37,7 @@
     "S0_CONTRACT_AND_ARCHITECTURE_FREEZE": "PASS",
     "S1_DOMAIN_TAXONOMY": "PASS_WITH_BOUNDED_PROVISIONAL_MODULES",
     "S2_RESEARCH_FOUNDATION": "PASS",
-    "S3_SEVEN_CORE_KNOWLEDGE_BUILD": "IN_PROGRESS_BREADTH_COVERAGE_CLOSED",
+    "S3_SEVEN_CORE_KNOWLEDGE_BUILD": "IN_PROGRESS_CYCLE05_DEPTH",
     "S4_CONNECTION_BUILD": "NOT_STARTED",
     "S5_MARKET_VALUE_INTEGRATION": "NOT_STARTED",
     "S6_REASONING_ENGINE": "NOT_STARTED",
@@ -47,24 +47,25 @@
     "S10_RELEASE_CONTINUOUS_RESEARCH": "NOT_STARTED"
   },
   "knowledge_counts": {
-    "screened_sources": 67,
-    "extracted_taxonomy_claims": 104,
-    "uncertainty_records": 13,
+    "screened_sources": 79,
+    "extracted_taxonomy_claims": 132,
+    "uncertainty_records": 15,
     "candidate_neurons": 280,
-    "accepted_neurons": 66,
+    "accepted_neurons": 92,
     "accepted_scientific_edges": 0,
-    "provisional_neurons": 7,
-    "measurement_mappings": 24,
-    "covered_modules": 56
+    "provisional_neurons": 9,
+    "measurement_mappings": 35,
+    "covered_modules": 56,
+    "contradiction_records": 7
   },
   "gate_status": {
     "G1_ARCHITECTURE": "PARTIAL_PASS_S1",
-    "G2_COVERAGE": "BREADTH_FLOOR_PASS_DEPTH_INCOMPLETE",
-    "G3_EVIDENCE": "IN_PROGRESS",
+    "G2_COVERAGE": "BREADTH_PASS_DEPTH_EXPANDING",
+    "G3_EVIDENCE": "IN_PROGRESS_WITH_CONTRADICTION_AWARE_DEPTH",
     "G4_CAUSAL_DISCIPLINE": "IN_PROGRESS",
     "G5_CONNECTION_VALIDITY": "NOT_RUN",
     "G6_CONTRADICTION_INTEGRITY": "ACTIVE_WITH_BOUNDED_RECORDS",
-    "G7_MEASUREMENT_VALIDITY": "ACTIVE_WITH_23_MAPPINGS",
+    "G7_MEASUREMENT_VALIDITY": "ACTIVE_WITH_EXPANDING_CONSTRUCT_MAPS",
     "G8_REASONING": "NOT_RUN",
     "G9_COPY_QUALITY": "NOT_RUN",
     "G10_GENERALIZATION": "NOT_RUN",
@@ -72,5 +73,5 @@
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "S3 cycle05: deepen the 56-module graph beyond one-node coverage, resolve provisional/high-uncertainty areas, expand contradictions and measurements, then run S3 closure audit."
+  "next_action": "S3 cycle06: balanced depth expansion toward 250–450 evidence-reviewed primary neurons; prioritize unresolved candidate families, provisional nodes, measurement gaps, and null/contradictory evidence."
 }

@@ -1395,6 +1395,380 @@
         "SRC-C3-002"
       ],
       "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C5-001",
+      "statement": "Working-memory updating is a control process for replacing or revising currently maintained task-relevant representations and is distinct from overall working-memory capacity.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N03-03"
+      ],
+      "source_ids": [
+        "SRC-C1-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-002",
+      "statement": "Cognitive load reflects demands placed on limited active processing resources and should not be treated as identical to working-memory capacity.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N03-05"
+      ],
+      "source_ids": [
+        "SRC-C1-003"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-003",
+      "statement": "Perceptual fluency is ease arising from processing perceptual form and is a subtype/source of processing fluency rather than equivalent to comprehension.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N04-01"
+      ],
+      "source_ids": [
+        "SRC-C1-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-004",
+      "statement": "Conceptual fluency is ease of processing meaning or semantic relations and is distinguishable from perceptual fluency.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C1-N04-02"
+      ],
+      "source_ids": [
+        "SRC-C1-005"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-005",
+      "statement": "Goal commitment is a motivational property reflecting attachment to and determination to pursue a goal; it is distinct from goal importance alone.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N01-05"
+      ],
+      "source_ids": [
+        "SRC-C2-001",
+        "SRC-C2-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-006",
+      "statement": "Prevention focus is a regulatory orientation centered on security, responsibilities, and avoiding losses or failures, distinct from promotion focus.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N02-04"
+      ],
+      "source_ids": [
+        "SRC-C2-007"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-007",
+      "statement": "Subjective task value is a motivational value judgment distinct from expectancy of success, even though the two jointly shape choice and persistence.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C2-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-008",
+      "statement": "Anticipated regret is a prospective emotion considered before action or inaction and can influence decision making without being equivalent to experienced regret.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C2-N06-04"
+      ],
+      "source_ids": [
+        "SRC-C2-008"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-009",
+      "statement": "Status is a socially conferred rank or standing and can motivate behavior aimed at acquiring, maintaining, or defending relative standing.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N04-01"
+      ],
+      "source_ids": [
+        "SRC-C3-007"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-010",
+      "statement": "Reputation concern involves sensitivity to how one's character, competence, or actions are evaluated by others and can motivate impression-management behavior.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N04-02"
+      ],
+      "source_ids": [
+        "SRC-C3-005",
+        "SRC-C3-007"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-011",
+      "statement": "Liking is a distinct interpersonal influence factor that can increase receptivity or compliance but should not be treated as evidence of expertise or truth.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C3-N06-02"
+      ],
+      "source_ids": [
+        "SRC-C3-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-012",
+      "statement": "Perceived similarity can contribute to social influence and source evaluation, but effects are context-sensitive and similarity is not equivalent to group identity.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C3-N06-03"
+      ],
+      "source_ids": [
+        "SRC-C3-002",
+        "SRC-REUSE-TR-001"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-013",
+      "statement": "Availability-based judgment uses the accessibility or ease with which examples or instances come to mind as a cue, but heuristic usefulness and bias depend on environment and task.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C4-N01-02"
+      ],
+      "source_ids": [
+        "SRC-C4-002"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-014",
+      "statement": "Choice overload is context-dependent: one meta-analysis found an overall effect near zero with substantial variance, while another identified reliable moderators such as choice-set complexity, task difficulty, preference uncertainty, and decision goal.",
+      "claim_type": "moderation",
+      "stance": "bounds",
+      "target_ids": [
+        "C4-N04-02"
+      ],
+      "source_ids": [
+        "SRC-C4-009",
+        "SRC-C4-010"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C5-015",
+      "statement": "The asymmetric-dominance or decoy effect is a context effect in which adding an inferior option can shift preference toward a target option, but effect size and direction depend on choice structure and context.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C4-N04-05"
+      ],
+      "source_ids": [
+        "SRC-C4-011",
+        "SRC-C4-012"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C5-016",
+      "statement": "Present bias is disproportionate weighting of more immediate outcomes in intertemporal choice and should be distinguished from temporal discounting in general.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C4-N05-02"
+      ],
+      "source_ids": [
+        "SRC-C4-006"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-017",
+      "statement": "Evaluative conditioning is change in evaluation resulting from pairing a target with positive or negative stimuli; meta-analytic evidence supports the effect but shows substantial heterogeneity and boundary conditions.",
+      "claim_type": "causal",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N01-05"
+      ],
+      "source_ids": [
+        "SRC-C5-010",
+        "SRC-C5-011"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C5-018",
+      "statement": "Personal involvement or relevance influences motivation to process persuasive messages and therefore can moderate reliance on argument quality versus simpler cues.",
+      "claim_type": "moderation",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N02-02"
+      ],
+      "source_ids": [
+        "SRC-C5-002",
+        "SRC-C5-009"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C5-019",
+      "statement": "Counterarguing is generation or activation of thoughts opposing a persuasive message and is a core resistance process, including within psychological reactance.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C5-N05-01"
+      ],
+      "source_ids": [
+        "SRC-C5-008"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-020",
+      "statement": "Inoculation messages can confer resistance to later persuasion relative to supportive or no-treatment controls, while several proposed moderators and mechanisms have not shown uniformly predicted effects.",
+      "claim_type": "causal",
+      "stance": "bounds",
+      "target_ids": [
+        "C5-N05-03"
+      ],
+      "source_ids": [
+        "SRC-C5-012"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C5-021",
+      "statement": "Semantic priming can occur between semantically related words even without simple associative relation, supporting a distinct semantic-activation phenomenon.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N01-04"
+      ],
+      "source_ids": [
+        "SRC-C6-009"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C5-022",
+      "statement": "Concrete words are often processed more efficiently than abstract words, but lexical form and other correlated properties contribute to the observed concreteness effect.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C6-N01-05"
+      ],
+      "source_ids": [
+        "SRC-C6-010"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-023",
+      "statement": "Audience design refers to speakers adapting utterances to the needs or known properties of addressees through feedforward and recurrent mechanisms.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C6-008"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C5-024",
+      "statement": "Perspective taking contributes to coordination of meaning in conversation but should not be assumed perfect or complete; communicators integrate their own and others' perspectives.",
+      "claim_type": "mechanistic",
+      "stance": "supports",
+      "target_ids": [
+        "C6-N03-03"
+      ],
+      "source_ids": [
+        "SRC-C6-008"
+      ],
+      "status": "verified_for_construct_existence"
+    },
+    {
+      "id": "CLM-S3C5-025",
+      "statement": "Character identification is a distinct narrative-processing construct that can be strengthened by character-recipient similarity and can contribute to narrative persuasion.",
+      "claim_type": "descriptive",
+      "stance": "supports",
+      "target_ids": [
+        "C7-N03-02"
+      ],
+      "source_ids": [
+        "SRC-C7-011",
+        "SRC-C7-001"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C5-026",
+      "statement": "Primacy ordering can affect persuasion in some advertising contexts, but message-order effects interact with involvement, audience characteristics, timing, and other conditions; no universal primacy rule is justified.",
+      "claim_type": "moderation",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N04-01"
+      ],
+      "source_ids": [
+        "SRC-C7-012",
+        "SRC-C7-008"
+      ],
+      "status": "verified_for_provisional"
+    },
+    {
+      "id": "CLM-S3C5-027",
+      "statement": "Contrast structure deliberately juxtaposes alternatives, states, or attributes to make differences salient; comparative-advertising evidence shows benefits on some outcomes alongside possible credibility costs.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N05-01"
+      ],
+      "source_ids": [
+        "SRC-C7-007"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "CLM-S3C5-028",
+      "statement": "A one-sided persuasive message presents supporting considerations without substantively presenting opposing considerations; its effectiveness depends on receiver and message conditions and should not be treated as universally inferior to two-sided structure.",
+      "claim_type": "descriptive",
+      "stance": "bounds",
+      "target_ids": [
+        "C7-N06-01"
+      ],
+      "source_ids": [
+        "SRC-C7-002",
+        "SRC-C7-003"
+      ],
+      "status": "verified_for_construct_existence"
     }
   ]
 }

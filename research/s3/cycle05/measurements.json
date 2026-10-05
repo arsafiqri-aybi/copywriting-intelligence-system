@@ -1,0 +1,249 @@
+{
+  "version": "1.0.0",
+  "records": [
+    {
+      "id": "MEAS-C1-008",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "accuracy/latency in a task requiring replacement or updating of currently maintained items",
+      "target_ids": [
+        "C1-N03-03"
+      ],
+      "alternative_explanations": [
+        "storage capacity",
+        "processing speed",
+        "interference control"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-001"
+      ],
+      "reliability": null,
+      "population_scope": "working-memory tasks",
+      "channel_scope": null,
+      "ambiguity": "Updating task scores are task-dependent and not pure measures of one latent ability.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C1-009",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "performance under experimentally manipulated processing/load demand",
+      "target_ids": [
+        "C1-N03-05"
+      ],
+      "alternative_explanations": [
+        "task difficulty",
+        "prior knowledge",
+        "motivation"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-002"
+      ],
+      "reliability": null,
+      "population_scope": "cognitive tasks",
+      "channel_scope": null,
+      "ambiguity": "Load depends on task-person interaction; visual complexity alone is not load.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C2-006",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "anticipated-regret rating before a specified choice/action",
+      "target_ids": [
+        "C2-N06-04"
+      ],
+      "alternative_explanations": [
+        "anticipated guilt",
+        "loss aversion",
+        "general negative affect"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-008"
+      ],
+      "reliability": null,
+      "population_scope": "decision studies",
+      "channel_scope": null,
+      "ambiguity": "Prospective regret must be measured before the outcome and separated from generic negative anticipation.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C4-003",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "choice deferral, satisfaction/confidence, regret, or switching under manipulated assortment size/complexity",
+      "target_ids": [
+        "C4-N04-02"
+      ],
+      "alternative_explanations": [
+        "task difficulty",
+        "preference uncertainty",
+        "decision goal"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-014"
+      ],
+      "reliability": null,
+      "population_scope": "consumer choice tasks",
+      "channel_scope": null,
+      "ambiguity": "Large assortment alone does not diagnose overload; moderators must be measured or manipulated.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C4-004",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "target-choice share change after adding an asymmetrically dominated decoy",
+      "target_ids": [
+        "C4-N04-05"
+      ],
+      "alternative_explanations": [
+        "attribute salience",
+        "similarity",
+        "inferential beliefs"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-015"
+      ],
+      "reliability": null,
+      "population_scope": "multiattribute choice",
+      "channel_scope": null,
+      "ambiguity": "The added option must satisfy the structural dominance relation; any bad option is not a valid decoy manipulation.",
+      "calibration_state": "validated_for_scope",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C5-005",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "evaluation difference after controlled pairing of target with valenced stimuli",
+      "target_ids": [
+        "C5-N01-05"
+      ],
+      "alternative_explanations": [
+        "demand",
+        "explicit propositional inference",
+        "familiarity"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-017"
+      ],
+      "reliability": null,
+      "population_scope": "evaluative-conditioning studies",
+      "channel_scope": null,
+      "ambiguity": "Immediate evaluation change may not persist or translate to behavior.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C5-006",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "resistance to later persuasive attack after randomized inoculation/prebunking intervention",
+      "target_ids": [
+        "C5-N05-03"
+      ],
+      "alternative_explanations": [
+        "forewarning",
+        "knowledge gain",
+        "source effects"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-020"
+      ],
+      "reliability": null,
+      "population_scope": "persuasion/inoculation studies",
+      "channel_scope": null,
+      "ambiguity": "Observed resistance does not uniquely identify one mechanism such as threat or counterarguing.",
+      "calibration_state": "validated_for_scope",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C6-002",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "target lexical decision/naming latency or accuracy after semantically related versus unrelated prime",
+      "target_ids": [
+        "C6-N01-04"
+      ],
+      "alternative_explanations": [
+        "associative relation",
+        "strategic expectancy",
+        "word frequency"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-021"
+      ],
+      "reliability": null,
+      "population_scope": "psycholinguistic priming tasks",
+      "channel_scope": null,
+      "ambiguity": "Semantic and associative priming must be distinguished; task changes effect size.",
+      "calibration_state": "validated_for_scope",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C6-003",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "systematic change in utterance design as addressee/message needs are manipulated",
+      "target_ids": [
+        "C6-N03-02"
+      ],
+      "alternative_explanations": [
+        "speaker style",
+        "social desirability",
+        "register norms"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-023"
+      ],
+      "reliability": null,
+      "population_scope": "language production studies",
+      "channel_scope": null,
+      "ambiguity": "Audience adaptation can be feedforward or recurrent and should be linked to an explicit addressee property.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C7-003",
+      "measurement_kind": "validated_instrument",
+      "observed_variable": "character-identification score after narrative exposure",
+      "target_ids": [
+        "C7-N03-02"
+      ],
+      "alternative_explanations": [
+        "liking",
+        "similarity",
+        "transportation",
+        "parasocial closeness"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-025"
+      ],
+      "reliability": null,
+      "population_scope": "narrative persuasion studies",
+      "channel_scope": null,
+      "ambiguity": "Identification is distinct from liking and general transportation.",
+      "calibration_state": "partially_validated",
+      "status": "accepted"
+    },
+    {
+      "id": "MEAS-C7-004",
+      "measurement_kind": "behavioral_task",
+      "observed_variable": "attitude/judgment difference after randomized earlier-versus-later placement of equivalent message material",
+      "target_ids": [
+        "C7-N04-01"
+      ],
+      "alternative_explanations": [
+        "attention decay",
+        "memory",
+        "involvement",
+        "source order"
+      ],
+      "validity_evidence_claim_ids": [
+        "CLM-S3C5-026"
+      ],
+      "reliability": null,
+      "population_scope": "message-order experiments",
+      "channel_scope": "advertising/persuasion",
+      "ambiguity": "Order effects are conditional and may show primacy, recency, or null patterns.",
+      "calibration_state": "heuristic",
+      "status": "provisional"
+    }
+  ]
+}
