@@ -1,0 +1,1337 @@
+{
+  "version": "1.0.0",
+  "rules": [
+    {
+      "id": "MVM-001",
+      "signal_pattern": {
+        "dimension": "goal_job",
+        "fact_types": [
+          "explicit_current_goal",
+          "desired_outcome"
+        ],
+        "qualifiers": [
+          "currently pursued or repeatedly reported"
+        ]
+      },
+      "target_node_ids": [
+        "C2-N01-02"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "A stated currently pursued outcome is evidence for considering an active goal representation, but wording alone does not prove goal strength.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "verbatim interview/sales/support evidence or explicit user brief",
+        "goal must be current, not merely aspirational"
+      ],
+      "non_implications": [
+        "does not prove goal commitment",
+        "does not prove high importance"
+      ],
+      "alternative_explanations": [
+        "social desirability",
+        "hypothetical preference"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-002",
+      "signal_pattern": {
+        "dimension": "goal_job",
+        "fact_types": [
+          "current_desired_gap",
+          "problem_state_to_target_state"
+        ],
+        "qualifiers": [
+          "both current and desired states are evidenced"
+        ]
+      },
+      "target_node_ids": [
+        "C2-N01-03"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "A documented current-versus-desired state gap is compatible with goal discrepancy.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "current state",
+        "desired state"
+      ],
+      "non_implications": [
+        "gap magnitude does not equal motivation",
+        "large gap may discourage"
+      ],
+      "alternative_explanations": [
+        "low attainability",
+        "external obligation"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-003",
+      "signal_pattern": {
+        "dimension": "goal_job",
+        "fact_types": [
+          "importance_statement",
+          "priority_statement"
+        ],
+        "qualifiers": [
+          "importance is audience-reported or behaviorally supported"
+        ]
+      },
+      "target_node_ids": [
+        "C2-N01-04"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Repeated explicit importance language supports a goal-importance hypothesis.",
+      "scientific_edge_ids": [
+        "EDGE-S4-026"
+      ],
+      "claim_ids": [
+        "CLM-S4-026"
+      ],
+      "minimum_evidence": [
+        "audience-specific evidence"
+      ],
+      "non_implications": [
+        "importance is not commitment",
+        "importance does not imply persuasion"
+      ],
+      "alternative_explanations": [
+        "identity signaling",
+        "social desirability"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-004",
+      "signal_pattern": {
+        "dimension": "value",
+        "fact_types": [
+          "audience_value_preference",
+          "benefit_priority"
+        ],
+        "qualifiers": [
+          "value attached to a task/outcome, not product feature alone"
+        ]
+      },
+      "target_node_ids": [
+        "C2-N03-02"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Audience-reported worth/importance of an outcome can support a subjective value hypothesis.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "audience statement/choice evidence"
+      ],
+      "non_implications": [
+        "product benefit claim is not subjective value",
+        "value alone does not imply action"
+      ],
+      "alternative_explanations": [
+        "low expectancy",
+        "high effort cost"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-005",
+      "signal_pattern": {
+        "dimension": "audience",
+        "fact_types": [
+          "self_relevant_identity",
+          "role_identity",
+          "personally_diagnostic_context"
+        ],
+        "qualifiers": [
+          "identity is active/relevant in the situation"
+        ]
+      },
+      "target_node_ids": [
+        "C3-N01-01",
+        "C3-N02-03"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Identity-relevant context can activate self-relevance/identity salience hypotheses.",
+      "scientific_edge_ids": [
+        "EDGE-S4-017"
+      ],
+      "claim_ids": [
+        "CLM-S4-017"
+      ],
+      "minimum_evidence": [
+        "context-specific identity relevance"
+      ],
+      "non_implications": [
+        "demographic membership alone is insufficient",
+        "identity salience is not permanent"
+      ],
+      "alternative_explanations": [
+        "task relevance without identity"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-006",
+      "signal_pattern": {
+        "dimension": "value",
+        "fact_types": [
+          "desired_self",
+          "aspirational_identity_outcome"
+        ],
+        "qualifiers": [
+          "audience expresses desired self-state"
+        ]
+      },
+      "target_node_ids": [
+        "C3-N01-05"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Desired-self language supports an aspirational-identity hypothesis.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "verbatim desired-self statement or validated research"
+      ],
+      "non_implications": [
+        "not automatically status seeking",
+        "not necessarily public signaling"
+      ],
+      "alternative_explanations": [
+        "functional aspiration",
+        "role demand"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-007",
+      "signal_pattern": {
+        "dimension": "market_category",
+        "fact_types": [
+          "reported_what_others_do",
+          "usage_prevalence"
+        ],
+        "qualifiers": [
+          "referent group is explicit"
+        ]
+      },
+      "target_node_ids": [
+        "C3-N03-01"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Perception about what relevant others do maps to descriptive norm, not generic social proof.",
+      "scientific_edge_ids": [
+        "EDGE-S4-009"
+      ],
+      "claim_ids": [
+        "CLM-S4-009"
+      ],
+      "minimum_evidence": [
+        "explicit referent group",
+        "behavior/prevalence wording"
+      ],
+      "non_implications": [
+        "prevalence is not approval",
+        "popularity is not truth"
+      ],
+      "alternative_explanations": [
+        "visibility bias",
+        "sampling bias"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-008",
+      "signal_pattern": {
+        "dimension": "market_category",
+        "fact_types": [
+          "reported_what_others_approve",
+          "should_expectation"
+        ],
+        "qualifiers": [
+          "approval/prescription is explicit"
+        ]
+      },
+      "target_node_ids": [
+        "C3-N03-02"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Perceived approval/prescription maps to injunctive norm rather than descriptive norm.",
+      "scientific_edge_ids": [
+        "EDGE-S4-027",
+        "EDGE-S4-028"
+      ],
+      "claim_ids": [
+        "CLM-S4-027",
+        "CLM-S4-028"
+      ],
+      "minimum_evidence": [
+        "explicit approval/should signal"
+      ],
+      "non_implications": [
+        "does not guarantee compliance",
+        "may evoke reactance"
+      ],
+      "alternative_explanations": [
+        "authority pressure",
+        "moral identity"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-009",
+      "signal_pattern": {
+        "dimension": "audience",
+        "fact_types": [
+          "status_concern",
+          "rank_concern"
+        ],
+        "qualifiers": [
+          "relative standing is explicit"
+        ]
+      },
+      "target_node_ids": [
+        "C3-N04-01"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Concern with relative standing supports a status-motivation hypothesis.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "status/rank/standing evidence"
+      ],
+      "non_implications": [
+        "premium preference alone is not status motivation"
+      ],
+      "alternative_explanations": [
+        "quality inference",
+        "identity fit"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-010",
+      "signal_pattern": {
+        "dimension": "risk_objection",
+        "fact_types": [
+          "source_honesty_doubt",
+          "skepticism_about_seller"
+        ],
+        "qualifiers": [
+          "doubt concerns honesty/integrity rather than competence"
+        ]
+      },
+      "target_node_ids": [
+        "C5-N03-02"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Honesty/integrity doubts map to perceived trustworthiness gap.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "source-targeted doubt"
+      ],
+      "non_implications": [
+        "does not imply low expertise",
+        "doubt may be claim-specific"
+      ],
+      "alternative_explanations": [
+        "claim implausibility",
+        "category distrust"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-011",
+      "signal_pattern": {
+        "dimension": "risk_objection",
+        "fact_types": [
+          "source_competence_doubt",
+          "expertise_question"
+        ],
+        "qualifiers": [
+          "doubt concerns ability/knowledge in relevant domain"
+        ]
+      },
+      "target_node_ids": [
+        "C5-N03-01"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Competence doubts map to perceived source expertise gap.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "domain-specific expertise concern"
+      ],
+      "non_implications": [
+        "credentials do not guarantee perceived expertise"
+      ],
+      "alternative_explanations": [
+        "trustworthiness",
+        "claim complexity"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-012",
+      "signal_pattern": {
+        "dimension": "risk_objection",
+        "fact_types": [
+          "sounds_too_good",
+          "claim_believability_doubt"
+        ],
+        "qualifiers": [
+          "objection targets whether claim is believable"
+        ]
+      },
+      "target_node_ids": [
+        "C5-N04-04"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Believability doubt maps first to claim plausibility, not automatically reactance.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "claim-specific objection"
+      ],
+      "non_implications": [
+        "implausibility is not falsity",
+        "does not prove counterarguing"
+      ],
+      "alternative_explanations": [
+        "low source trust",
+        "missing evidence"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-013",
+      "signal_pattern": {
+        "dimension": "risk_objection",
+        "fact_types": [
+          "freedom_pressure",
+          "hard_sell_resistance"
+        ],
+        "qualifiers": [
+          "recipient perceives threatened choice/autonomy"
+        ]
+      },
+      "target_node_ids": [
+        "C5-N05-02"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Perceived pressure/threat to freedom can support a reactance hypothesis.",
+      "scientific_edge_ids": [
+        "EDGE-S4-027"
+      ],
+      "claim_ids": [
+        "CLM-S3C4-018"
+      ],
+      "minimum_evidence": [
+        "freedom-threat interpretation or anger/counterarguing indicators"
+      ],
+      "non_implications": [
+        "disagreement alone is not reactance"
+      ],
+      "alternative_explanations": [
+        "low value",
+        "distrust",
+        "poor fit"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-014",
+      "signal_pattern": {
+        "dimension": "risk_objection",
+        "fact_types": [
+          "outcome_risk",
+          "performance_risk",
+          "financial_risk"
+        ],
+        "qualifiers": [
+          "risk concerns uncertain negative consequence"
+        ]
+      },
+      "target_node_ids": [
+        "C4-N03-01"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Audience-perceived possible negative outcomes support risk-perception analysis.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "audience-perceived consequence and likelihood uncertainty"
+      ],
+      "non_implications": [
+        "objective risk is not perceived risk"
+      ],
+      "alternative_explanations": [
+        "ambiguity",
+        "loss framing"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-015",
+      "signal_pattern": {
+        "dimension": "risk_objection",
+        "fact_types": [
+          "unknown_probability",
+          "not_enough_information"
+        ],
+        "qualifiers": [
+          "uncertainty is about missing/ill-specified probabilities"
+        ]
+      },
+      "target_node_ids": [
+        "C4-N03-03"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Poorly specified probabilities support ambiguity-aversion analysis.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "decision-relevant probability ambiguity"
+      ],
+      "non_implications": [
+        "not all uncertainty is ambiguity aversion"
+      ],
+      "alternative_explanations": [
+        "low trust",
+        "lack of category knowledge"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-016",
+      "signal_pattern": {
+        "dimension": "alternative",
+        "fact_types": [
+          "status_quo",
+          "current_solution",
+          "comparison_option"
+        ],
+        "qualifiers": [
+          "comparison standard is psychologically salient or explicitly used"
+        ]
+      },
+      "target_node_ids": [
+        "C4-N02-02",
+        "C4-N07-04"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Alternatives/status quo can function as reference/comparison context when recipients actually use them.",
+      "scientific_edge_ids": [
+        "EDGE-S4-012"
+      ],
+      "claim_ids": [
+        "CLM-S4-012"
+      ],
+      "minimum_evidence": [
+        "explicit comparison or observed reference use"
+      ],
+      "non_implications": [
+        "an available alternative is not automatically the operative reference point"
+      ],
+      "alternative_explanations": [
+        "habit",
+        "availability"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-017",
+      "signal_pattern": {
+        "dimension": "offer",
+        "fact_types": [
+          "price",
+          "discount_reference",
+          "list_price"
+        ],
+        "qualifiers": [
+          "numeric comparison is visible"
+        ]
+      },
+      "target_node_ids": [
+        "C4-N07-01",
+        "C4-N07-02"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "provisional",
+      "rationale": "Visible numeric/price references may act as anchors/reference prices, but actual effect depends on context and relevance.",
+      "scientific_edge_ids": [],
+      "claim_ids": [
+        "CLM-S3C4-014"
+      ],
+      "minimum_evidence": [
+        "actual presented number",
+        "comparison context"
+      ],
+      "non_implications": [
+        "first number is not guaranteed anchor",
+        "list price is not automatically a valid reference price"
+      ],
+      "alternative_explanations": [
+        "quality signaling",
+        "budget constraint"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-018",
+      "signal_pattern": {
+        "dimension": "friction",
+        "fact_types": [
+          "extra_steps",
+          "long_form",
+          "setup_work",
+          "switching_work",
+          "delay"
+        ],
+        "qualifiers": [
+          "burden occurs after or around intended action"
+        ]
+      },
+      "target_node_ids": [
+        "C4-N08-02",
+        "C4-N08-04",
+        "C5-N08-05"
+      ],
+      "mapping_kind": "evidence_backed_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Observed implementation burdens can contribute to decision/implementation friction and widen intention-behavior gaps.",
+      "scientific_edge_ids": [
+        "EDGE-S4-010"
+      ],
+      "claim_ids": [
+        "CLM-S4-010"
+      ],
+      "minimum_evidence": [
+        "specific action path burden",
+        "location of friction"
+      ],
+      "non_implications": [
+        "drop-off does not prove friction without alternative checks"
+      ],
+      "alternative_explanations": [
+        "low motivation",
+        "eligibility",
+        "technical failure",
+        "low value"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-019",
+      "signal_pattern": {
+        "dimension": "friction",
+        "fact_types": [
+          "unclear_next_step",
+          "ambiguous_action_path"
+        ],
+        "qualifiers": [
+          "user cannot identify immediate next action"
+        ]
+      },
+      "target_node_ids": [
+        "C4-N08-04",
+        "C7-N08-03"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "provisional",
+      "rationale": "Unclear action path can be represented as implementation friction; next-step clarity is a provisional message-design node.",
+      "scientific_edge_ids": [
+        "EDGE-S4-031"
+      ],
+      "claim_ids": [
+        "CLM-S4-031"
+      ],
+      "minimum_evidence": [
+        "action-path ambiguity"
+      ],
+      "non_implications": [
+        "clarity does not create desire"
+      ],
+      "alternative_explanations": [
+        "low intention",
+        "low trust"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-020",
+      "signal_pattern": {
+        "dimension": "proof_evidence",
+        "fact_types": [
+          "customer_requests_proof",
+          "evidence_gap",
+          "proof_inventory"
+        ],
+        "qualifiers": [
+          "support is claim-specific"
+        ]
+      },
+      "target_node_ids": [
+        "C5-N04-03",
+        "C5-N07-02",
+        "C5-N07-04"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "provisional",
+      "rationale": "Proof needs should route primarily through evidence diagnosticity; verifiability/traceability nodes remain provisional.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "specific claim",
+        "available support type"
+      ],
+      "non_implications": [
+        "more proof is not always better",
+        "testimonial count is not evidence quality"
+      ],
+      "alternative_explanations": [
+        "claim implausibility",
+        "source distrust"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-021",
+      "signal_pattern": {
+        "dimension": "proof_evidence",
+        "fact_types": [
+          "demonstration",
+          "observable_product_demo"
+        ],
+        "qualifiers": [
+          "demonstration directly bears on claim"
+        ]
+      },
+      "target_node_ids": [
+        "C5-N07-01",
+        "C5-N04-03"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "provisional",
+      "rationale": "Demonstration can make claim-relevant evidence more inspectable but does not establish causal validity.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "demonstration-claim fit"
+      ],
+      "non_implications": [
+        "demo is not proof of population generalization"
+      ],
+      "alternative_explanations": [
+        "selection/cherry-picking"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-022",
+      "signal_pattern": {
+        "dimension": "customer_language",
+        "fact_types": [
+          "verbatim_phrase",
+          "category_term",
+          "objection_wording"
+        ],
+        "qualifiers": [
+          "speaker/context retained"
+        ]
+      },
+      "target_node_ids": [
+        "C6-N03-01",
+        "C6-N03-02"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "contextualize",
+      "status": "accepted",
+      "rationale": "Verbatim audience language informs common-ground and audience-design decisions without proving a psychological state.",
+      "scientific_edge_ids": [
+        "EDGE-S4-015"
+      ],
+      "claim_ids": [
+        "CLM-S4-015"
+      ],
+      "minimum_evidence": [
+        "verbatim text plus speaker/context"
+      ],
+      "non_implications": [
+        "frequent phrase is not automatically best copy",
+        "customer language may be inaccurate"
+      ],
+      "alternative_explanations": [
+        "category jargon",
+        "social desirability"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-023",
+      "signal_pattern": {
+        "dimension": "customer_language",
+        "fact_types": [
+          "evaluative_word",
+          "loaded_term",
+          "identity_term"
+        ],
+        "qualifiers": [
+          "meaning is audience/community specific"
+        ]
+      },
+      "target_node_ids": [
+        "C6-N01-02"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "contextualize",
+      "status": "accepted",
+      "rationale": "Evaluative/social associations in customer wording are relevant to connotative meaning.",
+      "scientific_edge_ids": [
+        "EDGE-S4-021"
+      ],
+      "claim_ids": [
+        "CLM-S4-021"
+      ],
+      "minimum_evidence": [
+        "contextual usage examples"
+      ],
+      "non_implications": [
+        "dictionary sentiment is not audience connotation"
+      ],
+      "alternative_explanations": [
+        "irony",
+        "register",
+        "subculture meaning"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-024",
+      "signal_pattern": {
+        "dimension": "channel_context",
+        "fact_types": [
+          "character_limit",
+          "fast_scroll_context",
+          "dense_information_environment"
+        ],
+        "qualifiers": [
+          "constraint is real, not assumed"
+        ]
+      },
+      "target_node_ids": [
+        "C1-N03-05",
+        "C1-N04-03"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "request_more_evidence",
+      "status": "heuristic",
+      "rationale": "Channel constraints may make load/fluency more important design considerations, but channel label alone does not establish receiver cognitive load.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "actual format constraints",
+        "content complexity"
+      ],
+      "non_implications": [
+        "shorter is not always better",
+        "fast-scroll does not prove low elaboration"
+      ],
+      "alternative_explanations": [
+        "high motivation",
+        "expert audience"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-025",
+      "signal_pattern": {
+        "dimension": "market_category",
+        "fact_types": [
+          "competitor_comparison",
+          "category_substitute_set"
+        ],
+        "qualifiers": [
+          "alternatives are decision-relevant"
+        ]
+      },
+      "target_node_ids": [
+        "C4-N07-04",
+        "C7-N05-03"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "contextualize",
+      "status": "accepted",
+      "rationale": "Relevant alternatives create a comparison context; comparative message structure is a design option rather than an automatic recommendation.",
+      "scientific_edge_ids": [
+        "EDGE-S4-012"
+      ],
+      "claim_ids": [
+        "CLM-S4-012"
+      ],
+      "minimum_evidence": [
+        "credible alternative set"
+      ],
+      "non_implications": [
+        "must not make unsupported comparative claims"
+      ],
+      "alternative_explanations": [
+        "status quo dominance",
+        "different audience segments"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-026",
+      "signal_pattern": {
+        "dimension": "offer",
+        "fact_types": [
+          "guarantee",
+          "refund_policy",
+          "trial"
+        ],
+        "qualifiers": [
+          "terms are factual and operational"
+        ]
+      },
+      "target_node_ids": [
+        "C4-N03-01",
+        "C5-N03-02"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "contextualize",
+      "status": "heuristic",
+      "rationale": "Guarantees may alter perceived risk and trust, but effect depends on credibility, terms, category and claim.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "actual enforceable terms"
+      ],
+      "non_implications": [
+        "guarantee does not automatically reduce perceived risk",
+        "guarantee is not proof of quality"
+      ],
+      "alternative_explanations": [
+        "signal of low quality",
+        "complex terms"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-027",
+      "signal_pattern": {
+        "dimension": "offer",
+        "fact_types": [
+          "deadline",
+          "limited_window"
+        ],
+        "qualifiers": [
+          "deadline is real and decision-relevant"
+        ]
+      },
+      "target_node_ids": [],
+      "mapping_kind": "no_direct_mapping",
+      "activation_effect": "do_not_activate",
+      "status": "accepted",
+      "rationale": "A real deadline is a commercial constraint. The current graph does not justify automatically mapping every deadline to scarcity, loss aversion, urgency, or fear.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "factual deadline"
+      ],
+      "non_implications": [
+        "deadline != scarcity",
+        "deadline != loss aversion",
+        "deadline != urgency mechanism"
+      ],
+      "alternative_explanations": [
+        "scheduling constraint"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-028",
+      "signal_pattern": {
+        "dimension": "market_category",
+        "fact_types": [
+          "market_sophistication_label",
+          "awareness_stage_label"
+        ],
+        "qualifiers": [
+          "label comes from strategy framework rather than validated psychometric construct"
+        ]
+      },
+      "target_node_ids": [],
+      "mapping_kind": "constraint_only",
+      "activation_effect": "contextualize",
+      "status": "accepted",
+      "rationale": "Awareness/sophistication labels are runtime segmentation context, not scientific neurons.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "clear operational definition"
+      ],
+      "non_implications": [
+        "stage label does not directly activate motivation, trust, or attention nodes"
+      ],
+      "alternative_explanations": [
+        "knowledge",
+        "experience",
+        "involvement"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-029",
+      "signal_pattern": {
+        "dimension": "value",
+        "fact_types": [
+          "identity_social_value"
+        ],
+        "qualifiers": [
+          "value depends on self/other meaning"
+        ]
+      },
+      "target_node_ids": [
+        "C3-N01-01",
+        "C3-N01-05",
+        "C3-N04-01"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "request_more_evidence",
+      "status": "heuristic",
+      "rationale": "Identity/social value hypotheses should be decomposed into self-relevance, desired-self, status or affiliation mechanisms based on evidence.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "specific identity/social consequence"
+      ],
+      "non_implications": [
+        "social value is not automatically status"
+      ],
+      "alternative_explanations": [
+        "belonging",
+        "reputation",
+        "self-expression"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-030",
+      "signal_pattern": {
+        "dimension": "value",
+        "fact_types": [
+          "risk_reduction_value",
+          "uncertainty_reduction_value"
+        ],
+        "qualifiers": [
+          "audience currently perceives risk/uncertainty"
+        ]
+      },
+      "target_node_ids": [
+        "C4-N03-01",
+        "C4-N03-03",
+        "C5-N04-03"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "heuristic",
+      "rationale": "Risk/uncertainty-reduction value matters only if a corresponding risk/ambiguity/evidence gap is evidenced.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "identified risk/uncertainty source"
+      ],
+      "non_implications": [
+        "risk reduction claim is not proof of risk perception"
+      ],
+      "alternative_explanations": [
+        "trust gap",
+        "low value"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-031",
+      "signal_pattern": {
+        "dimension": "value",
+        "fact_types": [
+          "time_convenience_value",
+          "effort_reduction_value"
+        ],
+        "qualifiers": [
+          "audience currently bears time/effort cost"
+        ]
+      },
+      "target_node_ids": [
+        "C4-N08-01",
+        "C4-N08-02",
+        "C2-N03-05"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "heuristic",
+      "rationale": "Convenience value should be tied to evidenced effort/friction/motivational cost rather than asserted generically.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "current effort/time burden"
+      ],
+      "non_implications": [
+        "faster is not always more valuable"
+      ],
+      "alternative_explanations": [
+        "quality preference",
+        "risk aversion"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-032",
+      "signal_pattern": {
+        "dimension": "product_capability",
+        "fact_types": [
+          "feature",
+          "capability"
+        ],
+        "qualifiers": [
+          "capability is factual"
+        ]
+      },
+      "target_node_ids": [],
+      "mapping_kind": "no_direct_mapping",
+      "activation_effect": "do_not_activate",
+      "status": "accepted",
+      "rationale": "A product feature is not a human mechanism. It must be linked to a desired outcome, barrier or value hypothesis before mechanism activation.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "product truth"
+      ],
+      "non_implications": [
+        "feature != benefit",
+        "feature != value"
+      ],
+      "alternative_explanations": [],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-033",
+      "signal_pattern": {
+        "dimension": "proof_evidence",
+        "fact_types": [
+          "testimonial",
+          "review_count",
+          "popularity_metric"
+        ],
+        "qualifiers": [
+          "evidence type is social observation"
+        ]
+      },
+      "target_node_ids": [
+        "C3-N03-01",
+        "C5-N03-02"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "request_more_evidence",
+      "status": "heuristic",
+      "rationale": "Testimonials/popularity may provide social or source cues, but their meaning depends on referent, authenticity, diagnosticity and relevance.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "authentic provenance",
+        "relevant referent"
+      ],
+      "non_implications": [
+        "review count != descriptive norm automatically",
+        "testimonial != truth"
+      ],
+      "alternative_explanations": [
+        "selection bias",
+        "fake reviews",
+        "source similarity"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-034",
+      "signal_pattern": {
+        "dimension": "risk_objection",
+        "fact_types": [
+          "too_many_choices",
+          "decision_confusion"
+        ],
+        "qualifiers": [
+          "choice-set complexity or preference uncertainty is evidenced"
+        ]
+      },
+      "target_node_ids": [
+        "C4-N04-02"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "candidate_activate",
+      "status": "provisional",
+      "rationale": "Choice-overload hypothesis requires moderator evidence; option count alone is insufficient.",
+      "scientific_edge_ids": [],
+      "claim_ids": [
+        "CLM-S3C5-014"
+      ],
+      "minimum_evidence": [
+        "choice set",
+        "task difficulty/preference uncertainty/context"
+      ],
+      "non_implications": [
+        "many options != overload"
+      ],
+      "alternative_explanations": [
+        "poor information architecture",
+        "low differentiation"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-035",
+      "signal_pattern": {
+        "dimension": "risk_objection",
+        "fact_types": [
+          "counterargument",
+          "explicit_reason_against_claim"
+        ],
+        "qualifiers": [
+          "recipient articulates message-opposing thought"
+        ]
+      },
+      "target_node_ids": [
+        "C5-N05-01"
+      ],
+      "mapping_kind": "semantic_bridge",
+      "activation_effect": "candidate_activate",
+      "status": "accepted",
+      "rationale": "Explicit issue-relevant opposing thoughts map to counterarguing.",
+      "scientific_edge_ids": [],
+      "claim_ids": [
+        "CLM-S3C5-019"
+      ],
+      "minimum_evidence": [
+        "verbatim opposing thought"
+      ],
+      "non_implications": [
+        "objection does not automatically mean reactance"
+      ],
+      "alternative_explanations": [
+        "accurate critique",
+        "missing evidence"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    },
+    {
+      "id": "MVM-036",
+      "signal_pattern": {
+        "dimension": "channel_context",
+        "fact_types": [
+          "public_identity_context",
+          "social_visibility"
+        ],
+        "qualifiers": [
+          "choice is observable to relevant others"
+        ]
+      },
+      "target_node_ids": [
+        "C3-N04-02",
+        "C3-N04-05"
+      ],
+      "mapping_kind": "diagnostic_hypothesis",
+      "activation_effect": "request_more_evidence",
+      "status": "heuristic",
+      "rationale": "Public observability can increase relevance of reputation/signaling mechanisms, but does not prove they are active.",
+      "scientific_edge_ids": [],
+      "claim_ids": [],
+      "minimum_evidence": [
+        "audience believes choice is observable"
+      ],
+      "non_implications": [
+        "public channel != status motive"
+      ],
+      "alternative_explanations": [
+        "accountability",
+        "privacy concern"
+      ],
+      "runtime_weight": null,
+      "weight_semantics": null
+    }
+  ]
+}

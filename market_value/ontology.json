@@ -1,0 +1,244 @@
+{
+  "version": "1.0.0",
+  "system": "MARKET_VALUE_OUTER_SYSTEM",
+  "principle": "Commercial labels are context objects and hypotheses. They do not become psychological nodes unless independently supported as scientific constructs.",
+  "dimensions": [
+    {
+      "id": "MV-D01",
+      "name": "Audience & Situation",
+      "purpose": "Who is acting, in what situation, with what knowledge/context.",
+      "examples": [
+        "segment",
+        "role",
+        "current state",
+        "desired state",
+        "knowledge state",
+        "awareness state"
+      ],
+      "not_equivalent_to": [
+        "identity salience",
+        "motivation",
+        "attitude"
+      ]
+    },
+    {
+      "id": "MV-D02",
+      "name": "Goals, Jobs & Desired Outcomes",
+      "purpose": "What outcome the audience is trying to achieve or avoid.",
+      "examples": [
+        "job-to-be-done",
+        "target outcome",
+        "success criterion"
+      ],
+      "not_equivalent_to": [
+        "active goal representation unless currently evidenced",
+        "goal commitment"
+      ]
+    },
+    {
+      "id": "MV-D03",
+      "name": "Problems, Barriers & Costs",
+      "purpose": "What blocks progress or makes current state costly.",
+      "examples": [
+        "time cost",
+        "effort",
+        "confusion",
+        "social risk",
+        "financial cost"
+      ],
+      "not_equivalent_to": [
+        "perceived motivational cost unless recipient-side evidence exists"
+      ]
+    },
+    {
+      "id": "MV-D04",
+      "name": "Product & Capability",
+      "purpose": "What the product can actually do, how, and under what limitations.",
+      "examples": [
+        "feature",
+        "capability",
+        "delivery",
+        "limitation"
+      ],
+      "not_equivalent_to": [
+        "value",
+        "benefit",
+        "belief"
+      ]
+    },
+    {
+      "id": "MV-D05",
+      "name": "Alternatives & Status Quo",
+      "purpose": "What the audience can choose instead, including doing nothing.",
+      "examples": [
+        "competitor",
+        "DIY",
+        "status quo",
+        "substitute"
+      ],
+      "not_equivalent_to": [
+        "reference point until psychologically operative"
+      ]
+    },
+    {
+      "id": "MV-D06",
+      "name": "Value Hypotheses",
+      "purpose": "Candidate ways the product creates value relative to goals, alternatives and sacrifices.",
+      "examples": [
+        "functional outcome",
+        "economic",
+        "time/convenience",
+        "emotional",
+        "identity/social",
+        "risk reduction",
+        "uncertainty reduction",
+        "autonomy/control",
+        "effort reduction"
+      ],
+      "not_equivalent_to": [
+        "subjective task value until receiver-side evidence exists"
+      ]
+    },
+    {
+      "id": "MV-D07",
+      "name": "Offer & Commercial Terms",
+      "purpose": "Concrete exchange structure.",
+      "examples": [
+        "price",
+        "bundle",
+        "guarantee",
+        "payment terms",
+        "eligibility",
+        "deadline"
+      ],
+      "not_equivalent_to": [
+        "scarcity",
+        "loss aversion",
+        "urgency"
+      ]
+    },
+    {
+      "id": "MV-D08",
+      "name": "Risk, Objections & Belief Gaps",
+      "purpose": "Reasons the audience may reject, delay or doubt.",
+      "examples": [
+        "trust concern",
+        "plausibility concern",
+        "fit concern",
+        "switching risk",
+        "performance risk"
+      ],
+      "not_equivalent_to": [
+        "reactance",
+        "counterarguing",
+        "risk perception without diagnosis"
+      ]
+    },
+    {
+      "id": "MV-D09",
+      "name": "Friction & Action Path",
+      "purpose": "Practical burdens between interest/intention and completed action.",
+      "examples": [
+        "steps",
+        "form fields",
+        "setup",
+        "switching work",
+        "delay",
+        "unclear next step"
+      ],
+      "not_equivalent_to": [
+        "low motivation",
+        "intention-behavior gap by itself"
+      ]
+    },
+    {
+      "id": "MV-D10",
+      "name": "Proof & Evidence Inventory",
+      "purpose": "Available support for claims and its traceability/diagnosticity.",
+      "examples": [
+        "demo",
+        "data",
+        "testimonial",
+        "method",
+        "case",
+        "certification",
+        "source"
+      ],
+      "not_equivalent_to": [
+        "truth",
+        "argument quality",
+        "trust automatically"
+      ]
+    },
+    {
+      "id": "MV-D11",
+      "name": "Customer Language",
+      "purpose": "Verbatim language, concepts, objections, metaphors and category terms used by the audience.",
+      "examples": [
+        "quotes",
+        "search phrases",
+        "support language",
+        "sales-call wording"
+      ],
+      "not_equivalent_to": [
+        "common ground or connotation unless contextualized"
+      ]
+    },
+    {
+      "id": "MV-D12",
+      "name": "Channel, Format & Placement",
+      "purpose": "Communication environment and constraints.",
+      "examples": [
+        "landing page",
+        "email",
+        "Reels",
+        "ad",
+        "sales call",
+        "character limit"
+      ],
+      "not_equivalent_to": [
+        "attention state",
+        "elaboration",
+        "motivation"
+      ]
+    },
+    {
+      "id": "MV-D13",
+      "name": "Market & Category Context",
+      "purpose": "Competitive/category conventions, sophistication, norms, substitutes and expectations.",
+      "examples": [
+        "category claims",
+        "pricing norms",
+        "common proof patterns",
+        "market maturity"
+      ],
+      "not_equivalent_to": [
+        "descriptive norm unless referent and perception are evidenced"
+      ]
+    }
+  ],
+  "value_dimensions": [
+    "functional_outcome_value",
+    "economic_value",
+    "time_convenience_value",
+    "effort_reduction_value",
+    "risk_reduction_value",
+    "uncertainty_reduction_value",
+    "emotional_value",
+    "identity_social_value",
+    "autonomy_control_value",
+    "option_flexibility_value"
+  ],
+  "inference_ladder": [
+    "commercial_fact_or_signal",
+    "normalize_scope_and_provenance",
+    "classify_observed_reported_derived_assumed",
+    "retrieve_candidate_mapping_rules",
+    "generate_mechanism_hypotheses",
+    "check_scientific_edges_and_boundaries",
+    "retain_alternative_explanations",
+    "request_missing_evidence_if_material",
+    "activate_bounded_runtime_hypotheses",
+    "never_rewrite_scientific_registry_from_market_data_directly"
+  ]
+}

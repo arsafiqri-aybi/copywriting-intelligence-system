@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "market-signal.schema.json",
+  "title": "Commercial Fact or Signal",
+  "type": "object",
+  "required": [
+    "id",
+    "dimension",
+    "fact_type",
+    "value",
+    "epistemic_status",
+    "provenance"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "dimension": {
+      "enum": [
+        "audience",
+        "goal_job",
+        "problem_barrier",
+        "product_capability",
+        "alternative",
+        "value",
+        "offer",
+        "risk_objection",
+        "friction",
+        "proof_evidence",
+        "customer_language",
+        "channel_context",
+        "market_category"
+      ]
+    },
+    "fact_type": {
+      "type": "string"
+    },
+    "value": {},
+    "epistemic_status": {
+      "enum": [
+        "observed",
+        "reported",
+        "derived",
+        "assumed",
+        "hypothesis",
+        "contradicted"
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "source_type"
+      ],
+      "properties": {
+        "source_type": {
+          "enum": [
+            "customer_quote",
+            "customer_interview",
+            "survey",
+            "analytics",
+            "experiment",
+            "product_document",
+            "sales_call",
+            "support_ticket",
+            "market_research",
+            "competitor_public",
+            "user_brief",
+            "expert_input",
+            "model_inference",
+            "other"
+          ]
+        },
+        "source_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "captured_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "population_scope": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "confidence": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verbatim": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alternative_explanations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

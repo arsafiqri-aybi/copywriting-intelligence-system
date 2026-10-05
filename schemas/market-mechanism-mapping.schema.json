@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "market-mechanism-mapping.schema.json",
+  "title": "Market Signal to Human Mechanism Mapping",
+  "type": "object",
+  "required": [
+    "id",
+    "signal_pattern",
+    "target_node_ids",
+    "mapping_kind",
+    "status",
+    "rationale",
+    "non_implications"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "signal_pattern": {
+      "type": "object",
+      "required": [
+        "dimension",
+        "fact_types"
+      ],
+      "properties": {
+        "dimension": {
+          "type": "string"
+        },
+        "fact_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "qualifiers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "target_node_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mapping_kind": {
+      "enum": [
+        "semantic_bridge",
+        "evidence_backed_bridge",
+        "diagnostic_hypothesis",
+        "constraint_only",
+        "no_direct_mapping"
+      ]
+    },
+    "activation_effect": {
+      "enum": [
+        "candidate_activate",
+        "candidate_inhibit",
+        "contextualize",
+        "request_more_evidence",
+        "do_not_activate"
+      ]
+    },
+    "status": {
+      "enum": [
+        "accepted",
+        "provisional",
+        "heuristic",
+        "rejected"
+      ]
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "scientific_edge_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "minimum_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "non_implications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "alternative_explanations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "runtime_weight": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "weight_semantics": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

@@ -39,7 +39,7 @@
     "S2_RESEARCH_FOUNDATION": "PASS",
     "S3_SEVEN_CORE_KNOWLEDGE_BUILD": "PASS_WITH_BOUNDED_PROVISIONALS",
     "S4_CONNECTION_BUILD": "PASS_WITH_BOUNDED_PROVISIONAL_EDGES",
-    "S5_MARKET_VALUE_INTEGRATION": "READY_TO_START",
+    "S5_MARKET_VALUE_INTEGRATION": "IN_PROGRESS_CYCLE01_FOUNDATION",
     "S6_REASONING_ENGINE": "NOT_STARTED",
     "S7_MEASUREMENT_EXPERIMENT_FEEDBACK": "NOT_STARTED",
     "S8_EVALUATION": "NOT_STARTED",
@@ -62,7 +62,7 @@
     "provisional_scientific_edges": 13
   },
   "gate_status": {
-    "G1_ARCHITECTURE": "PARTIAL_PASS_S1",
+    "G1_ARCHITECTURE": "PASS_S5_OUTER_SYSTEM_PRESERVED",
     "G2_COVERAGE": "PASS_FOR_S3_SCOPE",
     "G3_EVIDENCE": "PARTIAL_PASS_S3_CONTINUES_PROJECT_WIDE",
     "G4_CAUSAL_DISCIPLINE": "PARTIAL_PASS_S3",
@@ -76,7 +76,7 @@
     "G12_SKILL_QUALITY": "NOT_RUN"
   },
   "research_saturation": "NOT_CLAIMED",
-  "next_action": "S5_MARKET_VALUE_INTEGRATION: build a separate commercial-context ontology and mapping layer from audience/product/alternatives/value/offer/risk/friction/customer language into the seven-core mechanism graph without turning marketing labels into scientific nodes.",
+  "next_action": "S5 cycle02: build resolver/diagnosis artifacts and automated mapping validation; then run representative commercial-context cases before S5 closure.",
   "integrity_repairs": [
     {
       "id": "REPAIR-2026-10-05-01",

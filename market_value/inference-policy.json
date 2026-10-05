@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "title": "Market-to-Mechanism Inference Policy",
+  "rules": [
+    "Never convert a commercial label directly into a scientific node.",
+    "Observed/reported facts outrank model-inferred assumptions.",
+    "A customer quote is evidence about what was said in that context, not a validated latent-state measurement.",
+    "A platform metric is an outcome/proxy, not a direct psychological-state measure unless separately validated.",
+    "Feature, benefit, value proposition, offer, objection and CTA are different object types.",
+    "Every mechanism activation must preserve alternative explanations when material.",
+    "Provisional nodes/edges may guide questions and experiments but cannot be presented as settled laws.",
+    "No market-to-mechanism mapping carries an empirical effect size.",
+    "Runtime priority scores, if later introduced, must be explicitly labeled architecture/calibration parameters.",
+    "If evidence is insufficient, the correct output is a question, hypothesis, non-edge or experiment—not fabricated certainty."
+  ],
+  "epistemic_precedence": [
+    "randomized_or_strong_behavioral_evidence",
+    "validated_instrument_or_direct_observation",
+    "repeated_customer_research",
+    "single_customer_report",
+    "user_brief_assertion",
+    "market_framework_label",
+    "model_inference"
+  ]
+}

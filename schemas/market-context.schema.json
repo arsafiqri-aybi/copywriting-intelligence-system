@@ -1,0 +1,313 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "market-context.schema.json",
+  "title": "Market & Value Context",
+  "type": "object",
+  "required": [
+    "context_id",
+    "goal",
+    "audience",
+    "product",
+    "market",
+    "channel",
+    "facts",
+    "assumptions",
+    "constraints"
+  ],
+  "properties": {
+    "context_id": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "object",
+      "required": [
+        "target_action"
+      ],
+      "properties": {
+        "target_action": {
+          "type": "string"
+        },
+        "success_definition": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "time_horizon": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "audience": {
+      "type": "object",
+      "properties": {
+        "segment_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "situation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "current_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "desired_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "knowledge_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "awareness_state": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "identity_context": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "product": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "category": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "capabilities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "delivery_model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "market": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status_quo": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "competitor_claims": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "category_norms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "offer": {
+      "type": "object",
+      "properties": {
+        "price": {
+          "type": [
+            "string",
+            "number",
+            "null"
+          ]
+        },
+        "terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "bundle": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "guarantees": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "eligibility": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "deadlines": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "channel": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "format": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "length_limit": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "interaction_mode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "placement_context": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "brand": {
+      "type": "object",
+      "properties": {
+        "voice": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "must_say": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "must_not_say": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "$ref": "market-signal.schema.json"
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "statement",
+          "status"
+        ],
+        "properties": {
+          "statement": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "unverified",
+              "weakly_supported",
+              "bounded",
+              "rejected"
+            ]
+          },
+          "verification_needed": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "available_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "observed_performance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}
