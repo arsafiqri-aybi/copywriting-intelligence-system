@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "stage": "S8",
+  "cycle": "03",
+  "status": "PASS_INTERNAL_HOLDOUT",
+  "summary": {
+    "version": "1.0.0",
+    "set": "holdout-v1",
+    "frozen_run": true,
+    "runtime_commit_before_run": "b2ec046334ea2cd5968ed06897d54c493a295f32",
+    "cases": 12,
+    "pass": 12,
+    "pass_with_warnings": 0,
+    "fail": 0,
+    "critical_gate_failures": 0,
+    "mean_dimension_score": 4.605,
+    "evaluator": "same build agent using frozen rubric",
+    "evaluator_independence_limit": "The build agent also generated and scored the outputs. This is a real frozen holdout run against unchanged artifacts, but it is not an independent human or external-model evaluation.",
+    "post_holdout_tuning": "none performed in this run",
+    "verdict": "PASS_INTERNAL_HOLDOUT"
+  }
+}

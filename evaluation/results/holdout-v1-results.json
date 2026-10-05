@@ -1,0 +1,386 @@
+{
+  "version": "1.0.0",
+  "results": [
+    {
+      "case_id": "HOLD-01",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 5,
+        "E-D2": 4.5,
+        "E-D3": 4.2,
+        "E-D4": 4.5,
+        "E-D5": 5,
+        "E-D6": 4.5,
+        "E-D7": 4.2,
+        "E-D8": 4.3,
+        "E-D9": 4.5,
+        "E-D10": 5,
+        "E-D11": 4.4,
+        "E-D12": 4.2
+      },
+      "mean_score": 4.525,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"The decision is comparison-heavy and evidence is mixed. Treat savings/payback as uncertain, not as a fixed promise.\",\"strategy\":\"Position the assessment as a way to evaluate which retrofit options fit this specific home. Surface what the assessment can determine, what remains variable, and how alternatives compare.\",\"copy\":\"Compare retrofit options for your home with an assessment built around your property—not a generic savings promise. See what may fit, what it could change, and which assumptions still depend on your home and energy use. Request an assessment.\"}"
+      ],
+      "failures": [],
+      "notes": [
+        "Exact savings/payback claims require property- and evidence-specific support."
+      ]
+    },
+    {
+      "case_id": "HOLD-02",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 5,
+        "E-D2": 4.8,
+        "E-D3": 4.5,
+        "E-D4": 4.3,
+        "E-D5": 5,
+        "E-D6": 5,
+        "E-D7": 4.4,
+        "E-D8": 4.7,
+        "E-D9": 4.2,
+        "E-D10": 5,
+        "E-D11": 4.5,
+        "E-D12": 4.5
+      },
+      "mean_score": 4.658,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"Technical buyer has expertise/trust requirements; product documentation is strong but independent benchmarking is absent.\",\"strategy\":\"Use specific architecture/control facts and invite technical inspection. State source scope honestly.\",\"copy\":\"If you're evaluating security platforms, we can walk your team through the documented architecture, controls, deployment model, and known limitations in a technical demo. We won't present our own product documentation as independent benchmark validation.\"}"
+      ],
+      "failures": [],
+      "notes": [
+        "Do not imply third-party validation without a traceable source."
+      ]
+    },
+    {
+      "case_id": "HOLD-03",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 4.8,
+        "E-D2": 4.3,
+        "E-D3": 4,
+        "E-D4": 4.5,
+        "E-D5": 5,
+        "E-D6": 4,
+        "E-D7": 4.2,
+        "E-D8": 4.4,
+        "E-D9": 4.3,
+        "E-D10": 5,
+        "E-D11": 4.6,
+        "E-D12": 4.2
+      },
+      "mean_score": 4.442,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"Primary value is time/effort convenience. Health outcomes are unsupported.\",\"strategy\":\"Lead with planning/prep convenience and concrete service facts; avoid health-result language.\",\"copy\":\"Make weeknight meals easier to plan and get on the table. Choose from the available menu, get the documented delivery/prep experience, and start with a trial if the service fits your routine.\"}"
+      ],
+      "failures": [],
+      "notes": [
+        "No health efficacy or nutritional outcome claim without evidence."
+      ]
+    },
+    {
+      "case_id": "HOLD-04",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 5,
+        "E-D2": 4.7,
+        "E-D3": 4.5,
+        "E-D4": 4.1,
+        "E-D5": 4.3,
+        "E-D6": 4.1,
+        "E-D7": 4.5,
+        "E-D8": 5,
+        "E-D9": 4,
+        "E-D10": 4.8,
+        "E-D11": 4.5
+      },
+      "mean_score": 4.5,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"Knowledgeable audience reduces need for simplification and increases value of technical specificity/common ground.\",\"strategy\":\"Use domain terms the audience already understands, show curriculum depth and application criteria, and avoid 'simple/easy' positioning that erases expertise.\",\"copy\":null}"
+      ],
+      "failures": [],
+      "notes": [
+        "Fluency does not mean oversimplification; preserve necessary technical precision."
+      ]
+    },
+    {
+      "case_id": "HOLD-05",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 5,
+        "E-D2": 5,
+        "E-D3": 4.5,
+        "E-D5": 5,
+        "E-D6": 5,
+        "E-D7": 4.2,
+        "E-D8": 4.5,
+        "E-D9": 4,
+        "E-D10": 5,
+        "E-D11": 4.5
+      },
+      "mean_score": 4.67,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"Draft contains three unsupported persuasion-pressure claims.\",\"strategy\":\"Remove or qualify each claim.\",\"critique\":[\"'Best in the world' — unsupported superiority claim; remove unless a valid comparative basis exists.\",\"'Everyone is switching' — unsupported prevalence/social-proof claim; replace with verified adoption data or omit.\",\"'Only today' — false urgency because the offer remains next week; remove.\"],\"copy\":\"Describe the actual product value, verified evidence, and the real offer window instead of manufactured superiority, consensus, or urgency.\"}"
+      ],
+      "failures": [],
+      "notes": []
+    },
+    {
+      "case_id": "HOLD-06",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 5,
+        "E-D2": 5,
+        "E-D3": 4.8,
+        "E-D5": 4.5,
+        "E-D10": 5
+      },
+      "mean_score": 4.86,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"Randomization supports a causal effect for the whole tested bundle in that context, not for headline/proof/CTA/price display separately.\",\"strategy\":\"Update the message-hypothesis/runtime prior for the bundle. Do not credit one mechanism. Run isolated/factorial follow-up if component attribution matters.\",\"copy\":null}"
+      ],
+      "failures": [],
+      "notes": [
+        "No mechanism causal claim from multi-component bundle."
+      ]
+    },
+    {
+      "case_id": "HOLD-07",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 5,
+        "E-D2": 4.5,
+        "E-D3": 4.2,
+        "E-D4": 4.4,
+        "E-D5": 5,
+        "E-D6": 4.5,
+        "E-D7": 4.5,
+        "E-D8": 4.6,
+        "E-D9": 5,
+        "E-D10": 5,
+        "E-D11": 4.8,
+        "E-D12": 4.5
+      },
+      "mean_score": 4.667,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"Urgent appointment seeker has a clear action goal. Availability is factual; clinical superiority/outcomes are not evidenced.\",\"strategy\":\"Prioritize available booking information, what the appointment process is, and a clear next step. Avoid fear amplification.\",\"copy\":\"Need a dental appointment soon? Check the available appointment times and choose the next step that works for you. If you're unsure what type of visit to book, contact the clinic so the team can guide you based on your situation.\"}"
+      ],
+      "failures": [],
+      "notes": [
+        "Do not promise clinical outcomes or superiority without evidence."
+      ]
+    },
+    {
+      "case_id": "HOLD-08",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 4.8,
+        "E-D2": 4.5,
+        "E-D3": 4.2,
+        "E-D4": 4.3,
+        "E-D5": 5,
+        "E-D6": 4,
+        "E-D7": 4.7,
+        "E-D8": 4.5,
+        "E-D9": 4.8,
+        "E-D10": 5,
+        "E-D11": 4.5,
+        "E-D12": 4.1
+      },
+      "mean_score": 4.533,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"Feature documentation alone does not establish value. The task goal is completing a first project, so onboarding should connect documented capabilities to that task.\",\"strategy\":\"Sequence only the documented steps needed for the first successful project; remove nonessential feature exposition and make the next step explicit.\",\"copy\":\"Start with the first project you want to complete. Use the documented tools needed for that task, confirm the result, then introduce additional features after the first successful outcome.\"}"
+      ],
+      "failures": [],
+      "notes": [
+        "Do not invent feature capabilities or claim time savings without evidence."
+      ]
+    },
+    {
+      "case_id": "HOLD-09",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 5,
+        "E-D2": 4.8,
+        "E-D3": 4.4,
+        "E-D4": 4.2,
+        "E-D5": 5,
+        "E-D6": 4.5,
+        "E-D7": 4,
+        "E-D8": 4.5,
+        "E-D9": 4,
+        "E-D10": 5,
+        "E-D11": 4.4
+      },
+      "mean_score": 4.527,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"Income situations are heterogeneous; financial anxiety cannot be assumed. Product features are known, but benefit/motivation varies by segment.\",\"strategy\":\"Segment re-engagement by stated budgeting goal or prior use context, not fear. Ask/open with a neutral task-based reason to return.\",\"copy\":null}"
+      ],
+      "failures": [],
+      "notes": [
+        "No personalized financial promise or universal anxiety framing."
+      ]
+    },
+    {
+      "case_id": "HOLD-10",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 4.8,
+        "E-D2": 4.8,
+        "E-D3": 4.3,
+        "E-D4": 4.5,
+        "E-D5": 5,
+        "E-D6": 4.2,
+        "E-D7": 4.4,
+        "E-D8": 4.7,
+        "E-D9": 4,
+        "E-D10": 5,
+        "E-D11": 4.5,
+        "E-D12": 4.3
+      },
+      "mean_score": 4.542,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"Fashion/community context supports identity-relevance consideration, but not status motivation by default.\",\"strategy\":\"Connect design facts to community/self-expression language only where grounded; avoid prestige/status pressure unless audience evidence supports it.\",\"copy\":\"A new piece for people who connect with the design—not a claim about rank or prestige. Lead with the actual design, materials, fit, and the identity meaning the community itself uses.\"}"
+      ],
+      "failures": [],
+      "notes": [
+        "Community identity is not proof of status motivation."
+      ]
+    },
+    {
+      "case_id": "HOLD-11",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 5,
+        "E-D2": 5,
+        "E-D3": 4.8,
+        "E-D5": 5,
+        "E-D10": 5
+      },
+      "mean_score": 4.96,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"Decision asks whether diagnostic proof helps skeptical visitors.\",\"strategy\":\"Randomize eligible visitors to the same page with versus without the diagnostic proof block. Hold main claim, offer, CTA and layout as constant as feasible. Pre-register one primary outcome, secondary trust/quality guardrails, sample/stopping rule, and analysis. If mechanism interpretation matters, add a construct-appropriate manipulation/measure; otherwise interpret as proof-block effect only.\",\"copy\":null}"
+      ],
+      "failures": [],
+      "notes": [
+        "Do not infer evidence-diagnosticity mechanism solely from conversion lift."
+      ]
+    },
+    {
+      "case_id": "HOLD-12",
+      "critical_gate": {
+        "E-C1": "PASS",
+        "E-C2": "PASS",
+        "E-C3": "PASS",
+        "E-C4": "PASS",
+        "E-C5": "PASS",
+        "E-C6": "PASS"
+      },
+      "dimension_scores": {
+        "E-D1": 5,
+        "E-D2": 5,
+        "E-D3": 4.7,
+        "E-D6": 4.8,
+        "E-D10": 5
+      },
+      "mean_score": 4.9,
+      "verdict": "PASS",
+      "evidence": [
+        "{\"diagnosis\":\"Qualitative price concern conflicts with a null randomized price-test result. Both are informative about different things.\",\"strategy\":\"Preserve the contradiction. Check whether interviews sampled a different segment/stage, whether the price manipulation was meaningful, and whether stated concern reflects value/uncertainty rather than price level. Do not discard either source.\",\"copy\":null}"
+      ],
+      "failures": [],
+      "notes": [
+        "Null experimental result is retained; qualitative evidence does not automatically estimate causal price sensitivity."
+      ]
+    }
+  ]
+}
